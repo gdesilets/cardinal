@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "premium_journals_v2_6_page_acceptance",
+  "observed_at_utc": "2026-07-21T23:13:43.806Z",
+  "segment": {
+    "start": "2026-01-01",
+    "end": "2026-01-01",
+    "query": "in:premium-journals after:2025-12-31 before:2026-01-02"
+  },
+  "reported_total": 198,
+  "reported_pages": 8,
+  "page_number": 1,
+  "page_plan_path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-01_20260721T225244057Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/page_plan.json",
+  "page_membership_sha256": "43ac135f7412d5e58f8b3d61b13f9573c3ab9e396b26651a94991f5b772af870",
+  "immutable_group_checkpoint_count": 3,
+  "accepted_rows": 25,
+  "all_rows_exact": true,
+  "exact_child_threads": [
+    {
+      "thread_channel_id": "1456316273788063925",
+      "thread_title": "All My Suffering And Learning"
+    },
+    {
+      "thread_channel_id": "1316394423558340628",
+      "thread_title": "tya"
+    },
+    {
+      "thread_channel_id": "1399473525630173255",
+      "thread_title": "road to drop out of college - Stanley"
+    }
+  ],
+  "accepted_partial": {
+    "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-01_20260721T225244057Z\\v2_6_revalidated\\channel_premium_journals_1283941772577472643_2026-01-01_2026-01-01.partial.json",
+    "sha256": "8beb2fbc1be2dd5e0e914dc55bcbb3017c7a92176565dd2ddab4a0d19e183e84",
+    "bytes": 184368
+  },
+  "promotion_status": "not_promoted_terminal_evidence_pending"
+}

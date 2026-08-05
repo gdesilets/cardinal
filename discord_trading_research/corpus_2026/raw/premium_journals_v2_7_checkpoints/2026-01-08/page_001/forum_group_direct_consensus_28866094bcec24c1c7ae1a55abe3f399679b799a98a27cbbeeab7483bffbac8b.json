@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "discord_forum_group_direct_consensus_checkpoint",
+  "immutable": true,
+  "checkpointed_at_utc": "2026-07-22T07:34:38.619Z",
+  "evidence_key": "forum-group-navigation:28866094bcec24c1c7ae1a55abe3f399679b799a98a27cbbeeab7483bffbac8b",
+  "query": "in:premium-journals after:2026-01-07 before:2026-01-09",
+  "page_number": 1,
+  "group_message_ids": [
+    "1459037241916784784",
+    "1459037278956687481",
+    "1459037306517192777",
+    "1459038498135740497",
+    "1459039685929210020",
+    "1459039700227723459",
+    "1459048008929902778",
+    "1459048029670740031",
+    "1459048050935726134",
+    "1459048074302328832",
+    "1459048092065206354",
+    "1459048116157157660",
+    "1459048208247423067",
+    "1459049587535904823"
+  ],
+  "current_source_url": "https://discord.com/channels/1167376964680691732/1283941772577472643",
+  "destination_url": "https://discord.com/channels/1167376964680691732/1316394423558340628",
+  "thread_channel_id": "1316394423558340628",
+  "page_membership_sha256": "6c969a20eb306788d1454d95d8e01ec0fb8b33a763df0592875a8151896e31e3",
+  "page_plan_sha256": "47f2969601dfb907704de2fead65744c08f95c5076a93eb9f73fa5615b026097",
+  "page_plan_bytes": 3205,
+  "candidate_tuples": [
+    {
+      "method": "owned_reply_anchor",
+      "owner_message_id": "1459038498135740497",
+      "target_message_id": "1459037241916784784",
+      "attachment_id": "",
+      "target_url": "https://discord.com/channels/1167376964680691732/1316394423558340628/1459037241916784784",
+      "thread_channel_id": "1316394423558340628"
+    },
+    {
+      "method": "owned_attachment_accessory",
+      "owner_message_id": "1459048008929902778",
+      "target_message_id": "",
+      "attachment_id": "1459048008862797834",
+      "target_url": "https://cdn.discordapp.com/attachments/1316394423558340628/1459048008862797834/IMG_3957.png",
+      "thread_channel_id": "1316394423558340628"
+    }
+  ],
+  "evidence": {
+    "provenance_version": "2.7",
+    "schema_version": "1.0.0",
+    "evidence_type": "forum_group_direct_candidate_consensus_exact",
+    "evidence_key": "forum-group-navigation:28866094bcec24c1c7ae1a55abe3f399679b799a98a27cbbeeab7483bffbac8b",
+    "query": "in:premium-journals after:2026-01-07 before:2026-01-09",
+    "page_number": 1,
+    "group_message_ids": [
+      "1459037241916784784",
+      "1459037278956687481",
+      "1459037306517192777",
+      "1459038498135740497",
+      "1459039685929210020",
+      "1459039700227723459",
+      "1459048008929902778",
+      "1459048029670740031",
+      "1459048050935726134",
+      "1459048074302328832",
+      "1459048092065206354",
+      "1459048116157157660",
+      "1459048208247423067",
+      "1459049587535904823"
+    ],
+    "page_membership_sha256": "6c969a20eb306788d1454d95d8e01ec0fb8b33a763df0592875a8151896e31e3",
+    "page_plan_sha256": "47f2969601dfb907704de2fead65744c08f95c5076a93eb9f73fa5615b026097",
+    "page_plan_bytes": 3205,
+    "guild_id": "1167376964680691732",
+    "parent_forum_channel_id": "1283941772577472643",
+    "current_source_url": "https://discord.com/channels/1167376964680691732/1283941772577472643",
+    "current_source_parent_verified": true,
+    "thread_channel_id": "1316394423558340628",
+    "destination_url": "https://discord.com/channels/1167376964680691732/1316394423558340628",
+    "candidate_tuples": [
+      {
+        "method": "owned_reply_anchor",
+        "owner_message_id": "1459038498135740497",
+        "target_message_id": "1459037241916784784",
+        "attachment_id": "",
+        "target_url": "https://discord.com/channels/1167376964680691732/1316394423558340628/1459037241916784784",
+        "thread_channel_id": "1316394423558340628"
+      },
+      {
+        "method": "owned_attachment_accessory",
+        "owner_message_id": "1459048008929902778",
+        "target_message_id": "",
+        "attachment_id": "1459048008862797834",
+        "target_url": "https://cdn.discordapp.com/attachments/1316394423558340628/1459048008862797834/IMG_3957.png",
+        "thread_channel_id": "1316394423558340628"
+      }
+    ],
+    "candidate_count": 2,
+    "channel_candidates": [
+      "1316394423558340628"
+    ],
+    "channel_candidate_count": 1,
+    "candidate_methods": [
+      "owned_attachment_accessory",
+      "owned_reply_anchor"
+    ],
+    "navigation_performed": false,
+    "source_scope": "discord_only",
+    "outside_sources_used": false,
+    "authenticated": true,
+    "observed_at_utc": "2026-07-22T07:34:38.619Z"
+  }
+}

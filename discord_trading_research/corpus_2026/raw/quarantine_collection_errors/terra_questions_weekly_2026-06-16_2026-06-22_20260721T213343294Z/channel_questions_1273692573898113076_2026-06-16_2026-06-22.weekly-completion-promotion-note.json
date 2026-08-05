@@ -1,0 +1,41 @@
+{
+  "recorded_at_utc": "2026-07-21T21:38:01.953Z",
+  "segment": {
+    "start": "2026-06-16",
+    "end": "2026-06-22",
+    "query": "in:❓│questions after:2026-06-15 before:2026-06-23"
+  },
+  "staged_artifact": "channel_questions_1273692573898113076_2026-06-16_2026-06-22.json",
+  "canonical_artifact": "raw/channel_segments/channel_questions_1273692573898113076_2026-06-16_2026-06-22.json",
+  "sha256": "7a005600f2dcc2a031b8edaf927101b3aa32c49f0189cbaf1de756c0f54ddc34",
+  "bytes": 3612202,
+  "reported_total": 966,
+  "reported_pages": 39,
+  "captured_rows": 966,
+  "unique_message_ids": 966,
+  "gap_count": 0,
+  "provenance_conflict_count": 0,
+  "completion_evidence": {
+    "valid": true,
+    "terminal_state": "stable_bottom",
+    "search_submission_mode": "reuse_active_positive",
+    "search_submission_count": 0
+  },
+  "strict_terminal_qa": {
+    "passed": true,
+    "errors": [],
+    "documented_unavailable_reply_count": 86
+  },
+  "independent_qa": {
+    "build_corpus_computed_complete": true,
+    "build_corpus_validation_errors": [],
+    "build_corpus_validation_warnings": [],
+    "validate_corpus_issue_counts": {}
+  },
+  "promotion": {
+    "destination_preexisting": false,
+    "copied_without_force": true,
+    "source_destination_hash_match": true,
+    "source_destination_byte_match": true
+  }
+}

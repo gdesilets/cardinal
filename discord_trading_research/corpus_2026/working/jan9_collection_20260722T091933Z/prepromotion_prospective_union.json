@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-07-22T10:02:32.564616Z",
+  "audit_scope": "prospective_existing_jan1_through_jan8_plus_isolated_jan9",
+  "accepted_audit_count": 9,
+  "prospective_counts": {
+    "accepted_route_count": 9,
+    "pending_route_count": 192,
+    "accepted_reported_total": 2427,
+    "unique_message_id_count": 2427,
+    "cross_route_duplicate_message_id_count": 0,
+    "cross_route_duplicate_message_ids": [],
+    "unresolved_occurrence_count": 0,
+    "conflict_occurrence_count": 0,
+    "cross_route_attachment_owner_conflict_count": 0,
+    "terminal_state_counts": {
+      "stable_bottom": 9
+    },
+    "message_id_set_sha256": "a9f7f55fb6486c4491e724828488c56b630499a8ccdce533c42a66315e8c4533",
+    "accepted_route_binding_set_sha256": "a1206098ee0be73d3e61b1e549dfef1a936e5bb3c9088739c0fc89ec40780bd4",
+    "observed_message_bearing_child_thread_count": 61
+  },
+  "expected_value_gates": {
+    "accepted_route_count": true,
+    "pending_route_count": true,
+    "accepted_reported_total": true,
+    "union_accepted_route_count": true,
+    "union_pending_route_count": true,
+    "union_accepted_reported_total": true,
+    "unique_message_id_count": true,
+    "cross_route_duplicate_message_id_count": true,
+    "unresolved_occurrence_count": true,
+    "conflict_occurrence_count": true,
+    "cross_route_attachment_owner_conflict_count": true,
+    "nine_stable_bottom_routes": true
+  },
+  "guardrails": {
+    "schedule_unchanged": true,
+    "protected_collector_contract_unchanged": true,
+    "real_jan9_canonical_absent": true,
+    "real_jan9_partial_absent": true
+  },
+  "v2_7_involved": false,
+  "errors": []
+}

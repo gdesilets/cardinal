@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "operation": "exclusive_create",
+  "write_mode": "xb",
+  "prepromotion_gate_sha256": "2082deca2ffe7d1222d16bde02065405b393b6f3b8bb26a64b4660fd81b87ef6",
+  "source": {
+    "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-07_20260722T055743Z/v2_6_revalidated/channel_premium_journals_1283941772577472643_2026-01-07_2026-01-07.json",
+    "sha256": "19486bee534ac150e76d70cc2f070ba07735c77ded7846e9ad090c026a81cb72",
+    "bytes": 2919929,
+    "preserved": true
+  },
+  "target": {
+    "path": "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-07_2026-01-07.json",
+    "sha256": "19486bee534ac150e76d70cc2f070ba07735c77ded7846e9ad090c026a81cb72",
+    "bytes": 2919929,
+    "created_exclusively": true
+  },
+  "stage_tree_before": {
+    "file_count": 198,
+    "total_bytes": 3480038,
+    "tree_manifest_sha256": "9a1c9ecb843e216cb2b8e11b5fb9cb610601e0f46392e7866e15980447104423"
+  },
+  "stage_tree_after": {
+    "file_count": 198,
+    "total_bytes": 3480038,
+    "tree_manifest_sha256": "9a1c9ecb843e216cb2b8e11b5fb9cb610601e0f46392e7866e15980447104423"
+  },
+  "legacy_absent": true,
+  "legacy_partial_absent": true,
+  "canonical_partial_absent": true,
+  "v2_7_involved": false
+}

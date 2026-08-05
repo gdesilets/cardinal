@@ -1,0 +1,61 @@
+{
+  "observation_type": "discord_full_window_count_sentinel_with_binding_anomaly",
+  "collector_version": "2.5",
+  "guild_id": "1167376964680691732",
+  "authorized_channel": {
+    "channel_id": "1273692573898113076",
+    "channel_name": "questions",
+    "channel_kind": "text channel",
+    "category_name": "PREMIUM"
+  },
+  "requested_window": {
+    "start_date": "2026-01-01",
+    "end_date": "2026-07-20"
+  },
+  "query": "in:questions after:2025-12-31 before:2026-07-21",
+  "search_submission": {
+    "mode": "fresh",
+    "submission_count": 1,
+    "submitted_at_utc": "2026-07-21T17:38:13.024Z",
+    "reused_active_search": false
+  },
+  "observation": {
+    "observed_at_utc": "2026-07-21T17:38:14.711Z",
+    "state": "positive",
+    "structured_reported_total": 4288,
+    "status_header_reported_total": 4288,
+    "reported_total_consistent": true,
+    "visible_result_count": 25,
+    "current_page": 1,
+    "page_size": 25,
+    "computed_total_pages": 172,
+    "pagination_performed": false
+  },
+  "prior_inventory_observation": {
+    "reported_total": 39762,
+    "fresh_minus_prior": -35474,
+    "causal_claim_made": false,
+    "causal_interpretation": null
+  },
+  "channel_binding_validation": {
+    "passed": false,
+    "expected_channel_id": "1273692573898113076",
+    "expected_channel_name": "questions",
+    "expected_category_name": "PREMIUM",
+    "observed_first_page_group_name": "│chat",
+    "observed_first_page_category_name": "FREEMIUM",
+    "failure": "The fresh normalized search visibly returned a result group outside the authorized Questions/PREMIUM container.",
+    "attachments_and_replies_inspected": false,
+    "reason_not_inspected": "Count-only sentinel; dated capture was fail-closed before row collection."
+  },
+  "disposition": {
+    "global_stop": true,
+    "jan_1_capture_submitted": false,
+    "jan_2_capture_submitted": false,
+    "legacy_canonicals_mutated": false,
+    "legacy_backups_created": false,
+    "replacement_notes_created": false,
+    "promotion_performed": false
+  },
+  "outside_sources_used": false
+}

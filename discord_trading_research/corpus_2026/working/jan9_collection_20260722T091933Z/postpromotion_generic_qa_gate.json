@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "interpretation": "All post-promotion artifact-specific generic QA checks passed; the only failures are expected full-release infrastructure omissions in a one-file isolated audit.",
+  "generic_report_status": "needs_revision",
+  "generic_report_overall_assessment": "Not releasable",
+  "allowed_isolated_infrastructure_failures": [
+    "attachment_archive_terminal_coverage",
+    "attachment_capture_status_present",
+    "channel_thread_inventory_present",
+    "channel_thread_inventory_readable",
+    "collection_drift_final_audit_passed",
+    "existing_artifact_hash_baseline_supplied",
+    "guild_wide_date_coverage",
+    "inventory_exact_ids",
+    "inventory_unit_date_coverage",
+    "source_hash_manifest_supplied",
+    "sqlite_database_supplied",
+    "whole_server_coverage_gate"
+  ],
+  "observed_failed_checks": [
+    "attachment_archive_terminal_coverage",
+    "attachment_capture_status_present",
+    "channel_thread_inventory_present",
+    "channel_thread_inventory_readable",
+    "collection_drift_final_audit_passed",
+    "existing_artifact_hash_baseline_supplied",
+    "guild_wide_date_coverage",
+    "inventory_exact_ids",
+    "inventory_unit_date_coverage",
+    "source_hash_manifest_supplied",
+    "sqlite_database_supplied",
+    "whole_server_coverage_gate"
+  ],
+  "unexpected_failed_checks": [],
+  "missing_expected_isolated_failures": [],
+  "count_gate": {
+    "source_files_discovered": true,
+    "source_files_valid": true,
+    "complete_source_files": true,
+    "partial_source_files": true,
+    "diagnostic_message_occurrences": true,
+    "complete_source_unique_message_ids": true
+  },
+  "artifact_specific_gate_passed": true
+}

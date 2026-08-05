@@ -1,0 +1,51 @@
+{
+  "event_type": "discord_collector_version_replacement",
+  "guild_id": "1167376964680691732",
+  "channel_id": "1480968550033129673",
+  "channel_name": "trade-management",
+  "segment_start": "2026-01-01",
+  "segment_end": "2026-07-20",
+  "query": "in:trade-management after:2025-12-31 before:2026-07-21",
+  "promoted_at_utc": "2026-07-21T14:11:28.495Z",
+  "old_collector_version": "2.0",
+  "new_collector_version": "2.5",
+  "old_reported_total": 1,
+  "new_reported_total": 0,
+  "legacy_final_original_path": "raw/channel_segments/channel_trade_management_1480968550033129673_2026-01-01_2026-07-20.json",
+  "legacy_final_quarantine_path": "raw/quarantine_collection_errors/channel_trade_management_1480968550033129673_2026-01-01_2026-07-20.legacy-v2.0_e1cd79c92565.json",
+  "legacy_final_sha256": "e1cd79c92565b8fe1a33f30b0ba95ed6874b40a0925f81a8473f2ffc39ef896d",
+  "replacement_final_path": "raw/channel_segments/channel_trade_management_1480968550033129673_2026-01-01_2026-07-20.json",
+  "replacement_final_sha256": "b9acb30b61bb42a0d6534b95c21f1da1e16117dfad600fbdbcf90e7afe09e9bf",
+  "message_id_reconciliation": {
+    "shared_ids": 0,
+    "added_ids": [],
+    "missing_ids": [
+      "1480968721022320813"
+    ],
+    "causal_claim": "No deletion, edit, or other cause is claimed from search-set differences alone."
+  },
+  "validation": {
+    "corpus_contract_computed_complete": true,
+    "inline_completion_evidence_valid": true,
+    "completion_terminal_state": "stable_empty",
+    "completion_observation_count": 3,
+    "exact_result_index_sequence": true,
+    "exact_permalinks": 0,
+    "exact_author_ids": 0,
+    "unresolved_author_rows": 0,
+    "row_provenance_conflict_count": 0,
+    "attachment_count": 0,
+    "owned_exact_attachment_count": 0,
+    "unresolved_attachment_count": 0,
+    "invalid_owned_attachment_count": 0,
+    "legacy_unique_ids": 1,
+    "replacement_unique_ids": 0,
+    "shared_ids": 0,
+    "added_ids": [],
+    "missing_ids": [
+      "1480968721022320813"
+    ]
+  },
+  "action": "Preserved the byte-exact legacy canonical artifact and atomically promoted the independently validated v2.5 staged recapture.",
+  "outside_sources_used": false
+}

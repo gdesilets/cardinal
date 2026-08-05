@@ -1,0 +1,55 @@
+{
+  "event_type": "discord_collector_version_replacement",
+  "schema_version": "2.0.0",
+  "guild_id": "1167376964680691732",
+  "channel_id": "1329615478716502097",
+  "channel_name": "Live",
+  "segment_start": "2026-01-26",
+  "segment_end": "2026-01-26",
+  "query": "in:Live after:2026-01-25 before:2026-01-27",
+  "observed_at_utc": "2026-07-21T13:43:59.807Z",
+  "old_collector_version": "2.0",
+  "new_collector_version": "2.5",
+  "old_reported_total": 106,
+  "fresh_recount_total": 106,
+  "new_reported_total": 106,
+  "total_drift_detected": false,
+  "prior_final_original_path": "raw/channel_segments/channel_live_1329615478716502097_2026-01-26_2026-01-26.json",
+  "prior_final_quarantine_path": "raw/quarantine_collection_errors/channel_live_1329615478716502097_2026-01-26_2026-01-26.legacy-v2.0_5a668157ea8a.json",
+  "prior_final_sha256": "5a668157ea8ae7f41d23349a07cf8f8800af38dd37b5d72358b0411eeaecfa61",
+  "staged_artifact_path": "working/live_v25_replacements/channel_live_1329615478716502097_2026-01-26_2026-01-26.json",
+  "staged_artifact_sha256": "f29d372dc85cb32b9810c95522d4b740b4db7e62fc7e25df57c01c097eadc3de",
+  "replacement_final_path": "raw/channel_segments/channel_live_1329615478716502097_2026-01-26_2026-01-26.json",
+  "replacement_final_sha256": "f29d372dc85cb32b9810c95522d4b740b4db7e62fc7e25df57c01c097eadc3de",
+  "replacement_rows": 106,
+  "replacement_unique_message_ids": 106,
+  "replacement_gap_count": 0,
+  "replacement_container_mismatch_count": 0,
+  "completion_evidence": {
+    "source": "inline",
+    "terminal_state": "stable_bottom",
+    "stable_empty_observations": 0,
+    "stable_bottom_observations": 2,
+    "stable_bottom_next_enabled_states": [
+      false,
+      false
+    ],
+    "validation": {
+      "valid": true,
+      "errors": []
+    }
+  },
+  "row_level_qa": {
+    "passed": true,
+    "qa_policy": "narrow_tested_stage_and_poll_system_event_rules",
+    "stage_system_events_snowflake_verified": 2,
+    "poll_closed_system_events_snowflake_verified": 1,
+    "exact_reply_ids": 10,
+    "message_could_not_be_loaded_documented": 1,
+    "attachment_preview_reply_contexts_documented_nonlinkable": 0,
+    "owned_attachments": 2,
+    "row_fidelity_issue_count": 0
+  },
+  "action": "preserved_prior_final_then_staged_validated_and_atomically_promoted_v2_5",
+  "outside_sources_used": false
+}

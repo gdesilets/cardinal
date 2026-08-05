@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "status": "complete_and_promoted",
+  "segment": {
+    "start": "2026-02-03",
+    "end": "2026-02-09",
+    "query": "in:❓│questions after:2026-02-02 before:2026-02-10"
+  },
+  "artifact": {
+    "canonical_file": "raw/channel_segments/channel_questions_1273692573898113076_2026-02-03_2026-02-09.json",
+    "sha256": "260a6013450231cb7f29f6f370c4e74221f630be84b48b84f8259d30586e010b",
+    "bytes": 5399462,
+    "source_destination_hash_match": true,
+    "partial_removed_after_completion": true
+  },
+  "collection": {
+    "reported_total": 1546,
+    "reported_pages": 62,
+    "pages_captured": 62,
+    "captured_rows": 1546,
+    "unique_message_ids": 1546,
+    "gap_count": 0,
+    "provenance_conflict_count": 0
+  },
+  "completion_evidence": {
+    "valid": true,
+    "terminal_state": "stable_bottom",
+    "stable_bottom_observation_count": 2,
+    "terminal_page": 62,
+    "terminal_first_result_index": 1526,
+    "terminal_last_result_index": 1546,
+    "terminal_visible_result_count": 21,
+    "terminal_next_enabled": false,
+    "final_resume_search_submission_count": 0,
+    "route_fresh_submission_count": 1
+  },
+  "weekly_schema_aligned_qa": {
+    "passed": true,
+    "residual_errors": [],
+    "attachment_count": 115,
+    "exact_non_owned_attachment_count": 1,
+    "exact_reply_count": 501,
+    "documented_unavailable_reply_count": 110,
+    "non_reply_count": 935,
+    "exact_author_count": 1498,
+    "unresolved_author_count": 48,
+    "day_counts": {
+      "2026-02-03": 291,
+      "2026-02-04": 346,
+      "2026-02-05": 392,
+      "2026-02-06": 238,
+      "2026-02-07": 97,
+      "2026-02-08": 49,
+      "2026-02-09": 133
+    }
+  },
+  "canonical_questions_reconciliation": {
+    "complete_segments_through": "2026-02-09",
+    "complete_segment_file_count": 10,
+    "complete_segment_row_count": 8832,
+    "complete_segment_unique_message_ids": 8832,
+    "cross_file_duplicate_message_id_count": 0,
+    "unrelated_existing_partial_left_untouched": "channel_questions_1273692573898113076_2026-01-05_2026-01-05.partial.json"
+  },
+  "shared_schedule_modified": false
+}

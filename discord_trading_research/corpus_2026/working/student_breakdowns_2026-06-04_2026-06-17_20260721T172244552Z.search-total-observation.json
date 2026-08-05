@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "discord_authenticated_search_total_observation",
+  "recorded_at_utc": "2026-07-21T17:25:28.391Z",
+  "guild_id": "1167376964680691732",
+  "channel_id": "1370578463223975986",
+  "channel_name": "student-breakdowns",
+  "segment_start": "2026-06-04",
+  "segment_end": "2026-06-17",
+  "query": "in:student-breakdowns after:2026-06-03 before:2026-06-18",
+  "prior_authenticated_dom_observation": {
+    "reported_total": 19,
+    "exposed_result_row_count": 18,
+    "result_index_first": 1,
+    "result_index_last": 18,
+    "aria_set_size_candidates": [
+      19
+    ],
+    "missing_result_indices": [
+      19
+    ],
+    "observed_at_utc": null,
+    "observation_timestamp_status": "not_recorded_in_prior_diagnostic"
+  },
+  "fresh_authenticated_control_observation": {
+    "search_submission_mode": "fresh",
+    "search_submission_count": 1,
+    "submitted_at_utc": "2026-07-21T17:22:41.927Z",
+    "observed_at_utc": "2026-07-21T17:22:43.712Z",
+    "reported_total": 18,
+    "exposed_result_row_count": 18,
+    "result_index_first": 1,
+    "result_index_last": 18,
+    "result_set_size_candidates": [
+      18
+    ],
+    "missing_result_indices": [],
+    "stable_bottom_observed_at_utc": [
+      "2026-07-21T17:22:43.931Z",
+      "2026-07-21T17:22:44.552Z"
+    ],
+    "enabled_next_control": false
+  },
+  "observed_total_change": {
+    "prior_reported_total": 19,
+    "fresh_reported_total": 18,
+    "delta": -1,
+    "causal_claim_made": false,
+    "causal_interpretation": null
+  },
+  "canonical_artifact": {
+    "path": "raw/channel_segments/channel_student_breakdowns_1370578463223975986_2026-06-04_2026-06-17.json",
+    "sha256": "7641564d680963a2fd3c80047f9692979dbc27434b538a1a8f1623b3deb8924c",
+    "reported_total": 18,
+    "captured_rows": 18,
+    "unique_message_ids": 18,
+    "gap_indices": [],
+    "complete": true
+  },
+  "outside_sources_used": false,
+  "write_policy": "create_once_do_not_overwrite"
+}

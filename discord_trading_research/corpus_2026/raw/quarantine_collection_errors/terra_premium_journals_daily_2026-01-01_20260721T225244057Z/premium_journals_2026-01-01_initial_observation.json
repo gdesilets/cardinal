@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "premium_journals_daily_initial_observation",
+  "observed_at_utc": "2026-07-21T22:52:44.060Z",
+  "guild_id": "1167376964680691732",
+  "authorized_parent": {
+    "channel_id": "1283941772577472643",
+    "name": "premium-journals",
+    "kind": "forum channel",
+    "category_name": "PREMIUM"
+  },
+  "segment": {
+    "start": "2026-01-01",
+    "end": "2026-01-01",
+    "query": "in:premium-journals after:2025-12-31 before:2026-01-02"
+  },
+  "fresh_search_submission": {
+    "mode": "fresh",
+    "query": "in:premium-journals after:2025-12-31 before:2026-01-02",
+    "submission_count": 1,
+    "submitted_at_utc": "2026-07-21T22:47:09.364Z"
+  },
+  "positive_search_observations": [
+    {
+      "sequence": 1,
+      "observed_at_utc": "2026-07-21T22:47:11.222Z",
+      "state": "positive",
+      "visible_result_count": 25,
+      "reported_total": 198,
+      "current_page": 1,
+      "panel_text": "198 Results\nFilters (3)\nSort\nAll My Suffering And Learning\nAll My Suffering And Learning\npremium-journals\n3adi\nI'm new here, say hi!\nOP\nOriginal Poster\n — \n1/1/26, 7:59 PM\nThursday, January 1, 2026 at 7:59 PM\nlooking good im improving still have alot to work on\n3adi\nI'm new here, say hi!\nOP\nOriginal"
+    },
+    {
+      "first_index": 1,
+      "observed_at_utc": "2026-07-21T22:47:31.048Z",
+      "query": "in:premium-journals after:2025-12-31 before:2026-01-02",
+      "total": 198,
+      "visible": 25
+    },
+    {
+      "first_index": 1,
+      "observed_at_utc": "2026-07-21T22:47:31.581Z",
+      "query": "in:premium-journals after:2025-12-31 before:2026-01-02",
+      "total": 198,
+      "visible": 25
+    },
+    {
+      "first_index": 1,
+      "observed_at_utc": "2026-07-21T22:47:32.109Z",
+      "query": "in:premium-journals after:2025-12-31 before:2026-01-02",
+      "total": 198,
+      "visible": 25
+    }
+  ],
+  "reported_total": 198,
+  "reported_pages": 8,
+  "page_1": {
+    "rows": 25,
+    "first_index": 1,
+    "last_index": 25,
+    "double_sample_membership_exact": true,
+    "header_navigation_exact": true,
+    "return_state_verified": true
+  },
+  "exact_child_threads": [
+    {
+      "thread_channel_id": "1456316273788063925",
+      "thread_title": "All My Suffering And Learning",
+      "source": "forum_group_header_navigation_exact",
+      "exact": true,
+      "evidence_key": "forum-group-navigation:1873c717309dd45a4d41a80b36fd83ebd62a97c95549d02b05a26af6ed250790",
+      "destination_url": "https://discord.com/channels/1167376964680691732/1456316273788063925",
+      "group_message_count": 3
+    },
+    {
+      "thread_channel_id": "1316394423558340628",
+      "thread_title": "tya",
+      "source": "forum_group_header_navigation_exact",
+      "exact": true,
+      "evidence_key": "forum-group-navigation:aab69c0a4a12f1b78db1c2b32563ed3251b76fd52ba767e5cb3ca60789f2dd44",
+      "destination_url": "https://discord.com/channels/1167376964680691732/1316394423558340628",
+      "group_message_count": 19
+    },
+    {
+      "thread_channel_id": "1399473525630173255",
+      "thread_title": "road to drop out of college - Stanley",
+      "source": "forum_group_header_navigation_exact",
+      "exact": true,
+      "evidence_key": "forum-group-navigation:e006dd0677cc1972f7b7ef909a3a75076fe6cf9521fdae86fef0c99e81f37695",
+      "destination_url": "https://discord.com/channels/1167376964680691732/1399473525630173255",
+      "group_message_count": 3
+    }
+  ],
+  "staging_checkpoint": {
+    "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-01_20260721T225244057Z\\channel_premium_journals_1283941772577472643_2026-01-01_2026-01-01.partial.json",
+    "sha256": "30c515a69b056954eac7fb0a763d0fc0136f57f6c283078d7acc92c878eee715",
+    "bytes": 152655
+  },
+  "collector_compatibility_fixes": {
+    "shared_group_membership_array_cloned_per_row": true,
+    "forum_header_selector_uses_validated_member_anchor": true,
+    "browser_back_uses_supported_playwright_control": true,
+    "collector_test_result": "50/50 passed"
+  },
+  "promotion_status": "not_promoted_terminal_evidence_pending",
+  "canonical_target_directory": "raw/channel_segments_v2_5"
+}

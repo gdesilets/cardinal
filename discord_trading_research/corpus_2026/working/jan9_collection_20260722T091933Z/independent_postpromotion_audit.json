@@ -1,0 +1,338 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "premium_journals_jan9_independent_postpromotion_audit",
+  "immutable": true,
+  "append_only": true,
+  "created_at_utc": "2026-07-22T10:22:28.895Z",
+  "auditor": {
+    "agent_path": "/root/terra_direct_thread_proof_audit",
+    "model": "gpt-5.6-terra",
+    "role": "independent_read_only_postpromotion_auditor"
+  },
+  "scope": {
+    "source_scope": "discord_only",
+    "outside_sources_used": false,
+    "guild_id": "1167376964680691732",
+    "parent_forum_channel_id": "1283941772577472643",
+    "channel_name": "premium-journals",
+    "day": "2026-01-09",
+    "timezone": "America/Chicago",
+    "query": "in:premium-journals after:2026-01-08 before:2026-01-10",
+    "authority": "v2.6",
+    "v2_7_involved": false
+  },
+  "verdict": {
+    "status": "PASS",
+    "blocker_count": 0,
+    "errors": [],
+    "promotion_chain_valid": true,
+    "rebuilt_schedule_valid": true,
+    "publisher_terminal_receipt_valid": true,
+    "authority_mutated_by_independent_audit": false,
+    "schedule_mutated_by_independent_audit": false,
+    "interpretation": "The published Jan 9 v2.6 canonical, external system-event sidecar, promotion chain, rebuilt schedule, union counts, protected evidence, and no-clobber guardrails independently validate."
+  },
+  "canonical": {
+    "path": "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.json",
+    "sha256": "399f0df8ef52878442542043c3d64c0a4cb8070bac5dd0b8df58fcebf2df87ae",
+    "bytes": 1786921,
+    "source_byte_equal": true,
+    "exclusive_create": true,
+    "collector_version": "2.6",
+    "reported_total": 194,
+    "captured_rows": 194,
+    "unique_message_ids": 194,
+    "reported_pages": 8,
+    "forum_group_count": 67,
+    "observed_child_thread_count": 24,
+    "owned_attachment_count": 43,
+    "completion_terminal_state": "stable_bottom"
+  },
+  "source_and_evidence": {
+    "original_v2_6_segment": {
+      "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-09_20260722T091933Z/v2_6_revalidated/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.json",
+      "sha256": "02e2df498f63063fa7f5f0c202c133fc3f7599ed10726f49dca14fc34e90c4bc",
+      "bytes": 1465986,
+      "preserved_unchanged": true
+    },
+    "revalidated_source": {
+      "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-09_20260722T091933Z/v2_6_revalidated/system_event_timestamp_revalidated_v1/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.json",
+      "sha256": "399f0df8ef52878442542043c3d64c0a4cb8070bac5dd0b8df58fcebf2df87ae",
+      "bytes": 1786921
+    },
+    "external_canonical_binding_sidecar": {
+      "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-09_20260722T091933Z/v2_6_revalidated/system_event_timestamp_revalidated_v1/canonical_bindings_v1/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.forum-system-event-timestamp-revalidation-v1.json",
+      "sha256": "0dc3951fca360c49c506174cad220b6e6e9b26b3259e86bca2df03a02f5844e1",
+      "bytes": 3044,
+      "bound_canonical_path": "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.json",
+      "bound_canonical_sha256": "399f0df8ef52878442542043c3d64c0a4cb8070bac5dd0b8df58fcebf2df87ae",
+      "inside_authoritative_directory": false,
+      "target_adjacent_sidecar_absent": true,
+      "external_registration_exact": true
+    },
+    "dom_observation": {
+      "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-09_20260722T091933Z/v2_6_revalidated/system_event_dom_evidence_v1/message_1459342322675224696.normalized_dom_observation.json",
+      "sha256": "6ce29868f0d8029fe89bfc24e375536807e205edc3cf762a231802614413327e",
+      "bytes": 5522
+    },
+    "dom_evidence_manifest": {
+      "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-09_20260722T091933Z/v2_6_revalidated/system_event_dom_evidence_v1/manifest.json",
+      "sha256": "97f5661d661d55a08a2f48eb228ac5ed3ca00cf2dda785ae9181d2d79a6e3e27",
+      "bytes": 16222
+    },
+    "protected_original_v2_6_tree": {
+      "tree_manifest_sha256": "ba59f65424487d24366265a14aeeefd3a209a7931895fbf3defdee2cf951099b",
+      "file_count": 76,
+      "bytes": 1681238,
+      "unchanged_before_and_after_recomputation": true
+    },
+    "full_append_only_stage_tree": {
+      "tree_manifest_sha256": "486fd41ceb28c5a047705775fa927d9df5a14ade8dbd6e8c29d349c11b619dfa",
+      "file_count": 81,
+      "bytes": 3496110,
+      "unchanged_before_and_after_recomputation": true
+    }
+  },
+  "promotion_chain": {
+    "independent_prepromotion_audit": {
+      "path": "working/jan9_collection_20260722T091933Z/independent_audit.json",
+      "sha256": "967a0164b5d73e5ac2e48d3c6aed92f458ff427976936658a6430cf5c9c86029",
+      "bytes": 16503,
+      "verdict": "PASS"
+    },
+    "promotion_authorization": {
+      "path": "working/jan9_collection_20260722T091933Z/promotion_authorization.json",
+      "sha256": "d477cb0f496045afe22c7795db3c42bb37ebf1af0f66f4706514c13a521097e4",
+      "bytes": 4940,
+      "status": "AUTHORIZED"
+    },
+    "promotion_receipt": {
+      "path": "working/jan9_collection_20260722T091933Z/promotion_receipt.json",
+      "sha256": "b8099887fc985c1e3b107d82a1f8dff144adacefb5406a1b05988a1ead787906",
+      "bytes": 5848,
+      "status": "PASS",
+      "source_target_byte_equal": true,
+      "immediate_strict_premium_passed": true,
+      "immediate_generic_issue_count": 0,
+      "schedule_was_unchanged_during_promotion": true,
+      "receipt_recorded_schedule_rebuild_pending": true,
+      "pending_state_closed_by_rebuild_authorization_final_schedule_and_publisher_final_audit": true
+    },
+    "schedule_rebuild_authorization": {
+      "path": "working/jan9_collection_20260722T091933Z/schedule_rebuild_authorization.json",
+      "sha256": "74fdeb0898fe1704cd8f271dcb73cd4b17e76a86a2ddc39a1dfb8d5aaeb05563",
+      "bytes": 2945,
+      "status": "AUTHORIZED",
+      "authorized_rebuild_execution_count": 1
+    }
+  },
+  "publisher_terminal_artifacts": {
+    "postpromotion_specialized_audit": {
+      "path": "working/jan9_collection_20260722T091933Z/postpromotion_audit.json",
+      "sha256": "dd8cdb1bdb1ad5c5d9db4123eaecc36c8d6cbbb8e93cfa3dd669d03956e774ab",
+      "bytes": 7582,
+      "status": "PASS",
+      "errors": []
+    },
+    "postpromotion_generic_qa": {
+      "path": "working/jan9_collection_20260722T091933Z/postpromotion_generic_qa.json",
+      "sha256": "ebef7e9c776cd2e5174d2184a1c8d0595152691ee376ffb4b42fb80ce39045fc",
+      "bytes": 82883,
+      "raw_status": "needs_revision",
+      "interpretation": "The raw one-file report intentionally lacks full-release infrastructure; its artifact-specific result is gated separately."
+    },
+    "postpromotion_generic_qa_gate": {
+      "path": "working/jan9_collection_20260722T091933Z/postpromotion_generic_qa_gate.json",
+      "sha256": "0b5396d54fb64454dae98e71c68a53bb64084e70cc9eb3737e4379c777a4a39f",
+      "bytes": 1722,
+      "status": "PASS",
+      "artifact_specific_gate_passed": true,
+      "unexpected_failed_checks": [],
+      "missing_expected_isolated_failures": []
+    },
+    "final_audit": {
+      "path": "working/jan9_collection_20260722T091933Z/final_audit.json",
+      "sha256": "323eda0fc048bdacc934a6426745ea3abbe7cf76178952410a63f9bbbcc1df1b",
+      "bytes": 9649,
+      "status": "PASS",
+      "check_count": 21,
+      "all_checks_true": true,
+      "errors": []
+    }
+  },
+  "rebuilt_schedule": {
+    "path": "working/scoped_three_parent_collection_schedule.json",
+    "sha256": "64ab77a9520dbc80d072d3b51347169c825eb60eba4c6a6b6bc363b37647901a",
+    "bytes": 975585,
+    "preimage_sha256": "0a1fd787f0fbeb6cb142edd028d16daa3c0189027d2d42b82ba40bb209ca18d6",
+    "preimage_bytes": 930837,
+    "rebuild_execution_count": 1,
+    "independent_validator_errors": [],
+    "jan9_route_status": "complete_accepted_v2_6",
+    "v2_7_activation_metadata_absent": true
+  },
+  "independently_rederived_union": {
+    "accepted_route_count": 9,
+    "pending_route_count": 192,
+    "accepted_reported_total": 2427,
+    "message_occurrence_count": 2427,
+    "unique_message_id_count": 2427,
+    "cross_route_duplicate_message_id_count": 0,
+    "unresolved_occurrence_count": 0,
+    "conflict_occurrence_count": 0,
+    "cross_route_attachment_owner_conflict_count": 0,
+    "terminal_state_counts": {
+      "stable_bottom": 9
+    },
+    "message_id_set_sha256": "a9f7f55fb6486c4491e724828488c56b630499a8ccdce533c42a66315e8c4533",
+    "accepted_route_binding_set_sha256": "a1206098ee0be73d3e61b1e549dfef1a936e5bb3c9088739c0fc89ec40780bd4",
+    "observed_message_bearing_child_thread_count": 61
+  },
+  "independent_live_runtime_audits": {
+    "strict_premium": {
+      "status": "PASS",
+      "terminal_valid": true,
+      "unresolved_count": 0,
+      "conflict_count": 0,
+      "full_qa_passed": true,
+      "forum_membership_integrity_passed": true,
+      "forum_navigation_artifact_integrity_passed": true,
+      "timestamp_scope_integrity_passed": true,
+      "reply_provenance_integrity_passed": true,
+      "attachment_provenance_integrity_passed": true,
+      "timestamp_scope_mode_counts": {
+        "discord_snowflake_exact_forum_post_title_changed_system_event_sidecar_revalidated": 1,
+        "message_timestamp_aria_exact": 193
+      },
+      "source_file_count": 80,
+      "source_file_set_sha256": "86848277172b7731201a25606363407b368daac1f7b35ba86701c4525e5f2e3c"
+    },
+    "generic_validate_one_segment": {
+      "status": "PASS",
+      "artifact_returned": true,
+      "issue_count": 0,
+      "issues": {}
+    },
+    "full_schedule_validator": {
+      "status": "PASS",
+      "error_count": 0,
+      "errors": []
+    },
+    "authoritative_directory_validation": {
+      "status": "PASS",
+      "error_count": 0,
+      "noncanonical_file_count": 0
+    }
+  },
+  "regressions": {
+    "publisher_final_replay": {
+      "node_collector": {
+        "passed": 54,
+        "total": 54,
+        "exit_code": 0
+      },
+      "python_targeted_suite": {
+        "passed": 138,
+        "total": 138,
+        "exit_code": 0
+      },
+      "schedule_validator": {
+        "valid": true,
+        "sha256": "64ab77a9520dbc80d072d3b51347169c825eb60eba4c6a6b6bc363b37647901a",
+        "exit_code": 0
+      }
+    },
+    "independent_system_event_suite": {
+      "command": "python -B -m unittest -v test_premium_journals_system_event_timestamp_v1.py",
+      "passed": 15,
+      "total": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "runtime_seconds": 0.231
+    },
+    "independent_schedule_regression_suite": {
+      "command": "python -B -m unittest -v test_validate_scoped_three_parent_schedule.py",
+      "passed": 17,
+      "total": 17,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "runtime_seconds": 112.795
+    }
+  },
+  "frozen_code_bindings": {
+    "premium_journals_provenance_contract": {
+      "path": "premium_journals_provenance_contract.py",
+      "sha256": "609285b8ea8a87cc4a8dc86595936b9906b635b5a5e88b37f284161d42003602",
+      "bytes": 78730
+    },
+    "premium_journals_system_event_timestamp_v1": {
+      "path": "premium_journals_system_event_timestamp_v1.py",
+      "sha256": "c20711a6b5957274d32349e4fa16bf9017bd9c2811f3b902c9988ec909dd323b",
+      "bytes": 55857
+    },
+    "exclusive_promotion_script": {
+      "path": "working/jan9_collection_20260722T091933Z/promote_exclusive.py",
+      "sha256": "a2525b71818898da4b7e18584635ae763029511ad8b285d7713a4acc0f2d4bb9",
+      "bytes": 16764
+    },
+    "system_event_test_file": {
+      "path": "test_premium_journals_system_event_timestamp_v1.py",
+      "sha256": "471978385aed1dae218b8e6b917fe613a83ef7953266c0d72b4534f40f4b0578",
+      "bytes": 21556
+    },
+    "schedule_validator": {
+      "path": "validate_scoped_three_parent_schedule.py",
+      "sha256": "fe2588f104df72bcc3328a958a8420604cf47b0e25d7d4b7556a2a305e7bfa8a",
+      "bytes": 60104
+    },
+    "schedule_regression_test_file": {
+      "path": "test_validate_scoped_three_parent_schedule.py",
+      "sha256": "6a2c2eafa337fc6b87badc30ace841fd867ca7b0d70bae2d640d1e22d2b888f1",
+      "bytes": 19403
+    }
+  },
+  "no_clobber_and_absence_guarantees": {
+    "promotion_receipt_exists": true,
+    "canonical_exists": true,
+    "receipt_guard_precedes_target_open": true,
+    "receipt_guard_error": "append_only_promotion_receipt_exists",
+    "canonical_creation_mode": "xb",
+    "exclusive_create_prevents_overwrite": true,
+    "replay_not_executed_by_independent_auditor": true,
+    "absence_checks": [
+      {
+        "path": "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.partial.json",
+        "absent": true
+      },
+      {
+        "path": "raw/channel_segments/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.json",
+        "absent": true
+      },
+      {
+        "path": "raw/channel_segments/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.partial.json",
+        "absent": true
+      },
+      {
+        "path": "raw/channel_segments_v2_7/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.json",
+        "absent": true
+      },
+      {
+        "path": "raw/channel_segments_v2_7/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.partial.json",
+        "absent": true
+      },
+      {
+        "path": "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.forum-system-event-timestamp-revalidation-v1.json",
+        "absent": true
+      },
+      {
+        "path": "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-10_2026-01-10.json",
+        "absent": true
+      }
+    ],
+    "all_required_absences_true": true,
+    "authoritative_directory_noncanonical_file_count": 0,
+    "premium_journals_jan10_collection_started": false
+  }
+}

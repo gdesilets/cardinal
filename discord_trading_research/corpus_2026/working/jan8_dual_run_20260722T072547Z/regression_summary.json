@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "jan8_dual_run_regression_summary",
+  "status": "PASS",
+  "completed_at_utc": "2026-07-22T08:15:24.684Z",
+  "suites": [
+    {
+      "runtime": "node_test",
+      "command": "node --test test_discord_browser_collector.mjs test_discord_browser_collector_v2_7.mjs",
+      "tests_run": 63,
+      "passed": 63,
+      "failed": 0,
+      "errors": 0
+    },
+    {
+      "runtime": "python_unittest_discovery",
+      "command": "python -m unittest discover -q",
+      "tests_run": 310,
+      "passed": 310,
+      "failed": 0,
+      "errors": 0
+    }
+  ],
+  "total_tests_run": 373,
+  "total_passed": 373,
+  "total_failed": 0,
+  "total_errors": 0
+}

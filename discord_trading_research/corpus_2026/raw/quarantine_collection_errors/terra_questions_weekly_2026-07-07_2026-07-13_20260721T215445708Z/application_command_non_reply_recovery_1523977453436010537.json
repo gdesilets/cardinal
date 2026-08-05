@@ -1,0 +1,98 @@
+{
+  "recorded_at_utc": "2026-07-21T22:13:54.823Z",
+  "message_id": "1523977453436010537",
+  "result_index": 1072,
+  "page_number": 43,
+  "segment": {
+    "start": "2026-07-07",
+    "end": "2026-07-13",
+    "query": "in:❓│questions after:2026-07-06 before:2026-07-14"
+  },
+  "classification": {
+    "reply_target_resolution_status": "discord_executed_command_context_without_reply_target",
+    "reply_target_unavailability_documented": true,
+    "reply_context_non_reply_exact": true,
+    "reply_context_non_reply_type": "discord_application_command_invocation",
+    "reply_to_message_id": null,
+    "reply_to_channel_id": null,
+    "reply_to_permalink": null,
+    "target_id_candidates": []
+  },
+  "exact_row_owned_dom_evidence": {
+    "article_id": "search-result-1523977453436010537",
+    "article_aria_labelledby": "message-username-1523977453436010537 uid_3 message-content-1523977453436010537 message-accessories-1523977453436010537 uid_4 message-timestamp-1523977453436010537",
+    "reply_context_dom_class": "repliedMessage_c19a55 messageSpine_c19a55 executedCommand_c19a55",
+    "reply_context_dom_tag": "DIV",
+    "reply_context_aria_hidden": true,
+    "reply_context_article_binding_exact": true,
+    "reply_context_owner_message_id": "1523977453436010537",
+    "reply_context_text": "LukeLarps\n used \nPlay",
+    "author": "Wordle",
+    "author_id": "1211781489931452447",
+    "author_id_source": "owner_scoped_avatar_cdn_path",
+    "author_id_conflict": false,
+    "author_verified_app_exact": true,
+    "content_scope_exact": true,
+    "content_text": "Your group is on a 1 day streak!  Here are yesterday's results:\n 6/6: @LukeLarps",
+    "exact_target_content_id": null,
+    "exact_target_aria_labelledby": null,
+    "exact_target_aria_describedby": null,
+    "exact_target_data_list_item_id": null,
+    "exact_target_permalink": null,
+    "exact_target_candidate_count": 0,
+    "owned_attachment": {
+      "attachment_id": "1523977453478084608",
+      "relation_type": "owned",
+      "ownership_status": "owned_exact",
+      "ownership_evidence_basis": "exact_message_accessories_descendant_and_matching_cdn_channel"
+    }
+  },
+  "staged_terminal_artifact_repair": {
+    "path": "channel_questions_1273692573898113076_2026-07-07_2026-07-13.json",
+    "pre_repair_sha256": "7639128a8f7019e16c622e05929da4678a9d7eda265ce7ce15b2cc1a078f7b61",
+    "pre_repair_bytes": 4614168,
+    "post_repair_sha256": "22d5bd1dae8227c72374e8dc0839c13b6680b3abc6585cd0c1a33e6eb8860f4a",
+    "post_repair_bytes": 4614237,
+    "rows_modified": 1,
+    "modified_result_indices": [1072],
+    "modified_fields": [
+      "reply_context_executed_command_exact",
+      "reply_context_non_reply_exact",
+      "reply_context_non_reply_type",
+      "reply_context_owner_message_id",
+      "reply_target_resolution_status",
+      "reply_target_unavailability_documented"
+    ]
+  },
+  "verification": {
+    "strict_terminal_qa_passed": true,
+    "strict_terminal_qa_errors": [],
+    "independent_terminal_qa": {
+      "build_corpus_computed_complete": true,
+      "build_corpus_validation_errors": [],
+      "build_corpus_validation_warnings": [],
+      "validate_corpus_issue_counts": {},
+      "executed_command_candidate_count": 1,
+      "executed_command_accepted_exact_context_count": 1,
+      "reply_contract_errors": [],
+      "reply_resolution_boolean_errors": []
+    },
+    "javascript_collector_tests": {
+      "passed": true,
+      "tests": 50
+    },
+    "python_qa_tests": {
+      "passed": true,
+      "tests": 19
+    },
+    "relevance_release_policy_tests": {
+      "passed": true,
+      "tests": 9
+    },
+    "shared_contract_full_python_discovery": {
+      "passed": true,
+      "tests": 246
+    }
+  },
+  "causal_claim_beyond_exact_dom": null
+}

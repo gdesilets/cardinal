@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0.0",
+  "evidence_type": "authenticated_discord_search_group_header_navigation",
+  "guild_id": "1167376964680691732",
+  "parent_forum_channel_id": "1283941772577472643",
+  "parent_forum_channel_name": "premium-journals",
+  "query": "in:premium-journals after:2026-01-01 before:2026-01-03",
+  "page_number": 2,
+  "reported_total": 439,
+  "expected_result_index_first": 26,
+  "expected_result_index_last": 50,
+  "captured_result_count": 25,
+  "search_group_count": 6,
+  "source_partial_sha256": "ad07f56aadf6d1a20b857ce5f31665c2d21daa5f5bcc3d0431597ff6f8541a69",
+  "source_partial_path": "raw/quarantine_collection_errors/collector_b_premium_journals_fresh_staging_20260721/collector_b_fresh_channel_premium_journals_1283941772577472643_2026-01-02_2026-01-02.partial.json",
+  "identity_policy": {
+    "thread_identity_bootstrap": "authenticated direct-child search-group header navigation only",
+    "attachment_or_media_channel_ids_used": false,
+    "title_only_identity_used": false,
+    "row_binding": "exact result_index and message_id membership within each visible search group",
+    "direct_child_header_contract": "[aria-label=\"Search Results\"] [role=\"group\"] > [role=\"button\"]",
+    "parent_binding": "visible group aria-label parent name plus exact parent-scoped query and inventoried parent forum ID"
+  },
+  "page_validation": {
+    "all_result_indices_contiguous": true,
+    "all_result_indices_unique": true,
+    "all_message_ids_unique": true,
+    "same_title_groups_kept_separate": true,
+    "direct_child_header_count_equaled_group_count": true,
+    "back_return_parent_url": "https://discord.com/channels/1167376964680691732/1283941772577472643",
+    "back_return_same_query_page_verified": true,
+    "verification_basis": "After each navigation, browser history returned to the parent URL and the page-2 Search Results group/result-index membership remained available for the next exact group lookup. A final page-2 DOM projection contained indices 26 through 50 in the same six groups."
+  },
+  "groups": [
+    {
+      "group_ordinal": 1,
+      "group_label": "road to drop out of college - Stanley, premium-journals",
+      "group_header_text": "road to drop out of college - Stanley\nroad to drop out of college - Stanley\npremium-journals",
+      "result_indices": [26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+      "message_ids": [
+        "1456785922698907776",
+        "1456785838250917978",
+        "1456785691974434939",
+        "1456785481907048479",
+        "1456782652983087168",
+        "1456782540458426490",
+        "1456782520682283184",
+        "1456782474205204644",
+        "1456781351951794399",
+        "1456781116290760836"
+      ],
+      "unique_direct_child_header_within_group": true,
+      "click_destination_url": "https://discord.com/channels/1167376964680691732/1399473525630173255",
+      "observed_guild_id": "1167376964680691732",
+      "observed_thread_id": "1399473525630173255",
+      "back_return_succeeded": true,
+      "back_return_attempts": 1,
+      "thread_identity_exact": true
+    },
+    {
+      "group_ordinal": 2,
+      "group_label": "All My Suffering And Learning, premium-journals",
+      "group_header_text": "All My Suffering And Learning\nAll My Suffering And Learning\npremium-journals",
+      "result_indices": [36, 37, 38],
+      "message_ids": [
+        "1456772646124650737",
+        "1456772414640881705",
+        "1456772172247728148"
+      ],
+      "unique_direct_child_header_within_group": true,
+      "click_destination_url": "https://discord.com/channels/1167376964680691732/1456316273788063925",
+      "observed_guild_id": "1167376964680691732",
+      "observed_thread_id": "1456316273788063925",
+      "back_return_succeeded": true,
+      "back_return_attempts": 1,
+      "thread_identity_exact": true
+    },
+    {
+      "group_ordinal": 3,
+      "group_label": "30 Days, premium-journals",
+      "group_header_text": "30 Days\n30 Days\npremium-journals",
+      "result_indices": [39],
+      "message_ids": ["1456772093453799586"],
+      "unique_direct_child_header_within_group": true,
+      "click_destination_url": "https://discord.com/channels/1167376964680691732/1412565591944073238",
+      "observed_guild_id": "1167376964680691732",
+      "observed_thread_id": "1412565591944073238",
+      "back_return_succeeded": true,
+      "back_return_attempts": 1,
+      "thread_identity_exact": true
+    },
+    {
+      "group_ordinal": 4,
+      "group_label": "All My Suffering And Learning, premium-journals",
+      "group_header_text": "All My Suffering And Learning\nAll My Suffering And Learning\npremium-journals",
+      "result_indices": [40, 41],
+      "message_ids": [
+        "1456771887119073464",
+        "1456771681581273109"
+      ],
+      "unique_direct_child_header_within_group": true,
+      "click_destination_url": "https://discord.com/channels/1167376964680691732/1456316273788063925",
+      "observed_guild_id": "1167376964680691732",
+      "observed_thread_id": "1456316273788063925",
+      "back_return_succeeded": true,
+      "back_return_attempts": 2,
+      "thread_identity_exact": true
+    },
+    {
+      "group_ordinal": 5,
+      "group_label": "Boy's 30 day challenge: DAY 1 => outcome = WIN, premium-journals",
+      "group_header_text": "Boy's 30 day challenge: DAY 1 => outcome = WIN\nBoy's 30 day challenge: DAY 1 => outcome = WIN\npremium-journals",
+      "result_indices": [42, 43, 44],
+      "message_ids": [
+        "1456765545587150859",
+        "1456765493489959089",
+        "1456760845160939520"
+      ],
+      "unique_direct_child_header_within_group": true,
+      "click_destination_url": "https://discord.com/channels/1167376964680691732/1448404594731516058",
+      "observed_guild_id": "1167376964680691732",
+      "observed_thread_id": "1448404594731516058",
+      "back_return_succeeded": true,
+      "back_return_attempts": 1,
+      "thread_identity_exact": true
+    },
+    {
+      "group_ordinal": 6,
+      "group_label": "All My Suffering And Learning, premium-journals",
+      "group_header_text": "All My Suffering And Learning\nAll My Suffering And Learning\npremium-journals",
+      "result_indices": [45, 46, 47, 48, 49, 50],
+      "message_ids": [
+        "1456758972202877009",
+        "1456758626478981160",
+        "1456758615934369963",
+        "1456758577174937713",
+        "1456758293744713748",
+        "1456758260945256469"
+      ],
+      "unique_direct_child_header_within_group": true,
+      "click_destination_url": "https://discord.com/channels/1167376964680691732/1456316273788063925",
+      "observed_guild_id": "1167376964680691732",
+      "observed_thread_id": "1456316273788063925",
+      "back_return_succeeded": true,
+      "back_return_attempts": 1,
+      "thread_identity_exact": true
+    }
+  ],
+  "status": "page_2_exact_complete",
+  "stop_condition": {
+    "triggered": true,
+    "reason": "A later bounded page-1 attribution pass exceeded the control-cell time limit and reset the automation session.",
+    "effect": "No page-1 evidence from that interrupted pass is retained; no collection resume, pagination, row enrichment, or partial modification was performed."
+  }
+}

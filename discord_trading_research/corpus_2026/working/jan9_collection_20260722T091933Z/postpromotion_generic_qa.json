@@ -1,0 +1,1464 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "independent_discord_corpus_validation",
+  "generated_at_utc": "2026-07-22T10:16:01.671649Z",
+  "status": "needs_revision",
+  "overall_assessment": "Not releasable",
+  "scope": {
+    "guild_id": "1167376964680691732",
+    "source_scope": "discord_only",
+    "outside_sources_used": false,
+    "window_calendar_timezone": "America/Chicago",
+    "window_start_local_date": "2026-01-09",
+    "window_end_local_date_inclusive": "2026-01-09",
+    "window_start_utc": "2026-01-09T06:00:00Z",
+    "window_end_exclusive_utc": "2026-01-10T06:00:00Z",
+    "local_calendar_days": 1,
+    "data_cutoff_utc": "2026-07-20T23:59:59Z",
+    "final_day_complete": true
+  },
+  "inputs": {
+    "segment_inputs": [
+      "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\channel_segments_v2_5\\channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.json"
+    ],
+    "relevance_segment_inputs": [],
+    "audit_segment_inputs": [],
+    "inventory": null,
+    "relevance_plan": null,
+    "orchestrator_progress_manifest": null,
+    "collection_drift_audit": null,
+    "attachment_manifest": null,
+    "attachment_archive_root": null,
+    "database": null,
+    "preservation_manifest": null,
+    "source_hash_manifest": null
+  },
+  "source_artifacts": [
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\channel_segments_v2_5\\channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.json",
+      "filename": "channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.json",
+      "size_bytes": 1786921,
+      "mtime_ns": 1784715130367440900,
+      "sha256": "399F0DF8EF52878442542043C3D64C0A4CB8070BAC5DD0B8DF58FCEBF2DF87AE",
+      "input_role": "channel_capture"
+    }
+  ],
+  "auxiliary_source_artifacts": [
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\system_event_timestamp_revalidated_v1\\canonical_bindings_v1\\channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.forum-system-event-timestamp-revalidation-v1.json",
+      "filename": "channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.forum-system-event-timestamp-revalidation-v1.json",
+      "size_bytes": 3044,
+      "mtime_ns": 1784713911113452700,
+      "sha256": "0DC3951FCA360C49C506174CAD220B6E6E9B26B3259E86BCA2DF03A02F5844E1",
+      "kind": "premium_forum_system_event_timestamp_revalidation_sidecar",
+      "input_role": "timestamp_scope_evidence"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.json",
+      "filename": "channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.json",
+      "size_bytes": 1465986,
+      "mtime_ns": 1784713182886676700,
+      "sha256": "02E2DF498F63063FA7F5F0C202C133FC3F7599ED10726F49DCA14FC34E90C4BC",
+      "kind": "premium_forum_system_event_timestamp_original_stage",
+      "input_role": "timestamp_scope_evidence"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\system_event_dom_evidence_v1\\manifest.json",
+      "filename": "manifest.json",
+      "size_bytes": 16222,
+      "mtime_ns": 1784713911108452500,
+      "sha256": "97F5661D661D55A08A2F48EB228AC5ED3CA00CF2DDA785AE9181D2D79A6E3E27",
+      "kind": "premium_forum_system_event_dom_manifest",
+      "input_role": "timestamp_scope_evidence"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\system_event_dom_evidence_v1\\message_1459342322675224696.normalized_dom_observation.json",
+      "filename": "message_1459342322675224696.normalized_dom_observation.json",
+      "size_bytes": 5522,
+      "mtime_ns": 1784713724798034300,
+      "sha256": "6CE29868F0D8029FE89BFC24E375536807E205EDC3CF762A231802614413327E",
+      "kind": "premium_forum_system_event_dom_observation",
+      "input_role": "timestamp_scope_evidence"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_001\\forum_group_navigation_2875008fde556e0057858d2bad6dc5b7d54d013642897b728bf0e222baedfc21.json",
+      "filename": "forum_group_navigation_2875008fde556e0057858d2bad6dc5b7d54d013642897b728bf0e222baedfc21.json",
+      "size_bytes": 2736,
+      "mtime_ns": 1784712052444422800,
+      "sha256": "901E24666A9B87E0CF6282CC1071697836DCBBA7E8D37C7DE38920FFC52CB714",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_001\\forum_group_navigation_3da3231dc128fa4f32a154ab7b0f7740e030bc3ade9b559cb6cc61626d06cd83.json",
+      "filename": "forum_group_navigation_3da3231dc128fa4f32a154ab7b0f7740e030bc3ade9b559cb6cc61626d06cd83.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712127815247500,
+      "sha256": "872030762AC131E182A561A0C993F49075D43A1482EFCEF0716B7F1331BCBF40",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_001\\forum_group_navigation_43961546dca145e92180111fb94f2e368f3661033aeec16c4aa6ad789eee4ae5.json",
+      "filename": "forum_group_navigation_43961546dca145e92180111fb94f2e368f3661033aeec16c4aa6ad789eee4ae5.json",
+      "size_bytes": 2934,
+      "mtime_ns": 1784712065433483100,
+      "sha256": "8472B1C80141D8C957462C677C59374B589DEB0905EF007E774AF48BDE86FDCE",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_001\\forum_group_navigation_5a39dc9d9840d5b9c6e6bf6d0e7dcd569d6ffab2c0453a07037c1eaf2aabe20e.json",
+      "filename": "forum_group_navigation_5a39dc9d9840d5b9c6e6bf6d0e7dcd569d6ffab2c0453a07037c1eaf2aabe20e.json",
+      "size_bytes": 2736,
+      "mtime_ns": 1784712078209527300,
+      "sha256": "8F0D9F3DF15080C02ADDAFAE08210B6290EA7F2C7940069F90E05687AE5EE0D3",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_001\\forum_group_navigation_78e33a4f0c867a951247770ae0ce83e58cd08ca7ab489b1ff8c045c1d93a2c55.json",
+      "filename": "forum_group_navigation_78e33a4f0c867a951247770ae0ce83e58cd08ca7ab489b1ff8c045c1d93a2c55.json",
+      "size_bytes": 2736,
+      "mtime_ns": 1784712033036710400,
+      "sha256": "7FA944EB452A5854D3138CDCB0D6811757F60D2679D7C64B051D1D8C2CCAD44F",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_001\\forum_group_navigation_8d7f90a72b11d47bae59cca30d36c81187fe4588d640314c393f164c329c3455.json",
+      "filename": "forum_group_navigation_8d7f90a72b11d47bae59cca30d36c81187fe4588d640314c393f164c329c3455.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712090773255500,
+      "sha256": "1A6EB4511CEC71C46235C743BBF05FDD9C8AF8DB24B60C1A1BD1AAE4C0DD4F72",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_001\\forum_group_navigation_9ba7945b199717b3318658f8b4574373d8331ac6c10ed069c3bfdb5e7648cb44.json",
+      "filename": "forum_group_navigation_9ba7945b199717b3318658f8b4574373d8331ac6c10ed069c3bfdb5e7648cb44.json",
+      "size_bytes": 2802,
+      "mtime_ns": 1784712019625727800,
+      "sha256": "F2E013071C952B2FA355F65EE0109E643AFDCF4FE170B3B4124D913200EEF596",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_001\\forum_group_navigation_b5675cb14d402ff49293740b67a2ad74e473624f43d13ad738e418206c2a22a5.json",
+      "filename": "forum_group_navigation_b5675cb14d402ff49293740b67a2ad74e473624f43d13ad738e418206c2a22a5.json",
+      "size_bytes": 3132,
+      "mtime_ns": 1784712141216935500,
+      "sha256": "A4C87CDEC5587A1C2F3373F619A47004AA84C0AB2CB4BDEBC9B2429289E9C14A",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_001\\forum_group_navigation_d54e79536c98b5664041fb71bb64940185d5f2177ab8d884a293c4096dd4039f.json",
+      "filename": "forum_group_navigation_d54e79536c98b5664041fb71bb64940185d5f2177ab8d884a293c4096dd4039f.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712114865916200,
+      "sha256": "05D3F2AFA1CD86956A9E22E4B533DA430ECBBAC487B6D0F350C861E6EB7675F7",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_001\\page_plan.json",
+      "filename": "page_plan.json",
+      "size_bytes": 3622,
+      "mtime_ns": 1784712006976558000,
+      "sha256": "0E0DE3BA066DCF8607BF207426D0119C33B3CBFB620843B0F2A4B05DF06F5B19",
+      "kind": "forum_navigation_page_plan",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_002\\forum_group_navigation_1783a9cb3687aec33ca17fae4f62523832b713a345b712293d3463e7f0c7978f.json",
+      "filename": "forum_group_navigation_1783a9cb3687aec33ca17fae4f62523832b713a345b712293d3463e7f0c7978f.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712341973695600,
+      "sha256": "FD2916B105F731651A7351C7E98C9D056E69E456CAA41361CFA59C8DFF4AB5D7",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_002\\forum_group_navigation_4828052a2e114055db9a5001b8c38963a9780c5084258f7da44a2ca4ee728f41.json",
+      "filename": "forum_group_navigation_4828052a2e114055db9a5001b8c38963a9780c5084258f7da44a2ca4ee728f41.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712280863966400,
+      "sha256": "3F4796A427A9D4EBBE4EE74829353E8D384826892EFBF86D5447F41203FF83A6",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_002\\forum_group_navigation_51523f7a93f637ceb970c101c5360dd4d7458836b1ada7d38d45975deed4c5b7.json",
+      "filename": "forum_group_navigation_51523f7a93f637ceb970c101c5360dd4d7458836b1ada7d38d45975deed4c5b7.json",
+      "size_bytes": 2934,
+      "mtime_ns": 1784712176250979500,
+      "sha256": "9DE89936FE26A044D217B4229EC5CDE301D1A63F0F6AFB375F1B44878AA21B2D",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_002\\forum_group_navigation_7f7e679788f25e5dbb337987e629dda5cb9a9f8e5076a0225b145ca130a6fb04.json",
+      "filename": "forum_group_navigation_7f7e679788f25e5dbb337987e629dda5cb9a9f8e5076a0225b145ca130a6fb04.json",
+      "size_bytes": 3000,
+      "mtime_ns": 1784712260503683400,
+      "sha256": "9B0F6963EF6F45FA601398A207061BEC774D0BA4A36FD0FC0172FA50DACE3E2A",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_002\\forum_group_navigation_8f6e7d07793f229dedd1badc49214e94a21a571813e4f2a430b66d457c22d6b3.json",
+      "filename": "forum_group_navigation_8f6e7d07793f229dedd1badc49214e94a21a571813e4f2a430b66d457c22d6b3.json",
+      "size_bytes": 2736,
+      "mtime_ns": 1784712322280106400,
+      "sha256": "59E58A5AB469974401E2C24A18762C1057DDA72B6E1025CE3484ECC4FCD7EBA2",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_002\\forum_group_navigation_8f7b3920dfad2602c56d1a71abf7a5f53d976a50f259098a9133d271c7996bde.json",
+      "filename": "forum_group_navigation_8f7b3920dfad2602c56d1a71abf7a5f53d976a50f259098a9133d271c7996bde.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712189646835100,
+      "sha256": "9153C5349D7982240974212B3944B7841446C40F3B567478B147172D3FE5DFD3",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_002\\forum_group_navigation_acd80ed8c9baba58949b5a9b9932c32804d928c5d304b67eea259f8dcbe82d2c.json",
+      "filename": "forum_group_navigation_acd80ed8c9baba58949b5a9b9932c32804d928c5d304b67eea259f8dcbe82d2c.json",
+      "size_bytes": 2736,
+      "mtime_ns": 1784712214049481800,
+      "sha256": "C5ECF32B226577576607C373E543D5CE6726707195700E456451FCF4E0C46F61",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_002\\forum_group_navigation_b2863fb4e6961d55ee1a9d8d5d79f54f59e0ce1ec9098c61fe30de2ac9f0d5bc.json",
+      "filename": "forum_group_navigation_b2863fb4e6961d55ee1a9d8d5d79f54f59e0ce1ec9098c61fe30de2ac9f0d5bc.json",
+      "size_bytes": 2802,
+      "mtime_ns": 1784712227610888800,
+      "sha256": "30AFD45036BB5CEB01AC570DE71B0B41372D043A7EDECEF20E0D8BB4E1A37D43",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_002\\forum_group_navigation_b7832c3f2de806321c70ed686a98c32622e733c27bc3f3447718bfeeadc25146.json",
+      "filename": "forum_group_navigation_b7832c3f2de806321c70ed686a98c32622e733c27bc3f3447718bfeeadc25146.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712294424587800,
+      "sha256": "2566CCD2DB1EE0FC0F344129DD44A2EC6D97D099B46262CA937BD52DE06F90AA",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_002\\forum_group_navigation_bb6382d405537881382c6ff7d89570eee7330ed1d5b0d88607c9c09da9afdcf3.json",
+      "filename": "forum_group_navigation_bb6382d405537881382c6ff7d89570eee7330ed1d5b0d88607c9c09da9afdcf3.json",
+      "size_bytes": 2736,
+      "mtime_ns": 1784712308822078400,
+      "sha256": "9CE5ADBBBD9EA5E849A4D8CC84B32A426D4F4ED53C909E5685EEF7799FD8CB20",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_002\\forum_group_navigation_bdb2518a57ca11e725c506d4bca3417f47a12eb315ef9b24dadf8ea5242449da.json",
+      "filename": "forum_group_navigation_bdb2518a57ca11e725c506d4bca3417f47a12eb315ef9b24dadf8ea5242449da.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712242025616600,
+      "sha256": "3D221E9CC0CEAFF5D388380B9F402EDC5CF9231451FD6008FC9CB916F6607EB3",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_002\\page_plan.json",
+      "filename": "page_plan.json",
+      "size_bytes": 3910,
+      "mtime_ns": 1784712163534393700,
+      "sha256": "6CC994ECD20D81A9A76AF33584A0BE4B9207012FF888C3B2418F96A044D345DB",
+      "kind": "forum_navigation_page_plan",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_003\\forum_group_navigation_0f25f1ec5ab9cda429aac7006a5edd8df0508a734c5849a6d9ec058fff3feec2.json",
+      "filename": "forum_group_navigation_0f25f1ec5ab9cda429aac7006a5edd8df0508a734c5849a6d9ec058fff3feec2.json",
+      "size_bytes": 3000,
+      "mtime_ns": 1784712471337350900,
+      "sha256": "2EFA7739C643E121C7A0E9F2111E51EA7F88E0E71FD84FE876C00AF4FC2C3D8B",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_003\\forum_group_navigation_1f8a856e7a789cb5cc4d3ed7f27aba5192b3b28bb0c82ee19fdc9da480da89ba.json",
+      "filename": "forum_group_navigation_1f8a856e7a789cb5cc4d3ed7f27aba5192b3b28bb0c82ee19fdc9da480da89ba.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712383994233900,
+      "sha256": "A6F019F24D040D9135E4365A6F6E2809B54C245FDD4CA0BEA4338FBF787D6C33",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_003\\forum_group_navigation_363bc2a1f8a5c1303a8e9a4c2bdc5e46dac128f489c2d0788187e73425a48d7e.json",
+      "filename": "forum_group_navigation_363bc2a1f8a5c1303a8e9a4c2bdc5e46dac128f489c2d0788187e73425a48d7e.json",
+      "size_bytes": 2736,
+      "mtime_ns": 1784712404864675500,
+      "sha256": "37A55AB68C0290C359E85C819583148DD49AA5229C8A03BAB4980B46D3396E26",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_003\\forum_group_navigation_55b7db8df08b2f5cb0507a17ca25b6820f338ec110087f957dc6379a1e2c8778.json",
+      "filename": "forum_group_navigation_55b7db8df08b2f5cb0507a17ca25b6820f338ec110087f957dc6379a1e2c8778.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712432298813000,
+      "sha256": "9827A8FB9761A703537A36885B0DBDA837B13E37C64A281B356694AA2FF390C2",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_003\\forum_group_navigation_5ade5b34cb706cbd483ecbca650b7a25a419c470b91334313e011d008b71f67b.json",
+      "filename": "forum_group_navigation_5ade5b34cb706cbd483ecbca650b7a25a419c470b91334313e011d008b71f67b.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712533617362100,
+      "sha256": "017BEA5BCC0AB0448B1FEF1D387914DFF1CC4A666EB4A53592AFEEC58FF89B51",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_003\\forum_group_navigation_7238fde95ba0930f01f5c0048c71c25c3d92cd6c884b44c587b3999d9ddb3d16.json",
+      "filename": "forum_group_navigation_7238fde95ba0930f01f5c0048c71c25c3d92cd6c884b44c587b3999d9ddb3d16.json",
+      "size_bytes": 2736,
+      "mtime_ns": 1784712499937363300,
+      "sha256": "86DE16B889016C8B1DAF52AE17915CD2BC3D92674C7F6B79858A7767577683A8",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_003\\forum_group_navigation_765557d2defadfc52157658b178565a515ccab5607da563c72d04e43aa5a81ee.json",
+      "filename": "forum_group_navigation_765557d2defadfc52157658b178565a515ccab5607da563c72d04e43aa5a81ee.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712370480441500,
+      "sha256": "3EEF33217817563FE987C4217588E0B7AAC9DDEFCB4AA535BA8F9C7065B9D030",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_003\\forum_group_navigation_8985590ce11609025fe42b5a6e559d9a23703a18aba75495385bf2fa58a7d18a.json",
+      "filename": "forum_group_navigation_8985590ce11609025fe42b5a6e559d9a23703a18aba75495385bf2fa58a7d18a.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712547097237900,
+      "sha256": "0BAF36A544C4B9D31AAD4E3990FDCC93C7454BF6B7F8B14FD81610296A29A05C",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_003\\forum_group_navigation_9f8f9ecd808d276868e2b403a7671f62c199b2181f9b525e904e9cd94b45d854.json",
+      "filename": "forum_group_navigation_9f8f9ecd808d276868e2b403a7671f62c199b2181f9b525e904e9cd94b45d854.json",
+      "size_bytes": 3000,
+      "mtime_ns": 1784712484827237900,
+      "sha256": "DDB3B7BE8E720150CC66F4407082DA6C8AD04730F6BEE15F3673AD6CF961DDF4",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_003\\forum_group_navigation_a5b437ad49b7364b6d3e19944a12e597b33b3b07f444d479cf2a78f3fbd50651.json",
+      "filename": "forum_group_navigation_a5b437ad49b7364b6d3e19944a12e597b33b3b07f444d479cf2a78f3fbd50651.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712513306476600,
+      "sha256": "A3BB7FD208DD3041DB5BB50874F0FF0FBDCC9AA11845075D38725D8D9E1EACC4",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_003\\forum_group_navigation_c6cb0a98ea7f8259d4e6ae42207947b34899158e8dc30d4921178b4684eb36ca.json",
+      "filename": "forum_group_navigation_c6cb0a98ea7f8259d4e6ae42207947b34899158e8dc30d4921178b4684eb36ca.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712417408802600,
+      "sha256": "34C41CE3C6C68EE9B855CFB84B052B66B97D05F7C1DE7FA8B0968921C6A8E64A",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_003\\forum_group_navigation_d9d8d269c055f4ca120d291d5bad0c7bcee7c8d5c083c7c46ddb91283e274d08.json",
+      "filename": "forum_group_navigation_d9d8d269c055f4ca120d291d5bad0c7bcee7c8d5c083c7c46ddb91283e274d08.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712444842030700,
+      "sha256": "942C26D2E9FAD3213A034EB6B21251478D0407F4D2701E44C8A8DCA63AA34490",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_003\\forum_group_navigation_efca240ffb0f8f9766cc09d239136e7df3ca172900a0e7520e20f652bd0806b1.json",
+      "filename": "forum_group_navigation_efca240ffb0f8f9766cc09d239136e7df3ca172900a0e7520e20f652bd0806b1.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712565407213300,
+      "sha256": "EC62A9DE2F386E63C8C8440B199EAF5FE37018A0DB9F2FB50CE91F9694F3E175",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_003\\page_plan.json",
+      "filename": "page_plan.json",
+      "size_bytes": 4188,
+      "mtime_ns": 1784712357704904500,
+      "sha256": "FEB9385E4B5C060E5B4531EA9A73F5B02344417B0130042477849713B5C535B9",
+      "kind": "forum_navigation_page_plan",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_004\\forum_group_navigation_1ceb0a88f880eea7acaf7fab0edf762eae885536e84716d14e4d29d626fb6f76.json",
+      "filename": "forum_group_navigation_1ceb0a88f880eea7acaf7fab0edf762eae885536e84716d14e4d29d626fb6f76.json",
+      "size_bytes": 2934,
+      "mtime_ns": 1784712599456846900,
+      "sha256": "6F990D2DFAA036C5E95AFD5C6FDCAE212E14DA67855D81DD2C6A9DBBDB78A223",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_004\\forum_group_navigation_2f8a6eba28e1bb07537ab3388d17918f86e762fcc69886fe5577fd80dec986d3.json",
+      "filename": "forum_group_navigation_2f8a6eba28e1bb07537ab3388d17918f86e762fcc69886fe5577fd80dec986d3.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712637344205100,
+      "sha256": "DDB6B64BF027F9E1465A7A3B186CBB930162FB418424EC5022EBFA889283C42F",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_004\\forum_group_navigation_6d51ca6f26f8ff2a248c1a68a51e0a21bc64294644cbb0a5554d95f6c223cd64.json",
+      "filename": "forum_group_navigation_6d51ca6f26f8ff2a248c1a68a51e0a21bc64294644cbb0a5554d95f6c223cd64.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712612038839100,
+      "sha256": "491E7B591BA0FAFC8C892793826E5259E9B61611421B8D90F16EA9A2D83273AE",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_004\\forum_group_navigation_a0dba4a6d7244ea7ecb2988fade29180ca8df8af3d75b592c02ff3de2a8e9996.json",
+      "filename": "forum_group_navigation_a0dba4a6d7244ea7ecb2988fade29180ca8df8af3d75b592c02ff3de2a8e9996.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712649874564100,
+      "sha256": "65BF17A2FE15045FC777DC0F3FA5DDE64F118AA6DE201770FFF41192E7FCE769",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_004\\forum_group_navigation_c324a1fdaec987e1d26fc1de05dc5fa0ae2c7b2f91f54b301eb01ad54896fbb7.json",
+      "filename": "forum_group_navigation_c324a1fdaec987e1d26fc1de05dc5fa0ae2c7b2f91f54b301eb01ad54896fbb7.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712678246068500,
+      "sha256": "7E06B22BFA7856F146B44535AEF5612D0EB9E3201E95F297B4AEDB01F8BC7016",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_004\\forum_group_navigation_cce56087816d7bc4065b1b64d90d84606598c5a27faaa190a84300ddf07efa01.json",
+      "filename": "forum_group_navigation_cce56087816d7bc4065b1b64d90d84606598c5a27faaa190a84300ddf07efa01.json",
+      "size_bytes": 3528,
+      "mtime_ns": 1784712664715250400,
+      "sha256": "B514B2DBF25FB0DAA7C3C694CA6D90D37508B00E04B0EFF09270FD2528098F2A",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_004\\forum_group_navigation_ee3baa5d2707478135dc17e32c3c1e70fec56db10ae03514d2b8f3a558cb103d.json",
+      "filename": "forum_group_navigation_ee3baa5d2707478135dc17e32c3c1e70fec56db10ae03514d2b8f3a558cb103d.json",
+      "size_bytes": 2736,
+      "mtime_ns": 1784712700268275000,
+      "sha256": "B079865709ECA6E741D11A3C9ABED13A2EC588CB302EFFB60957BE4BB2303439",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_004\\page_plan.json",
+      "filename": "page_plan.json",
+      "size_bytes": 3354,
+      "mtime_ns": 1784712586798129600,
+      "sha256": "FFF3030991657C5754DE236510E8ED09CBCB702BD835B414FD32DEA365FF7B8E",
+      "kind": "forum_navigation_page_plan",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_005\\forum_group_navigation_0ca294b9e17d2e05f0fdc973542d4c0cd55415d722cb9a3d5fb1d12363dac6a1.json",
+      "filename": "forum_group_navigation_0ca294b9e17d2e05f0fdc973542d4c0cd55415d722cb9a3d5fb1d12363dac6a1.json",
+      "size_bytes": 2868,
+      "mtime_ns": 1784712839111630200,
+      "sha256": "65A09D11DAA9B832A3FD4214D5EC173B469F4212BE9387D7F9CE2DC78C07FF45",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_005\\forum_group_navigation_3cc32db909a654c7022d3768af0cce925cc820566f2f74cd5df5b5c421af5d90.json",
+      "filename": "forum_group_navigation_3cc32db909a654c7022d3768af0cce925cc820566f2f74cd5df5b5c421af5d90.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712870758459200,
+      "sha256": "C34D92A49638CE5B89ADCD9DD45702FCC7D3DC1807DFCB2B38681566EF20AD49",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_005\\forum_group_navigation_3ed222907a7deddbfe6da85c1373fe9879b842da3053736b105d8a8e659fcfd2.json",
+      "filename": "forum_group_navigation_3ed222907a7deddbfe6da85c1373fe9879b842da3053736b105d8a8e659fcfd2.json",
+      "size_bytes": 2736,
+      "mtime_ns": 1784712853672723600,
+      "sha256": "F8FD2F2628922076622CA19C269F2A93D5F0E748FA75E0A77A9E49AD56A000BB",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_005\\forum_group_navigation_4694f9ba4e53966114d7fd0fa539df1aa9fd0efe6684f983beb8829c3003a978.json",
+      "filename": "forum_group_navigation_4694f9ba4e53966114d7fd0fa539df1aa9fd0efe6684f983beb8829c3003a978.json",
+      "size_bytes": 2934,
+      "mtime_ns": 1784712728095385800,
+      "sha256": "DC8D83C6AD60B02589DC5CA8A2274D0B8241AB22669DC0E60D6605F72793CDDA",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_005\\forum_group_navigation_61e7be3683d5e06096a8a8f035385d1bde0867aa493b830453d936e22b49afea.json",
+      "filename": "forum_group_navigation_61e7be3683d5e06096a8a8f035385d1bde0867aa493b830453d936e22b49afea.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712761741591000,
+      "sha256": "CFDE22376CA305B75FF062D203D6AA2582625ED3369B082E8A0A2C30735A8E86",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_005\\forum_group_navigation_85877be5b05bc9fb8adb4acca7d88bf81783165d84f7845fba469ff96cb6126c.json",
+      "filename": "forum_group_navigation_85877be5b05bc9fb8adb4acca7d88bf81783165d84f7845fba469ff96cb6126c.json",
+      "size_bytes": 2868,
+      "mtime_ns": 1784712802704721800,
+      "sha256": "700C7280A55C4EC1C99469D5120265999F2670B604016466F343A3348E2B08B0",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_005\\forum_group_navigation_915ed5aa4dfb209abbded2b66f2599d88f085f782d206c46286a62e0d266b6ea.json",
+      "filename": "forum_group_navigation_915ed5aa4dfb209abbded2b66f2599d88f085f782d206c46286a62e0d266b6ea.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712789290890400,
+      "sha256": "01681A1AD839EF00B6345599CFA16B01861228CEFDE40510158A02382203C3A5",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_005\\forum_group_navigation_969a14afc7b879115104c72704000b3a934380e11ad9b92b4d385c3aa2f52db7.json",
+      "filename": "forum_group_navigation_969a14afc7b879115104c72704000b3a934380e11ad9b92b4d385c3aa2f52db7.json",
+      "size_bytes": 2802,
+      "mtime_ns": 1784712774245889500,
+      "sha256": "F6A3EFB195F15728E137B3A315B3947DDFD2FA29151C3499B7C07A9305CF8A6F",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_005\\forum_group_navigation_995971078c487277d1a61e96e889b6e755e5416d02b02e574d79373585c7e07e.json",
+      "filename": "forum_group_navigation_995971078c487277d1a61e96e889b6e755e5416d02b02e574d79373585c7e07e.json",
+      "size_bytes": 2736,
+      "mtime_ns": 1784712741585346700,
+      "sha256": "2F13890DB8604A0990DBB8D9C87FB8F3D769867295F41938C0F419090D0E5BD8",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_005\\forum_group_navigation_e37498a1595f06f0ea82a4d040133d11d3f1a0de7b7c0d1c5d43a8fc6dff9ca1.json",
+      "filename": "forum_group_navigation_e37498a1595f06f0ea82a4d040133d11d3f1a0de7b7c0d1c5d43a8fc6dff9ca1.json",
+      "size_bytes": 2736,
+      "mtime_ns": 1784712825583818400,
+      "sha256": "4D9D961BCFB0F48C818BF10562DF9C3D0B70BAC62264752E741710362621886E",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_005\\page_plan.json",
+      "filename": "page_plan.json",
+      "size_bytes": 3796,
+      "mtime_ns": 1784712714583437200,
+      "sha256": "3CFC2771BC0DD6559504D0A37CF29449B033A054FFEE1698A0B3B70C1B7E551A",
+      "kind": "forum_navigation_page_plan",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_006\\forum_group_navigation_1bb3f735bf04a8e89e27ef9f43e78b1cd46e17b11f9e5c94bdde3c86b330ef2d.json",
+      "filename": "forum_group_navigation_1bb3f735bf04a8e89e27ef9f43e78b1cd46e17b11f9e5c94bdde3c86b330ef2d.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712961321364900,
+      "sha256": "D03E029EC2C68A1ECB8C5CFFB304375BDB2393F9CF3AF432E84F1DBECE554D89",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_006\\forum_group_navigation_5b812dd365d4cd33a5616a765a75f2faca6f69b69711ef4ca4d30249d0c0f28e.json",
+      "filename": "forum_group_navigation_5b812dd365d4cd33a5616a765a75f2faca6f69b69711ef4ca4d30249d0c0f28e.json",
+      "size_bytes": 2802,
+      "mtime_ns": 1784712933740199000,
+      "sha256": "9D9B81E26BBD60AF451B5B4004822B9A64D1573306EE97359DD2FF68657E6C10",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_006\\forum_group_navigation_79ed8ee183295ca06e1c53f161c68e3722ba7dc62cdc6f193bc457f04292a36f.json",
+      "filename": "forum_group_navigation_79ed8ee183295ca06e1c53f161c68e3722ba7dc62cdc6f193bc457f04292a36f.json",
+      "size_bytes": 3792,
+      "mtime_ns": 1784712946265751200,
+      "sha256": "13E269DB84FEFB4CCEDD311F0FBC41396E11B320DC41E26E228E1B5F645A10D8",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_006\\forum_group_navigation_f2366f2c5e6178484b11508eca86bafe1e4648b325c886b09920a8758e759762.json",
+      "filename": "forum_group_navigation_f2366f2c5e6178484b11508eca86bafe1e4648b325c886b09920a8758e759762.json",
+      "size_bytes": 2736,
+      "mtime_ns": 1784712893880630700,
+      "sha256": "1E0A1F4FCCA5ADF27D1E6D5A52F0E429FE891A45780557CB2E27D43DF73551CA",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_006\\forum_group_navigation_fa28108bc971d2e431a8e4e832725ae28958c1943b289621f8b35b4870b08d1a.json",
+      "filename": "forum_group_navigation_fa28108bc971d2e431a8e4e832725ae28958c1943b289621f8b35b4870b08d1a.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784712906401624400,
+      "sha256": "88763005BDE4F74B35A893342AEA53D134FBBA4E8D25FFEC0CC3BB004A554137",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_006\\page_plan.json",
+      "filename": "page_plan.json",
+      "size_bytes": 3100,
+      "mtime_ns": 1784712881109590900,
+      "sha256": "4C51D16A22ABAC692A97D74F340FD33CB99D1B313B25EBEF22D50063138520AC",
+      "kind": "forum_navigation_page_plan",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_007\\forum_group_navigation_2f7791a9e59b720e28c8c8874806c8e3cac35cedab987bf84a639d74f351f961.json",
+      "filename": "forum_group_navigation_2f7791a9e59b720e28c8c8874806c8e3cac35cedab987bf84a639d74f351f961.json",
+      "size_bytes": 2868,
+      "mtime_ns": 1784713032738478400,
+      "sha256": "E79811CB67255B23136BB9E708E8FD119F096778CFA5A7BE81DAC60AC9D293D7",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_007\\forum_group_navigation_38f6a75160c30f404bee64f851c5b4a4dcb056c7b81812c1cf927bc09caccc21.json",
+      "filename": "forum_group_navigation_38f6a75160c30f404bee64f851c5b4a4dcb056c7b81812c1cf927bc09caccc21.json",
+      "size_bytes": 2802,
+      "mtime_ns": 1784713060342596000,
+      "sha256": "86069E663E569567EA536F3E44E7B7DF4CEAC934B57146BE6B9909D2D5C09B18",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_007\\forum_group_navigation_3c74a05e2c2ed6c71caf2761ab2a2aba8f8f799496d48ab9eb954ffb47198ada.json",
+      "filename": "forum_group_navigation_3c74a05e2c2ed6c71caf2761ab2a2aba8f8f799496d48ab9eb954ffb47198ada.json",
+      "size_bytes": 2736,
+      "mtime_ns": 1784713095942461400,
+      "sha256": "504D613F95532E61B49648F153C27DD9448FE7700F963EFDBEDCFA958E103D16",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_007\\forum_group_navigation_77136583f4568177c8ea93c09b3ce043cce8dbc93f6432b6d2d137f47b26b8aa.json",
+      "filename": "forum_group_navigation_77136583f4568177c8ea93c09b3ce043cce8dbc93f6432b6d2d137f47b26b8aa.json",
+      "size_bytes": 2802,
+      "mtime_ns": 1784713082567342900,
+      "sha256": "1FA4DA8B677BF568EF228C23C17F6F4E5DEBAD0B996282E972D20CB0FCDB800E",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_007\\forum_group_navigation_82317099b539bc36bd97443e927341127c0ce87a6f66fd53b6febc548189306f.json",
+      "filename": "forum_group_navigation_82317099b539bc36bd97443e927341127c0ce87a6f66fd53b6febc548189306f.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784713046919480200,
+      "sha256": "C221178680E61C3AB0FEF0671519689D6CBBFB2C35F56ACD0367463E057FE0DF",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_007\\forum_group_navigation_88ac668b8a3633525b5ea0e2d41e08696224f1053987d08aa9f7e05dbc7047ef.json",
+      "filename": "forum_group_navigation_88ac668b8a3633525b5ea0e2d41e08696224f1053987d08aa9f7e05dbc7047ef.json",
+      "size_bytes": 2802,
+      "mtime_ns": 1784712997180804400,
+      "sha256": "8918D046818BCE6ED27D5939AD5C36A341CDF484787BA367B021DECF070F578E",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_007\\forum_group_navigation_98a30ec37196ee2e04f665b50cef6f136d241bf4ef386dba291dad8066e7b639.json",
+      "filename": "forum_group_navigation_98a30ec37196ee2e04f665b50cef6f136d241bf4ef386dba291dad8066e7b639.json",
+      "size_bytes": 2802,
+      "mtime_ns": 1784713110507545000,
+      "sha256": "DBD4F59522849367BC83BE5E6E0279DB21CE38D0C671D125CF33A7C3C0DA4B52",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_007\\forum_group_navigation_bcb4744592a8dcbbbb6a96c7770689d0824413b026cb0d458f4abc5583948f74.json",
+      "filename": "forum_group_navigation_bcb4744592a8dcbbbb6a96c7770689d0824413b026cb0d458f4abc5583948f74.json",
+      "size_bytes": 2934,
+      "mtime_ns": 1784712984651561000,
+      "sha256": "4AA11F38D9749150AE2C7D1EDB3B2778BE7756756724DC98F317ECCEEF85B7A5",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_007\\forum_group_navigation_e00b0d8489041f26fe081343d0ef90bcc0c83e94e69b83abafa112b57451f33f.json",
+      "filename": "forum_group_navigation_e00b0d8489041f26fe081343d0ef90bcc0c83e94e69b83abafa112b57451f33f.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784713020216453100,
+      "sha256": "B07FDFD498425AB54EA46E68E15A703EB1D60313122B3472736B41B1FC331196",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_007\\page_plan.json",
+      "filename": "page_plan.json",
+      "size_bytes": 3656,
+      "mtime_ns": 1784712971880506400,
+      "sha256": "CB122369562FCB55889A02A67AFCB7CF900A3F54BE8F6F6C28590899DD55001E",
+      "kind": "forum_navigation_page_plan",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_008\\forum_group_navigation_29d90e489ccf896273bdc05f88bfadba26b738d157a31059160140f45e98fde9.json",
+      "filename": "forum_group_navigation_29d90e489ccf896273bdc05f88bfadba26b738d157a31059160140f45e98fde9.json",
+      "size_bytes": 2802,
+      "mtime_ns": 1784713182189202000,
+      "sha256": "218C350B2BB5C732F500226273F19C0AFE9BA7F7A3E82D97BC1F2E705844F238",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_008\\forum_group_navigation_53b5acf0baed687ac13160a5906d4e14e50d39f9c5a8d7ac29c076c40e4df7b1.json",
+      "filename": "forum_group_navigation_53b5acf0baed687ac13160a5906d4e14e50d39f9c5a8d7ac29c076c40e4df7b1.json",
+      "size_bytes": 2670,
+      "mtime_ns": 1784713150039611100,
+      "sha256": "AD9053139D1360C7F666FDF55419C33A01AE5ED1B3618BCE623FE2DF3A36D104",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_008\\forum_group_navigation_87a3c4a417d32299943f5c07299f5149a43bbed3bc7124e546b63be97c66f166.json",
+      "filename": "forum_group_navigation_87a3c4a417d32299943f5c07299f5149a43bbed3bc7124e546b63be97c66f166.json",
+      "size_bytes": 3594,
+      "mtime_ns": 1784713137535167700,
+      "sha256": "FEA875825A4CA4192DA20832AA2C44C451CC10F63DAAD3FD28730FB33E9BEBA2",
+      "kind": "forum_group_navigation_checkpoint",
+      "input_role": "premium_forum_provenance"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-09_20260722T091933Z\\v2_6_revalidated\\forum_group_navigation_checkpoints\\page_008\\page_plan.json",
+      "filename": "page_plan.json",
+      "size_bytes": 2354,
+      "mtime_ns": 1784713124726996300,
+      "sha256": "99A066982F9EA6E933E472E2638E53D670417B2E1A6E6808E29B15FC344CD08A",
+      "kind": "forum_navigation_page_plan",
+      "input_role": "premium_forum_provenance"
+    }
+  ],
+  "counts": {
+    "source_files_discovered": 1,
+    "source_files_valid": 1,
+    "complete_source_files": 1,
+    "partial_source_files": 0,
+    "diagnostic_message_occurrences": 194,
+    "complete_source_message_occurrences": 194,
+    "complete_source_unique_message_ids": 194,
+    "diagnostic_partial_targeted_unique_message_ids": 0,
+    "database_expected_unique_message_ids": 194
+  },
+  "coverage": {
+    "expected_local_dates": 1,
+    "guild_wide_covered_dates": 0,
+    "guild_wide_missing_dates": [
+      "2026-01-09"
+    ],
+    "inventory_rows": 0,
+    "required_inventory_units": 0,
+    "missing_inventory_units": [],
+    "valid_zero_result_complete_segments": 0,
+    "policy_release_ready": null
+  },
+  "relevance_policy": {
+    "enabled": false
+  },
+  "inventory_validation": {
+    "status": "not_supplied",
+    "rows": 0
+  },
+  "duplicates_and_edits": {
+    "message_occurrences": 194,
+    "unique_message_ids": 194,
+    "duplicated_message_ids": 0,
+    "timestamp_conflicts": 0,
+    "unresolved_content_variants": 0
+  },
+  "replies": {
+    "messages_with_reply_id": 15,
+    "reply_context_without_id": 4,
+    "documented_reply_context_without_id": 4,
+    "undocumented_reply_context_without_id": 0,
+    "unresolved_reply_targets": 0,
+    "reply_target_scope_failures": 0,
+    "reply_resolution_contract_failures": 0
+  },
+  "attachments": {
+    "attachment_occurrences": 43,
+    "unique_owned_attachments": 43,
+    "multiple_owner_attachments": 0,
+    "non_owned_attachment_occurrences": 0,
+    "invalid_ownership_evidence": 0,
+    "missing_capture_or_extraction_status": 43,
+    "archive": {
+      "provided": false,
+      "status": "missing",
+      "expected_attachment_count": 43,
+      "manifest_attachment_count": 0,
+      "entry_set_parity": false,
+      "terminal_coverage_complete": false,
+      "literal_release_complete": false,
+      "byte_complete": false,
+      "errors": [
+        "attachment_manifest_missing"
+      ]
+    }
+  },
+  "collection_drift_audit": {
+    "status": "not_supplied",
+    "passed": false,
+    "errors": [
+      "final_collection_drift_audit_not_supplied"
+    ]
+  },
+  "timestamp_scope_integrity": {
+    "schema_version": "1.0.0",
+    "passed": true,
+    "content_hash_bound": true,
+    "mode_counts": {
+      "discord_snowflake_exact_forum_post_title_changed_system_event_sidecar_revalidated": 1,
+      "message_timestamp_aria_exact": 193
+    },
+    "unresolved_message_count": 0,
+    "invalid_sidecar_count": 0,
+    "unused_revalidation_record_count": 0,
+    "sidecar_count": 0,
+    "sidecars": []
+  },
+  "database_validation": {
+    "status": "not_run"
+  },
+  "preservation": {
+    "before": null,
+    "after": null
+  },
+  "source_hash_verification": {
+    "before": null,
+    "after": null
+  },
+  "checks": [
+    {
+      "name": "existing_artifact_hash_baseline_supplied",
+      "dimension": "preservation",
+      "severity": "critical",
+      "passed": false,
+      "observed": null,
+      "expected": "--preservation-manifest"
+    },
+    {
+      "name": "segment_sources_present",
+      "dimension": "completeness",
+      "severity": "critical",
+      "passed": true,
+      "observed": 1,
+      "expected": "> 0"
+    },
+    {
+      "name": "source_hash_manifest_supplied",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": false,
+      "observed": null,
+      "expected": "write-once source hash manifest covering the exact selected segment set"
+    },
+    {
+      "name": "invalid_source",
+      "dimension": "shape",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "valid UTF-8 JSON segment files"
+    },
+    {
+      "name": "invalid_segment_schema",
+      "dimension": "shape",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "required segment metadata and typed counts"
+    },
+    {
+      "name": "guild_mismatch",
+      "dimension": "validity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "the configured Discord guild only"
+    },
+    {
+      "name": "invalid_scope",
+      "dimension": "validity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "one of ['channel-scoped', 'guild-wide', 'thread-scoped']"
+    },
+    {
+      "name": "missing_capture_timestamp",
+      "dimension": "timeliness",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": "capture timestamp on every source artifact"
+    },
+    {
+      "name": "filename_completion_mismatch",
+      "dimension": "consistency",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": "partial suffix agrees with complete=false"
+    },
+    {
+      "name": "invalid_query_boundary",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "after=start-1 day and before=end+1 day"
+    },
+    {
+      "name": "invalid_totals_pages_indices",
+      "dimension": "integrity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "reported totals, pages, rows, IDs, and indices reconcile"
+    },
+    {
+      "name": "invalid_zero_result_segment",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "zero-result completed segment has all zero counters"
+    },
+    {
+      "name": "invalid_completion_evidence",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "numeric collector versions marked complete carry valid inline or SHA-bound terminal-state proof"
+    },
+    {
+      "name": "invalid_message_identity",
+      "dimension": "uniqueness",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "valid unique message IDs within each artifact"
+    },
+    {
+      "name": "selector_identity_mismatch",
+      "dimension": "extraction",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "article labels/selectors refer to the current message ID"
+    },
+    {
+      "name": "timestamp_scope_not_exact",
+      "dimension": "extraction",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": "message-specific DOM timestamp selector or snowflake-qualified fallback"
+    },
+    {
+      "name": "invalid_timestamp_scope_revalidation",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "adjacent sidecar binds exact final segment/message bytes and preserved DOM evidence"
+    },
+    {
+      "name": "invalid_executed_command_reply_provenance",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "exact message-bound Discord application-command DOM evidence with no target candidate"
+    },
+    {
+      "name": "container_scope_mismatch",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "all results belong to the explicitly requested container scope"
+    },
+    {
+      "name": "missing_exact_container_id",
+      "dimension": "coverage",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": "exact channel/thread ID for every captured message"
+    },
+    {
+      "name": "invalid_premium_forum_provenance",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "byte-bound Premium page plans/checkpoints and exact row-owned child IDs"
+    },
+    {
+      "name": "invalid_message_timestamp",
+      "dimension": "validity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "parseable timezone-aware Discord timestamp"
+    },
+    {
+      "name": "snowflake_timestamp_mismatch",
+      "dimension": "consistency",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "DOM and message-ID timestamps differ by at most one second"
+    },
+    {
+      "name": "segment_local_date_mismatch",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "timestamp falls within the segment's Central-local dates"
+    },
+    {
+      "name": "requested_window_mismatch",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "timestamp falls within the requested Central-local window"
+    },
+    {
+      "name": "message_after_cutoff",
+      "dimension": "timeliness",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "timestamp does not exceed the declared data cutoff"
+    },
+    {
+      "name": "invalid_discord_source_url",
+      "dimension": "provenance",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": "permalink/attachment evidence URLs are Discord-hosted"
+    },
+    {
+      "name": "source_changed_after_read",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "source artifacts remain stable throughout validation"
+    },
+    {
+      "name": "timestamp_scope_integrity_content_hash_bound",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": true,
+      "observed": {
+        "schema_version": "1.0.0",
+        "passed": true,
+        "content_hash_bound": true,
+        "mode_counts": {
+          "discord_snowflake_exact_forum_post_title_changed_system_event_sidecar_revalidated": 1,
+          "message_timestamp_aria_exact": 193
+        },
+        "unresolved_message_count": 0,
+        "invalid_sidecar_count": 0,
+        "unused_revalidation_record_count": 0,
+        "sidecar_count": 0,
+        "sidecars": []
+      },
+      "expected": {
+        "passed": true,
+        "content_hash_bound": true,
+        "unresolved_message_count": 0,
+        "invalid_sidecar_count": 0,
+        "unused_revalidation_record_count": 0
+      }
+    },
+    {
+      "name": "channel_thread_inventory_readable",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": null,
+      "expected": "inventory artifact"
+    },
+    {
+      "name": "collection_drift_final_audit_passed",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": false,
+      "observed": {
+        "status": "not_supplied",
+        "passed": false,
+        "errors": [
+          "final_collection_drift_audit_not_supplied"
+        ]
+      },
+      "expected": {
+        "status": "passed",
+        "mode": "final",
+        "overall_status": "PASS",
+        "structural_failure_count": 0,
+        "unresolved_count": 0,
+        "orphan_quarantined_partial_count": 0
+      },
+      "examples": [
+        "final_collection_drift_audit_not_supplied"
+      ],
+      "note": "A final release requires the independent collection-drift audit to resolve every total-drift/replacement chain with zero unresolved or orphan quarantined partials."
+    },
+    {
+      "name": "all_segment_files_complete",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": {
+        "complete": 1,
+        "partial": 0
+      },
+      "expected": {
+        "partial": 0
+      }
+    },
+    {
+      "name": "guild_wide_date_coverage",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": {
+        "covered_days": 0,
+        "missing_days": 1,
+        "complete_segment_count": 0
+      },
+      "expected": {
+        "covered_days": 1,
+        "missing_days": 0
+      },
+      "examples": [
+        "2026-01-09"
+      ],
+      "note": "Channel-complete inventory coverage may also satisfy release, but guild-wide coverage is independently reported."
+    },
+    {
+      "name": "channel_thread_inventory_present",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": 0,
+      "expected": "> 0 exact inventory rows"
+    },
+    {
+      "name": "inventory_exact_ids",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "inventory_unit_date_coverage",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": {
+        "required_units": 0,
+        "complete_or_verified_empty": 0,
+        "missing_units": 0,
+        "verified_empty_units": 0,
+        "inaccessible_or_non_message_units": 0
+      },
+      "expected": "Every accessible message container covers all 201 local dates or is verified empty."
+    },
+    {
+      "name": "whole_server_coverage_gate",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": {
+        "inventory_complete": false,
+        "guild_wide_days_complete": false,
+        "policy_release_ready": null
+      },
+      "expected": {
+        "inventory_complete": true,
+        "policy_release_ready": true
+      },
+      "note": "Guild-wide search is a useful reconciliation path but does not replace exact per-container inventory coverage."
+    },
+    {
+      "name": "requested_window_elapsed_at_cutoff",
+      "dimension": "timeliness",
+      "severity": "critical",
+      "passed": true,
+      "observed": {
+        "data_cutoff_utc": "2026-07-20T23:59:59Z",
+        "required_end_exclusive_utc": "2026-01-10T06:00:00Z",
+        "final_day_status": "complete_day_possible"
+      },
+      "expected": {
+        "final_day_status": "complete_day_possible"
+      },
+      "note": "July 20 cannot be certified as a full Central-local day before July 21 05:00Z."
+    },
+    {
+      "name": "duplicate_occurrences_preserved",
+      "dimension": "uniqueness",
+      "severity": "info",
+      "passed": true,
+      "observed": {
+        "occurrences": 194,
+        "unique_message_ids": 194,
+        "duplicated_message_ids": 0,
+        "duplicate_occurrences": 0
+      },
+      "expected": "All occurrences remain available to the validator."
+    },
+    {
+      "name": "timestamp_variants_resolved",
+      "dimension": "consistency",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "content_edit_variants_resolved",
+      "dimension": "consistency",
+      "severity": "critical",
+      "passed": true,
+      "observed": {
+        "ordered_edit_variants": 0,
+        "unresolved_content_variants": 0
+      },
+      "expected": {
+        "unresolved_content_variants": 0
+      },
+      "note": "A differing message body is an edit only when capture chronology or edited_at establishes version order."
+    },
+    {
+      "name": "author_variants_reviewed",
+      "dimension": "consistency",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "edited_messages_have_version_timing",
+      "dimension": "timeliness",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "reply_context_has_explicit_target",
+      "dimension": "integrity",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "note": "Adjacent or visible reply text must not be treated as an answered Q&A without an explicit target ID. Discord's exact unloaded, attachment, sticker, voice-message, and Dyno no-ID states remain documented, unresolved context and are never linked as answered Q&A."
+    },
+    {
+      "name": "reply_target_unavailability_documented",
+      "dimension": "integrity",
+      "severity": "high",
+      "passed": true,
+      "observed": {
+        "documented_without_target": 4,
+        "undocumented_without_target": 0
+      },
+      "expected": {
+        "undocumented_without_target": 0
+      }
+    },
+    {
+      "name": "reply_resolution_status_boolean_consistent",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "note": "A documented no-ID status is accepted only when the exact Discord widget evidence matches the enumerated status and the documentation boolean is true. Unknown contexts remain unresolved with false."
+    },
+    {
+      "name": "reply_targets_resolved_or_documented",
+      "dimension": "integrity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "reply_targets_have_owned_exact_scope",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "note": "Accepted targets come from allowlisted row-owned reply-context content, ARIA, data-list/data-message, or permalink evidence with exact scope and an exact Discord target permalink. Preview-only links or text are context, never resolved reply evidence."
+    },
+    {
+      "name": "reply_temporal_order",
+      "dimension": "integrity",
+      "severity": "critical",
+      "passed": true,
+      "observed": {
+        "invalid_order": 0,
+        "self_replies": 0,
+        "cycles": 0
+      },
+      "expected": {
+        "invalid_order": 0,
+        "self_replies": 0,
+        "cycles": 0
+      }
+    },
+    {
+      "name": "attachment_archive_terminal_coverage",
+      "dimension": "completeness",
+      "severity": "critical",
+      "passed": false,
+      "observed": {
+        "provided": false,
+        "status": "missing",
+        "expected_attachment_count": 43,
+        "manifest_attachment_count": 0,
+        "entry_set_parity": false,
+        "terminal_coverage_complete": false,
+        "literal_release_complete": false,
+        "byte_complete": false,
+        "errors": [
+          "attachment_manifest_missing"
+        ]
+      },
+      "expected": {
+        "terminal_coverage_complete": true,
+        "entry_set_parity": true
+      },
+      "note": "Every discovered Discord-owned attachment requires downloaded bytes with SHA-256 when available, or a substantiated terminal unavailable record. Terminal failed records remain degraded and block literal release."
+    },
+    {
+      "name": "attachment_ids_and_urls_valid",
+      "dimension": "validity",
+      "severity": "critical",
+      "passed": true,
+      "observed": {
+        "invalid_ids": 0,
+        "invalid_urls": 0
+      },
+      "expected": {
+        "invalid_ids": 0,
+        "invalid_urls": 0
+      }
+    },
+    {
+      "name": "attachment_has_single_owner",
+      "dimension": "integrity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "note": "Reply-preview attachment references must be stored separately from message-owned attachments."
+    },
+    {
+      "name": "attachment_ownership_evidence_exact",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "note": "Every Discord CDN row must be explicitly classified as owned-exact or non-owned-exact."
+    },
+    {
+      "name": "attachment_ownership_timing",
+      "dimension": "consistency",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "attachment_capture_status_present",
+      "dimension": "completeness",
+      "severity": "high",
+      "passed": false,
+      "observed": 43,
+      "expected": 0
+    },
+    {
+      "name": "sqlite_database_supplied",
+      "dimension": "integrity",
+      "severity": "critical",
+      "passed": false,
+      "observed": null,
+      "expected": "path to the release SQLite database"
+    },
+    {
+      "name": "source_artifacts_stable_during_validation",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "relevance_policy_artifacts_stable_during_validation",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "note": "Includes the relevance plan, Discord-derived vocabulary sources, and the orchestrator progress/review manifest and final collection-drift audit when supplied."
+    }
+  ],
+  "failure_counts": {
+    "critical": 11,
+    "high": 1,
+    "medium_or_low": 0
+  },
+  "limitations": [
+    "Completeness is limited to containers visible to the authenticated Discord account at inventory time.",
+    "Messages deleted before collection and inaccessible private channels cannot be independently recovered.",
+    "An edited flag without edited_at or ordered capture timestamps cannot reconstruct edit history.",
+    "Discord post time is not assumed to equal the market setup time discussed in a message.",
+    "External links appearing inside Discord messages are retained as text but are not external evidence.",
+    "Terminal unavailable Discord attachments remain explicit media gaps; terminal failed rows are degraded and block literal release.",
+    "Chart-dependent claims remain unresolved unless a complete/partial extraction with a verified local artifact and exact provenance exists.",
+    "All 16 nonempty channels require message-complete capture; supplemental targeted artifacts never satisfy or weaken that requirement."
+  ]
+}

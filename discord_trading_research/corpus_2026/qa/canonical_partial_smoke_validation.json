@@ -1,0 +1,1147 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "independent_discord_corpus_validation",
+  "generated_at_utc": "2026-07-20T22:40:40.329901Z",
+  "status": "needs_revision",
+  "overall_assessment": "Not releasable",
+  "scope": {
+    "guild_id": "1167376964680691732",
+    "source_scope": "discord_only",
+    "outside_sources_used": false,
+    "window_calendar_timezone": "America/Chicago",
+    "window_start_local_date": "2026-01-01",
+    "window_end_local_date_inclusive": "2026-07-20",
+    "window_start_utc": "2026-01-01T06:00:00Z",
+    "window_end_exclusive_utc": "2026-07-21T05:00:00Z",
+    "local_calendar_days": 201,
+    "data_cutoff_utc": "2026-07-20T22:40:00Z",
+    "final_day_complete": false
+  },
+  "inputs": {
+    "segment_inputs": [
+      "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\channel_segments"
+    ],
+    "inventory": null,
+    "database": null,
+    "preservation_manifest": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\qa\\existing_artifacts_baseline.sha256.json"
+  },
+  "source_artifacts": [
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\channel_segments\\channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+      "filename": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+      "size_bytes": 466569,
+      "mtime_ns": 1784587088521103000,
+      "sha256": "AD77644CD1A6C6AE2FB3EED515A647A400B199A3DC716CD21BA2AA3CBE0F90E2"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\channel_segments\\channel_chat_1359593949110472777_2026-01-02_2026-01-02.json",
+      "filename": "channel_chat_1359593949110472777_2026-01-02_2026-01-02.json",
+      "size_bytes": 767234,
+      "mtime_ns": 1784587142025844300,
+      "sha256": "69D52E78A612ECFA226E5805D39632441D955C7B5F41E4072A8562038F97FAC7"
+    },
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\channel_segments\\channel_chat_1359593949110472777_2026-01-03_2026-01-03.partial.json",
+      "filename": "channel_chat_1359593949110472777_2026-01-03_2026-01-03.partial.json",
+      "size_bytes": 350423,
+      "mtime_ns": 1784587212767044400,
+      "sha256": "1B6258A5FB231271250211DD399FF1230C8B1BE31674D7A76B50C96BA8C4B34F"
+    }
+  ],
+  "counts": {
+    "source_files_discovered": 3,
+    "source_files_valid": 3,
+    "complete_source_files": 2,
+    "partial_source_files": 1,
+    "diagnostic_message_occurrences": 1165,
+    "complete_source_message_occurrences": 915,
+    "complete_source_unique_message_ids": 915
+  },
+  "coverage": {
+    "expected_local_dates": 201,
+    "guild_wide_covered_dates": 0,
+    "guild_wide_missing_dates": [
+      "2026-01-01",
+      "2026-01-02",
+      "2026-01-03",
+      "2026-01-04",
+      "2026-01-05",
+      "2026-01-06",
+      "2026-01-07",
+      "2026-01-08",
+      "2026-01-09",
+      "2026-01-10",
+      "2026-01-11",
+      "2026-01-12",
+      "2026-01-13",
+      "2026-01-14",
+      "2026-01-15",
+      "2026-01-16",
+      "2026-01-17",
+      "2026-01-18",
+      "2026-01-19",
+      "2026-01-20",
+      "2026-01-21",
+      "2026-01-22",
+      "2026-01-23",
+      "2026-01-24",
+      "2026-01-25",
+      "2026-01-26",
+      "2026-01-27",
+      "2026-01-28",
+      "2026-01-29",
+      "2026-01-30",
+      "2026-01-31",
+      "2026-02-01",
+      "2026-02-02",
+      "2026-02-03",
+      "2026-02-04",
+      "2026-02-05",
+      "2026-02-06",
+      "2026-02-07",
+      "2026-02-08",
+      "2026-02-09",
+      "2026-02-10",
+      "2026-02-11",
+      "2026-02-12",
+      "2026-02-13",
+      "2026-02-14",
+      "2026-02-15",
+      "2026-02-16",
+      "2026-02-17",
+      "2026-02-18",
+      "2026-02-19",
+      "2026-02-20",
+      "2026-02-21",
+      "2026-02-22",
+      "2026-02-23",
+      "2026-02-24",
+      "2026-02-25",
+      "2026-02-26",
+      "2026-02-27",
+      "2026-02-28",
+      "2026-03-01",
+      "2026-03-02",
+      "2026-03-03",
+      "2026-03-04",
+      "2026-03-05",
+      "2026-03-06",
+      "2026-03-07",
+      "2026-03-08",
+      "2026-03-09",
+      "2026-03-10",
+      "2026-03-11",
+      "2026-03-12",
+      "2026-03-13",
+      "2026-03-14",
+      "2026-03-15",
+      "2026-03-16",
+      "2026-03-17",
+      "2026-03-18",
+      "2026-03-19",
+      "2026-03-20",
+      "2026-03-21",
+      "2026-03-22",
+      "2026-03-23",
+      "2026-03-24",
+      "2026-03-25",
+      "2026-03-26",
+      "2026-03-27",
+      "2026-03-28",
+      "2026-03-29",
+      "2026-03-30",
+      "2026-03-31",
+      "2026-04-01",
+      "2026-04-02",
+      "2026-04-03",
+      "2026-04-04",
+      "2026-04-05",
+      "2026-04-06",
+      "2026-04-07",
+      "2026-04-08",
+      "2026-04-09",
+      "2026-04-10",
+      "2026-04-11",
+      "2026-04-12",
+      "2026-04-13",
+      "2026-04-14",
+      "2026-04-15",
+      "2026-04-16",
+      "2026-04-17",
+      "2026-04-18",
+      "2026-04-19",
+      "2026-04-20",
+      "2026-04-21",
+      "2026-04-22",
+      "2026-04-23",
+      "2026-04-24",
+      "2026-04-25",
+      "2026-04-26",
+      "2026-04-27",
+      "2026-04-28",
+      "2026-04-29",
+      "2026-04-30",
+      "2026-05-01",
+      "2026-05-02",
+      "2026-05-03",
+      "2026-05-04",
+      "2026-05-05",
+      "2026-05-06",
+      "2026-05-07",
+      "2026-05-08",
+      "2026-05-09",
+      "2026-05-10",
+      "2026-05-11",
+      "2026-05-12",
+      "2026-05-13",
+      "2026-05-14",
+      "2026-05-15",
+      "2026-05-16",
+      "2026-05-17",
+      "2026-05-18",
+      "2026-05-19",
+      "2026-05-20",
+      "2026-05-21",
+      "2026-05-22",
+      "2026-05-23",
+      "2026-05-24",
+      "2026-05-25",
+      "2026-05-26",
+      "2026-05-27",
+      "2026-05-28",
+      "2026-05-29",
+      "2026-05-30",
+      "2026-05-31",
+      "2026-06-01",
+      "2026-06-02",
+      "2026-06-03",
+      "2026-06-04",
+      "2026-06-05",
+      "2026-06-06",
+      "2026-06-07",
+      "2026-06-08",
+      "2026-06-09",
+      "2026-06-10",
+      "2026-06-11",
+      "2026-06-12",
+      "2026-06-13",
+      "2026-06-14",
+      "2026-06-15",
+      "2026-06-16",
+      "2026-06-17",
+      "2026-06-18",
+      "2026-06-19",
+      "2026-06-20",
+      "2026-06-21",
+      "2026-06-22",
+      "2026-06-23",
+      "2026-06-24",
+      "2026-06-25",
+      "2026-06-26",
+      "2026-06-27",
+      "2026-06-28",
+      "2026-06-29",
+      "2026-06-30",
+      "2026-07-01",
+      "2026-07-02",
+      "2026-07-03",
+      "2026-07-04",
+      "2026-07-05",
+      "2026-07-06",
+      "2026-07-07",
+      "2026-07-08",
+      "2026-07-09",
+      "2026-07-10",
+      "2026-07-11",
+      "2026-07-12",
+      "2026-07-13",
+      "2026-07-14",
+      "2026-07-15",
+      "2026-07-16",
+      "2026-07-17",
+      "2026-07-18",
+      "2026-07-19",
+      "2026-07-20"
+    ],
+    "inventory_rows": 0,
+    "required_inventory_units": 0,
+    "missing_inventory_units": [],
+    "valid_zero_result_complete_segments": 0
+  },
+  "duplicates_and_edits": {
+    "message_occurrences": 1165,
+    "unique_message_ids": 1165,
+    "duplicated_message_ids": 0,
+    "timestamp_conflicts": 0,
+    "unresolved_content_variants": 0
+  },
+  "replies": {
+    "messages_with_reply_id": 0,
+    "reply_context_without_id": 328,
+    "unresolved_reply_targets": 0
+  },
+  "attachments": {
+    "attachment_occurrences": 52,
+    "unique_owned_attachments": 52,
+    "multiple_owner_attachments": 0,
+    "missing_capture_or_extraction_status": 52
+  },
+  "database_validation": {
+    "status": "not_run"
+  },
+  "preservation": {
+    "before": {
+      "schema_version": "1.0.0",
+      "artifact_type": "immutable_existing_artifact_hash_verification",
+      "verified_at_utc": "2026-07-20T22:40:40.152405Z",
+      "baseline_manifest": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\qa\\existing_artifacts_baseline.sha256.json",
+      "protected_root": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research",
+      "status": "passed",
+      "expected_file_count": 78,
+      "verified_file_count": 78,
+      "missing": [],
+      "changed": []
+    },
+    "after": {
+      "schema_version": "1.0.0",
+      "artifact_type": "immutable_existing_artifact_hash_verification",
+      "verified_at_utc": "2026-07-20T22:40:40.329397Z",
+      "baseline_manifest": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\qa\\existing_artifacts_baseline.sha256.json",
+      "protected_root": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research",
+      "status": "passed",
+      "expected_file_count": 78,
+      "verified_file_count": 78,
+      "missing": [],
+      "changed": []
+    }
+  },
+  "checks": [
+    {
+      "name": "existing_artifacts_unchanged_before_validation",
+      "dimension": "preservation",
+      "severity": "critical",
+      "passed": true,
+      "observed": {
+        "status": "passed",
+        "missing": 0,
+        "changed": 0
+      },
+      "expected": {
+        "status": "passed",
+        "missing": 0,
+        "changed": 0
+      }
+    },
+    {
+      "name": "segment_sources_present",
+      "dimension": "completeness",
+      "severity": "critical",
+      "passed": true,
+      "observed": 3,
+      "expected": "> 0"
+    },
+    {
+      "name": "invalid_source",
+      "dimension": "shape",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "valid UTF-8 JSON segment files"
+    },
+    {
+      "name": "invalid_segment_schema",
+      "dimension": "shape",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "required segment metadata and typed counts"
+    },
+    {
+      "name": "guild_mismatch",
+      "dimension": "validity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "the configured Discord guild only"
+    },
+    {
+      "name": "invalid_scope",
+      "dimension": "validity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "one of ['channel-scoped', 'guild-wide', 'thread-scoped']"
+    },
+    {
+      "name": "missing_capture_timestamp",
+      "dimension": "timeliness",
+      "severity": "high",
+      "passed": false,
+      "observed": 3,
+      "expected": "capture timestamp on every source artifact",
+      "examples": [
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-02_2026-01-02.json"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-03_2026-01-03.partial.json"
+        }
+      ]
+    },
+    {
+      "name": "filename_completion_mismatch",
+      "dimension": "consistency",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": "partial suffix agrees with complete=false"
+    },
+    {
+      "name": "invalid_query_boundary",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "after=start-1 day and before=end+1 day"
+    },
+    {
+      "name": "invalid_totals_pages_indices",
+      "dimension": "integrity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "reported totals, pages, rows, IDs, and indices reconcile"
+    },
+    {
+      "name": "invalid_zero_result_segment",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "zero-result completed segment has all zero counters"
+    },
+    {
+      "name": "invalid_message_identity",
+      "dimension": "uniqueness",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "valid unique message IDs within each artifact"
+    },
+    {
+      "name": "selector_identity_mismatch",
+      "dimension": "extraction",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "article labels/selectors refer to the current message ID"
+    },
+    {
+      "name": "missing_exact_container_id",
+      "dimension": "coverage",
+      "severity": "high",
+      "passed": false,
+      "observed": 1165,
+      "expected": "exact channel/thread ID for every captured message",
+      "examples": [
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456496205797523498"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456493900863635639"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456493898129215529"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456493750284058624"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456482486531133574"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456482233345904723"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456481817057169450"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456481673339207966"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456481639000707164"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456481623733440585"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456481574370545746"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456481038900527176"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456481001856303236"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456480858872615058"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456480850391601285"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456480819429244983"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456480795819773962"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456480726659891353"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456479828646695002"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456479797650784267"
+        }
+      ]
+    },
+    {
+      "name": "invalid_message_timestamp",
+      "dimension": "validity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "parseable timezone-aware Discord timestamp"
+    },
+    {
+      "name": "snowflake_timestamp_mismatch",
+      "dimension": "consistency",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "DOM and message-ID timestamps differ by at most one second"
+    },
+    {
+      "name": "segment_local_date_mismatch",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "timestamp falls within the segment's Central-local dates"
+    },
+    {
+      "name": "requested_window_mismatch",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "timestamp falls within the requested Central-local window"
+    },
+    {
+      "name": "message_after_cutoff",
+      "dimension": "timeliness",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "timestamp does not exceed the declared data cutoff"
+    },
+    {
+      "name": "invalid_discord_source_url",
+      "dimension": "provenance",
+      "severity": "high",
+      "passed": false,
+      "observed": 60,
+      "expected": "permalink/attachment evidence URLs are Discord-hosted",
+      "examples": [
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456477923690414112",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456477923690414112"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456477717263421533",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456477717263421533"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456477513852387450",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456477513852387450"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456476467050582017",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456476467050582017"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456474241720385742",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456474241720385742"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456473919383928873",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456473919383928873"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456462490215907358",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456462490215907358"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456457989262151802",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456457989262151802"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456456068212195660",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456456068212195660"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456453686158163968",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456453686158163968"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456453382087639239",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456453382087639239"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456398055669760113",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456398055669760113"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456360430401355921",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456360430401355921"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456360351288267005",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456360351288267005"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456328598528196823",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456328598528196823"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456298903539290223",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456298903539290223"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456298217900736657",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456298217900736657"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456272777089781850",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456272777089781850"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456247312291467344",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456247312291467344"
+        },
+        {
+          "file": "channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+          "message_id": "1456235861703397480",
+          "field": "permalink",
+          "url": "https://discord.com/channels/undefined/1359593949110472777/1456235861703397480"
+        }
+      ]
+    },
+    {
+      "name": "source_changed_after_read",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "source artifacts remain stable throughout validation"
+    },
+    {
+      "name": "all_segment_files_complete",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": {
+        "complete": 2,
+        "partial": 1
+      },
+      "expected": {
+        "partial": 0
+      },
+      "examples": [
+        {
+          "file": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\channel_segments\\channel_chat_1359593949110472777_2026-01-03_2026-01-03.partial.json",
+          "pages_captured": 10,
+          "reported_pages": 25
+        }
+      ]
+    },
+    {
+      "name": "channel_thread_inventory_readable",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": null,
+      "expected": "inventory artifact"
+    },
+    {
+      "name": "guild_wide_date_coverage",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": {
+        "covered_days": 0,
+        "missing_days": 201,
+        "complete_segment_count": 0
+      },
+      "expected": {
+        "covered_days": 201,
+        "missing_days": 0
+      },
+      "examples": [
+        "2026-01-01",
+        "2026-01-02",
+        "2026-01-03",
+        "2026-01-04",
+        "2026-01-05",
+        "2026-01-06",
+        "2026-01-07",
+        "2026-01-08",
+        "2026-01-09",
+        "2026-01-10",
+        "2026-01-11",
+        "2026-01-12",
+        "2026-01-13",
+        "2026-01-14",
+        "2026-01-15",
+        "2026-01-16",
+        "2026-01-17",
+        "2026-01-18",
+        "2026-01-19",
+        "2026-01-20"
+      ],
+      "note": "Channel-complete inventory coverage may also satisfy release, but guild-wide coverage is independently reported."
+    },
+    {
+      "name": "channel_thread_inventory_present",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": 0,
+      "expected": "> 0 exact inventory rows"
+    },
+    {
+      "name": "inventory_exact_ids",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "inventory_unit_date_coverage",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": {
+        "required_units": 0,
+        "complete_or_verified_empty": 0,
+        "missing_units": 0,
+        "verified_empty_units": 0,
+        "inaccessible_or_non_message_units": 0
+      },
+      "expected": "Every accessible message container covers all 201 local dates or is verified empty."
+    },
+    {
+      "name": "whole_server_coverage_gate",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": {
+        "inventory_complete": false,
+        "guild_wide_days_complete": false
+      },
+      "expected": {
+        "inventory_complete": true
+      },
+      "note": "Guild-wide search is a useful reconciliation path but does not replace exact per-container inventory coverage."
+    },
+    {
+      "name": "requested_window_elapsed_at_cutoff",
+      "dimension": "timeliness",
+      "severity": "critical",
+      "passed": false,
+      "observed": {
+        "data_cutoff_utc": "2026-07-20T22:40:00Z",
+        "required_end_exclusive_utc": "2026-07-21T05:00:00Z",
+        "final_day_status": "partial_live_day"
+      },
+      "expected": {
+        "final_day_status": "complete_day_possible"
+      },
+      "note": "July 20 cannot be certified as a full Central-local day before July 21 05:00Z."
+    },
+    {
+      "name": "duplicate_occurrences_preserved",
+      "dimension": "uniqueness",
+      "severity": "info",
+      "passed": true,
+      "observed": {
+        "occurrences": 1165,
+        "unique_message_ids": 1165,
+        "duplicated_message_ids": 0,
+        "duplicate_occurrences": 0
+      },
+      "expected": "All occurrences remain available to the validator."
+    },
+    {
+      "name": "timestamp_variants_resolved",
+      "dimension": "consistency",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "content_edit_variants_resolved",
+      "dimension": "consistency",
+      "severity": "critical",
+      "passed": true,
+      "observed": {
+        "ordered_edit_variants": 0,
+        "unresolved_content_variants": 0
+      },
+      "expected": {
+        "unresolved_content_variants": 0
+      },
+      "note": "A differing message body is an edit only when capture chronology or edited_at establishes version order."
+    },
+    {
+      "name": "author_variants_reviewed",
+      "dimension": "consistency",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "edited_messages_have_version_timing",
+      "dimension": "timeliness",
+      "severity": "high",
+      "passed": false,
+      "observed": 24,
+      "expected": 0,
+      "examples": [
+        {
+          "message_id": "1456481673339207966",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456481623733440585",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456475677443494073",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456472675881844979",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456377289108623420",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456363435251208343",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456344014650343505",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456344012444270747",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456343691797987348",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456777004438524148",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456776287291969667",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456768034290139309",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456767977583284448",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456761378378350672",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456685339845460068",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456684804987818201",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456684600800706758",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456672725262274610",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456671975882756298",
+          "occurrences": 1
+        },
+        {
+          "message_id": "1456667511415377960",
+          "occurrences": 1
+        }
+      ]
+    },
+    {
+      "name": "reply_context_has_explicit_target",
+      "dimension": "integrity",
+      "severity": "high",
+      "passed": false,
+      "observed": 328,
+      "expected": 0,
+      "examples": [
+        {
+          "message_id": "1456496205797523498"
+        },
+        {
+          "message_id": "1456482233345904723"
+        },
+        {
+          "message_id": "1456481673339207966"
+        },
+        {
+          "message_id": "1456481001856303236"
+        },
+        {
+          "message_id": "1456480858872615058"
+        },
+        {
+          "message_id": "1456480795819773962"
+        },
+        {
+          "message_id": "1456480726659891353"
+        },
+        {
+          "message_id": "1456478337034621112"
+        },
+        {
+          "message_id": "1456478112538820734"
+        },
+        {
+          "message_id": "1456478038912139307"
+        },
+        {
+          "message_id": "1456477811890978838"
+        },
+        {
+          "message_id": "1456477613173510194"
+        },
+        {
+          "message_id": "1456477513852387450"
+        },
+        {
+          "message_id": "1456476147163467796"
+        },
+        {
+          "message_id": "1456475970465959980"
+        },
+        {
+          "message_id": "1456475677443494073"
+        },
+        {
+          "message_id": "1456475277910868153"
+        },
+        {
+          "message_id": "1456474892953456703"
+        },
+        {
+          "message_id": "1456474805799878759"
+        },
+        {
+          "message_id": "1456474602955079812"
+        }
+      ],
+      "note": "Adjacent or visible reply text must not be treated as an answered Q&A without an explicit target ID."
+    },
+    {
+      "name": "reply_targets_resolved_or_documented",
+      "dimension": "integrity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "reply_temporal_order",
+      "dimension": "integrity",
+      "severity": "critical",
+      "passed": true,
+      "observed": {
+        "invalid_order": 0,
+        "self_replies": 0,
+        "cycles": 0
+      },
+      "expected": {
+        "invalid_order": 0,
+        "self_replies": 0,
+        "cycles": 0
+      }
+    },
+    {
+      "name": "attachment_ids_and_urls_valid",
+      "dimension": "validity",
+      "severity": "critical",
+      "passed": true,
+      "observed": {
+        "invalid_ids": 0,
+        "invalid_urls": 0
+      },
+      "expected": {
+        "invalid_ids": 0,
+        "invalid_urls": 0
+      }
+    },
+    {
+      "name": "attachment_has_single_owner",
+      "dimension": "integrity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "note": "Reply-preview attachment references must be stored separately from message-owned attachments."
+    },
+    {
+      "name": "attachment_ownership_timing",
+      "dimension": "consistency",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "attachment_capture_status_present",
+      "dimension": "completeness",
+      "severity": "high",
+      "passed": false,
+      "observed": 52,
+      "expected": 0
+    },
+    {
+      "name": "sqlite_database_supplied",
+      "dimension": "integrity",
+      "severity": "critical",
+      "passed": false,
+      "observed": null,
+      "expected": "path to the release SQLite database"
+    },
+    {
+      "name": "source_artifacts_stable_during_validation",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "existing_artifacts_unchanged_after_validation",
+      "dimension": "preservation",
+      "severity": "critical",
+      "passed": true,
+      "observed": {
+        "status": "passed",
+        "missing": 0,
+        "changed": 0
+      },
+      "expected": {
+        "status": "passed",
+        "missing": 0,
+        "changed": 0
+      }
+    }
+  ],
+  "failure_counts": {
+    "critical": 9,
+    "high": 6,
+    "medium_or_low": 0
+  },
+  "limitations": [
+    "Completeness is limited to containers visible to the authenticated Discord account at inventory time.",
+    "Messages deleted before collection and inaccessible private channels cannot be independently recovered.",
+    "An edited flag without edited_at or ordered capture timestamps cannot reconstruct edit history.",
+    "Discord post time is not assumed to equal the market setup time discussed in a message.",
+    "External links appearing inside Discord messages are retained as text but are not external evidence."
+  ]
+}

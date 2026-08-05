@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Shared Python/JavaScript fail-closed attachment-signal fixtures for an otherwise exact owned reply group.",
+  "reply_cases": [
+    {
+      "name": "external_links_array",
+      "field": "links",
+      "value": ["https://example.com/ordinary-link"],
+      "expected_eligible": false
+    },
+    {
+      "name": "external_media_assets_array",
+      "field": "media_assets",
+      "value": ["https://example.com/ordinary-media"],
+      "expected_eligible": false
+    },
+    {
+      "name": "external_embeds_array",
+      "field": "embeds",
+      "value": [{"url": "https://example.com/ordinary-embed"}],
+      "expected_eligible": false
+    },
+    {
+      "name": "truthy_non_array_links",
+      "field": "links",
+      "value": "https://example.com/malformed-links",
+      "expected_eligible": false
+    },
+    {
+      "name": "truthy_non_array_media_assets",
+      "field": "media_assets",
+      "value": {"url": "https://example.com/malformed-media"},
+      "expected_eligible": false
+    },
+    {
+      "name": "truthy_non_array_embeds",
+      "field": "embeds",
+      "value": "https://example.com/malformed-embeds",
+      "expected_eligible": false
+    },
+    {
+      "name": "truthy_non_array_attachments",
+      "field": "attachments",
+      "value": {"url": "https://example.com/malformed-attachments"},
+      "expected_eligible": false
+    }
+  ],
+  "accessory_cases": [
+    {
+      "name": "missing_ownership_schema_version",
+      "delete_ownership_evidence_field": "schema_version",
+      "expected_eligible": false
+    },
+    {
+      "name": "missing_owner_channel_id",
+      "delete_ownership_evidence_field": "owner_channel_id",
+      "expected_eligible": false
+    },
+    {
+      "name": "missing_source_channel_id",
+      "delete_ownership_evidence_field": "source_channel_id",
+      "expected_eligible": false
+    },
+    {
+      "name": "wrong_group_header_parent",
+      "set_row_field": "group_header_parent_forum_channel_id",
+      "value": "1456316273788063925",
+      "expected_eligible": false
+    }
+  ]
+}

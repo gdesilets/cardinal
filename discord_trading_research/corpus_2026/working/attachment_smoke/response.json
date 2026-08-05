@@ -1,0 +1,15 @@
+{
+  "contract": "discord_attachment_browser_response_v1",
+  "request_id": "e631a9a3c94007f56a6e9d5b2e7d6f50f75adec42ded10540c2a4db29f6ecceb",
+  "message_id": "1489692703590584600",
+  "attachment_id": "1489692703783518350",
+  "final_url": "https://cdn.discordapp.com/attachments/1329615478716502097/1489692703783518350/image.png?ex=6a5fb9f1&is=6a5e6871&hm=ab1832bad15cf13e97db639b3723665c7ec1471f919cb93f47a9951bed0c7d22&",
+  "status": "downloaded",
+  "mime_type": "image/png",
+  "attempted_at_utc": "2026-07-21T11:49:04.493Z",
+  "staged_file": "e631a9a3c94007f56a6e9d5b2e7d6f50f75adec42ded10540c2a4db29f6ecceb_image.png",
+  "byte_size": 31866,
+  "sha256": "fd7fd2bcba89a2acc52341448bc8f41f1b8160793d0080d8850020379134a539",
+  "outside_sources_used": 0,
+  "credentials_or_browser_storage_inspected": false
+}

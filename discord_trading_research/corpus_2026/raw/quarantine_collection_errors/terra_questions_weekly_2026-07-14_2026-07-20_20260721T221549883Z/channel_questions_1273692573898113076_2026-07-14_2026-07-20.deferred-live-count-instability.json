@@ -1,0 +1,85 @@
+{
+  "recorded_at_utc": "2026-07-21T22:18:59.873Z",
+  "segment": {
+    "start": "2026-07-14",
+    "end": "2026-07-20",
+    "query": "in:❓│questions after:2026-07-13 before:2026-07-21"
+  },
+  "disposition": "deferred_without_promotion",
+  "reason": "active_search_total_changed_after_a_deterministic_page_render_gap_was_repaired_without_resubmission",
+  "fresh_search_submissions": 1,
+  "additional_search_submissions": 0,
+  "observations": [
+    {
+      "phase": "initial_fresh_search_checkpoint",
+      "reported_total": 1882,
+      "reported_pages": 76,
+      "pages_captured": 2,
+      "captured_rows": 50,
+      "checkpoint_sha256": "4bbfa6d793cdfa06f402a9a50575c46b4d4f1694b5f978a59c0aace8284596a1",
+      "checkpoint_bytes": 208878,
+      "strict_partial_qa_passed": true
+    },
+    {
+      "phase": "bounded_resume_page_6_render_gap",
+      "reported_total": 1882,
+      "page_number": 6,
+      "visible_result_count": 24,
+      "first_result_index": 126,
+      "last_result_index": 149,
+      "missing_result_indices": [150],
+      "collector_calls_observing_gap": 3,
+      "extraction_attempts_per_call": 3
+    },
+    {
+      "phase": "no_submission_next_back_rerender",
+      "next_page": {
+        "visible_result_count": 25,
+        "first_result_index": 151,
+        "last_result_index": 175
+      },
+      "returned_page": {
+        "visible_result_count": 25,
+        "first_result_index": 126,
+        "last_result_index": 150
+      }
+    },
+    {
+      "phase": "post_rerender_count_change",
+      "active_reported_total": 1881,
+      "page_number": 6,
+      "visible_result_count": 25,
+      "first_result_index": 126,
+      "last_result_index": 150,
+      "collector_response": "refused_incompatible_partial_without_overwrite"
+    },
+    {
+      "phase": "confirmatory_live_observation",
+      "observed_at_utc": "2026-07-21T22:18:59.873Z",
+      "active_reported_total": 1881,
+      "page_number": 6,
+      "visible_result_count": 25,
+      "first_result_index": 126,
+      "last_result_index": 150,
+      "query_exact": true,
+      "channel_label_exact": true
+    }
+  ],
+  "preserved_checkpoint": {
+    "path": "channel_questions_1273692573898113076_2026-07-14_2026-07-20.partial.json",
+    "reported_total": 1882,
+    "reported_pages": 76,
+    "pages_captured": 5,
+    "captured_rows": 125,
+    "unique_message_ids": 125,
+    "gap_count": 0,
+    "provenance_conflict_count": 0,
+    "sha256": "64d91e0ae6c2e921fe6362a90198397f3c78505efabfe126c4d3b1e11c6d74a9",
+    "bytes": 499177,
+    "strict_partial_qa_passed": true,
+    "strict_partial_qa_errors": []
+  },
+  "canonical_promotion": false,
+  "canonical_files_modified": 0,
+  "causal_claim_for_count_change": null
+}

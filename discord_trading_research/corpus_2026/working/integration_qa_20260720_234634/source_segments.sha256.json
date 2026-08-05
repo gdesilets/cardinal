@@ -1,0 +1,623 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "immutable_existing_artifact_hash_baseline",
+  "generated_at_utc": "2026-07-21T00:08:20.215284Z",
+  "protected_root": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\working\\integration_qa_20260720_234634\\inputs",
+  "selection": {
+    "mode": "explicit",
+    "requested_artifacts": [
+      "canonical_segments",
+      "legacy_premium_journals_v2\\segments"
+    ]
+  },
+  "file_count": 101,
+  "aggregate_sha256": "10D679F65F02AD6F1B58BA4927A37DAB7246FC3BDDA6C63514B439EBCD682DC4",
+  "files": [
+    {
+      "relative_path": "canonical_segments/channel_amd_1289548246368124968_2026-01-01_2026-07-20.json",
+      "size_bytes": 690,
+      "mtime_ns_at_snapshot": 1784587498820822300,
+      "sha256": "922B9D5B491E1EF9696D5FEA4730C5AB486DE4CFEFAB80D1A2EB4388F3B2BD17"
+    },
+    {
+      "relative_path": "canonical_segments/channel_approaching_props_1528823062336638977_2026-01-01_2026-07-20.json",
+      "size_bytes": 2568,
+      "mtime_ns_at_snapshot": 1784587634970026600,
+      "sha256": "E9156FB2EDCEC3E6FDF1736A8F17F46F1E25FA91517E8B9ABEBFF29F441C3AF9"
+    },
+    {
+      "relative_path": "canonical_segments/channel_cd_1273387672299241542_2026-01-01_2026-07-20.json",
+      "size_bytes": 688,
+      "mtime_ns_at_snapshot": 1784587504677322100,
+      "sha256": "DB9028EA5CE7D1812AC595F3DCC97EA369AAD25748CAEE0BB6A95423940C3608"
+    },
+    {
+      "relative_path": "canonical_segments/channel_chat_1359593949110472777_2026-01-01_2026-01-01.json",
+      "size_bytes": 541995,
+      "mtime_ns_at_snapshot": 1784587352474461300,
+      "sha256": "BAA2D65413DDAB0642AE74D6590DC4F0850CCE6B6A06D38664C044B6E5A41C9D"
+    },
+    {
+      "relative_path": "canonical_segments/channel_chat_1359593949110472777_2026-01-02_2026-01-02.partial.json",
+      "size_bytes": 188718,
+      "mtime_ns_at_snapshot": 1784588173360573600,
+      "sha256": "957AE075B0CAB7C15BDCDAACEF22E01F7CFEB7F85EF1242D9AED84D6E50EB6D5"
+    },
+    {
+      "relative_path": "canonical_segments/channel_chat_1359593949110472777_2026-01-03_2026-01-03.partial.json",
+      "size_bytes": 139772,
+      "mtime_ns_at_snapshot": 1784588784710734100,
+      "sha256": "A24412C11797C75DB1D5C0F439A0B77164B96DF13EF9780A8080EE7CEDDB8448"
+    },
+    {
+      "relative_path": "canonical_segments/channel_cpi_method_1471260035421175819_2026-01-01_2026-07-20.json",
+      "size_bytes": 2866,
+      "mtime_ns_at_snapshot": 1784587619532066800,
+      "sha256": "052E88DA73FA6DD39D8B6D4185B51C0934D2D31C91EB0DDE4FB89A4DF032DB38"
+    },
+    {
+      "relative_path": "canonical_segments/channel_daily_bias_1273964966638256259_2026-01-01_2026-07-20.json",
+      "size_bytes": 704,
+      "mtime_ns_at_snapshot": 1784587494414323400,
+      "sha256": "965D0CB44476A689E415B5FA1AFABC092B96616589F75D433D5664B22184778A"
+    },
+    {
+      "relative_path": "canonical_segments/channel_data_1273966065910812712_2026-01-01_2026-07-20.json",
+      "size_bytes": 692,
+      "mtime_ns_at_snapshot": 1784587536168345100,
+      "sha256": "9BC0D8376207DDA8D662F124BCC930157F15DDA565D69B1D50C4B9AC4E2A8D63"
+    },
+    {
+      "relative_path": "canonical_segments/channel_el_1273964820806369404_2026-01-01_2026-07-20.json",
+      "size_bytes": 688,
+      "mtime_ns_at_snapshot": 1784587522529336700,
+      "sha256": "1FE5E10BC2C24DDCA92B65C419B86A4B2788081EFD2999A2766FFAEDF8E5862F"
+    },
+    {
+      "relative_path": "canonical_segments/channel_entry_triggers_1302968043206610975_2026-01-01_2026-07-20.json",
+      "size_bytes": 712,
+      "mtime_ns_at_snapshot": 1784587565959438400,
+      "sha256": "9E6E1E1DEA1E55DE1B812F03DD0E6F56115B05DFBF0E7568534F7A863D0220FD"
+    },
+    {
+      "relative_path": "canonical_segments/channel_fib_1289550849483473082_2026-01-01_2026-07-20.json",
+      "size_bytes": 690,
+      "mtime_ns_at_snapshot": 1784587509174917900,
+      "sha256": "FD33E212B52BE5C8FE1C0535C15C56E9778D2BD952317E0D040A156E434013BE"
+    },
+    {
+      "relative_path": "canonical_segments/channel_gf_1273964481621266433_2026-01-01_2026-07-20.json",
+      "size_bytes": 688,
+      "mtime_ns_at_snapshot": 1784587531740870000,
+      "sha256": "E932FB90A570DE8F871F797E144FF9689595D284F1AC4E507C4C929858C17254"
+    },
+    {
+      "relative_path": "canonical_segments/channel_iob_1289564158089760954_2026-01-01_2026-07-20.json",
+      "size_bytes": 690,
+      "mtime_ns_at_snapshot": 1784587542304438000,
+      "sha256": "2A1F53DC6D7E55E046F77AAABDF835BEFDEABE68724CAAEEC033B390323A5CF0"
+    },
+    {
+      "relative_path": "canonical_segments/channel_ko_1273964284681916509_2026-01-01_2026-07-20.json",
+      "size_bytes": 688,
+      "mtime_ns_at_snapshot": 1784587518100916900,
+      "sha256": "B6B82DBCA074D4CAAB68F8E5A8AFF6FF2AA9B1E0B744605490C4398FC8487849"
+    },
+    {
+      "relative_path": "canonical_segments/channel_levels_1298788584475590727_2026-01-01_2026-01-01.json",
+      "size_bytes": 28712,
+      "mtime_ns_at_snapshot": 1784587424429840700,
+      "sha256": "7FB162ED1507B0E0CA1E04914FF8BD14E97403EFBB19E307C799077F81670469"
+    },
+    {
+      "relative_path": "canonical_segments/channel_levels_1298788584475590727_2026-01-02_2026-01-02.partial.json",
+      "size_bytes": 118044,
+      "mtime_ns_at_snapshot": 1784589058496025600,
+      "sha256": "1316162C73F85823A3FD4A2208B716A4980E0F7D756FAEE7FA87E28FBF843447"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-01_2026-01-01.json",
+      "size_bytes": 726,
+      "mtime_ns_at_snapshot": 1784588372019691000,
+      "sha256": "2CF294F8D99E6FF641B0C1E15514C9AEF88701548F7BFDFCDB667E68528E62A9"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-02_2026-01-02.json",
+      "size_bytes": 721,
+      "mtime_ns_at_snapshot": 1784588821552343600,
+      "sha256": "76B52024D4B85DB9326C1C2C60962BBA72677CA23721D82C4BF8C72A8C4E1723"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-03_2026-01-03.json",
+      "size_bytes": 721,
+      "mtime_ns_at_snapshot": 1784588832653818000,
+      "sha256": "C41D0CDDCDD8F9E331A265FD6DD0403491767B9FFD224A6580AD9B3D892ED9EB"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-04_2026-01-04.json",
+      "size_bytes": 721,
+      "mtime_ns_at_snapshot": 1784588837128748500,
+      "sha256": "A517E2ACA7FFC3F79DAFB7A12FFAEA0960B8B413968D93207BDD4659D4ACCD21"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-05_2026-01-05.json",
+      "size_bytes": 486284,
+      "mtime_ns_at_snapshot": 1784589970803505300,
+      "sha256": "74E5F9D7249128D4424C658F93F6D1B9A5567E46C947B4EB7006D7C2056910C0"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-06_2026-01-06.json",
+      "size_bytes": 721,
+      "mtime_ns_at_snapshot": 1784588855475186500,
+      "sha256": "CEE05C68DBE7ECD40BC0226CC6560569986AF4E22F8EF37EA919236E7AA66BF1"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-07_2026-01-07.json",
+      "size_bytes": 721,
+      "mtime_ns_at_snapshot": 1784588860780778000,
+      "sha256": "F9248F293D181E3766491FB51E52291EB251B02B35BAF6575C9D5883E40EA410"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-08_2026-01-08.json",
+      "size_bytes": 721,
+      "mtime_ns_at_snapshot": 1784588885274821500,
+      "sha256": "057DC4EEB0DEBB6048CE4CB6E03A92A56BC08AE5B7A47A4AA5C59CEE29CA194D"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-09_2026-01-09.json",
+      "size_bytes": 721,
+      "mtime_ns_at_snapshot": 1784588892209396100,
+      "sha256": "187C2BCFF6DB686CC90B1CDD380DA013A2D148B37B5CFBD7D846C46A1BB6EA08"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-10_2026-01-10.json",
+      "size_bytes": 721,
+      "mtime_ns_at_snapshot": 1784588897492095700,
+      "sha256": "63A5D965A9EAA2CBEEFDD4BA25D3E8084B7DF35E9B3E58BA183824AE23CFE6D8"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-11_2026-01-11.json",
+      "size_bytes": 721,
+      "mtime_ns_at_snapshot": 1784588902808012900,
+      "sha256": "1C8325BEF7C4FD0A1BCBF0FF376E925FF61154F57F4EFD0C61C9D9501C2C499A"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-12_2026-01-12.json",
+      "size_bytes": 721,
+      "mtime_ns_at_snapshot": 1784589992447311200,
+      "sha256": "DF03EE94EAB4BC33F247A8BF51F8C795A01D54EB7FFBF518CB43531B172D4F43"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-13_2026-01-13.json",
+      "size_bytes": 721,
+      "mtime_ns_at_snapshot": 1784589997623503700,
+      "sha256": "35FDA45E019D6332FB44CB8191561129F8A51A1AC5B4C029EB589F3DD0346372"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-14_2026-01-14.json",
+      "size_bytes": 2303606,
+      "mtime_ns_at_snapshot": 1784590995198766900,
+      "sha256": "70322D0AAE39AE6FDB03806C6FDF2E79467AA0AE82353583E52283B5E0AE5E4F"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-15_2026-01-15.json",
+      "size_bytes": 721,
+      "mtime_ns_at_snapshot": 1784591087321688200,
+      "sha256": "E96C0DBE2D0AD0A1CB9DD44E87B6E8BBC10C4CCA6B91FABA71A4DE260CF01D5D"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-16_2026-01-16.json",
+      "size_bytes": 721,
+      "mtime_ns_at_snapshot": 1784591117190735000,
+      "sha256": "67859F5016A0A36C3B1C878FE9C8B37492E23E103E04F627202EC8660FAF0498"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-17_2026-01-17.json",
+      "size_bytes": 721,
+      "mtime_ns_at_snapshot": 1784591122370350300,
+      "sha256": "5628462F21A6B7D2BE02F6CC7B07DA8FB70A84272E95A0FB01EBCB046389E180"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-18_2026-01-18.json",
+      "size_bytes": 721,
+      "mtime_ns_at_snapshot": 1784591127679574300,
+      "sha256": "53023EB0442CD56582D4DDB1A027E044E31AFAA5AC29787F6B18939D01CB58C3"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-19_2026-01-19.json",
+      "size_bytes": 721,
+      "mtime_ns_at_snapshot": 1784591132915595400,
+      "sha256": "22C6C78C92922565984EC322204EC996545732CEC9EC9AE4BFBFAE5951DE4C03"
+    },
+    {
+      "relative_path": "canonical_segments/channel_live_1329615478716502097_2026-01-20_2026-01-20.partial.json",
+      "size_bytes": 467717,
+      "mtime_ns_at_snapshot": 1784591189032202000,
+      "sha256": "D17C6A7E26BEF131B4EB00754958607208345BA96B890386CE938C9E09D1F867"
+    },
+    {
+      "relative_path": "canonical_segments/channel_mmxm_stdv_1373324158699704361_2026-01-01_2026-07-20.json",
+      "size_bytes": 4169,
+      "mtime_ns_at_snapshot": 1784587577600926200,
+      "sha256": "CD7FDB6BA13B8A715D2FB5EAD2D4E92D817343AB3B4F1A90BB7427782D16E9A2"
+    },
+    {
+      "relative_path": "canonical_segments/channel_mx_1273965407996346438_2026-01-01_2026-07-20.json",
+      "size_bytes": 688,
+      "mtime_ns_at_snapshot": 1784587513659428900,
+      "sha256": "BC861650DB6B78E7587644A36C079194B45209F8DED46364ACC30CE6C5B748E0"
+    },
+    {
+      "relative_path": "canonical_segments/channel_og_1273965160201195571_2026-01-01_2026-07-20.json",
+      "size_bytes": 688,
+      "mtime_ns_at_snapshot": 1784587527326941500,
+      "sha256": "CEF499C8F1A27B6402456C1B2A38FEA6A159648A965DC54EBEEF16BBA3E8ABEB"
+    },
+    {
+      "relative_path": "canonical_segments/channel_powell_model_1273965749085540363_2026-01-01_2026-07-20.json",
+      "size_bytes": 708,
+      "mtime_ns_at_snapshot": 1784587559849111000,
+      "sha256": "D6A3EE07CF87BC605D128731A73975CD0478DB8D33D5B3AC480ABCFF347F51C4"
+    },
+    {
+      "relative_path": "canonical_segments/channel_premium_announcements_1268352899537440831_2026-01-01_2026-07-20.json",
+      "size_bytes": 82013,
+      "mtime_ns_at_snapshot": 1784588145776392600,
+      "sha256": "C97DACC1FB36201C234FE7C8EAAAAD6428B5EA21BA728880265998C8BFDC0A13"
+    },
+    {
+      "relative_path": "canonical_segments/channel_premium_journals_1283941772577472643_2026-01-01_2026-01-01.json",
+      "size_bytes": 366367,
+      "mtime_ns_at_snapshot": 1784588164445769800,
+      "sha256": "2FDD61C086639DFCC99D8C74B3622A079EA84078AE0A873FB1DD17C8B5D8616E"
+    },
+    {
+      "relative_path": "canonical_segments/channel_premium_journals_1283941772577472643_2026-01-02_2026-01-02.partial.json",
+      "size_bytes": 147359,
+      "mtime_ns_at_snapshot": 1784589012819563600,
+      "sha256": "0D14C52A77366157E0F912684136AE294073FA60827474B53E8433C3F9416EE3"
+    },
+    {
+      "relative_path": "canonical_segments/channel_profiles_1373408269204193360_2026-01-01_2026-07-20.json",
+      "size_bytes": 710,
+      "mtime_ns_at_snapshot": 1784587596096870500,
+      "sha256": "E10E445F253C061FAF353AE94FADF872D4CB393E151254ECB0EAA529EA599592"
+    },
+    {
+      "relative_path": "canonical_segments/channel_psychology_1278826854974750740_2026-01-01_2026-07-20.json",
+      "size_bytes": 704,
+      "mtime_ns_at_snapshot": 1784587485541867500,
+      "sha256": "84ED07370C4FCB6B6415EB72E4336144320904306C46F6E8F68C7A2852734B32"
+    },
+    {
+      "relative_path": "canonical_segments/channel_questions_1273692573898113076_2026-01-01_2026-01-01.json",
+      "size_bytes": 63726,
+      "mtime_ns_at_snapshot": 1784587431690939900,
+      "sha256": "3CCBE0CC2CD1FD452ECBE6129A02A43BE02DB4141609B77F9795C662A5A378D5"
+    },
+    {
+      "relative_path": "canonical_segments/channel_questions_1273692573898113076_2026-01-02_2026-01-02.json",
+      "size_bytes": 191977,
+      "mtime_ns_at_snapshot": 1784588434370497000,
+      "sha256": "2A115A8E30C175F1D831E49865F07C203DD59317D354DF611545CAE4672CD141"
+    },
+    {
+      "relative_path": "canonical_segments/channel_questions_1273692573898113076_2026-01-03_2026-01-03.json",
+      "size_bytes": 189901,
+      "mtime_ns_at_snapshot": 1784588725803823900,
+      "sha256": "A32CBED1790450E29F3AA334A90B29DF06C9A2E8C4CD4DCE9FDF859CC1F7D587"
+    },
+    {
+      "relative_path": "canonical_segments/channel_questions_1273692573898113076_2026-01-04_2026-01-04.json",
+      "size_bytes": 128173,
+      "mtime_ns_at_snapshot": 1784588737972203800,
+      "sha256": "CE52F12BCD16C0E00D159E4602AC56FF39FD6BA734A898C44FD035639FAEA477"
+    },
+    {
+      "relative_path": "canonical_segments/channel_questions_1273692573898113076_2026-01-05_2026-01-05.partial.json",
+      "size_bytes": 134594,
+      "mtime_ns_at_snapshot": 1784588877429541200,
+      "sha256": "12EB3D1252121D7F96386AF3484EAD60EA0CBAD1CE79DECE5EC39255EE738BB3"
+    },
+    {
+      "relative_path": "canonical_segments/channel_random_thoughts_for_you_1448073425955590277_2026-01-01_2026-07-20.json",
+      "size_bytes": 740,
+      "mtime_ns_at_snapshot": 1784587602205479900,
+      "sha256": "18BABF17AD8C8564C6AF9B8397988F2C9459413FB260AEB566DF0B267B15469E"
+    },
+    {
+      "relative_path": "canonical_segments/channel_rb_1273965543870824470_2026-01-01_2026-07-20.json",
+      "size_bytes": 688,
+      "mtime_ns_at_snapshot": 1784587548382998100,
+      "sha256": "051A02F350BB46152D593C22A6D24803F670EA69B46F7753D27ED82B4560CC6D"
+    },
+    {
+      "relative_path": "canonical_segments/channel_read_this_first_1312583187523698799_2026-01-01_2026-07-20.json",
+      "size_bytes": 714,
+      "mtime_ns_at_snapshot": 1784587481114252000,
+      "sha256": "53EABAB54257E1D6CB68192B1AB52F2646809593855B2F934957503BC025A79C"
+    },
+    {
+      "relative_path": "canonical_segments/channel_risk_management_1279216475135148072_2026-01-01_2026-07-20.json",
+      "size_bytes": 714,
+      "mtime_ns_at_snapshot": 1784587489989231400,
+      "sha256": "DB516A55269111D1B0449F0CECF7B3A186BFBDD2E3900D4772E7CBBC164DFB85"
+    },
+    {
+      "relative_path": "canonical_segments/channel_smt_1421093860813049906_2026-01-01_2026-07-20.json",
+      "size_bytes": 5594,
+      "mtime_ns_at_snapshot": 1784587589955919000,
+      "sha256": "295A1563D62C9607D7CBE0B6895EB4351A5340C1D13748EA2F4F8F7A90DD54D2"
+    },
+    {
+      "relative_path": "canonical_segments/channel_tda_1273966805240516679_2026-01-01_2026-07-20.json",
+      "size_bytes": 690,
+      "mtime_ns_at_snapshot": 1784587553779436300,
+      "sha256": "024A737E6C213C94AB5FC8A33F7FE861D923599068A6066313AA4CAFADF0223A"
+    },
+    {
+      "relative_path": "canonical_segments/channel_tfa_1373405765607624810_2026-01-01_2026-07-20.json",
+      "size_bytes": 2488,
+      "mtime_ns_at_snapshot": 1784587583832564100,
+      "sha256": "D3C377D605AFF45EB79D81CF27C866421771F1DF1C16F7DC145E625120837519"
+    },
+    {
+      "relative_path": "canonical_segments/channel_trade_breakdowns_1265005801479733458_2026-01-01_2026-07-20.json",
+      "size_bytes": 716,
+      "mtime_ns_at_snapshot": 1784587572019515000,
+      "sha256": "D9D95F673BECFFC71AAD916669E296FB6AB9B50A31331054742E7332E4CAA543"
+    },
+    {
+      "relative_path": "canonical_segments/channel_trade_management_1480968550033129673_2026-01-01_2026-07-20.json",
+      "size_bytes": 2588,
+      "mtime_ns_at_snapshot": 1784587625654966400,
+      "sha256": "E1CD79C92565B8FE1A33F30B0BA95ED6874B40A0925F81A8473F2FFC39EF896D"
+    },
+    {
+      "relative_path": "canonical_segments/channel_wt_variations_1453357105909338236_2026-01-01_2026-07-20.json",
+      "size_bytes": 720,
+      "mtime_ns_at_snapshot": 1784587613307753100,
+      "sha256": "42F935D7598F0ACC00040E3FB0E0A35651D612FE540504AC3CF98CE3235396A7"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-04-20_2026-04-21.json",
+      "size_bytes": 4039003,
+      "mtime_ns_at_snapshot": 1784589670348345800,
+      "sha256": "64FC3AC414E2B14799ED72D642E0A914BF6F8575020A7ED8D3B70519D88F3FAC"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-04-22_2026-04-23.json",
+      "size_bytes": 3042355,
+      "mtime_ns_at_snapshot": 1784589670458166100,
+      "sha256": "D368D432F55D026CE402B6F1897D3893CE693692DA006FBF76E9873869EAEEB1"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-04-24_2026-04-25.json",
+      "size_bytes": 2206885,
+      "mtime_ns_at_snapshot": 1784589670550059700,
+      "sha256": "FC97D25986D7095FBB703EC2410199167A2D8C0B2B9DB7826D2825A572DC2E18"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-04-26_2026-04-27.json",
+      "size_bytes": 1344630,
+      "mtime_ns_at_snapshot": 1784589670609312000,
+      "sha256": "219CA94370D3CCEF99977B4741C51E5EF21EFCB9CE5F99350651FFECCCD2CD82"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-04-28_2026-04-29.json",
+      "size_bytes": 2692029,
+      "mtime_ns_at_snapshot": 1784589670709705100,
+      "sha256": "5D9A79726DE8BB9CAF889D6360BA9DF5BAB7B1D9097D11E697328D1709871EF9"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-04-30_2026-05-01.json",
+      "size_bytes": 1936799,
+      "mtime_ns_at_snapshot": 1784589670792432800,
+      "sha256": "97D069303DAE15C14A4F963649D416F229BB7198F56EFB0438694107D54131E3"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-05-02_2026-05-03.json",
+      "size_bytes": 593401,
+      "mtime_ns_at_snapshot": 1784589670828553600,
+      "sha256": "618294B0B4BDCDD05D7C782EDB3AC600EF5C94E4C76851EC11402ACCECA79C97"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-05-04_2026-05-05.json",
+      "size_bytes": 2275080,
+      "mtime_ns_at_snapshot": 1784589670939343000,
+      "sha256": "67AE015B2E8478F07563C9309171386E220CFED4A9BAE244CC658E3CDB024B05"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-05-06_2026-05-07.json",
+      "size_bytes": 2805152,
+      "mtime_ns_at_snapshot": 1784589671044402100,
+      "sha256": "4AFCE67C2BE7CD70E737B631D463F51A23C8879B59DEC46DB65FF48C1243AFEA"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-05-08_2026-05-09.json",
+      "size_bytes": 504617,
+      "mtime_ns_at_snapshot": 1784589671078391700,
+      "sha256": "0D46B5ED8411304EAD16063CFC5FF0A968FA2A2CBF070EB98EC2DAED1FB69F88"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-05-10_2026-05-11.json",
+      "size_bytes": 1516264,
+      "mtime_ns_at_snapshot": 1784589671138493300,
+      "sha256": "DB83EEEBD8AE32DC4F90D6363A9456312CCADAE2BA8AD20B433CBC022DFEB619"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-05-12_2026-05-13.json",
+      "size_bytes": 2109344,
+      "mtime_ns_at_snapshot": 1784589671211020000,
+      "sha256": "7F504F22E6BBD40FA176BCB4D8462DDB43638F24296832898B4D1661F24F98AA"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-05-14_2026-05-15.json",
+      "size_bytes": 1836103,
+      "mtime_ns_at_snapshot": 1784589671282282200,
+      "sha256": "06A1253A145F444C0CB49B79D2658411E067D9F4D369A2F1636BD3225063098D"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-05-16_2026-05-17.json",
+      "size_bytes": 942406,
+      "mtime_ns_at_snapshot": 1784589671326711200,
+      "sha256": "CD117CF19B1B173B8689670C113BAD841282CB6A35280DA6058D8CBCCFF2D6F9"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-05-18_2026-05-19.json",
+      "size_bytes": 2297079,
+      "mtime_ns_at_snapshot": 1784589671408084400,
+      "sha256": "8DD68F9AD9F20ADCFD06AA9C76BB4C4678956F3ECEF80125991F26E87F57F343"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-05-20_2026-05-21.json",
+      "size_bytes": 2489639,
+      "mtime_ns_at_snapshot": 1784589671494764800,
+      "sha256": "664B70F64A275BD1B251490FA51E7092E41D20B04A591454DAA9AEC4E00A8D9E"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-05-22_2026-05-23.json",
+      "size_bytes": 1084857,
+      "mtime_ns_at_snapshot": 1784589671543537100,
+      "sha256": "D864FE1AB84F1C742C0961C220369E863CE8C4D1F9D0263D328E473845A73EE8"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-05-24_2026-05-25.json",
+      "size_bytes": 924120,
+      "mtime_ns_at_snapshot": 1784589671584944200,
+      "sha256": "887ACDF205B7B8516AC1E326F1BF89775B3A39F3C3AC9B6B2681D166BACE2BF1"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-05-26_2026-05-27.json",
+      "size_bytes": 2259248,
+      "mtime_ns_at_snapshot": 1784589671657971400,
+      "sha256": "A7BD13AB6293860A610336239E16C6227BA635B831B2364C41828169634B9B93"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-05-28_2026-05-29.json",
+      "size_bytes": 1777732,
+      "mtime_ns_at_snapshot": 1784589671724738200,
+      "sha256": "C901BA85D410F8EE04BE0355FFAA69C535BCA663E659CA7191467A42184C7AA7"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-05-30_2026-05-31.json",
+      "size_bytes": 340239,
+      "mtime_ns_at_snapshot": 1784589671749488200,
+      "sha256": "23865167B0D660BEB55C59F2BCCED6393DF84C5302122A456F79E71D67971372"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-06-01_2026-06-02.json",
+      "size_bytes": 2173609,
+      "mtime_ns_at_snapshot": 1784589671825099200,
+      "sha256": "5195A658237D98A836AA4F04E21A515662D13C19B23C7D3573AE1594E5F44BD4"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-06-03_2026-06-04.json",
+      "size_bytes": 2553231,
+      "mtime_ns_at_snapshot": 1784589671921682300,
+      "sha256": "8BD15237B93334D4989874F831C042FA2D4A3D039DA86C0734149ABC8722EF91"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-06-05_2026-06-06.json",
+      "size_bytes": 1028616,
+      "mtime_ns_at_snapshot": 1784589671971690700,
+      "sha256": "691DDFE31FF53CF53D8E27BC907912440EFCAE85E3A46CB6F28BC11E298DF9AA"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-06-07_2026-06-08.json",
+      "size_bytes": 782096,
+      "mtime_ns_at_snapshot": 1784589672009270100,
+      "sha256": "65B4BC31B0AD6D8DE62E13E72BB59879098ED725E7520217F5FFB1BBC14C60C2"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-06-09_2026-06-10.json",
+      "size_bytes": 1730881,
+      "mtime_ns_at_snapshot": 1784589672087421900,
+      "sha256": "D4CF0CB15B31BF5575DA031B5B5190B7790E86E6EA1200AF9AB1053F81EF40FD"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-06-11_2026-06-12.json",
+      "size_bytes": 2379070,
+      "mtime_ns_at_snapshot": 1784589672206385200,
+      "sha256": "EDE2B3B588A34C5BA637E2D0DAE0D834A8892137159DB0CA249A28B4AC614AFD"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-06-13_2026-06-14.json",
+      "size_bytes": 149406,
+      "mtime_ns_at_snapshot": 1784589672234690600,
+      "sha256": "418FA42CE8C721E31DD797172A1A824AC9AF271B143DC886578A08B361E80CAE"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-06-15_2026-06-16.json",
+      "size_bytes": 1673292,
+      "mtime_ns_at_snapshot": 1784589672296754300,
+      "sha256": "58235BC622034EFD5F337CE9813CF6B7127147D3EAF62ED4107CCE9D8A9B8797"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-06-17_2026-06-18.json",
+      "size_bytes": 2207806,
+      "mtime_ns_at_snapshot": 1784589672381005100,
+      "sha256": "17F536AB2DE107AD7A7FAAEA515FCC49E1AB36DCD1EDBD84E0C0F043160EE55F"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-06-19_2026-06-20.json",
+      "size_bytes": 240400,
+      "mtime_ns_at_snapshot": 1784589672410853900,
+      "sha256": "ED2E6E82FE9D372DCCC89792AE1DF137A686F8104E0A70137F1391E65CE19362"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-06-21_2026-06-22.json",
+      "size_bytes": 549944,
+      "mtime_ns_at_snapshot": 1784589672441021400,
+      "sha256": "722BE5954087F2447696936A7F4CAC50CC0E1C565BC0DB0869CF55CE6A5151BC"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-06-23_2026-06-24.json",
+      "size_bytes": 1126144,
+      "mtime_ns_at_snapshot": 1784589672487875800,
+      "sha256": "5790C519B5E5F80ED418C32BAF3C20C861630F62F3E0ABB72DB4B0CF77009AAB"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-06-25_2026-06-26.json",
+      "size_bytes": 1422149,
+      "mtime_ns_at_snapshot": 1784589672543350500,
+      "sha256": "428387A6A95BA4592BC1A817CD3EFF46B04EDA744CDB3FC15A747CC956CECF95"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-06-27_2026-06-28.json",
+      "size_bytes": 162828,
+      "mtime_ns_at_snapshot": 1784589672565176000,
+      "sha256": "4762FA45176D661C340E2F65D6480C225F9F61B8986933B9C2D4C50A6163768E"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-06-29_2026-06-30.json",
+      "size_bytes": 1279721,
+      "mtime_ns_at_snapshot": 1784589672616299100,
+      "sha256": "E32C9FE91BD9CCFB9E27401F05EDE718119B745108E7E61603E37343DA56C9FC"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-07-01_2026-07-02.json",
+      "size_bytes": 1911272,
+      "mtime_ns_at_snapshot": 1784589672688904800,
+      "sha256": "5074FB13CFA858ED65B7CF5612977EF3C5BC42B08F8818D5C36A4761E8C233DB"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-07-03_2026-07-04.json",
+      "size_bytes": 175514,
+      "mtime_ns_at_snapshot": 1784589672712202200,
+      "sha256": "C990258ADAE57862D2D5B08C77ABC5F1554647D373CF009650D0162475F12791"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-07-05_2026-07-06.json",
+      "size_bytes": 962253,
+      "mtime_ns_at_snapshot": 1784589672753492600,
+      "sha256": "53A964ECAFB0C612885164AAA532E6274E528FFA621E821C85973AB0B5775A6B"
+    },
+    {
+      "relative_path": "legacy_premium_journals_v2/segments/channel_premium_journals_1283941772577472643_2026-07-07_2026-07-20.json",
+      "size_bytes": 8471654,
+      "mtime_ns_at_snapshot": 1784589673067092800,
+      "sha256": "8A48662D2F5F004B73A601C6D157C379402F2A1A00BE85915FE5DB11646918FE"
+    }
+  ]
+}

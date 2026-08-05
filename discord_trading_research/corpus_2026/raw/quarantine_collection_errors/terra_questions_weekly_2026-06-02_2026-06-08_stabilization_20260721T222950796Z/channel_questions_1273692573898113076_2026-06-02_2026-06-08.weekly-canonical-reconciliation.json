@@ -1,0 +1,16 @@
+{
+  "recorded_at_utc": "2026-07-21T22:39:15.680Z",
+  "canonical_pattern": "raw/channel_segments/channel_questions_1273692573898113076_*.json",
+  "candidate_files": 34,
+  "complete_files": 32,
+  "complete_rows": 37881,
+  "global_unique_message_ids": 37881,
+  "duplicate_message_ids": 0,
+  "unrelated_partial_files_ignored": 1,
+  "non_segment_evidence_files_ignored": 1,
+  "ignored_files": [
+    "channel_questions_1273692573898113076_2026-01-05_2026-01-05.partial.json",
+    "channel_questions_1273692573898113076_2026-05-05_2026-05-11.timestamp-scope-revalidation.json"
+  ],
+  "passed": true
+}

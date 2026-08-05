@@ -1,0 +1,78 @@
+{
+  "recorded_at_utc": "2026-07-21T21:19:02.751Z",
+  "status": "deferred_due_to_live_count_instability",
+  "segment": {
+    "start": "2026-05-19",
+    "end": "2026-05-25",
+    "query": "in:❓│questions after:2026-05-18 before:2026-05-26",
+    "channel_id": "1273692573898113076",
+    "channel_name": "❓│questions",
+    "category_name": "PREMIUM"
+  },
+  "fresh_search_submissions_for_route": 1,
+  "additional_search_submissions_during_recovery": 0,
+  "observed_live_result_totals_in_order": [
+    1089,
+    1087,
+    1086
+  ],
+  "causal_claim": null,
+  "observations": [
+    {
+      "reported_total": 1089,
+      "last_clean_page": 7,
+      "captured_rows": 175,
+      "render_shortfall": {
+        "page": 10,
+        "captured_cards": 23,
+        "expected_cards": 25,
+        "missing_result_indices": [249, 250]
+      }
+    },
+    {
+      "reported_total": 1087,
+      "stability_samples_before_isolated_restart": 5,
+      "last_clean_page": 12,
+      "captured_rows": 300,
+      "original_clean_checkpoint_ids_required": 175,
+      "original_clean_checkpoint_ids_present": 175,
+      "render_shortfall": {
+        "page": 15,
+        "captured_cards": 24,
+        "expected_cards": 25,
+        "missing_result_indices": [375]
+      }
+    },
+    {
+      "reported_total": 1086,
+      "observed_page": 16,
+      "visible_result_indices_start": 376,
+      "visible_result_indices_end": 400,
+      "action": "collection_stopped_immediately"
+    }
+  ],
+  "preserved_checkpoints": [
+    {
+      "path": "../terra_questions_weekly_2026-05-19_2026-05-25_20260721T211158431Z/channel_questions_1273692573898113076_2026-05-19_2026-05-25.partial.json",
+      "reported_total": 1089,
+      "pages_captured": 7,
+      "captured_rows": 175,
+      "strict_qa_passed": true,
+      "sha256": "b537be4f50170c4d37b7149d841dcd8d82dc3514503e46bd48dc26023bafe8a5",
+      "bytes": 651223
+    },
+    {
+      "path": "channel_questions_1273692573898113076_2026-05-19_2026-05-25.partial.json",
+      "reported_total": 1087,
+      "pages_captured": 12,
+      "captured_rows": 300,
+      "strict_qa_passed": true,
+      "legacy_ids_required": 175,
+      "legacy_ids_present": 175,
+      "sha256": "c1d8731a19a875d00332a6ae13dc5aa4d5a1b0d1899f4e3389619ce2750f4d2f",
+      "bytes": 1107899
+    }
+  ],
+  "promotion_performed": false,
+  "schedule_status": "pending_revisit_after_other_questions_weekly_routes"
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "discord_timestamp_scope_revalidation",
+  "source_scope": "discord_only",
+  "outside_sources_used": false,
+  "source_artifact_path": "raw/channel_segments/channel_questions_1273692573898113076_2026-05-05_2026-05-11.json",
+  "source_artifact_sha256": "ae274fced814246c8d60889f29c745c08660abc815a0039419ae3a05d5dc0559",
+  "source_artifact_bytes": 4047120,
+  "revalidations": [
+    {
+      "status": "passed",
+      "evidence_type": "discord_pinned_message_system_event_sole_row_owned_time",
+      "message_id": "1501683564796973076",
+      "result_index": 668,
+      "source_row_sha256": "52a49457ea4e0f2470b25df9384f3903664afcb8fa28f6248714cc9775d7889b",
+      "recovery_evidence": {
+        "path": "raw/quarantine_collection_errors/terra_questions_weekly_2026-05-05_2026-05-11_20260721T205717535Z/timestamp_scope_recovery_1501683564796973076.json",
+        "sha256": "19e9bc1891587e84b1583455de067d236e6e0c607e579c03947cc80950ed478f",
+        "bytes": 1678
+      },
+      "effective_correction": {
+        "timestamp_scope_exact": false,
+        "row_owned_time_count": 1,
+        "row_owned_time_datetime": "2026-05-06T20:34:21.779Z",
+        "row_owned_time_element_id": null,
+        "discord_system_event_exact": true,
+        "discord_system_event_type": "message_pinned",
+        "timestamp_exact_fallback_source": "discord_snowflake_exact_pinned_message_system_event"
+      }
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "premium_journals_v2_7_jan10_review_package_manifest",
+  "package_id": "premium-journals-v2-7-jan10-activation-review-v1",
+  "status": "PUBLISHED_IMMUTABLE_REVIEW_PACKAGE_NOT_AUTHORITY",
+  "prepared_at_utc": "2026-07-22T10:29:46.9572089Z",
+  "immutable": true,
+  "append_only": true,
+  "publication_complete": true,
+  "ready_for_independent_audit": true,
+  "independent_audit_passed": false,
+  "activation_authorized": false,
+  "live_collection_enabled": false,
+  "authority_effect": "none_review_package_only",
+  "target_day": "2026-01-10",
+  "package_artifacts": [
+    {
+      "role": "exact_raw_schedule_preimage",
+      "path": "working/premium_journals_v2_7_jan10_activation_review_v1/pre_activation_schedule.json",
+      "sha256": "64ab77a9520dbc80d072d3b51347169c825eb60eba4c6a6b6bc363b37647901a",
+      "bytes": 975585
+    },
+    {
+      "role": "disabled_activation_review_plan",
+      "path": "working/premium_journals_v2_7_jan10_activation_review_v1/activation_plan.json",
+      "sha256": "8bf6f22e424a2f4aa303919f4c5f996b576679732cfb8e87bbbdb3678d6058f1",
+      "bytes": 19321
+    },
+    {
+      "role": "prepublication_audit_bundle",
+      "path": "working/premium_journals_v2_7_jan10_activation_review_v1/prepublication_audit_bundle.json",
+      "sha256": "d7d8d650e5966171ec4f6f23b27056b9017c609e1845da61e45cc7c2e8cb8683",
+      "bytes": 11472
+    }
+  ],
+  "package_artifact_set_sha256": "4efef6ac189d0fd63bbefdfc629518c221534a547a72b32e411fbaa5ef77069c",
+  "protected_source_bindings": [
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "../discord_browser_collector_v2_7.mjs",
+      "sha256": "b881ba5a7392c024791bef3b2cc522e4825de0c4942c8f4c7429a5011efb0808",
+      "bytes": 39014
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "../premium_v2_7_direct_parity_fixtures.json",
+      "sha256": "d09c96109761d778a3cd067ae12bec5ed536961bb0d3e6262295282d9250fde6",
+      "bytes": 2075
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "../test_discord_browser_collector_v2_7.mjs",
+      "sha256": "8670b42880e5b8964d1d7cf8f623829888be534b4a52ab44176d3ec69beadfef",
+      "bytes": 21058
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "build_scoped_three_parent_schedule.py",
+      "sha256": "a3dd20767378c614979cbdb44e5b94b2703ce818bea75d5e4fe4bd691435aeae",
+      "bytes": 48798
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "build_scoped_three_parent_schedule_v2_7.py",
+      "sha256": "322c772d7b863da3e32f2f92600c2e10f9831274d95cc1249ce666d90dbf3384",
+      "bytes": 331
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "docs/premium_journals_v2_7_authority_activation_v1.md",
+      "sha256": "04fac8387a03d8b8dc490019b0a4251e8595f94c98c4e52ee8df65d6236c284c",
+      "bytes": 4736
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "docs/premium_journals_v2_7_authority_migration_v1.md",
+      "sha256": "92633d4fc738ac5966d9e8c3a03438a5d09636cfa12e08e8566d48acc183e3e2",
+      "bytes": 3640
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "docs/premium_journals_v2_7_jan10_activation_review_v1.md",
+      "sha256": "37fd03d17ee1301a74bf8803b7c57c4eba09d721c3973e990db0709230fe6e75",
+      "bytes": 4068
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "docs/premium_journals_v2_7_jan9_supersession_handoff.md",
+      "sha256": "3841a9b054677bd1bc685af61227b49c0fe0f3f2300ac63daa92cc8a86383011",
+      "bytes": 1620
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "premium_journals_attachment_accessory_contract_v2_7.py",
+      "sha256": "4a9dd83c965bff39594e2796239b96ce3a982418ffe68479eedd05a5f7d4f6f2",
+      "bytes": 10768
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "premium_journals_provenance_contract.py",
+      "sha256": "609285b8ea8a87cc4a8dc86595936b9906b635b5a5e88b37f284161d42003602",
+      "bytes": 78730
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "premium_journals_provenance_contract_v2_7.py",
+      "sha256": "e07e541389f8ee94db468681fd2a204e8f5276de41d1a058ebfa321409fb9f9f",
+      "bytes": 10611
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "premium_journals_system_event_timestamp_v1.py",
+      "sha256": "c20711a6b5957274d32349e4fa16bf9017bd9c2811f3b902c9988ec909dd323b",
+      "bytes": 55857
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "premium_journals_v2_7_authority_activation_v1.py",
+      "sha256": "e8047d01925573f036454424aaa094bc4f714675b06f72c072b36e869ec25232",
+      "bytes": 89350
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "premium_journals_v2_7_authority_migration_v1.py",
+      "sha256": "a6a1004e7c5b408b6292e81d25afa7ff4f8e37b74fa58e3784cef40e77b70687",
+      "bytes": 56281
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "premium_journals_v2_7_integration.py",
+      "sha256": "6850d82d485d197dfe2fb0a495c3fc0297417046a2bc35b51d73162ea5223cbf",
+      "bytes": 2459
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "premium_journals_v2_7_jan10_activation_review_v1.py",
+      "sha256": "1e9a987e331ec489d4ba3f949e06f1ed3e459a7c1cb857d3000fe291094f3d07",
+      "bytes": 63423
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "premium_journals_v2_7_schedule.py",
+      "sha256": "6d52773a0930a2e3ca55b55fde4216bb2a7925746a2f9e55922ac1de819ad4b6",
+      "bytes": 3346
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "qa/validate_premium_journals_v2_7.py",
+      "sha256": "5aa2c33ac3d6d784400cab7a9398c62097e8696e8c2c6520615fec2cd73074e3",
+      "bytes": 24802
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "qa/validate_premium_journals_v2_7_authority_activation_v1.py",
+      "sha256": "c4b593a3b40942e563dbe09c8353f9d321ec066cb5d36062932a51ccf0b538c8",
+      "bytes": 7487
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "qa/validate_premium_journals_v2_7_authority_migration_v1.py",
+      "sha256": "30e0e109e9ff8d5d6368cda3247078df387cd342fed4ffaa6be0f63a0a829513",
+      "bytes": 5555
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "qa/validate_premium_journals_v2_7_jan10_activation_review_v1.py",
+      "sha256": "9b27233bf137dfa8b6521a404e16d0e19c806c1cdc17c5be6cdbce4b34a6e58b",
+      "bytes": 1576
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "reply_provenance_contract.py",
+      "sha256": "d17c115614a69d8f6dc4ee2f815b4cbb593e5dd973ddc4fe06566871c1194232",
+      "bytes": 27548
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "test_premium_journals_provenance_contract_v2_7.py",
+      "sha256": "1b5f97f8bd524dbc356d27ac44e4d13f062c93275fbbd5cf126695c286aebd6a",
+      "bytes": 26646
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "test_premium_journals_v2_7_authority_activation_v1.py",
+      "sha256": "91a23a76f302b457a929f722833ddc57306a2a25e4d6948f35f06f9e9669f184",
+      "bytes": 37001
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "test_premium_journals_v2_7_authority_migration_v1.py",
+      "sha256": "2a2d06bb5d44860962f0658b181b2645db3947e1fad6ccf217a8d5462d977912",
+      "bytes": 19441
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "test_premium_journals_v2_7_jan10_activation_review_v1.py",
+      "sha256": "73b9c4cef5f75b07f5687c9fc2044bf77bb94fdbed1c6b3551b64d913612c261",
+      "bytes": 25759
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "test_validate_scoped_three_parent_schedule.py",
+      "sha256": "6a2c2eafa337fc6b87badc30ace841fd867ca7b0d70bae2d640d1e22d2b888f1",
+      "bytes": 19403
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "timestamp_scope_revalidation.py",
+      "sha256": "d1aad13428852a5e61fbaa8ea886f7253264f572c7600f2d854d012d6d660d5d",
+      "bytes": 33530
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "validate_scoped_three_parent_schedule.py",
+      "sha256": "fe2588f104df72bcc3328a958a8420604cf47b0e25d7d4b7556a2a305e7bfa8a",
+      "bytes": 60104
+    },
+    {
+      "role": "protected_code_test_or_schedule_implementation",
+      "path": "validate_scoped_three_parent_schedule_v2_7.py",
+      "sha256": "ed105fd8d6ce70b97187b7b33eb7c282cebb935c003aac5d134343549b31748a",
+      "bytes": 319
+    }
+  ],
+  "protected_source_set_sha256": "dcb041f2c99102f3f6902c12b9124e39ae7784d3341bd8fa46fcf7e93a80f7dd",
+  "frozen_inputs": {
+    "live_schedule": {
+      "path": "working/scoped_three_parent_collection_schedule.json",
+      "sha256": "64ab77a9520dbc80d072d3b51347169c825eb60eba4c6a6b6bc363b37647901a",
+      "bytes": 975585
+    },
+    "jan9_supersession_manifest": {
+      "path": "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/supersession_manifest.json",
+      "sha256": "711e540a5e032194496f1763b8144f6ff27b5ee77ca656865253270205f0a322",
+      "bytes": 7202
+    },
+    "jan9_supersession_archive_lock": {
+      "path": "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/.archive.lock",
+      "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "bytes": 1
+    },
+    "jan10_query_timing_checklist": {
+      "path": "working/premium_journals_jan10_query_timing_checklist.json",
+      "sha256": "5a5b1d9d3fbcd93fcb85d17a59118f029c3de0a59d83a36d2aa146e86658bdc0",
+      "bytes": 3606
+    }
+  },
+  "five_safety_gates": {
+    "exclusive_os_publication_lock": true,
+    "crash_safe_immutable_no_clobber_publication": true,
+    "non_authoritative_reader_state_machine": true,
+    "exact_snapshot_recovery_and_tamper_fail_closed": true,
+    "marker_aware_no_write_validation": true
+  },
+  "reader_contract": {
+    "review_package_ready_is_authoritative": false,
+    "review_package_ready_resolves_live_route": false,
+    "independent_audit_pass_alone_is_authoritative": false,
+    "missing_invalid_or_tampered_inputs_fail_closed": true,
+    "reader_is_lock_free_and_write_free": true,
+    "reader_compares_protected_snapshot_before_and_after": true
+  },
+  "external_independent_audit": {
+    "path": "working/premium_journals_v2_7_jan10_activation_review_v1/independent_prepublication_audit.json",
+    "present_at_publication": false,
+    "append_only_separate_artifact": true,
+    "must_bind_exact_package_file_hashes_and_bytes": true,
+    "must_report_all_five_gates_pass": true,
+    "authority_effect_even_if_pass": "none_requires_separate_future_activation_chain"
+  },
+  "reserved_active_artifacts_absent": [
+    "raw/channel_segments/channel_premium_journals_1283941772577472643_2026-01-10_2026-01-10.json",
+    "raw/channel_segments/channel_premium_journals_1283941772577472643_2026-01-10_2026-01-10.partial.json",
+    "raw/channel_segments/channel_premium_journals_1283941772577472643_2026-01-10_2026-01-10.timestamp-scope-revalidation.json",
+    "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-10_2026-01-10.json",
+    "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-10_2026-01-10.partial.json",
+    "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-10_2026-01-10.timestamp-scope-revalidation.json",
+    "raw/channel_segments_v2_7/channel_premium_journals_1283941772577472643_2026-01-10_2026-01-10.json",
+    "raw/channel_segments_v2_7/channel_premium_journals_1283941772577472643_2026-01-10_2026-01-10.partial.json",
+    "raw/channel_segments_v2_7/channel_premium_journals_1283941772577472643_2026-01-10_2026-01-10.timestamp-scope-revalidation.json",
+    "raw/premium_journals_v2_7_checkpoints/2026-01-10",
+    "raw/premium_journals_v2_7_staging/2026-01-10",
+    "working/.premium_journals_v2_7_authority_activation_v1.lock",
+    "working/.premium_journals_v2_7_jan10_authority_activation.lock",
+    "working/premium_journals_v2_7_authority_activation_v1_commit_marker.json",
+    "working/premium_journals_v2_7_authority_activation_v1_plan.json",
+    "working/premium_journals_v2_7_authority_activation_v1_plan_independent_audit_report.json",
+    "working/premium_journals_v2_7_authority_activation_v1_pre_schedule.json",
+    "working/premium_journals_v2_7_authority_activation_v1_projection_bundle.json",
+    "working/premium_journals_v2_7_authority_activation_v1_receipt.json",
+    "working/premium_journals_v2_7_authority_activation_v1_rollback_receipt.json",
+    "working/premium_journals_v2_7_jan10_activation_review_v1/activation_receipt.json",
+    "working/premium_journals_v2_7_jan10_activation_review_v1/authority_marker.json",
+    "working/premium_journals_v2_7_jan10_activation_review_v1/commit_marker.json",
+    "working/premium_journals_v2_7_jan10_authority_activation_commit_marker.json",
+    "working/premium_journals_v2_7_jan10_authority_activation_plan.json",
+    "working/premium_journals_v2_7_jan10_authority_activation_plan_independent_audit_report.json",
+    "working/premium_journals_v2_7_jan10_authority_activation_pre_schedule.json",
+    "working/premium_journals_v2_7_jan10_authority_activation_projection_bundle.json",
+    "working/premium_journals_v2_7_jan10_authority_activation_receipt.json",
+    "working/premium_journals_v2_7_jan10_authority_activation_rollback_receipt.json",
+    "working/premium_journals_v2_7_jan10_collection_stage.json",
+    "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/activation_receipt.json",
+    "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/authority_marker.json",
+    "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/commit_marker.json"
+  ],
+  "collection_stage_patterns_absent": [
+    "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-10_*",
+    "working/jan10_collection_*",
+    "working/terra_premium_journals_daily_2026-01-10_*",
+    "working/**/*premium*v2_7*marker*",
+    "working/**/*v2_7*/**/*marker*"
+  ],
+  "jan9_authority": "v2.6_schedule_only",
+  "jan9_v2_7_authority": false,
+  "jan9_authority_inherited": false,
+  "record_fingerprint_sha256": "bdf03a174e1fe19bad7ae5ebb28b8482d7e4df8f4134e737d9c92bbef2d5c525"
+}

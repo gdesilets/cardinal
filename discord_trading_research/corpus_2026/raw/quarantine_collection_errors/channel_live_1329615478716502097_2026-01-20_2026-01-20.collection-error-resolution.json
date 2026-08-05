@@ -1,0 +1,74 @@
+{
+  "event_type": "collection_error_resolution",
+  "schema_version": "1.0.0",
+  "guild_id": "1167376964680691732",
+  "channel_id": "1329615478716502097",
+  "channel_name": "Live",
+  "segment_start": "2026-01-20",
+  "segment_end": "2026-01-20",
+  "query": "in:Live after:2026-01-19 before:2026-01-21",
+  "resolved_at_utc": "2026-07-21T12:46:05Z",
+  "invalid_artifact_path": "raw/quarantine_collection_errors/channel_live_1329615478716502097_2026-01-20_2026-01-20.invalid-gap-index100_d17c6a7e26be.partial.json",
+  "invalid_artifact_sha256": "d17c6a7e26bef131b4eb00754958607208345ba96b890386ce938c9e09d1f867",
+  "invalid_artifact_metrics": {
+    "collector_version": "2.0",
+    "reported_total": 648,
+    "reported_pages": 26,
+    "pages_captured": 11,
+    "captured_rows": 274,
+    "unique_message_ids": 273,
+    "gap_indices": [],
+    "container_mismatch_count": 0,
+    "complete": false
+  },
+  "defects": [
+    {
+      "code": "declared_gap_indices_mismatch",
+      "declared": [],
+      "computed": [
+        100
+      ]
+    },
+    {
+      "code": "duplicate_message_id",
+      "message_id": "1463199570933584093",
+      "occurrences": 2,
+      "result_indices": [
+        200,
+        201
+      ]
+    },
+    {
+      "code": "missing_result_index",
+      "result_index": 100
+    },
+    {
+      "code": "mixed_result_set_sizes",
+      "counts": [
+        {
+          "reported_total": 647,
+          "rows": 50
+        },
+        {
+          "reported_total": 648,
+          "rows": 224
+        }
+      ]
+    }
+  ],
+  "canonical_replacement_path": "raw/channel_segments/channel_live_1329615478716502097_2026-01-20_2026-01-20.json",
+  "canonical_replacement_sha256": "da2ba693ad8ea3a9ddf2702715aa601620197d4cde8a2067e16ad53e0f748f93",
+  "canonical_replacement_metrics": {
+    "collector_version": "2.4",
+    "reported_total": 647,
+    "reported_pages": 26,
+    "pages_captured": 26,
+    "captured_rows": 647,
+    "unique_message_ids": 647,
+    "gap_indices": [],
+    "container_mismatch_count": 0,
+    "complete": true
+  },
+  "resolution_action": "quarantined_malformed_checkpoint_and_verified_complete_canonical_replacement",
+  "outside_sources_used": false
+}

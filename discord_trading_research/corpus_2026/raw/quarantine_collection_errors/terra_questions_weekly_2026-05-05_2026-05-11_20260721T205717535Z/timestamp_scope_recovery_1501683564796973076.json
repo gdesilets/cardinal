@@ -1,0 +1,39 @@
+{
+  "recorded_at_utc": "2026-07-21T21:01:04.695Z",
+  "message_id": "1501683564796973076",
+  "result_index": 668,
+  "search_page": 27,
+  "search_query": "in:❓│questions after:2026-05-04 before:2026-05-12",
+  "event_text": "Domme pinned a message to this channel. See all pinned messages.",
+  "dom_evidence": {
+    "article_id": "search-result-1501683564796973076",
+    "article_data_list_item_id": "NO_LIST___1501683564796973076",
+    "owning_listitem_id": "search-results-17",
+    "owning_result_index": 668,
+    "owning_result_set_size": 1096,
+    "row_owned_time_count": 1,
+    "row_owned_time_datetime": "2026-05-06T20:34:21.779Z",
+    "row_owned_time_element_id": null,
+    "discord_pin_icon_present": true
+  },
+  "timestamp_reconciliation": {
+    "timestamp_utc": "2026-05-06T20:34:21.779Z",
+    "snowflake_timestamp_utc": "2026-05-06T20:34:21.779Z",
+    "timestamp_discrepancy_ms": 0,
+    "timestamp_scope_exact": true
+  },
+  "rationale": "Discord's pinned-message system-event article owns exactly one time descendant whose datetime equals the message snowflake timestamp, but Discord omits a timestamp element id and aria-labelledby token for this event type.",
+  "checkpoint_before_sha256": "b62efd28769ca5de4963f9655dc58898fe8da3b3500de174a6c14b5bfde10112",
+  "checkpoint_before_bytes": 2464530,
+  "checkpoint_repaired_sha256": "3ee367c20e7673a14040dcf48bb2e991117e429516a1474fe7680edaf732fc3e",
+  "checkpoint_repaired_bytes": 2986647,
+  "checkpoint_qa": {
+    "passed": true,
+    "errors": [],
+    "captured_rows": 675,
+    "unique_message_ids": 675,
+    "last_result_index": 675,
+    "provenance_conflict_count": 0
+  },
+  "fresh_search_submission_used": false
+}

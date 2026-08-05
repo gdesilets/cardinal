@@ -1,0 +1,277 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "premium_journals_v2_7_shadow_control_comparison",
+  "mode": "shadow_nonpromotable",
+  "route_day": "2026-01-08",
+  "query": "in:premium-journals after:2026-01-07 before:2026-01-09",
+  "reported_total": 162,
+  "page_number": 6,
+  "page_rows": 25,
+  "source_artifact": {
+    "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-08_20260722T072547Z/v2_6_revalidated/channel_premium_journals_1283941772577472643_2026-01-08_2026-01-08.partial.json",
+    "sha256": "4d46975e373b38ad665d008f2d501f0b0172b803d36859d8cff986c9ea126a10",
+    "bytes": 1141148
+  },
+  "v2_6_authority": true,
+  "v2_6_control_group_count": 10,
+  "all_v2_6_groups_header_navigated": true,
+  "page_plan": {
+    "path": "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/page_plan.json",
+    "sha256": "e1b0e6794919850ef98023e14c5a675cd93066821252c17f7d6fcaea594eda45",
+    "bytes": 3796,
+    "page_membership_sha256": "e7592f54ad8914f509d3406159f10c2a554c0d203a7b14a6994e8b020bccf159",
+    "expected_group_count": 10
+  },
+  "shadow": {
+    "collector_version": "2.7",
+    "live_collection_enabled": false,
+    "promotion_allowed": false,
+    "canonical_written": false,
+    "accepted": true,
+    "direct_count": 7,
+    "fallback_count": 3,
+    "direct_key_match_count": 7,
+    "direct_child_match_count": 7,
+    "all_resolution_child_match_count": 10
+  },
+  "comparisons": [
+    {
+      "evidence_key": "forum-group-navigation:0656c1deaf57144eb3889d2d608c3280f3142619baa3922b24be3876641527ff",
+      "group_message_ids": [
+        "1458812491693035551",
+        "1458812714225766402"
+      ],
+      "v2_6_control_thread_channel_id": "1405897225845997588",
+      "v2_6_control_checkpoint_path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-08_20260722T072547Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_0656c1deaf57144eb3889d2d608c3280f3142619baa3922b24be3876641527ff.json",
+      "v2_6_control_checkpoint_sha256": "8ce465d85c98813b6ad805aeaf2b2d9c2325ebcff62a92b7b04c76e6262ce6ad",
+      "v2_6_control_checkpoint_bytes": 2736,
+      "shadow_method": "direct_consensus_v2_7",
+      "shadow_direct_thread_channel_id": "1405897225845997588",
+      "shadow_direct_errors": [],
+      "direct_key_match": true,
+      "direct_child_match": true,
+      "shadow_resolved_thread_channel_id": "1405897225845997588",
+      "shadow_checkpoint_path": "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_direct_consensus_0656c1deaf57144eb3889d2d608c3280f3142619baa3922b24be3876641527ff.json",
+      "shadow_checkpoint_sha256": "bb2d3d14f24581e3cdeb916b1ea03805f99f49abda053b961f6c8617fa179520",
+      "shadow_checkpoint_bytes": 3802,
+      "resolved_child_match": true
+    },
+    {
+      "evidence_key": "forum-group-navigation:20134ff38e5c0455f6add7a3fb976bdb26ef59d8815d2f3676dcbfb4ac7f09b9",
+      "group_message_ids": [
+        "1458826532385456254"
+      ],
+      "v2_6_control_thread_channel_id": "1445442259658080417",
+      "v2_6_control_checkpoint_path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-08_20260722T072547Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_20134ff38e5c0455f6add7a3fb976bdb26ef59d8815d2f3676dcbfb4ac7f09b9.json",
+      "v2_6_control_checkpoint_sha256": "42cdf6aa0e4d6d7fe0dc4645609780608447722318e21838017042dd21302f58",
+      "v2_6_control_checkpoint_bytes": 2670,
+      "shadow_method": "direct_consensus_v2_7",
+      "shadow_direct_thread_channel_id": "1445442259658080417",
+      "shadow_direct_errors": [],
+      "direct_key_match": true,
+      "direct_child_match": true,
+      "shadow_resolved_thread_channel_id": "1445442259658080417",
+      "shadow_checkpoint_path": "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_direct_consensus_20134ff38e5c0455f6add7a3fb976bdb26ef59d8815d2f3676dcbfb4ac7f09b9.json",
+      "shadow_checkpoint_sha256": "0fcb0b3f1be2ad1bf7b1a7950d3080679bc0f5fa57870296481a4248dc72707b",
+      "shadow_checkpoint_bytes": 3038,
+      "resolved_child_match": true
+    },
+    {
+      "evidence_key": "forum-group-navigation:2eea0bd5ff357a622df5cc14dd4ad1ae6bb18e3c37b7c9ac235c8bac5961404f",
+      "group_message_ids": [
+        "1458828192545636638",
+        "1458828271763456103"
+      ],
+      "v2_6_control_thread_channel_id": "1412565591944073238",
+      "v2_6_control_checkpoint_path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-08_20260722T072547Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_2eea0bd5ff357a622df5cc14dd4ad1ae6bb18e3c37b7c9ac235c8bac5961404f.json",
+      "v2_6_control_checkpoint_sha256": "b73ce14bb3c66449f8fe6fe5d76384dc511c37d22bc0a1e1c44255c90756dead",
+      "v2_6_control_checkpoint_bytes": 2736,
+      "shadow_method": "direct_consensus_v2_7",
+      "shadow_direct_thread_channel_id": "1412565591944073238",
+      "shadow_direct_errors": [],
+      "direct_key_match": true,
+      "direct_child_match": true,
+      "shadow_resolved_thread_channel_id": "1412565591944073238",
+      "shadow_checkpoint_path": "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_direct_consensus_2eea0bd5ff357a622df5cc14dd4ad1ae6bb18e3c37b7c9ac235c8bac5961404f.json",
+      "shadow_checkpoint_sha256": "931d95f3082fd8244c2d19ab5a209cd0cbeb015d52866a423ef2cae4de1eba5a",
+      "shadow_checkpoint_bytes": 3156,
+      "resolved_child_match": true
+    },
+    {
+      "evidence_key": "forum-group-navigation:2f5ac706063efdd53a1cfbd65730cb9700f455e1536eeae2852690ef0ae96b64",
+      "group_message_ids": [
+        "1458833726287904880",
+        "1458833756927430861"
+      ],
+      "v2_6_control_thread_channel_id": "1458185519035973742",
+      "v2_6_control_checkpoint_path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-08_20260722T072547Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_2f5ac706063efdd53a1cfbd65730cb9700f455e1536eeae2852690ef0ae96b64.json",
+      "v2_6_control_checkpoint_sha256": "3d4915183d602b69386b1da1cdeccf5da05dc4cc29c818503fa446074a65c4d6",
+      "v2_6_control_checkpoint_bytes": 2736,
+      "shadow_method": "direct_consensus_v2_7",
+      "shadow_direct_thread_channel_id": "1458185519035973742",
+      "shadow_direct_errors": [],
+      "direct_key_match": true,
+      "direct_child_match": true,
+      "shadow_resolved_thread_channel_id": "1458185519035973742",
+      "shadow_checkpoint_path": "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_direct_consensus_2f5ac706063efdd53a1cfbd65730cb9700f455e1536eeae2852690ef0ae96b64.json",
+      "shadow_checkpoint_sha256": "91b650ce9aa2c02e90bb1bbf148d5076252129a4eb4d6706a5c8ece4e31a1577",
+      "shadow_checkpoint_bytes": 3094,
+      "resolved_child_match": true
+    },
+    {
+      "evidence_key": "forum-group-navigation:4582d218faf009f926c4c7492403ef4a4b0658e718d5a689c9d3249ef15fbf8b",
+      "group_message_ids": [
+        "1458827259275378688",
+        "1458827416506994851",
+        "1458827746112307273",
+        "1458827759446130834"
+      ],
+      "v2_6_control_thread_channel_id": "1405819945291612194",
+      "v2_6_control_checkpoint_path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-08_20260722T072547Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_4582d218faf009f926c4c7492403ef4a4b0658e718d5a689c9d3249ef15fbf8b.json",
+      "v2_6_control_checkpoint_sha256": "b71545296aeb7e0c53f88f70142bf665d99c20640f82695eea58fcff94d12c23",
+      "v2_6_control_checkpoint_bytes": 2868,
+      "shadow_method": "header_navigation_v2_6",
+      "shadow_direct_thread_channel_id": null,
+      "shadow_direct_errors": [
+        "direct_candidate_channel_count_not_one",
+        "direct_candidate_missing"
+      ],
+      "direct_key_match": null,
+      "direct_child_match": null,
+      "shadow_resolved_thread_channel_id": "1405819945291612194",
+      "shadow_checkpoint_path": "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_navigation_4582d218faf009f926c4c7492403ef4a4b0658e718d5a689c9d3249ef15fbf8b.json",
+      "shadow_checkpoint_sha256": "39deba1956c389e520fd563119b47a56de6298b8cb6451fe1431a1bef32953ca",
+      "shadow_checkpoint_bytes": 2868,
+      "resolved_child_match": true
+    },
+    {
+      "evidence_key": "forum-group-navigation:78140b205a683e99236f2438a7a84a02cb91b8e68d4e3f74d028878a6d542d4d",
+      "group_message_ids": [
+        "1458833813311328305"
+      ],
+      "v2_6_control_thread_channel_id": "1452715760152739951",
+      "v2_6_control_checkpoint_path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-08_20260722T072547Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_78140b205a683e99236f2438a7a84a02cb91b8e68d4e3f74d028878a6d542d4d.json",
+      "v2_6_control_checkpoint_sha256": "5d8a6578557eabd4911779f1ffa2a297f6a45b97695ae0f388632e65223d71ba",
+      "v2_6_control_checkpoint_bytes": 2670,
+      "shadow_method": "header_navigation_v2_6",
+      "shadow_direct_thread_channel_id": null,
+      "shadow_direct_errors": [
+        "direct_candidate_channel_count_not_one",
+        "direct_candidate_missing"
+      ],
+      "direct_key_match": null,
+      "direct_child_match": null,
+      "shadow_resolved_thread_channel_id": "1452715760152739951",
+      "shadow_checkpoint_path": "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_navigation_78140b205a683e99236f2438a7a84a02cb91b8e68d4e3f74d028878a6d542d4d.json",
+      "shadow_checkpoint_sha256": "1b02f3da5427c5a21ac7e76efa67ac6a742164df40edd270fc0f3c5cb2fe0ac7",
+      "shadow_checkpoint_bytes": 2670,
+      "resolved_child_match": true
+    },
+    {
+      "evidence_key": "forum-group-navigation:88a275e3acb4d8a1bec4c71003c047b10e307e8f00de98a91c49c755eec64831",
+      "group_message_ids": [
+        "1458829023667945533",
+        "1458829062242828353",
+        "1458830626185810123",
+        "1458830683349844166"
+      ],
+      "v2_6_control_thread_channel_id": "1405897225845997588",
+      "v2_6_control_checkpoint_path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-08_20260722T072547Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_88a275e3acb4d8a1bec4c71003c047b10e307e8f00de98a91c49c755eec64831.json",
+      "v2_6_control_checkpoint_sha256": "213bbe7ca8d5160076a71d93b64ca1fe0dad5a5d280609768d52b06c4e069d19",
+      "v2_6_control_checkpoint_bytes": 2868,
+      "shadow_method": "direct_consensus_v2_7",
+      "shadow_direct_thread_channel_id": "1405897225845997588",
+      "shadow_direct_errors": [],
+      "direct_key_match": true,
+      "direct_child_match": true,
+      "shadow_resolved_thread_channel_id": "1405897225845997588",
+      "shadow_checkpoint_path": "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_direct_consensus_88a275e3acb4d8a1bec4c71003c047b10e307e8f00de98a91c49c755eec64831.json",
+      "shadow_checkpoint_sha256": "8dfa6411157814e270b0f1c56b77ca6e0c9d773c1e6ebfce16229db182267666",
+      "shadow_checkpoint_bytes": 3206,
+      "resolved_child_match": true
+    },
+    {
+      "evidence_key": "forum-group-navigation:a681fd102124a2a54cf84a943c24f7d9487171ca76fb783b0304522335b92b53",
+      "group_message_ids": [
+        "1458832335041724550",
+        "1458832456085016840"
+      ],
+      "v2_6_control_thread_channel_id": "1346537994256908449",
+      "v2_6_control_checkpoint_path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-08_20260722T072547Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_a681fd102124a2a54cf84a943c24f7d9487171ca76fb783b0304522335b92b53.json",
+      "v2_6_control_checkpoint_sha256": "ac12e8d0b111885705f4f22eeb705b1c4c35a6d51a3e7d261121170bce58a94c",
+      "v2_6_control_checkpoint_bytes": 2736,
+      "shadow_method": "header_navigation_v2_6",
+      "shadow_direct_thread_channel_id": null,
+      "shadow_direct_errors": [
+        "direct_candidate_channel_count_not_one",
+        "direct_candidate_missing"
+      ],
+      "direct_key_match": null,
+      "direct_child_match": null,
+      "shadow_resolved_thread_channel_id": "1346537994256908449",
+      "shadow_checkpoint_path": "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_navigation_a681fd102124a2a54cf84a943c24f7d9487171ca76fb783b0304522335b92b53.json",
+      "shadow_checkpoint_sha256": "b89121d8bbe6076328c34ee69b540b731a0b5d72403a71af7d49dbb2ee88ead2",
+      "shadow_checkpoint_bytes": 2736,
+      "resolved_child_match": true
+    },
+    {
+      "evidence_key": "forum-group-navigation:d6f3c6074a0e850b136354cc6b39ac29b958df51e58f85fb7ccac374c58ae0af",
+      "group_message_ids": [
+        "1458826808735694959"
+      ],
+      "v2_6_control_thread_channel_id": "1405897225845997588",
+      "v2_6_control_checkpoint_path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-08_20260722T072547Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_d6f3c6074a0e850b136354cc6b39ac29b958df51e58f85fb7ccac374c58ae0af.json",
+      "v2_6_control_checkpoint_sha256": "2ff7e6114edd3c2e603bfc646b7968f95492bacdfd3873662c33ffc8c3945776",
+      "v2_6_control_checkpoint_bytes": 2670,
+      "shadow_method": "direct_consensus_v2_7",
+      "shadow_direct_thread_channel_id": "1405897225845997588",
+      "shadow_direct_errors": [],
+      "direct_key_match": true,
+      "direct_child_match": true,
+      "shadow_resolved_thread_channel_id": "1405897225845997588",
+      "shadow_checkpoint_path": "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_direct_consensus_d6f3c6074a0e850b136354cc6b39ac29b958df51e58f85fb7ccac374c58ae0af.json",
+      "shadow_checkpoint_sha256": "138c2740e6220562b5bfd95961a050216be1c8b6e98ca23c8b4cba449caa4ffa",
+      "shadow_checkpoint_bytes": 3038,
+      "resolved_child_match": true
+    },
+    {
+      "evidence_key": "forum-group-navigation:e00c1232da904f6de0c569f1e059c21c0e7aca949e8e61df8f204a9f6b877dda",
+      "group_message_ids": [
+        "1458813443829268573",
+        "1458813851842773285",
+        "1458813940447445054",
+        "1458814247009259602",
+        "1458821672730755134",
+        "1458821675352068131"
+      ],
+      "v2_6_control_thread_channel_id": "1458810607460679702",
+      "v2_6_control_checkpoint_path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-08_20260722T072547Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_e00c1232da904f6de0c569f1e059c21c0e7aca949e8e61df8f204a9f6b877dda.json",
+      "v2_6_control_checkpoint_sha256": "24de09d8ce6b3e93f1df221f4c5a7ebce997a36c0322a03d91c753bae1b0b593",
+      "v2_6_control_checkpoint_bytes": 3000,
+      "shadow_method": "direct_consensus_v2_7",
+      "shadow_direct_thread_channel_id": "1458810607460679702",
+      "shadow_direct_errors": [],
+      "direct_key_match": true,
+      "direct_child_match": true,
+      "shadow_resolved_thread_channel_id": "1458810607460679702",
+      "shadow_checkpoint_path": "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_direct_consensus_e00c1232da904f6de0c569f1e059c21c0e7aca949e8e61df8f204a9f6b877dda.json",
+      "shadow_checkpoint_sha256": "60a50ba1511d4df20d927a9992da7b51981126115135c368a93c4647b905846a",
+      "shadow_checkpoint_bytes": 3318,
+      "resolved_child_match": true
+    }
+  ],
+  "exact_shadow_files": [
+    "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_direct_consensus_0656c1deaf57144eb3889d2d608c3280f3142619baa3922b24be3876641527ff.json",
+    "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_direct_consensus_20134ff38e5c0455f6add7a3fb976bdb26ef59d8815d2f3676dcbfb4ac7f09b9.json",
+    "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_direct_consensus_2eea0bd5ff357a622df5cc14dd4ad1ae6bb18e3c37b7c9ac235c8bac5961404f.json",
+    "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_direct_consensus_2f5ac706063efdd53a1cfbd65730cb9700f455e1536eeae2852690ef0ae96b64.json",
+    "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_direct_consensus_88a275e3acb4d8a1bec4c71003c047b10e307e8f00de98a91c49c755eec64831.json",
+    "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_direct_consensus_d6f3c6074a0e850b136354cc6b39ac29b958df51e58f85fb7ccac374c58ae0af.json",
+    "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_direct_consensus_e00c1232da904f6de0c569f1e059c21c0e7aca949e8e61df8f204a9f6b877dda.json",
+    "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_navigation_4582d218faf009f926c4c7492403ef4a4b0658e718d5a689c9d3249ef15fbf8b.json",
+    "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_navigation_78140b205a683e99236f2438a7a84a02cb91b8e68d4e3f74d028878a6d542d4d.json",
+    "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/forum_group_navigation_a681fd102124a2a54cf84a943c24f7d9487171ca76fb783b0304522335b92b53.json",
+    "raw/premium_journals_v2_7_checkpoints/2026-01-08/page_006/page_plan.json"
+  ],
+  "observed_at_utc": "2026-07-22T07:56:05.958Z"
+}

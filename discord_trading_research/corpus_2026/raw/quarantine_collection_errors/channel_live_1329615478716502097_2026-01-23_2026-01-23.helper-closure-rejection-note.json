@@ -1,0 +1,25 @@
+{
+  "event_type": "discord_staged_capture_rejection",
+  "schema_version": "1.0.0",
+  "guild_id": "1167376964680691732",
+  "channel_id": "1329615478716502097",
+  "channel_name": "Live",
+  "segment_start": "2026-01-23",
+  "segment_end": "2026-01-23",
+  "query": "in:Live after:2026-01-22 before:2026-01-24",
+  "rejected_at_utc": "2026-07-21T13:37:57.382Z",
+  "rejected_staged_original_path": "working/live_v25_replacements/channel_live_1329615478716502097_2026-01-23_2026-01-23.json",
+  "rejected_staged_quarantine_path": "raw/quarantine_collection_errors/channel_live_1329615478716502097_2026-01-23_2026-01-23.rejected-v2.5-helper-closure_5e07fd1ab008.json",
+  "rejected_staged_sha256": "5e07fd1ab008a39a2a5468d9ded1841b67a6ff2f76995d233ed4d5a3fb1ef2a5",
+  "canonical_path": "raw/channel_segments/channel_live_1329615478716502097_2026-01-23_2026-01-23.json",
+  "canonical_sha256": "7d494ba02bd40c2ea3ad3f88dad19e94d8c790cc37fa987a55d8a82e6c052f6d",
+  "canonical_untouched": true,
+  "rejection_reason": "collector_helper_closure_retained_pre_explicit-status_module",
+  "missing_field_families": [
+    "reply_target_resolution_status/reply_target_unavailability_documented",
+    "discord_system_event_exact/discord_system_event_type",
+    "timestamp_exact_fallback_source"
+  ],
+  "action": "quarantined_rejected_stage_without_promoting_or_mutating",
+  "outside_sources_used": false
+}

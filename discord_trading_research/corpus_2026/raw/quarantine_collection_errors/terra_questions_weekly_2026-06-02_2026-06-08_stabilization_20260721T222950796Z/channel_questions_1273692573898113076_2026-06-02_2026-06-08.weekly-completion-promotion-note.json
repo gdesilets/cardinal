@@ -1,0 +1,53 @@
+{
+  "recorded_at_utc": "2026-07-21T22:39:15.680Z",
+  "segment": {
+    "start": "2026-06-02",
+    "end": "2026-06-08",
+    "query": "in:❓│questions after:2026-06-01 before:2026-06-09"
+  },
+  "staged_artifact": "channel_questions_1273692573898113076_2026-06-02_2026-06-08.json",
+  "canonical_artifact": "raw/channel_segments/channel_questions_1273692573898113076_2026-06-02_2026-06-08.json",
+  "sha256": "21a4acb77aaa775437033898a2c6a71d223cb1de846d2f7d63f282710b2d9592",
+  "bytes": 7633700,
+  "reported_total": 1831,
+  "reported_pages": 74,
+  "captured_rows": 1831,
+  "unique_message_ids": 1831,
+  "gap_count": 0,
+  "provenance_conflict_count": 0,
+  "completion_evidence": {
+    "valid": true,
+    "terminal_state": "stable_bottom",
+    "search_submission_mode": "reuse_active_positive",
+    "search_submission_count": 0
+  },
+  "stabilization_revisit": {
+    "fresh_search_submissions": 1,
+    "pre_page_1_stable_observations": 3,
+    "stable_reported_total": 1831,
+    "legacy_id_count": 175,
+    "missing_legacy_ids": [],
+    "legacy_first_175_order_exact": true,
+    "prior_page_10_missing_indices_recovered": [250],
+    "evidence": "channel_questions_1273692573898113076_2026-06-02_2026-06-08.stabilization-revisit-evidence.json"
+  },
+  "strict_terminal_qa": {
+    "passed": true,
+    "errors": [],
+    "documented_unavailable_reply_count": 168
+  },
+  "independent_qa": {
+    "build_corpus_computed_complete": true,
+    "build_corpus_validation_errors": [],
+    "build_corpus_validation_warnings": [],
+    "validate_corpus_issue_counts": {},
+    "executed_command_candidate_count": 0,
+    "executed_command_failure_count": 0
+  },
+  "promotion": {
+    "destination_preexisting": false,
+    "copied_without_force": true,
+    "source_destination_hash_match": true,
+    "source_destination_byte_match": true
+  }
+}

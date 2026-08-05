@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "recorded_at_utc": "2026-07-21T20:16:54.2009128Z",
+  "scope": {
+    "guild_id": "1167376964680691732",
+    "channel_id": "1273692573898113076",
+    "channel_name": "❓│questions",
+    "canonical_directory": "raw/channel_segments"
+  },
+  "before_promotion": {
+    "complete_files": 16,
+    "complete_rows": 18555,
+    "global_unique_message_ids": 18555,
+    "cross_file_duplicate_ids": 0
+  },
+  "promoted_segment": {
+    "start": "2026-03-24",
+    "end": "2026-03-30",
+    "rows": 2749,
+    "unique_message_ids": 2749,
+    "sha256": "843e84021ecc572e3ee90212513ab77b78f81ecba59c1cf741262bdf60107fb1"
+  },
+  "after_promotion": {
+    "candidate_files": 18,
+    "complete_files": 17,
+    "complete_rows": 21304,
+    "global_unique_message_ids": 21304,
+    "cross_file_duplicate_ids": 0,
+    "duplicate_examples": []
+  },
+  "reconciliation_checks": {
+    "complete_file_increment": 1,
+    "complete_row_increment": 2749,
+    "global_unique_increment": 2749,
+    "all_complete_rows_globally_unique": true,
+    "no_cross_file_duplicate_ids": true,
+    "passed": true
+  },
+  "shared_schedule_modified": false
+}

@@ -1,0 +1,58 @@
+{
+  "event_type": "discord_collector_version_replacement",
+  "schema_version": "2.0.0",
+  "guild_id": "1167376964680691732",
+  "channel_id": "1329615478716502097",
+  "channel_name": "Live",
+  "segment_start": "2026-03-03",
+  "segment_end": "2026-03-03",
+  "query": "in:Live after:2026-03-02 before:2026-03-04",
+  "observed_at_utc": "2026-07-21T14:25:02.981Z",
+  "old_collector_version": "2.3",
+  "new_collector_version": "2.5",
+  "old_reported_total": 2,
+  "fresh_recount_total": 2,
+  "new_reported_total": 2,
+  "total_drift_detected": false,
+  "prior_final_original_path": "raw/channel_segments/channel_live_1329615478716502097_2026-03-03_2026-03-03.json",
+  "prior_final_quarantine_path": "raw/quarantine_collection_errors/channel_live_1329615478716502097_2026-03-03_2026-03-03.legacy-v2.3_0628bb13862e.json",
+  "prior_final_sha256": "0628bb13862e4e26889b9f98ef4c9bc540834b27a78b6b3e2df26722237fd7d2",
+  "staged_artifact_path": "working/live_v25_replacements/channel_live_1329615478716502097_2026-03-03_2026-03-03.json",
+  "staged_artifact_sha256": "2c0ab7bfeeab80c6eaadda317f24d19238b6210b27f510d4735f84f9be9bdc63",
+  "replacement_final_path": "raw/channel_segments/channel_live_1329615478716502097_2026-03-03_2026-03-03.json",
+  "replacement_final_sha256": "2c0ab7bfeeab80c6eaadda317f24d19238b6210b27f510d4735f84f9be9bdc63",
+  "replacement_rows": 2,
+  "replacement_unique_message_ids": 2,
+  "replacement_gap_count": 0,
+  "replacement_container_mismatch_count": 0,
+  "completion_evidence": {
+    "source": "inline",
+    "terminal_state": "stable_bottom",
+    "stable_empty_observations": 0,
+    "stable_bottom_observations": 2,
+    "stable_bottom_next_enabled_states": [
+      false,
+      false
+    ],
+    "validation": {
+      "valid": true,
+      "errors": []
+    }
+  },
+  "row_level_qa": {
+    "passed": true,
+    "qa_policy": "validated_by_working_validate_live_stage_v25",
+    "all_rows_explicit_field_families": true,
+    "stage_system_events_snowflake_verified": 0,
+    "poll_closed_system_events_snowflake_verified": 0,
+    "exact_reply_ids": 1,
+    "dyno_command_non_reply_contexts_documented": 0,
+    "message_could_not_be_loaded_documented": 1,
+    "attachment_preview_reply_contexts_documented_nonlinkable": 0,
+    "owned_attachments": 0,
+    "non_owned_embed_assets": 0,
+    "row_fidelity_issue_count": 0
+  },
+  "action": "preserved_prior_final_then_staged_validated_and_atomically_promoted_v2_5",
+  "outside_sources_used": false
+}

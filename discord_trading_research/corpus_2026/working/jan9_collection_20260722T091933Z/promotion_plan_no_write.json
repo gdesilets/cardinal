@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "premium_journals_jan9_exclusive_promotion_plan",
+  "status": "blocked_pending_independent_audit_pass",
+  "write_executed": false,
+  "schedule_mutated": false,
+  "receipt_created": false,
+  "v2_7_involved": false,
+  "authority_source": {
+    "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-09_20260722T091933Z/v2_6_revalidated/system_event_timestamp_revalidated_v1/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.json",
+    "sha256": "399f0df8ef52878442542043c3d64c0a4cb8070bac5dd0b8df58fcebf2df87ae",
+    "bytes": 1786921,
+    "collector_version": "2.6",
+    "reported_total": 194,
+    "reported_pages": 8,
+    "exact_one_row_revalidation_delta": true
+  },
+  "exclusive_target": {
+    "path": "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.json",
+    "creation_mode": "exclusive_binary_create_xb",
+    "flush_and_fsync_required": true,
+    "source_target_byte_equality_required": true,
+    "postwrite_sha256_required": "399f0df8ef52878442542043c3d64c0a4cb8070bac5dd0b8df58fcebf2df87ae",
+    "postwrite_bytes_required": 1786921
+  },
+  "immutable_preconditions": {
+    "schedule_sha256": "0a1fd787f0fbeb6cb142edd028d16daa3c0189027d2d42b82ba40bb209ca18d6",
+    "schedule_bytes": 930837,
+    "protected_collector_contract_sha256": "609285b8ea8a87cc4a8dc86595936b9906b635b5a5e88b37f284161d42003602",
+    "protected_collector_contract_bytes": 78730,
+    "system_event_contract_sha256": "c20711a6b5957274d32349e4fa16bf9017bd9c2811f3b902c9988ec909dd323b",
+    "system_event_contract_bytes": 55857,
+    "protected_original_v2_6_tree_sha256": "ba59f65424487d24366265a14aeeefd3a209a7931895fbf3defdee2cf951099b",
+    "protected_original_v2_6_file_count": 76,
+    "protected_original_v2_6_bytes": 1681238,
+    "full_append_only_stage_tree_sha256": "486fd41ceb28c5a047705775fa927d9df5a14ade8dbd6e8c29d349c11b619dfa",
+    "full_append_only_stage_file_count": 81,
+    "full_append_only_stage_bytes": 3496110,
+    "prepromotion_strict_audit_sha256": "9ee53ac42b116c65546478d2633ce67e6f3166253f3f7591859edaca861a3753",
+    "generic_artifact_gate_sha256": "9f6d443bc92a546c15c73364335d7f8678d2be9c0e7781eb0d071ce592885d76",
+    "prospective_union_audit_sha256": "1033afcd33d2a6abf9a8be4e9923750613ca270defc4fd96f040e2aae9a28dc6"
+  },
+  "absence_preconditions": [
+    "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.json",
+    "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.partial.json",
+    "raw/channel_segments/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.json",
+    "raw/channel_segments/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.partial.json",
+    "raw/channel_segments_v2_7/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.json"
+  ],
+  "required_final_gate": {
+    "name": "independent_prepromotion_audit",
+    "status_required": "PASS",
+    "artifact_path": null,
+    "artifact_sha256": null,
+    "currently_satisfied": false
+  },
+  "postwrite_sequence": [
+    "rehash the exclusive canonical and require exact source equality",
+    "rerun strict Premium provenance, timestamp, reply, attachment, and generic segment audits",
+    "reverify protected original v2.6 tree and append-only evidence tree unchanged",
+    "reverify legacy, partial, and v2.7 Jan9 targets absent",
+    "rebuild the scoped three-parent schedule exactly once",
+    "validate the persisted rebuilt schedule twice",
+    "require 9 accepted, 192 pending, 2427 accepted and unique messages, and zero duplicate, unresolved, conflict, or attachment-owner-conflict counts",
+    "write a final audit receipt only after all postwrite and schedule gates pass"
+  ],
+  "jan10_fresh_search_checklist": {
+    "query": "in:premium-journals after:2026-01-09 before:2026-01-11",
+    "timezone": "America/Chicago",
+    "jan9_query_submitted_at_utc": "2026-07-22T09:19:33.860Z",
+    "earliest_60_second_spaced_submission_utc": "2026-07-22T09:20:33.860Z",
+    "fresh_stage_required": true,
+    "reuse_active_search_for_new_query_forbidden": true,
+    "target_legacy_partial_v2_7_absence_recheck_required": true,
+    "current_schedule_hash_recheck_required_after_jan9_finalization": true,
+    "normal_header_navigation_and_all_or_nothing_pages_required": true
+  }
+}

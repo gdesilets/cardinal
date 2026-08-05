@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0.0",
+  "status": "complete_qa_passed_and_promoted",
+  "recorded_at_utc": "2026-07-21T20:23:07.2078574Z",
+  "segment": {
+    "start": "2026-03-31",
+    "end": "2026-04-06",
+    "query": "in:❓│questions after:2026-03-30 before:2026-04-07"
+  },
+  "collection_identity": {
+    "guild_id": "1167376964680691732",
+    "channel_id": "1273692573898113076",
+    "channel_name": "❓│questions",
+    "channel_kind": "text channel",
+    "category_name": "PREMIUM",
+    "channel_id_source": "inventory_exact_href",
+    "collector_version": "2.5"
+  },
+  "collection_submission": {
+    "fresh_search_submissions": 1,
+    "resume_search_submissions": 0,
+    "reported_total": 1098,
+    "reported_pages": 44,
+    "query_changed": false
+  },
+  "final_artifact": {
+    "staged_path": "raw/quarantine_collection_errors/terra_questions_weekly_2026-03-31_2026-04-06_20260721T201744578Z/channel_questions_1273692573898113076_2026-03-31_2026-04-06.json",
+    "canonical_path": "raw/channel_segments/channel_questions_1273692573898113076_2026-03-31_2026-04-06.json",
+    "sha256": "57e2771f3165bbbf91bb5476f07a4a47ca2a90cc4ad41fafdda9c17e62a71458",
+    "bytes": 4031215,
+    "complete": true,
+    "reported_total": 1098,
+    "reported_pages": 44,
+    "pages_captured": 44,
+    "captured_rows": 1098,
+    "unique_message_ids": 1098,
+    "gap_indices": [],
+    "container_mismatch_count": 0
+  },
+  "strict_route_qa": {
+    "passed": true,
+    "errors": [],
+    "attachment_count": 83,
+    "exact_non_owned_attachment_count": 0,
+    "exact_reply_count": 360,
+    "documented_unavailable_reply_count": 71,
+    "provenance_conflict_count": 0,
+    "central_day_counts": {
+      "2026-03-31": 222,
+      "2026-04-01": 460,
+      "2026-04-02": 129,
+      "2026-04-03": 73,
+      "2026-04-04": 9,
+      "2026-04-05": 59,
+      "2026-04-06": 146
+    }
+  },
+  "independent_corpus_qa": {
+    "computed_complete": true,
+    "completion_evidence_source": "inline",
+    "completion_evidence_valid": true,
+    "validation_errors": [],
+    "validation_warnings": [],
+    "issue_counts": {}
+  },
+  "completion_evidence": {
+    "terminal_state": "stable_bottom",
+    "stable_bottom_observations": 2,
+    "terminal_page": 44,
+    "terminal_first_result_index": 1076,
+    "terminal_last_result_index": 1098,
+    "terminal_visible_result_count": 23,
+    "has_enabled_next_states": [false, false],
+    "search_submission_mode": "reuse_active_positive",
+    "search_submission_count": 0,
+    "submitted_at_utc": null,
+    "validation_valid": true,
+    "validation_errors": []
+  },
+  "promotion_verification": {
+    "source_sha256": "57e2771f3165bbbf91bb5476f07a4a47ca2a90cc4ad41fafdda9c17e62a71458",
+    "destination_sha256": "57e2771f3165bbbf91bb5476f07a4a47ca2a90cc4ad41fafdda9c17e62a71458",
+    "hash_match": true,
+    "source_bytes": 4031215,
+    "destination_bytes": 4031215,
+    "byte_count_match": true
+  },
+  "shared_schedule_modified": false
+}

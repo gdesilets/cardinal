@@ -1,0 +1,28 @@
+{
+  "event_type": "discord_search_total_drift",
+  "guild_id": "1167376964680691732",
+  "channel_id": "1329615478716502097",
+  "channel_name": "Live",
+  "segment_start": "2026-04-28",
+  "segment_end": "2026-04-28",
+  "query": "in:Live after:2026-04-27 before:2026-04-29",
+  "old_reported_total": 825,
+  "new_reported_total": 824,
+  "old_total_observed_at_utc": "2026-07-21T02:12:11.915Z",
+  "new_total_observed_at_utc": "2026-07-21T02:26:34.029Z",
+  "diagnostics": {
+    "missing_result_index_before_rerender": 650,
+    "transient_zero_recount_observed": true
+  },
+  "source_checkpoint_original_path": "raw/channel_segments/channel_live_1329615478716502097_2026-04-28_2026-04-28.partial.json",
+  "source_checkpoint_quarantine_path": "raw/quarantine_collection_errors/channel_live_1329615478716502097_2026-04-28_2026-04-28.stale-total825-to824_e63f953f4fe9.partial.json",
+  "source_checkpoint_sha256": "e63f953f4fe977f8d235d044c51ca66a99e9979b3832d350dac48f1f3753e94a",
+  "source_checkpoint_rows": 625,
+  "source_checkpoint_pages": 25,
+  "source_checkpoint_unique_message_ids": 625,
+  "source_checkpoint_gap_count": 0,
+  "restart_artifact_path": "raw/channel_segments/channel_live_1329615478716502097_2026-04-28_2026-04-28.json",
+  "restart_partial_path": "raw/channel_segments/channel_live_1329615478716502097_2026-04-28_2026-04-28.partial.json",
+  "action": "quarantined_stale_checkpoint_and_restart_from_page_1",
+  "outside_sources_used": false
+}

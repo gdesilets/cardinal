@@ -1,0 +1,2439 @@
+{
+  "artifact_type": "premium_journals_v2_6_day_promotion_audit",
+  "source_scope": "discord_only",
+  "outside_sources_used": false,
+  "route": {
+    "start": "2026-01-12",
+    "end": "2026-01-12",
+    "query": "in:premium-journals after:2026-01-11 before:2026-01-13"
+  },
+  "stage_path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/primary_2026-01-12_2026-01-12.json",
+  "canonical": {
+    "path": "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-12_2026-01-12.json",
+    "sha256": "b5473f4817d8b4b12830f2701e58378b5cb1865a8670942397c283dc85010fa5",
+    "bytes": 2761280,
+    "collector_version": "2.6",
+    "reported_total": 368,
+    "captured_rows": 368,
+    "reported_pages": 15,
+    "completion_terminal_state": "stable_bottom",
+    "message_id_set_sha256": "8a93eb0b25ddb16af3ed498e3e526ef64c7d1792f15a8e721c1e021126039d48",
+    "observed_child_thread_count": 25,
+    "observed_child_thread_ids": [
+      "1316394423558340628",
+      "1346537994256908449",
+      "1353517498674315345",
+      "1398325387137777785",
+      "1399473525630173255",
+      "1405819945291612194",
+      "1405897225845997588",
+      "1406853415329599528",
+      "1412565591944073238",
+      "1413062904449728523",
+      "1414398585033982004",
+      "1416382363155300424",
+      "1440459399360413796",
+      "1445442259658080417",
+      "1445860061204189365",
+      "1447705012045217942",
+      "1448166115443347467",
+      "1448315880629862400",
+      "1448340720178958389",
+      "1448706611328716933",
+      "1450176238122565642",
+      "1455656711926055012",
+      "1458185519035973742",
+      "1458810607460679702",
+      "1460310383565869220"
+    ],
+    "observed_child_thread_id_set_sha256": "6fb638f313eae2a7c3861d29d073c56ca8c2654851791f777d93dd31d19d1249",
+    "forum_group_count": 161,
+    "forum_navigation_evidence_map_sha256": "f6764f6a3fefd377a7f6a9de2211000c41086e9ad5f97955e0c9b64bbe0c2dfc",
+    "forum_membership_integrity": {
+      "passed": true,
+      "row_count": 368,
+      "independent_row_membership_array_count": 368,
+      "group_count": 161,
+      "page_count": 15,
+      "double_sample_runtime_contract": "collector_v2.6_extractPageValidated_two_stable_pre_navigation_samples"
+    },
+    "forum_navigation_artifact_integrity": {
+      "passed": true,
+      "checkpoint_directory": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints",
+      "page_plan_count": 15,
+      "group_checkpoint_count": 161,
+      "page_plan_hashes": {
+        "1": "4047c26c96212ae6ab3d0564bf202e2c8c51dec3892f22d2b6d072f5b20b8647",
+        "2": "9d703eff0ce7ea36f7e7ba71a47c046bd914d98f0b49427e3624b5ce21746929",
+        "3": "409c51c2a1deecf3e3f0e6a4c298148fb214b0eadba0979362e6981dbf86858c",
+        "4": "755e090ab70252a0ba9eda4e15f924bbb7b8729a96414d6e9266d770c0e5e4fd",
+        "5": "a510e75d66049869af7fc07a1e96025cd1bde950821e329ca2d27945c4fd9dca",
+        "6": "a0935fdff4f9f940994f4ffe5a18ee81c9d4b651fde499887b097d8cec3cf6ba",
+        "7": "7780e61aad5fe554fdaac4bd544545e4d7934ce584e368177558948931bfcda9",
+        "8": "d5498b060f425622d63df5b28f8614a5bef1d57776971e9e020d6fcffc9b2178",
+        "9": "d31a2cdee7161a7d2907f1a09bb6a7dddc7251af0f8ce5cd31ba9db6f19584cf",
+        "10": "0426394360111f975e330a34c74f03935e3062895b52f25874934b7297de8090",
+        "11": "b7818d5d8f91641861ef0c210f8cdee099ffe70a64ffe592ccf0c66dc141faaa",
+        "12": "42a1e1a8a72200e7fa5194e87502fe79d102a9f46bbe68238d8d6ae35fa6b933",
+        "13": "12ce1e4a0f52ffac31818cb65743df53368d2e6fa0b4c15d86d2d378d887b44b",
+        "14": "b4a4efd02a3e4ee0ca487e171d6f07bcd339f181cb950fe6f31b07beb117a5ef",
+        "15": "fa8afc385b31607ba1b4ba7843a9edb990006ef05c7c6f1ada872e6e8d907cdb"
+      },
+      "page_plan_hash_set_sha256": "f75890f190275e9353f538058882a326f39f29d656619df20cd61eccb1fd6b48",
+      "bound_file_count": 176,
+      "bound_file_set_sha256": "f6dcbe7508326795d6ee0747efe8fba4b7fccfa95c97e48eb4e63c5f8796f640"
+    },
+    "timestamp_scope_integrity": {
+      "passed": true,
+      "message_count": 368,
+      "mode_counts": {
+        "message_timestamp_aria_exact": 368
+      },
+      "unresolved_count": 0,
+      "unresolved": [],
+      "sidecar_error_count": 0,
+      "sidecar_errors": [],
+      "unused_revalidation_record_count": 0,
+      "unused_revalidation_message_ids": [],
+      "sidecar": {
+        "schema_version": "1.0.0",
+        "provided": false,
+        "valid": false,
+        "segment_path": "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-12_2026-01-12.json",
+        "source_artifact_sha256": "b5473f4817d8b4b12830f2701e58378b5cb1865a8670942397c283dc85010fa5",
+        "sidecar_path": null,
+        "sidecar_sha256": null,
+        "sidecar_size_bytes": null,
+        "record_count": 0,
+        "used_record_count": 0,
+        "unused_record_count": 0,
+        "unused_message_ids": [],
+        "message_ids": [],
+        "content_hash_bound": false,
+        "errors": []
+      }
+    },
+    "reply_provenance_integrity": {
+      "passed": true,
+      "status_counts": {
+        "discord_attachment_preview_without_exact_target_id": 2,
+        "discord_message_not_loaded": 14,
+        "exact_target_id": 10,
+        "not_applicable": 342
+      },
+      "executed_command_contexts": {
+        "schema_version": "1.0.0",
+        "passed": true,
+        "audited_message_count": 368,
+        "candidate_count": 0,
+        "accepted_exact_context_count": 0,
+        "expected_message_present": false,
+        "expected_message_ids": [],
+        "expected_message_presence_valid": true,
+        "failure_count": 0,
+        "candidate_message_ids": [],
+        "failures": [],
+        "policy": "The legacy anchor must remain present in its expected segment. Any Wordle verified-app row with exact article/message binding, the literal executedCommand_c19a55 DOM token, aria-hidden=true, the Wordle application identity, exact <nonempty>/used/Play context, and zero target evidence is a documented Discord application-command non-reply. Text or class lookalikes remain unresolved."
+      }
+    },
+    "attachment_provenance_integrity": {
+      "passed": true,
+      "attachment_occurrence_count": 65,
+      "unique_attachment_id_count": 65,
+      "unique_owned_attachment_id_count": 65,
+      "non_owned_attachment_occurrence_count": 0,
+      "multiple_owned_message_owner_count": 0,
+      "attachment_id_set_sha256": "8a4e4e64d1007dc8726e3278f9254ced44e93380250e58b3ba00fda59026bfde"
+    },
+    "forum_navigation_unresolved_count": 0,
+    "thread_channel_id_conflict_count": 0,
+    "forbidden_selected_thread_source_count": 0,
+    "full_qa_passed": true,
+    "hash_binding_policy": "sha256_of_exact_canonical_navigation_artifact_bytes_and_message_id_set",
+    "source_file_set_sha256": "b296c0165d15ce3eddfdd02c7a2f0f17f04feecf792e2a1d7c10795a9df39778",
+    "source_files": [
+      {
+        "role": "canonical_segment",
+        "path": "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-12_2026-01-12.json",
+        "sha256": "b5473f4817d8b4b12830f2701e58378b5cb1865a8670942397c283dc85010fa5",
+        "bytes": 2761280
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_2539fac15875b61d8956aa839038bd75a1f1a510c51e546865b2066e41aeae23.json",
+        "sha256": "31c2436fe5c249354d023e44ec763f316154661364b5cbf6520c48e669e8bd8f",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_2b46090a588bda2344afaa8a9d1bf28f11c2ea681436e4c1d3bd08b4b106c100.json",
+        "sha256": "97d33ed15a19ca41729f9b97f52a394625c5407804e09fa1a179a86f1fca9fd5",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_5466682c412b4e49812f8367f0ac268509a3371bacd541e4c1ebf15eaf551e58.json",
+        "sha256": "dd9f9249a6989f9ace329c6a1d51372167cfa4a3d3c6325effb03c2e082697bd",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_855fe5f6aa0332708cbacab43f833da1265f91505de4dfa02db76b8c46f12377.json",
+        "sha256": "aad1efae567c025ee67ad36946dc8864921b9b6a823962298a55f49107ea3b0a",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_9ad5c1e72d13f060b436d6d43f7c9c0be759a25c572d4a0e008fe24f9cc626f9.json",
+        "sha256": "4f61104a7a9bb45c0eae5dcd2551a7565f4a139b9a02235cc2df7e829bbafdef",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_ba769d25df536e112f2af18fcc3de37774fd1eba7b8980d537f61ed5f6e09da1.json",
+        "sha256": "5d8eee13d87216c647211b4f38e097c9eea01ee1093fb4b1512776309441087d",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_bb1606c6ee349388aa1acf96502a6f6325d42bf966f4b93b35409a99d3c439ff.json",
+        "sha256": "80b041deee2e56f251094208c083599240b8dddc1781910b5f3694d4b7da3e5b",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_c78fbc19d039a81b94a98230bf652de670abe861405f05934d3c7b789dec9c34.json",
+        "sha256": "fc7fa51b47101646fa983fc533c8fbba189e3fa1643e2ceab5238c6920abe6e6",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_ced59de09681c84c3e93a0ff1aa5851bc9210112bb1982f454a610b03d49c7d8.json",
+        "sha256": "e3175ae4042c1751432484711679c98a3866721f45ce55566ec38c46c691c190",
+        "bytes": 2868
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_f1de1bcafa8d025fa2cb5d808d784fac21d4146a0e1d59490fe5a1fd9a04758e.json",
+        "sha256": "496191aa5ffe2891a8b2353993443f809a8b61a7fdb00b4239bc909d3b55798f",
+        "bytes": 3132
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/page_plan.json",
+        "sha256": "36c1b98a3457873229884eb03d0fc40e56ad7603459433b2f59fb346f0e4916a",
+        "bytes": 3762
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_002/forum_group_navigation_4e68d1b9e6ddceb52ec4165c0c84c69676accec2dc97afb418f4607da2cb9937.json",
+        "sha256": "176fad23770f92585f5227e12f7c91fa23cc60b2be98762b1728be44ea50663b",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_002/forum_group_navigation_ac7e5cd6e1e6416ba396e08179586b8e9e30221111df9a11c3f26ab13d89bb0e.json",
+        "sha256": "42f6b1f08a5546f61dc9fe3019706c961718b39f835b89a5aac1daeb442db67f",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_002/forum_group_navigation_d444a11d1e0fa3932e1cca8fdd8bf363cf875bbc1ed2c5c8a25c2e0e6bd16a28.json",
+        "sha256": "1a416ad5cee0bcdd14595b3fdd6a8d5070a17ef4b61db6b9182a9ef547e75ebb",
+        "bytes": 4056
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_002/page_plan.json",
+        "sha256": "96f4e43a2b9561164b7f05fcf1951874f4156b30a3b2532caf9d8a817a16616a",
+        "bytes": 2797
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_003/forum_group_navigation_0691b978901d2f715d022c925333533cf728ccebfc7b2a4ebe05fc3865acb14e.json",
+        "sha256": "e112d39fd0a9cd39b13629009c0465089967b261dd5fdf6d0792b68498d911e9",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_003/forum_group_navigation_49563ecad1a6a6162228473c4eead8a62902c4813d351d74c64c540d7414f4c1.json",
+        "sha256": "f3fec8b06df78f3b4256781748f88d3ea134c8a2310c0806314366ac64d76425",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_003/forum_group_navigation_77f55a85c6b716f9d0151827719adc8e0e8f927ef31a694093effe80136b7db3.json",
+        "sha256": "a16e74a0a443aca694ec4d9dbb771cda27b5b78c3d1ee23a68492223221167b4",
+        "bytes": 3462
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_003/forum_group_navigation_a0d9aa382d811edcf07a9486be7731eec5fe49db5cd091f610adb7641ceadb0d.json",
+        "sha256": "5ccd387dfd9fc55dd61beb8db42d6cc8040c45adf23d39863c2cfb60337abe80",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_003/forum_group_navigation_b259b5b295ad79ab921356a1c7a3f810c60fe2d0a6be415c47751ce745797434.json",
+        "sha256": "833ac18baea9b0a865d75937a34e69f3dcf9953edea8a5ec2808174ca2762b48",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_003/forum_group_navigation_e90e07e09aec92d148f49fcc67675da96a84b87393eb770208f8f4edb6266356.json",
+        "sha256": "78325d0bfa5380f1498c2e42d2c2febbaf13d301a3971896ec3aed60079865cf",
+        "bytes": 3000
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_003/page_plan.json",
+        "sha256": "dbbc118497b4bc3bdf921bb72fba5edfdf9049ba1a6faf66c08f28329e694f4b",
+        "bytes": 3214
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_1fd3dc425b6e41727f9b98ea9f494134f8bb24174323765bc959307d8206d2df.json",
+        "sha256": "2f4b29c529c760d6ec5193eb26e8bb0af8f8e6ca00b6e1ebdca192053f47ef43",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_2e6f5730b021edf0c3d2b5df883be8a07b437b796b256b1bfe17afb868b5bedf.json",
+        "sha256": "c53c3757e8284eea0416631e18fba07610b3e0e3d09d2fdbdf06f765e89d48f2",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_3d0bf094f25a9507f7227e757491c67edcfe80b943602d66d6e0d94d359fc754.json",
+        "sha256": "a448b8d747d4ec1e1176bc2026198d7d1fc2f88f875b0c5ad90a93281c7eadc0",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_4c772d16314886e433b4414c114f471eb0e4f5426b9a46e7e406e0c1fdde92cb.json",
+        "sha256": "2dc3bc12657101fdff433ee1376b4135dfb7e0ac54d008a8bba6ea60a8905590",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_742ae932475d6be1e0ba600ad578ec266de0bc1acee287cd4982a128918e7dda.json",
+        "sha256": "4ff5e22649e4b46d73c20646cdc485f7c02f8ab2c0bde668511a431626a086db",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_7ed41791ef91c0750f6fae86ddebfa175354ee2e8ea9dbd478d45ed5119ffb8e.json",
+        "sha256": "58968a5c60db1c6850d57c278a441b47423637767acb377d263fc4c01980e25f",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_ae16bcd1140c88a4b3d4a349a7d307fc09c91ed6fa78324619733a1018652977.json",
+        "sha256": "254b7e199522c7c5bb05b25d4e9cf8777232019397bb42ad504e24f77b013b5a",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_b206c3623210a2294ae952332dd1bb4c43016fddb3e63ff1c1a758e3c095ac08.json",
+        "sha256": "20e9356d88bb52ea1538bcd4226bad5d9ff3d11bc3cc11538436f5d4244533f4",
+        "bytes": 2868
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_bcd7658df90da898d2a2ba7162052aa719d661530dcd668a2664d51daca32df3.json",
+        "sha256": "4facefa8d18f304eb630b36a1507e0c2d8fe4a1aece81e7121212ddd38441a88",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_bf3791e922681ca314e8f58ebd7714d3ea93e2bda62a39d2c93d2207dab24ebe.json",
+        "sha256": "d4ae2a6f936748e935af9b6bab7e3c7e87a984bc91a9edb29e2b9f20463f91c9",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_d64385ccfb558c76e5f1d8444eb4fe57406cc295820d0c12ec26ae79b6400840.json",
+        "sha256": "da8845d0b26400f7b8ba77126a3b40dc38b73384ed70a46415af88e894895cdb",
+        "bytes": 3000
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_e6cdd9d6b119a722a0fc037e0eaefc6558d26ec0e18baab1cb46d1be99a9c3b9.json",
+        "sha256": "2779100e4b95b039ad5a5bbc364a9805f851c9497337edd5d6c12154da3b6baa",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/page_plan.json",
+        "sha256": "7346d10aa1c2845dd5c3fe3bf46e7fb6e46a599a89dea2c5ca4484e53f889ccb",
+        "bytes": 4050
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_195a302d74b1c5d7f66fe024d65690225b73d0b8ff1e394756a5c2ea3eefdd1e.json",
+        "sha256": "6619e80be3b74b1d820404ae2b35cf8a6cf6a965c6eb2fe25164675b68037724",
+        "bytes": 2934
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_244a9def47d31709b3432b08f2c3eacaf6ce0ef7afb42c6213231d0c9416cb94.json",
+        "sha256": "4ba88c40d2d6b2ca38c44b32d5df7339191e53ee348912ee3614ef3127b1dae7",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_30d19d432eaa10412c5455dcacc54f6e009fba414146b54dcbf379ebce8d132e.json",
+        "sha256": "1ac72bb17d15fdf7bb4c3b7fc690020e6709484124d17251481429aa8524d7df",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_32a1a9f5c1e6b5e9aca858bed54f560a43abb7a09123048a68607777c74398b5.json",
+        "sha256": "91b0c2cbb814d068042b3679c89447ed8e293c39c2520c2a590e793a9f09c814",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_4dbf684d805b98184a91b73912616c20929cbaed5ee2ac754dfd218e26977035.json",
+        "sha256": "2aa8bfc0a9809b235c891f7e6f8812cc161523c2142713cfb8ebda56a964592d",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_5e2066eebdba7c5e8d29bccb20069aeddde5658303f62ff3a62eb15834d5c8a0.json",
+        "sha256": "7ff195ea149e598d41ac6c6467ada19901e0034a9d11dfef3f6c2d1b4b46b8c3",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_6220d61ff63c6ad2b8d227b6e2fb9e69db64ee6eeffd6b54f95a30952c7b08e8.json",
+        "sha256": "da4237b7351f56c3db60725e5051438b212277488026d7353d17841b1c81a871",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_7e7f164fa2e25a53b7dc9ce2aeca7ac6b96f5cb6a27e072651ded46894a7ec38.json",
+        "sha256": "e9e587e7a750c1ba0c51b865f7ce6ff5e409656a4a1c3f3d2fb33c3499850c00",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_8214842b1e5213949f7912bb16d7a79e5c49ce29b8e9bd1c2517febc6dcb0b3e.json",
+        "sha256": "afe25244d1c85179f7e96348acd391c0b70688f2a96ff8aabec73269194eff19",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_84a437574463f7ab6a97ecdc7de54ef626c9e481e305d9bba56f38bdf6208be7.json",
+        "sha256": "7c8b141f9461fe15d9056c0820d163a2547388c1fd647fade06ba64937f864ed",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_c1abdc54d8c4be83e68d98667ca8073b77d67867c7b0f738e6dd3bf5f82c3fb3.json",
+        "sha256": "a0e952514fa2b56c66144aaf9e9de94b0f0aef1c2f8b706f19b6364af94d3066",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_cc3f4f9334f101d87c4e82bf582a590429db2c9d3c213d33f56ecefa8e90be56.json",
+        "sha256": "64a3e360ef64b51f32af4865aebb0e7f470cccf131326001de8a180db431f078",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_f3aa50438ee27b300e15007933ad2744117726e17bedea551cfc852e1226f651.json",
+        "sha256": "4b7945a470aa6862b592c7224475ecfc6cf664a3987f083c724d636e886132dd",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_faca9e5f0532b21afc0e9eb33b98caf6fba8d9e207f1d3d58aa2d6fc44a350f0.json",
+        "sha256": "4b04dabf7342a7964cdd11f972caf682b007c1a2dfd133546d80b61fd906a9ca",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_fe2b78e0497ecb2a5a20ed867e3f1e9fe726f2b3b753cfafa0ca3a24f2d652c2.json",
+        "sha256": "9dc46704febfebfd2b38313c48c9a051491a6eb94f8a6f3405e28e97083727be",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_ff9e6c2b2611e0f43d4b2ad99ffc71488cd566c242ba4a376af702822b09850d.json",
+        "sha256": "b5105d1c6d7a4bacd6deeda5f96cbd26071f48e5d8ecc9f361572ea278d2a042",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/page_plan.json",
+        "sha256": "d96a4092aaad6f8d8f5f86c487cb248f29a31648d98c7dab1bb37f96910b131c",
+        "bytes": 4630
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_2605eb0720042ca943347c36ed72fc18f923dbf973fbe4b8656433ca5ff92721.json",
+        "sha256": "53a1864bc016b949f2f2ee7b3f93a75d1b783f3925c499d59b08814be87e1a91",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_31976b5729cb0b24b3ccca5aa19bc3c7a7f47a4bcad6e36f4a802d12b256af41.json",
+        "sha256": "e1aafadf0ef5fc43422a22ed0ab0d93a15aaae7055bf099f58e4821922ff9de7",
+        "bytes": 2934
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_563e235550aa828fe69af9291b7ffe61a7aee82726c953b08b8e96ab6fd47e5c.json",
+        "sha256": "7df6f19073d16d695581514be01363869eac87f1cee470afc137ea9ceb40cd7d",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_5a2fe7d149e1829c465d83614c5f5831b2bae49daa9ba05855b48e1ff9d31778.json",
+        "sha256": "7a069c310e7535b9316f62c50188a217747ac045b42315e23790f9eaf21bb532",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_5cc7883770f2d3eb1db79ad50b47280007ae5aaf6af0eaf623378aea5d181cd0.json",
+        "sha256": "e77a0de1960c3b0c90a8171391aa0f01a444384ced3412ff6bf7f7ca56e99ed9",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_a12c0f373e592b3c04660082c6ada126897a1c47f7790be9e8df1bb21f18394c.json",
+        "sha256": "bf7c9682fe1ea14638f34ca350bad54e3fd8727eadd25f04e164f2d38765780c",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_b128b2c4ce354e981da61a09ea75695719e18a706d859fc3456e0860905217d3.json",
+        "sha256": "ab6faf9802bac09921946cfb4b453ce5e55349daa92306ce32b5388a8185d991",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_b6e6d0c8122a166082252993d40a78255d23bd4b11a2dffd8d850c11d8e47b9d.json",
+        "sha256": "b1bfe94dc6fb82be2f17dfc3485fb54089684ddee205ed02282704f3794c5e94",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_cd338a7b39ad14ee5cbfe9b2a2fe8c6ee7a5fbf3bbe5b12cd09712a3851643fc.json",
+        "sha256": "bd1201ff6dc04c20455773787a9a8d4bc0048713365e672200e883f881aeee09",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_cfbb997fa0084b8da482226845824ec477865365afb1dcf29a126a2b713f761f.json",
+        "sha256": "7b04d6856d4e9117c506b8ebf6522508116857acc3987fad73d6322f0891c009",
+        "bytes": 3000
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_d1f0ce943426027982aefcdfe55b6fea49fc63f4f5c093ffc53b9e63b5e12f1d.json",
+        "sha256": "80854cdbaf7302eb28dcb736a37e06a736b02bb732f78b075617251d677ecfc4",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_d370cd759eef6f2f6acec7149d20d32d476ad90cbce932eacbb0a8cc27e8e010.json",
+        "sha256": "45241ea45c6617c2e72735dc85638b8d6e806443f61d433a9975cfac5570e01d",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_ddb7dbea820638dca38dd78be2f6d067f2923355d0fb66cc979cef427dd0c9f0.json",
+        "sha256": "cfdd0d047cdc55881f9e89225f3f095e146abc1dd0c823e70cd07fb65784e849",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/page_plan.json",
+        "sha256": "430b2f0b7b0bbfc79ba87b8025e164797c32cd152fd4dffc4df344520258c87f",
+        "bytes": 4213
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_0bf95abf499921289e17c07373d240b60904a43c616784063f79eed78e312049.json",
+        "sha256": "a89b93b197ae72f13bd6b160af8f36e24d93832cc293f36370ce29914323c2ee",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_15bb1212b4609ac2cfd32ae7ba3e3edb66568b6055dacb0c098e6e76bff68d54.json",
+        "sha256": "006cb05ea9e00039b38efc4ecb3232ffa9ed1ebf54f55a35e3a58b4ba8c0cf93",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_2665e62a88a39262f2372faf33cd022b3c4d08eecfc3d776db3f6fd47f601a3d.json",
+        "sha256": "1d94f5b9d17a7766c68fd8af05c28ebc36530f91526792823fbf602a1979c5df",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_3b3c22e52eac4817c9bade596fd868ec674f39c27fee0bd60daed2952421e364.json",
+        "sha256": "6a2f0d0cb5ff8abfa9af645cd9fda0fd0c86d11a157979b1d6a766b41342e2f9",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_42d2850d8a5d1aa2abc57657d4a95a411b873329d74b8f685b45f17a766c7416.json",
+        "sha256": "258abdf8acd4d6cea9d83cf9e182b485e24f013be235d235f7b5c90f82a5da7d",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_459406da4b189dc8f7aa97fef6bfe0605641993b6765e61a74a6303ba492a783.json",
+        "sha256": "a7e88b24eb0b7b2ff0d96b40082fbfd5dd9d59edc478743c8e9770a02c97bd48",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_539096b45b0ccb081070a62d9d342c3bd62fcc4607db555ef2c61ac487f4b7a2.json",
+        "sha256": "27a89c3467e8d14273730f02eeb48914c778f407bc378e78b39d82f06518c49e",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_7bc13e879e71d8fd3eee139003d7251a883e401037f062a12010de8edd3ef728.json",
+        "sha256": "585ee0b442c52ae11884010c23eb04736fd76cbce7bcb89c1c0e33e15a04bfe7",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_816023fdf62c510f7e505444cde2d0c9b7fe313f3e1b0128df5fea7ce8e41feb.json",
+        "sha256": "94dfacc20a4e236ad049cd6e05093ea681e294439d69a2284c4601fc610f0261",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_999b70614ab6cef2c896ded2e5b465d7e2237f48eb7637577989f616d3fcf3bd.json",
+        "sha256": "2617a7bfbf546395f4be32ea5bd6e6f9a86cf1de821aab39c96423cd628a4a57",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_b2c99d6596475d31eaa37e5e24bbe5e670f4f69ea3e9a80cdac1d6e79c7481bd.json",
+        "sha256": "94623fe34d3e57c103ba3e42d249e296d45aca3bcd76d840ca2cbe314cdc15ae",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_b4db4ac6d8dcb5a958ad914dec200303e35e9b0b8aac75d265cba901227c15b7.json",
+        "sha256": "02c9f18a8ba384891902236c8e93ead8da4258db3c1f7d693392de984e7c1149",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_b8cea0c97f89e603e6ac4810db265c35e404ed57d45739872a7bdff8df3af0c6.json",
+        "sha256": "12ac2fd0f84236b938ada3a9923f9f07e223a582e153190df121f336970ff4c4",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_c18db80de459244b168f497424e80137f8ac2963f167591bc922cfbdbb420d15.json",
+        "sha256": "aa43ea4e9bc0ab85b60516edcffc592ca5786f6a951fb1840d40abeb9cbbec4a",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_c5323fb3f3d1667e275539ac245df2a6d9f79dc945a0e10ad07d2ec6d6b3caad.json",
+        "sha256": "a63f939c8f0e0bcd1ab449927d49c72be6d6d70aef31eab435c295e4f4add0bf",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_d494e86f13bcba3b76f91de50d1d5207266804f3d2c50e1048d54aa454300060.json",
+        "sha256": "5786478dff11660f064799041a14d25ab80212db0b91aedec1df309cce7a04ab",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_da450d3dd13dd50f51622fa05751cea8d765edaf3d43e6ead6b746738a16e26e.json",
+        "sha256": "51015ddd8f69c6c1a1c9c72021ba45ac81ef7e5d4264dfacd600a8ef1ce15afc",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_eb0409dd6407e82630caa44c6d36a4546e111443045708146f4e923615035143.json",
+        "sha256": "c8b5551ec126d81ea53299adef416ab777dc5fd0d414898b5d5ccf379a6b43d4",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_eb0d938f1cdf58608e48f4068ff6a569810bd71aa8862fa72bebfd9726df65f8.json",
+        "sha256": "f66bb660a17615dacac087f1657774365feb192c17221b411c3bac5195fedfc3",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/page_plan.json",
+        "sha256": "a6c4e42bee1c3c3609837d0fc498e87f2268cea2451440a78b45420e095539e5",
+        "bytes": 5047
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_27eb5ccd2bb62f05e0fdc9f39dd0d18459996ac91fda0eb3f4dd5fab26d66af7.json",
+        "sha256": "74dbecf8cf36a04744fdb1e1f4a92d5b06740b69cd152434ff2a3e0ea5fbbd13",
+        "bytes": 2868
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_3325cc1ca11065d4f0f4dd3601fceee02e676216139cf542396f4908b0f04036.json",
+        "sha256": "65f8957c00d796b0be5e08818a0f1b654318137b4ee499b6065b565d41eff7dc",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_4a7ed0c77a131cbaa2594f061055ac7a30b7818acb95305c96d81a91c3c16cb9.json",
+        "sha256": "c5a740dd4957497fd826c25ef44f480071e0dbaba4a11c590efc071323fe669b",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_6c83260baa74f54ab1478a772972795f40102ce24fcaa6fc729d72359ab6215b.json",
+        "sha256": "f32de4fe08a6368aa61bdabf45711f221557a810a0d140e0a79b1521b57430fd",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_9359c9548ec9a3ff0944072b8db002587ea8c92092db6d7725f3a9124c7f1b1c.json",
+        "sha256": "3a686885b615e38bfbaa82e9eb6a844eec4d374717d89c26e3dc4e10ff9bcaf7",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_a0eed190d81c61512dced9c9e25f5cd52a2b4b92d33d0ef5bec29724dc3d5a3e.json",
+        "sha256": "b70f2efc1e4cfb82a4834a4f4143248109adf155a8b305d33fdc436d84154977",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_b36ba1058c9a7aead93387e2530ebb965a010884cdad436d1131bd3bda179795.json",
+        "sha256": "7017a0585fb0ce052fd41866ee321f5cbef47a8ef4322cce2e6acec6d94513cb",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_c0ff69fe58a6919cefe3a6d345e6d6e3bf1fa86637efd543a647c461be03747c.json",
+        "sha256": "c161594e9b29ca1b49b65fecb90bd3e6c4037739e39ed36b9a07c64525b6ce41",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_d41a6ea5d65f86de1b6ef17c3bb038c33b82403a7eed0e24e491319f1b93d8eb.json",
+        "sha256": "5fd6493c68eee344a0314e7decc02b61d175f95b596e7a0184b2b737d37db36a",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_d48a2329f28ae41dce563b9b310d1d751f14a95e8d47086258d92c8ccbe6966e.json",
+        "sha256": "03fd8602dd5e88e942132d6faaf431b4363f1299dc14ceef64521e171c13ea8b",
+        "bytes": 3000
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_f019003987045949d464383e199c1257b0c640174e082449cd6f1f112a898aef.json",
+        "sha256": "d12c3ded17ea7831a5a805ec385e62a2075dd643a9bf72993ba91a2f4c7b05f5",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/page_plan.json",
+        "sha256": "3630ecdee7ff9c7b442df841240ffa1b9c2501447fdb111e060b0810a3b9053c",
+        "bytes": 3935
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_096a1592366bbab2522170334370fecbd0440c6d514c7ccfbf92e215ccc1c4cb.json",
+        "sha256": "8050ecd06667cce45e4f791d7ac0d9191f07d5fa451aac88313ae97a9278142a",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_09c61e204b833393841c4a42dded7e5ec24f566e0e8dbf6b192872fb658c3f56.json",
+        "sha256": "a26c46acac1d13c1911849655c07508b704cd267e1be375d83be78c3bb1b6777",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_1879a964af02056f9db5c2ade7b0ac27a24b2d1fe71cb16112d7cf2cbc883189.json",
+        "sha256": "cc9483a3a0e0a7d96f7a288953aec36fb685b63a4620da9ead8d006138da27ee",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_32b2ce5cf87faf25b5c33e7d8f3ee84182a82ad903c0e275a9e05394c4ec1fb4.json",
+        "sha256": "0c287880a4f34d680faf67eb45a75e1ac55a4815f9f4b3aeafd2122da5a4d463",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_496aeca88d61da7602238df41161af0561eb5d016567891c952315aee7bb783e.json",
+        "sha256": "35c28b0499070bdd96b3d9f3836023365f89e21a99cb80fd45790c59565d84cd",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_55022e27e91f7420cff0e73f0ceeba758cddb7b80cb961ac37493b185c09a3cb.json",
+        "sha256": "897de933496d4e3ce0f9fb05f14b1072f8b8dd395a3dd58940b0afab26822697",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_58f437ae1d3db3be8222419d2f3c34df45e70d3e09bad6625d919dbbcc7aabc9.json",
+        "sha256": "b9a3d9bb6d3398bf6ee00a63ef71a1a319a5fc8172570864bb03efc4add1e0b1",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_66e77129b6fd17bc45a9e56188cf5127ae44da33deeef94f6d7d3e53d6568a3c.json",
+        "sha256": "a110c98065a64cc2a7ddaad8d72ef711a5ab34cbaf7b206abe0fe0008f7a01aa",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_66ed34994331a76dd4a9bf5fbe572acf7ed92982a7248485cae632926ec00081.json",
+        "sha256": "3a8670f542194f8733bf63543fb6d294e3aebda18d6e063f78f6f5f047d5f015",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_9ae78942bfda8aa8126450aa869c77f56c3b3669973dad08a55a7f8a19b1cf2e.json",
+        "sha256": "a34b4a29df794785da0cc4ee12db3d1791685b01625ce745a10c86478830cc6f",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_a84c1a46a5aaaf69c28451e71f1f00525b09a4f8d86fffcbadf4a2ff1bf5d14b.json",
+        "sha256": "bb8d05de76de00496acc93fd7a0103aaccbcafa81bc9aaafd0003964f16d611b",
+        "bytes": 2868
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_ad24467048ed94e75973dba182964c777017a919ef0f23cb32db1c68f013fadc.json",
+        "sha256": "51c1c609e542fa61d720a31152f0a634bf101a297953e369a9eb58219edf27d4",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_be65e6169f525bf6b98032c94df160500b51983f6f983348633ef492aa68c91b.json",
+        "sha256": "8602b128ca0fa7c55d7796a840bfa91ab7914f210d79ffe3fb3ef1c78abb5322",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_cf0cbe507be6231e533f7e0eb054118bf34bc887885ac61f1229ff0d5e0e3dda.json",
+        "sha256": "55cbfa3795b64ffc214c6a062c9f1686dacc8a511f9411cbc9d80fe23e27cdd3",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_fce7ca0be79b8d865f8d742db97ad0e6e9a78877a51f3996b91a94ff6d138227.json",
+        "sha256": "759fb67d7dc0499761d223de9f23c7a99533263d36eaeee201bf658f0350f9d3",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/page_plan.json",
+        "sha256": "e3af73d1e5593162415e991edcac5e269d00c50d1ccf558b99b9a8bf88341a7c",
+        "bytes": 4491
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_126903bc214be4550ef9936aee84d71d3e1b6ed85b7a686e5b29d8110f6812ed.json",
+        "sha256": "7d81b27d40f1d350fed1dd03180dbd96ba438054c57d55585246af48b62b14c9",
+        "bytes": 2805
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_1f3e6481de2061a1f9c68b09d81c8898a8c161dab68c6237714302f52edc8390.json",
+        "sha256": "f02b2d579abee93403d6c545d2b84b178c7f6720ec6711879bc1327c170ca503",
+        "bytes": 2937
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_20f6baaed463c0bd9477bcf36b6d0e283b77ac3bd99c75ca512166dd936191dc.json",
+        "sha256": "148bc7cba20b3403e949b0c5ce0b43a97616f040891b69e99a268e9c42580286",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_246635297bcee3ba46b5ebe2c5fbeeb3e8140896f08920aa2bf641de38b4164e.json",
+        "sha256": "233c394b0f335f6714e6f3819313b1eb406f361a39e7d2586b68d604411c460f",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_4083dfed431c76f2db8664a3374f6f073d02fc208c6db7600621b4f45b3ac4b8.json",
+        "sha256": "76d598439f9d96cb3a78e7448d1b9466439ce76c1cafda246a3e7761ea09ca1f",
+        "bytes": 2871
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_4e24355cc701ae23e7d1918a76ee393dc891f206d5af6f86a6e9a81602b1e9fd.json",
+        "sha256": "9a1ae2c984c357356775f983dae19c1926a1244e91a68a70bd57376624198f9a",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_532995f2384f3d8bb753360cd9db6b15c861b4c2cd33a98c281e77e9b601f542.json",
+        "sha256": "7c9e57e844cc00600ad13ebe28fc0e5d2bfcb55c8a05a78701da45f95e194978",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_59f708d913526c58b63eb75fd5cfb6e24bcdd86206215223d317fd93769c07d2.json",
+        "sha256": "5ba6f2a57fcee007fe4dceddaacde1a7be96534ea68e3b06b1e0c193a9dd964b",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_81832188406e778d0d5acc61374f5758421b45c120d8de4daf029aec039cd34d.json",
+        "sha256": "a0634505f74fb9039ae6d9bf93edb77ce68cb148ba92c5a2271392cb2930eab7",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_8682418eb1bfdd853eabbab04f86844d4600a8d81bbe3ac1ee13578f0542b7ff.json",
+        "sha256": "4b214d51d331038a1f8314170f335c306d7ebb29c589c74a9aae90b10fae3ac6",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_905c23db9c56545fa73dee57b16956572ddbe1f611ddf7b1cfb7045059a907e5.json",
+        "sha256": "5f4c0d9bf851082c6d9456ba3e1c194bf5c2757ee4780c3d0ce4a6bb0fb1e2fc",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_d8983059c43d5be3b7b7d61e792304e31c909570f4edf8a5cc8907863bad25e1.json",
+        "sha256": "31965f52fc20e43a7b1a64cf441760e911621fad39a9be76ab8d721b7482cb30",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/page_plan.json",
+        "sha256": "71b11a5af9e59cf403a246c85c81b5facf7076d103115ce71bc43533f3a6601d",
+        "bytes": 4075
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_09e5ef8facd7ee678cf59c1b0af356b6446b9bff87c5f124b2aebdb94a4ed103.json",
+        "sha256": "de26eed2f078c100f48685f3ed7dad6a7074a7115f0f2fa532f781d4661bf36c",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_2e406eeebd95f79bc0901f44183db4d8d6853416f0356b2f242aa754dfaf5632.json",
+        "sha256": "3661b9a348440135c9973c492fefcf3c8ed4b42a27589942cff81aa4b05276e2",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_3b9cc2a331624b8da3fce784aa2f16bafba03348b90f9d42057aed8aadfe07d7.json",
+        "sha256": "0e75f6bac221949e15c68d7761049131769f35bdd75b83af1e401686d8f86537",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_597e574962b725600d72af485f06031fe39abbe3458667b63b1221bd922c0e3f.json",
+        "sha256": "7ae04d62c7b87738f84127743984aeb355b16c62c1e1cd0c53943de7c0f95775",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_740a0bd3f29c94ed2d52262c0b064beed5fb63c611074f444a78b9a186859919.json",
+        "sha256": "0b9b0b34c960a16ebabd4e2647e993563238785f9cda2bbc12d20c237776e7e0",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_7ee2acf54d73386be2f18deb0b37837400d4cfc722760357f67f6e7b449e16f6.json",
+        "sha256": "7a9ed8fc4f12c01562c2b18067fb6276938991799af3c32e45d81cdcc69da8bc",
+        "bytes": 3003
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_a1ee422fd7fa2cc27c90a27b1eb049c51dcc41fd573002e56a74312b6e6bb1a3.json",
+        "sha256": "47c0a4bcd2430c70b318007df1ce966e1008ea6ea03a4f7ed12b83f2077658d0",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_a555c230a6bf3dd4d94d992f43b3221dbd2337c37102c924b963d7808bfe85bf.json",
+        "sha256": "21e59917d3a7f9930f4bc3d4dbee3b9d628a48b45ea0ee1e525ae811b6e9e219",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_bbd7d078b59bc7abfd2109aad39c69b1f207e1ddcba08e95baf61d822d82aafc.json",
+        "sha256": "48da182b371a78bffc5b226a21729b334f1a8701a956a90754b58dae2ef532d4",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_c555f7c3bd65bdd9ee5eaca852c66f09872bb242ca760b42a522fada1f596df5.json",
+        "sha256": "2413986cb34225ff0236feddbd18f844e2681e0646c89033e57f123d933da729",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_ca4a5c0f2624fcffadd8a9766b9f5e4abb03fb800d6650010a2067a6a7ade379.json",
+        "sha256": "5aadae219aa3d41c2225366e3c7f56f779d0557be6320a10b22c5933a0769b6f",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_d670a4d9f7a65b8a2ad0c901d9f9b57e1a5c3ff49f47bf84b0377c1c61d29696.json",
+        "sha256": "88ee4f9851c5bb69654acd78ee8fe5fc05a96448bdd9761e9bbe6446f182f2a5",
+        "bytes": 2871
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_d81d04d0e48b03e2dd6b76f0299a02e5b15e1f286287d0c333ea8e6e8021c42f.json",
+        "sha256": "3956934adba8c9273bf57228f709e82b9ec1fd61db6970c225a52397c8870f81",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_f04dabe23d78ef1975e49847055698393f21683fe6a536c39db2a03a1467f9ea.json",
+        "sha256": "944821e5d8e822879d1aa917629588f3c279d940737eaab6bb0e63850d4a60cc",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/page_plan.json",
+        "sha256": "3960a2db92150dfd849441f641fd2aee45dda3fbc0d868ed77c64848b38b57a3",
+        "bytes": 4353
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_0a1b3d6aad5508e13be27af829a21b42ed6f7d00df9458ea089e7335e8ba033a.json",
+        "sha256": "75d7cc536602b268e52fd574279c6042e17d19f8d860dd2a400a57e3f2c66408",
+        "bytes": 2871
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_2d4f0cdc66392a0159705f90652af797539db7dd6ce2dd7bbd52b19978cfad5a.json",
+        "sha256": "448451db693ad4db47a353ecc6b0a2d4a24deaeb7c8d2b9fac4b80a41fe176d7",
+        "bytes": 2871
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_38dd15fe0e349941789277ee16fa970c83021ed7a48c8ac9b70ccf4f715050e3.json",
+        "sha256": "f535f6e945a1076175490a6b708056406cb2b8f0fa7062b8a979632b162a080a",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_6ec8be6a862b708d651188563e03aba17aa65e6a7527d0e2f89439b4ac95b029.json",
+        "sha256": "4303bd549f02c7720e12b00b48feb5ad89ea64cf9ee941b3ba5e393ae0046de9",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_76f4f60bb6235824ed4f81b2418f198054fa5c65e06ddabc44f87b0aad34fa6f.json",
+        "sha256": "6958d7803201aa0a8440314c2cbc2cc10b55e49cad1a417061fa1576819ea3b4",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_77c4fd7ce4e5e00476107469c16674f07694e2e14fa6395f0008b6d89d035c97.json",
+        "sha256": "bb2905c70e151b1d7b024f94dab2d91ebb1c9c154ab6bbfa5a3d76b425ccc5be",
+        "bytes": 2871
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_90a3281d8dd7b1317da417b6a9fdf9a34ed93de7eac6fbfd7cdca285ec642755.json",
+        "sha256": "6075b298631639315d07dbc4d4014ef8ea8d1a9c0ffe24f896c510b9a8593ef5",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_97bbf48aa9614eef5ecdb3b6ac7faa710e54886aaabd53ad8a9e13bdb5a05d46.json",
+        "sha256": "fe41fd9cc738e4cb9dbde5dcb8e388489cf03b384c9ac5a4fa51b6ae34c3f5d3",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_9a2c472849683384fce4a9b78ee303e381521d8e965d52bb5e57e933d60e3f77.json",
+        "sha256": "96a160e7e202027b3ecd61ce0795d6b6416705cedeeb94c05eba8b3974e8331d",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_ab335cfa1c0f30f556f0d202c303853c85a72f017f55b2cfc9051c0f683a11a7.json",
+        "sha256": "5f4e2bb911411d6a86167b29e3f4883af87bf36931aa76304ab0f5c371fa5726",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_af317253cdb3547bcdecf716eb76b5ac29fe35c8a53a497cbe9d9736ecb54819.json",
+        "sha256": "c165307659b1c4c484ab19ce5d4df7fba1095cf5dd6ae1359e5e91b53f28e28b",
+        "bytes": 2937
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/page_plan.json",
+        "sha256": "c47fb5a03275f52e6bf04fd324d036ddbe63b6aaa4b11346035d426e0b59396d",
+        "bytes": 3936
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_013/forum_group_navigation_06f7732f4914625b54bb218816d0b4b2f8c2e594e9a7ff642381f08ff210066a.json",
+        "sha256": "95db41fe82649e871018837ac188916657cd1e7788d479d29ae94d72de449310",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_013/forum_group_navigation_1c5f6b45a4bd7cc858194ce125bfb2ffe0053ecaa770b8cb002f2190c47b8e98.json",
+        "sha256": "3dbc5ec90ba4ef5b30a9b7534cd522e7c2d4087bba3793a9111ba947e09963a6",
+        "bytes": 2805
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_013/forum_group_navigation_1e7fcb3e4f76f2f49eff065da3b57a15548fab2af4340d3bad36960ceb3d3546.json",
+        "sha256": "ec225910e34e6c65b0760b58eff9d0267315a93d2532ad02d65e4fb7cb1ce371",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_013/forum_group_navigation_3f0a254718a43909e7f0406c257a16f5f83c7b7e494f10b0b9fbd48ea1ecfb3a.json",
+        "sha256": "650c1b6fbe7a27aa11baf8f6defa2cc3e5aee9ef364daca473b1431ce3b29ebf",
+        "bytes": 2871
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_013/forum_group_navigation_dc7f3d1461eed9c883745d6ae2d1212f282c1e7c009ba62a2e15e588ab5fe2cc.json",
+        "sha256": "63f89ae2fad274e1f2906b0d68040a4d7d90302437a5f5926ef751e3f5710a52",
+        "bytes": 3267
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_013/forum_group_navigation_e180409eaa7e5af6c9c93a6ed02aba8be3701fcc4f2ffc9ecf2d90acb4807ccc.json",
+        "sha256": "2feda92c34f68517937a5192829ef39fee58ff00439038086b3d128618dbc6ea",
+        "bytes": 2871
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_013/forum_group_navigation_e329ba728a512e034f6b934f78a3155acafbda599b52e2c1e6486f339ed608cb.json",
+        "sha256": "16cf7e88b1d33b3661841f7ef11cea4ed6cc46c6cc5ff46978c1467d59b149df",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_013/page_plan.json",
+        "sha256": "bbb8700f197f22907572eef4fbabd2ec653f3213507df43dbab87d83ef6cfee0",
+        "bytes": 3379
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_014/forum_group_navigation_41b5774622d0ad4df0bc977654ecf5f7107599c2e00e1970dfcc23d6cdc17828.json",
+        "sha256": "789d9d48aeb174a2527d56088299b320ae0a0148d4d27ac17b5705611f598c5d",
+        "bytes": 2937
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_014/forum_group_navigation_6027ccb5d35c49d09919f68771f2ecbb7cb8be651ff32909874b42a19b298550.json",
+        "sha256": "34d7d4ed6304e05a38dfc2f390925e77b14be171b8c5c84f4ff1bce1929a81aa",
+        "bytes": 3465
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_014/forum_group_navigation_be474f68c0587fdbd43e351655e729656aba6117287581b36f8a9fb8fd6b44d4.json",
+        "sha256": "5b4596461ff387ec44bf510fae287d0d98aa87b1aba2420c152d111b326ac356",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_014/forum_group_navigation_c7c0b30160bf2f9d4d1e0048e4620876b05dbee42085af11cef315ca5dd28f99.json",
+        "sha256": "c3dd1dd74f7b3fb643ad222bb10cc1ff23e3564578f1c585a525c86aa0cdd361",
+        "bytes": 2937
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_014/forum_group_navigation_fcae9df79e9b9e08fe477c3f3d6c4cf40c24cf51b225217930d2160da1661053.json",
+        "sha256": "32f7bf0d6038c968fe77f688ba11b094d81694cfef80d597b5ebaed738dc91e7",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_014/page_plan.json",
+        "sha256": "6bed19fc62eee66ff3fdd8a36d37778c232f3d11fc9b1bbc3a4e855bfe52780e",
+        "bytes": 3101
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_015/forum_group_navigation_4efdcb5adc6d8365d6560d5da84b9b11c49c2f2c60100a449b0dba0f1895e297.json",
+        "sha256": "dd79151af10717dc6eb29d6227b359021cc2ccd59931e2574f959ce483f21a02",
+        "bytes": 3135
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_015/forum_group_navigation_7d505071ee4671032bfde82004ea5d7b089cb62039c3d46d09300399fd12d315.json",
+        "sha256": "a7aecc6e6161a02335726953574a834199148a72eebe8b033da0354f16e7375b",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_015/forum_group_navigation_82d9e7232cdbd60bce6ec8f070cdbc0ed8059f2b1e3a5a40f3a6977f6db0e724.json",
+        "sha256": "9b176d438224b38fdeb3000b05f877917d7f56c4153d6a36c17af8c01ad86b00",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_015/forum_group_navigation_c0e01e4a5c4af3fd59f938d1788bc455ba36b9f07440fc82db91c24bf3ba319d.json",
+        "sha256": "93e1bab61dd373255dc9b3fd1f7dbb7945f8e770b8c5de65a4b8b061c7863630",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_015/forum_group_navigation_d5600764097f94b6231303549d0cdd1394e36a7269226405e09944a1b704fea7.json",
+        "sha256": "b81f9f72409bcb2a3040b31ede289685fcf032bc4d6d839fe045b8aa41fa5a57",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_015/forum_group_navigation_dc7cbc11ab36634414a842bfe1248f2daf1061c7014a541e1270728c916c79be.json",
+        "sha256": "8cdc38ecfae10ae838f7e545872d6ef1b5cb96e88adc6ed583f793fd4055936d",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_015/forum_group_navigation_fa1a313a4fd262fca8a0bd94731c662359320ae6a8299b428af365e892cebaa0.json",
+        "sha256": "bf0ebe8f57c176b6b9e6517670b8baf9550aaffe4b466eadca84bf1740c9cba9",
+        "bytes": 2805
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_015/page_plan.json",
+        "sha256": "7ada03d96ac36fdaf0e5e6ab34b4c5fa728aa5834afd2184767127e7e6f7b221",
+        "bytes": 2833
+      }
+    ]
+  },
+  "prepromotion_contract": {
+    "path": "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-12_2026-01-12.json",
+    "sha256": "b5473f4817d8b4b12830f2701e58378b5cb1865a8670942397c283dc85010fa5",
+    "bytes": 2761280,
+    "collector_version": "2.6",
+    "reported_total": 368,
+    "captured_rows": 368,
+    "reported_pages": 15,
+    "completion_terminal_state": "stable_bottom",
+    "message_id_set_sha256": "8a93eb0b25ddb16af3ed498e3e526ef64c7d1792f15a8e721c1e021126039d48",
+    "observed_child_thread_count": 25,
+    "observed_child_thread_ids": [
+      "1316394423558340628",
+      "1346537994256908449",
+      "1353517498674315345",
+      "1398325387137777785",
+      "1399473525630173255",
+      "1405819945291612194",
+      "1405897225845997588",
+      "1406853415329599528",
+      "1412565591944073238",
+      "1413062904449728523",
+      "1414398585033982004",
+      "1416382363155300424",
+      "1440459399360413796",
+      "1445442259658080417",
+      "1445860061204189365",
+      "1447705012045217942",
+      "1448166115443347467",
+      "1448315880629862400",
+      "1448340720178958389",
+      "1448706611328716933",
+      "1450176238122565642",
+      "1455656711926055012",
+      "1458185519035973742",
+      "1458810607460679702",
+      "1460310383565869220"
+    ],
+    "observed_child_thread_id_set_sha256": "6fb638f313eae2a7c3861d29d073c56ca8c2654851791f777d93dd31d19d1249",
+    "forum_group_count": 161,
+    "forum_navigation_evidence_map_sha256": "f6764f6a3fefd377a7f6a9de2211000c41086e9ad5f97955e0c9b64bbe0c2dfc",
+    "forum_membership_integrity": {
+      "passed": true,
+      "row_count": 368,
+      "independent_row_membership_array_count": 368,
+      "group_count": 161,
+      "page_count": 15,
+      "double_sample_runtime_contract": "collector_v2.6_extractPageValidated_two_stable_pre_navigation_samples"
+    },
+    "forum_navigation_artifact_integrity": {
+      "passed": true,
+      "checkpoint_directory": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints",
+      "page_plan_count": 15,
+      "group_checkpoint_count": 161,
+      "page_plan_hashes": {
+        "1": "4047c26c96212ae6ab3d0564bf202e2c8c51dec3892f22d2b6d072f5b20b8647",
+        "2": "9d703eff0ce7ea36f7e7ba71a47c046bd914d98f0b49427e3624b5ce21746929",
+        "3": "409c51c2a1deecf3e3f0e6a4c298148fb214b0eadba0979362e6981dbf86858c",
+        "4": "755e090ab70252a0ba9eda4e15f924bbb7b8729a96414d6e9266d770c0e5e4fd",
+        "5": "a510e75d66049869af7fc07a1e96025cd1bde950821e329ca2d27945c4fd9dca",
+        "6": "a0935fdff4f9f940994f4ffe5a18ee81c9d4b651fde499887b097d8cec3cf6ba",
+        "7": "7780e61aad5fe554fdaac4bd544545e4d7934ce584e368177558948931bfcda9",
+        "8": "d5498b060f425622d63df5b28f8614a5bef1d57776971e9e020d6fcffc9b2178",
+        "9": "d31a2cdee7161a7d2907f1a09bb6a7dddc7251af0f8ce5cd31ba9db6f19584cf",
+        "10": "0426394360111f975e330a34c74f03935e3062895b52f25874934b7297de8090",
+        "11": "b7818d5d8f91641861ef0c210f8cdee099ffe70a64ffe592ccf0c66dc141faaa",
+        "12": "42a1e1a8a72200e7fa5194e87502fe79d102a9f46bbe68238d8d6ae35fa6b933",
+        "13": "12ce1e4a0f52ffac31818cb65743df53368d2e6fa0b4c15d86d2d378d887b44b",
+        "14": "b4a4efd02a3e4ee0ca487e171d6f07bcd339f181cb950fe6f31b07beb117a5ef",
+        "15": "fa8afc385b31607ba1b4ba7843a9edb990006ef05c7c6f1ada872e6e8d907cdb"
+      },
+      "page_plan_hash_set_sha256": "f75890f190275e9353f538058882a326f39f29d656619df20cd61eccb1fd6b48",
+      "bound_file_count": 176,
+      "bound_file_set_sha256": "f6dcbe7508326795d6ee0747efe8fba4b7fccfa95c97e48eb4e63c5f8796f640"
+    },
+    "timestamp_scope_integrity": {
+      "passed": true,
+      "message_count": 368,
+      "mode_counts": {
+        "message_timestamp_aria_exact": 368
+      },
+      "unresolved_count": 0,
+      "unresolved": [],
+      "sidecar_error_count": 0,
+      "sidecar_errors": [],
+      "unused_revalidation_record_count": 0,
+      "unused_revalidation_message_ids": [],
+      "sidecar": {
+        "schema_version": "1.0.0",
+        "provided": false,
+        "valid": false,
+        "segment_path": "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-12_2026-01-12.json",
+        "source_artifact_sha256": "b5473f4817d8b4b12830f2701e58378b5cb1865a8670942397c283dc85010fa5",
+        "sidecar_path": null,
+        "sidecar_sha256": null,
+        "sidecar_size_bytes": null,
+        "record_count": 0,
+        "used_record_count": 0,
+        "unused_record_count": 0,
+        "unused_message_ids": [],
+        "message_ids": [],
+        "content_hash_bound": false,
+        "errors": []
+      }
+    },
+    "reply_provenance_integrity": {
+      "passed": true,
+      "status_counts": {
+        "discord_attachment_preview_without_exact_target_id": 2,
+        "discord_message_not_loaded": 14,
+        "exact_target_id": 10,
+        "not_applicable": 342
+      },
+      "executed_command_contexts": {
+        "schema_version": "1.0.0",
+        "passed": true,
+        "audited_message_count": 368,
+        "candidate_count": 0,
+        "accepted_exact_context_count": 0,
+        "expected_message_present": false,
+        "expected_message_ids": [],
+        "expected_message_presence_valid": true,
+        "failure_count": 0,
+        "candidate_message_ids": [],
+        "failures": [],
+        "policy": "The legacy anchor must remain present in its expected segment. Any Wordle verified-app row with exact article/message binding, the literal executedCommand_c19a55 DOM token, aria-hidden=true, the Wordle application identity, exact <nonempty>/used/Play context, and zero target evidence is a documented Discord application-command non-reply. Text or class lookalikes remain unresolved."
+      }
+    },
+    "attachment_provenance_integrity": {
+      "passed": true,
+      "attachment_occurrence_count": 65,
+      "unique_attachment_id_count": 65,
+      "unique_owned_attachment_id_count": 65,
+      "non_owned_attachment_occurrence_count": 0,
+      "multiple_owned_message_owner_count": 0,
+      "attachment_id_set_sha256": "8a4e4e64d1007dc8726e3278f9254ced44e93380250e58b3ba00fda59026bfde"
+    },
+    "forum_navigation_unresolved_count": 0,
+    "thread_channel_id_conflict_count": 0,
+    "forbidden_selected_thread_source_count": 0,
+    "full_qa_passed": true,
+    "hash_binding_policy": "sha256_of_exact_canonical_navigation_artifact_bytes_and_message_id_set",
+    "source_file_set_sha256": "b296c0165d15ce3eddfdd02c7a2f0f17f04feecf792e2a1d7c10795a9df39778",
+    "source_files": [
+      {
+        "role": "canonical_segment",
+        "path": "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-12_2026-01-12.json",
+        "sha256": "b5473f4817d8b4b12830f2701e58378b5cb1865a8670942397c283dc85010fa5",
+        "bytes": 2761280
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_2539fac15875b61d8956aa839038bd75a1f1a510c51e546865b2066e41aeae23.json",
+        "sha256": "31c2436fe5c249354d023e44ec763f316154661364b5cbf6520c48e669e8bd8f",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_2b46090a588bda2344afaa8a9d1bf28f11c2ea681436e4c1d3bd08b4b106c100.json",
+        "sha256": "97d33ed15a19ca41729f9b97f52a394625c5407804e09fa1a179a86f1fca9fd5",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_5466682c412b4e49812f8367f0ac268509a3371bacd541e4c1ebf15eaf551e58.json",
+        "sha256": "dd9f9249a6989f9ace329c6a1d51372167cfa4a3d3c6325effb03c2e082697bd",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_855fe5f6aa0332708cbacab43f833da1265f91505de4dfa02db76b8c46f12377.json",
+        "sha256": "aad1efae567c025ee67ad36946dc8864921b9b6a823962298a55f49107ea3b0a",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_9ad5c1e72d13f060b436d6d43f7c9c0be759a25c572d4a0e008fe24f9cc626f9.json",
+        "sha256": "4f61104a7a9bb45c0eae5dcd2551a7565f4a139b9a02235cc2df7e829bbafdef",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_ba769d25df536e112f2af18fcc3de37774fd1eba7b8980d537f61ed5f6e09da1.json",
+        "sha256": "5d8eee13d87216c647211b4f38e097c9eea01ee1093fb4b1512776309441087d",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_bb1606c6ee349388aa1acf96502a6f6325d42bf966f4b93b35409a99d3c439ff.json",
+        "sha256": "80b041deee2e56f251094208c083599240b8dddc1781910b5f3694d4b7da3e5b",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_c78fbc19d039a81b94a98230bf652de670abe861405f05934d3c7b789dec9c34.json",
+        "sha256": "fc7fa51b47101646fa983fc533c8fbba189e3fa1643e2ceab5238c6920abe6e6",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_ced59de09681c84c3e93a0ff1aa5851bc9210112bb1982f454a610b03d49c7d8.json",
+        "sha256": "e3175ae4042c1751432484711679c98a3866721f45ce55566ec38c46c691c190",
+        "bytes": 2868
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/forum_group_navigation_f1de1bcafa8d025fa2cb5d808d784fac21d4146a0e1d59490fe5a1fd9a04758e.json",
+        "sha256": "496191aa5ffe2891a8b2353993443f809a8b61a7fdb00b4239bc909d3b55798f",
+        "bytes": 3132
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_001/page_plan.json",
+        "sha256": "36c1b98a3457873229884eb03d0fc40e56ad7603459433b2f59fb346f0e4916a",
+        "bytes": 3762
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_002/forum_group_navigation_4e68d1b9e6ddceb52ec4165c0c84c69676accec2dc97afb418f4607da2cb9937.json",
+        "sha256": "176fad23770f92585f5227e12f7c91fa23cc60b2be98762b1728be44ea50663b",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_002/forum_group_navigation_ac7e5cd6e1e6416ba396e08179586b8e9e30221111df9a11c3f26ab13d89bb0e.json",
+        "sha256": "42f6b1f08a5546f61dc9fe3019706c961718b39f835b89a5aac1daeb442db67f",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_002/forum_group_navigation_d444a11d1e0fa3932e1cca8fdd8bf363cf875bbc1ed2c5c8a25c2e0e6bd16a28.json",
+        "sha256": "1a416ad5cee0bcdd14595b3fdd6a8d5070a17ef4b61db6b9182a9ef547e75ebb",
+        "bytes": 4056
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_002/page_plan.json",
+        "sha256": "96f4e43a2b9561164b7f05fcf1951874f4156b30a3b2532caf9d8a817a16616a",
+        "bytes": 2797
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_003/forum_group_navigation_0691b978901d2f715d022c925333533cf728ccebfc7b2a4ebe05fc3865acb14e.json",
+        "sha256": "e112d39fd0a9cd39b13629009c0465089967b261dd5fdf6d0792b68498d911e9",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_003/forum_group_navigation_49563ecad1a6a6162228473c4eead8a62902c4813d351d74c64c540d7414f4c1.json",
+        "sha256": "f3fec8b06df78f3b4256781748f88d3ea134c8a2310c0806314366ac64d76425",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_003/forum_group_navigation_77f55a85c6b716f9d0151827719adc8e0e8f927ef31a694093effe80136b7db3.json",
+        "sha256": "a16e74a0a443aca694ec4d9dbb771cda27b5b78c3d1ee23a68492223221167b4",
+        "bytes": 3462
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_003/forum_group_navigation_a0d9aa382d811edcf07a9486be7731eec5fe49db5cd091f610adb7641ceadb0d.json",
+        "sha256": "5ccd387dfd9fc55dd61beb8db42d6cc8040c45adf23d39863c2cfb60337abe80",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_003/forum_group_navigation_b259b5b295ad79ab921356a1c7a3f810c60fe2d0a6be415c47751ce745797434.json",
+        "sha256": "833ac18baea9b0a865d75937a34e69f3dcf9953edea8a5ec2808174ca2762b48",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_003/forum_group_navigation_e90e07e09aec92d148f49fcc67675da96a84b87393eb770208f8f4edb6266356.json",
+        "sha256": "78325d0bfa5380f1498c2e42d2c2febbaf13d301a3971896ec3aed60079865cf",
+        "bytes": 3000
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_003/page_plan.json",
+        "sha256": "dbbc118497b4bc3bdf921bb72fba5edfdf9049ba1a6faf66c08f28329e694f4b",
+        "bytes": 3214
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_1fd3dc425b6e41727f9b98ea9f494134f8bb24174323765bc959307d8206d2df.json",
+        "sha256": "2f4b29c529c760d6ec5193eb26e8bb0af8f8e6ca00b6e1ebdca192053f47ef43",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_2e6f5730b021edf0c3d2b5df883be8a07b437b796b256b1bfe17afb868b5bedf.json",
+        "sha256": "c53c3757e8284eea0416631e18fba07610b3e0e3d09d2fdbdf06f765e89d48f2",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_3d0bf094f25a9507f7227e757491c67edcfe80b943602d66d6e0d94d359fc754.json",
+        "sha256": "a448b8d747d4ec1e1176bc2026198d7d1fc2f88f875b0c5ad90a93281c7eadc0",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_4c772d16314886e433b4414c114f471eb0e4f5426b9a46e7e406e0c1fdde92cb.json",
+        "sha256": "2dc3bc12657101fdff433ee1376b4135dfb7e0ac54d008a8bba6ea60a8905590",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_742ae932475d6be1e0ba600ad578ec266de0bc1acee287cd4982a128918e7dda.json",
+        "sha256": "4ff5e22649e4b46d73c20646cdc485f7c02f8ab2c0bde668511a431626a086db",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_7ed41791ef91c0750f6fae86ddebfa175354ee2e8ea9dbd478d45ed5119ffb8e.json",
+        "sha256": "58968a5c60db1c6850d57c278a441b47423637767acb377d263fc4c01980e25f",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_ae16bcd1140c88a4b3d4a349a7d307fc09c91ed6fa78324619733a1018652977.json",
+        "sha256": "254b7e199522c7c5bb05b25d4e9cf8777232019397bb42ad504e24f77b013b5a",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_b206c3623210a2294ae952332dd1bb4c43016fddb3e63ff1c1a758e3c095ac08.json",
+        "sha256": "20e9356d88bb52ea1538bcd4226bad5d9ff3d11bc3cc11538436f5d4244533f4",
+        "bytes": 2868
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_bcd7658df90da898d2a2ba7162052aa719d661530dcd668a2664d51daca32df3.json",
+        "sha256": "4facefa8d18f304eb630b36a1507e0c2d8fe4a1aece81e7121212ddd38441a88",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_bf3791e922681ca314e8f58ebd7714d3ea93e2bda62a39d2c93d2207dab24ebe.json",
+        "sha256": "d4ae2a6f936748e935af9b6bab7e3c7e87a984bc91a9edb29e2b9f20463f91c9",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_d64385ccfb558c76e5f1d8444eb4fe57406cc295820d0c12ec26ae79b6400840.json",
+        "sha256": "da8845d0b26400f7b8ba77126a3b40dc38b73384ed70a46415af88e894895cdb",
+        "bytes": 3000
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/forum_group_navigation_e6cdd9d6b119a722a0fc037e0eaefc6558d26ec0e18baab1cb46d1be99a9c3b9.json",
+        "sha256": "2779100e4b95b039ad5a5bbc364a9805f851c9497337edd5d6c12154da3b6baa",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_004/page_plan.json",
+        "sha256": "7346d10aa1c2845dd5c3fe3bf46e7fb6e46a599a89dea2c5ca4484e53f889ccb",
+        "bytes": 4050
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_195a302d74b1c5d7f66fe024d65690225b73d0b8ff1e394756a5c2ea3eefdd1e.json",
+        "sha256": "6619e80be3b74b1d820404ae2b35cf8a6cf6a965c6eb2fe25164675b68037724",
+        "bytes": 2934
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_244a9def47d31709b3432b08f2c3eacaf6ce0ef7afb42c6213231d0c9416cb94.json",
+        "sha256": "4ba88c40d2d6b2ca38c44b32d5df7339191e53ee348912ee3614ef3127b1dae7",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_30d19d432eaa10412c5455dcacc54f6e009fba414146b54dcbf379ebce8d132e.json",
+        "sha256": "1ac72bb17d15fdf7bb4c3b7fc690020e6709484124d17251481429aa8524d7df",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_32a1a9f5c1e6b5e9aca858bed54f560a43abb7a09123048a68607777c74398b5.json",
+        "sha256": "91b0c2cbb814d068042b3679c89447ed8e293c39c2520c2a590e793a9f09c814",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_4dbf684d805b98184a91b73912616c20929cbaed5ee2ac754dfd218e26977035.json",
+        "sha256": "2aa8bfc0a9809b235c891f7e6f8812cc161523c2142713cfb8ebda56a964592d",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_5e2066eebdba7c5e8d29bccb20069aeddde5658303f62ff3a62eb15834d5c8a0.json",
+        "sha256": "7ff195ea149e598d41ac6c6467ada19901e0034a9d11dfef3f6c2d1b4b46b8c3",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_6220d61ff63c6ad2b8d227b6e2fb9e69db64ee6eeffd6b54f95a30952c7b08e8.json",
+        "sha256": "da4237b7351f56c3db60725e5051438b212277488026d7353d17841b1c81a871",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_7e7f164fa2e25a53b7dc9ce2aeca7ac6b96f5cb6a27e072651ded46894a7ec38.json",
+        "sha256": "e9e587e7a750c1ba0c51b865f7ce6ff5e409656a4a1c3f3d2fb33c3499850c00",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_8214842b1e5213949f7912bb16d7a79e5c49ce29b8e9bd1c2517febc6dcb0b3e.json",
+        "sha256": "afe25244d1c85179f7e96348acd391c0b70688f2a96ff8aabec73269194eff19",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_84a437574463f7ab6a97ecdc7de54ef626c9e481e305d9bba56f38bdf6208be7.json",
+        "sha256": "7c8b141f9461fe15d9056c0820d163a2547388c1fd647fade06ba64937f864ed",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_c1abdc54d8c4be83e68d98667ca8073b77d67867c7b0f738e6dd3bf5f82c3fb3.json",
+        "sha256": "a0e952514fa2b56c66144aaf9e9de94b0f0aef1c2f8b706f19b6364af94d3066",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_cc3f4f9334f101d87c4e82bf582a590429db2c9d3c213d33f56ecefa8e90be56.json",
+        "sha256": "64a3e360ef64b51f32af4865aebb0e7f470cccf131326001de8a180db431f078",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_f3aa50438ee27b300e15007933ad2744117726e17bedea551cfc852e1226f651.json",
+        "sha256": "4b7945a470aa6862b592c7224475ecfc6cf664a3987f083c724d636e886132dd",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_faca9e5f0532b21afc0e9eb33b98caf6fba8d9e207f1d3d58aa2d6fc44a350f0.json",
+        "sha256": "4b04dabf7342a7964cdd11f972caf682b007c1a2dfd133546d80b61fd906a9ca",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_fe2b78e0497ecb2a5a20ed867e3f1e9fe726f2b3b753cfafa0ca3a24f2d652c2.json",
+        "sha256": "9dc46704febfebfd2b38313c48c9a051491a6eb94f8a6f3405e28e97083727be",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/forum_group_navigation_ff9e6c2b2611e0f43d4b2ad99ffc71488cd566c242ba4a376af702822b09850d.json",
+        "sha256": "b5105d1c6d7a4bacd6deeda5f96cbd26071f48e5d8ecc9f361572ea278d2a042",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_005/page_plan.json",
+        "sha256": "d96a4092aaad6f8d8f5f86c487cb248f29a31648d98c7dab1bb37f96910b131c",
+        "bytes": 4630
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_2605eb0720042ca943347c36ed72fc18f923dbf973fbe4b8656433ca5ff92721.json",
+        "sha256": "53a1864bc016b949f2f2ee7b3f93a75d1b783f3925c499d59b08814be87e1a91",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_31976b5729cb0b24b3ccca5aa19bc3c7a7f47a4bcad6e36f4a802d12b256af41.json",
+        "sha256": "e1aafadf0ef5fc43422a22ed0ab0d93a15aaae7055bf099f58e4821922ff9de7",
+        "bytes": 2934
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_563e235550aa828fe69af9291b7ffe61a7aee82726c953b08b8e96ab6fd47e5c.json",
+        "sha256": "7df6f19073d16d695581514be01363869eac87f1cee470afc137ea9ceb40cd7d",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_5a2fe7d149e1829c465d83614c5f5831b2bae49daa9ba05855b48e1ff9d31778.json",
+        "sha256": "7a069c310e7535b9316f62c50188a217747ac045b42315e23790f9eaf21bb532",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_5cc7883770f2d3eb1db79ad50b47280007ae5aaf6af0eaf623378aea5d181cd0.json",
+        "sha256": "e77a0de1960c3b0c90a8171391aa0f01a444384ced3412ff6bf7f7ca56e99ed9",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_a12c0f373e592b3c04660082c6ada126897a1c47f7790be9e8df1bb21f18394c.json",
+        "sha256": "bf7c9682fe1ea14638f34ca350bad54e3fd8727eadd25f04e164f2d38765780c",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_b128b2c4ce354e981da61a09ea75695719e18a706d859fc3456e0860905217d3.json",
+        "sha256": "ab6faf9802bac09921946cfb4b453ce5e55349daa92306ce32b5388a8185d991",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_b6e6d0c8122a166082252993d40a78255d23bd4b11a2dffd8d850c11d8e47b9d.json",
+        "sha256": "b1bfe94dc6fb82be2f17dfc3485fb54089684ddee205ed02282704f3794c5e94",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_cd338a7b39ad14ee5cbfe9b2a2fe8c6ee7a5fbf3bbe5b12cd09712a3851643fc.json",
+        "sha256": "bd1201ff6dc04c20455773787a9a8d4bc0048713365e672200e883f881aeee09",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_cfbb997fa0084b8da482226845824ec477865365afb1dcf29a126a2b713f761f.json",
+        "sha256": "7b04d6856d4e9117c506b8ebf6522508116857acc3987fad73d6322f0891c009",
+        "bytes": 3000
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_d1f0ce943426027982aefcdfe55b6fea49fc63f4f5c093ffc53b9e63b5e12f1d.json",
+        "sha256": "80854cdbaf7302eb28dcb736a37e06a736b02bb732f78b075617251d677ecfc4",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_d370cd759eef6f2f6acec7149d20d32d476ad90cbce932eacbb0a8cc27e8e010.json",
+        "sha256": "45241ea45c6617c2e72735dc85638b8d6e806443f61d433a9975cfac5570e01d",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/forum_group_navigation_ddb7dbea820638dca38dd78be2f6d067f2923355d0fb66cc979cef427dd0c9f0.json",
+        "sha256": "cfdd0d047cdc55881f9e89225f3f095e146abc1dd0c823e70cd07fb65784e849",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_006/page_plan.json",
+        "sha256": "430b2f0b7b0bbfc79ba87b8025e164797c32cd152fd4dffc4df344520258c87f",
+        "bytes": 4213
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_0bf95abf499921289e17c07373d240b60904a43c616784063f79eed78e312049.json",
+        "sha256": "a89b93b197ae72f13bd6b160af8f36e24d93832cc293f36370ce29914323c2ee",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_15bb1212b4609ac2cfd32ae7ba3e3edb66568b6055dacb0c098e6e76bff68d54.json",
+        "sha256": "006cb05ea9e00039b38efc4ecb3232ffa9ed1ebf54f55a35e3a58b4ba8c0cf93",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_2665e62a88a39262f2372faf33cd022b3c4d08eecfc3d776db3f6fd47f601a3d.json",
+        "sha256": "1d94f5b9d17a7766c68fd8af05c28ebc36530f91526792823fbf602a1979c5df",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_3b3c22e52eac4817c9bade596fd868ec674f39c27fee0bd60daed2952421e364.json",
+        "sha256": "6a2f0d0cb5ff8abfa9af645cd9fda0fd0c86d11a157979b1d6a766b41342e2f9",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_42d2850d8a5d1aa2abc57657d4a95a411b873329d74b8f685b45f17a766c7416.json",
+        "sha256": "258abdf8acd4d6cea9d83cf9e182b485e24f013be235d235f7b5c90f82a5da7d",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_459406da4b189dc8f7aa97fef6bfe0605641993b6765e61a74a6303ba492a783.json",
+        "sha256": "a7e88b24eb0b7b2ff0d96b40082fbfd5dd9d59edc478743c8e9770a02c97bd48",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_539096b45b0ccb081070a62d9d342c3bd62fcc4607db555ef2c61ac487f4b7a2.json",
+        "sha256": "27a89c3467e8d14273730f02eeb48914c778f407bc378e78b39d82f06518c49e",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_7bc13e879e71d8fd3eee139003d7251a883e401037f062a12010de8edd3ef728.json",
+        "sha256": "585ee0b442c52ae11884010c23eb04736fd76cbce7bcb89c1c0e33e15a04bfe7",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_816023fdf62c510f7e505444cde2d0c9b7fe313f3e1b0128df5fea7ce8e41feb.json",
+        "sha256": "94dfacc20a4e236ad049cd6e05093ea681e294439d69a2284c4601fc610f0261",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_999b70614ab6cef2c896ded2e5b465d7e2237f48eb7637577989f616d3fcf3bd.json",
+        "sha256": "2617a7bfbf546395f4be32ea5bd6e6f9a86cf1de821aab39c96423cd628a4a57",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_b2c99d6596475d31eaa37e5e24bbe5e670f4f69ea3e9a80cdac1d6e79c7481bd.json",
+        "sha256": "94623fe34d3e57c103ba3e42d249e296d45aca3bcd76d840ca2cbe314cdc15ae",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_b4db4ac6d8dcb5a958ad914dec200303e35e9b0b8aac75d265cba901227c15b7.json",
+        "sha256": "02c9f18a8ba384891902236c8e93ead8da4258db3c1f7d693392de984e7c1149",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_b8cea0c97f89e603e6ac4810db265c35e404ed57d45739872a7bdff8df3af0c6.json",
+        "sha256": "12ac2fd0f84236b938ada3a9923f9f07e223a582e153190df121f336970ff4c4",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_c18db80de459244b168f497424e80137f8ac2963f167591bc922cfbdbb420d15.json",
+        "sha256": "aa43ea4e9bc0ab85b60516edcffc592ca5786f6a951fb1840d40abeb9cbbec4a",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_c5323fb3f3d1667e275539ac245df2a6d9f79dc945a0e10ad07d2ec6d6b3caad.json",
+        "sha256": "a63f939c8f0e0bcd1ab449927d49c72be6d6d70aef31eab435c295e4f4add0bf",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_d494e86f13bcba3b76f91de50d1d5207266804f3d2c50e1048d54aa454300060.json",
+        "sha256": "5786478dff11660f064799041a14d25ab80212db0b91aedec1df309cce7a04ab",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_da450d3dd13dd50f51622fa05751cea8d765edaf3d43e6ead6b746738a16e26e.json",
+        "sha256": "51015ddd8f69c6c1a1c9c72021ba45ac81ef7e5d4264dfacd600a8ef1ce15afc",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_eb0409dd6407e82630caa44c6d36a4546e111443045708146f4e923615035143.json",
+        "sha256": "c8b5551ec126d81ea53299adef416ab777dc5fd0d414898b5d5ccf379a6b43d4",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/forum_group_navigation_eb0d938f1cdf58608e48f4068ff6a569810bd71aa8862fa72bebfd9726df65f8.json",
+        "sha256": "f66bb660a17615dacac087f1657774365feb192c17221b411c3bac5195fedfc3",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_007/page_plan.json",
+        "sha256": "a6c4e42bee1c3c3609837d0fc498e87f2268cea2451440a78b45420e095539e5",
+        "bytes": 5047
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_27eb5ccd2bb62f05e0fdc9f39dd0d18459996ac91fda0eb3f4dd5fab26d66af7.json",
+        "sha256": "74dbecf8cf36a04744fdb1e1f4a92d5b06740b69cd152434ff2a3e0ea5fbbd13",
+        "bytes": 2868
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_3325cc1ca11065d4f0f4dd3601fceee02e676216139cf542396f4908b0f04036.json",
+        "sha256": "65f8957c00d796b0be5e08818a0f1b654318137b4ee499b6065b565d41eff7dc",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_4a7ed0c77a131cbaa2594f061055ac7a30b7818acb95305c96d81a91c3c16cb9.json",
+        "sha256": "c5a740dd4957497fd826c25ef44f480071e0dbaba4a11c590efc071323fe669b",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_6c83260baa74f54ab1478a772972795f40102ce24fcaa6fc729d72359ab6215b.json",
+        "sha256": "f32de4fe08a6368aa61bdabf45711f221557a810a0d140e0a79b1521b57430fd",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_9359c9548ec9a3ff0944072b8db002587ea8c92092db6d7725f3a9124c7f1b1c.json",
+        "sha256": "3a686885b615e38bfbaa82e9eb6a844eec4d374717d89c26e3dc4e10ff9bcaf7",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_a0eed190d81c61512dced9c9e25f5cd52a2b4b92d33d0ef5bec29724dc3d5a3e.json",
+        "sha256": "b70f2efc1e4cfb82a4834a4f4143248109adf155a8b305d33fdc436d84154977",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_b36ba1058c9a7aead93387e2530ebb965a010884cdad436d1131bd3bda179795.json",
+        "sha256": "7017a0585fb0ce052fd41866ee321f5cbef47a8ef4322cce2e6acec6d94513cb",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_c0ff69fe58a6919cefe3a6d345e6d6e3bf1fa86637efd543a647c461be03747c.json",
+        "sha256": "c161594e9b29ca1b49b65fecb90bd3e6c4037739e39ed36b9a07c64525b6ce41",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_d41a6ea5d65f86de1b6ef17c3bb038c33b82403a7eed0e24e491319f1b93d8eb.json",
+        "sha256": "5fd6493c68eee344a0314e7decc02b61d175f95b596e7a0184b2b737d37db36a",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_d48a2329f28ae41dce563b9b310d1d751f14a95e8d47086258d92c8ccbe6966e.json",
+        "sha256": "03fd8602dd5e88e942132d6faaf431b4363f1299dc14ceef64521e171c13ea8b",
+        "bytes": 3000
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/forum_group_navigation_f019003987045949d464383e199c1257b0c640174e082449cd6f1f112a898aef.json",
+        "sha256": "d12c3ded17ea7831a5a805ec385e62a2075dd643a9bf72993ba91a2f4c7b05f5",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_008/page_plan.json",
+        "sha256": "3630ecdee7ff9c7b442df841240ffa1b9c2501447fdb111e060b0810a3b9053c",
+        "bytes": 3935
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_096a1592366bbab2522170334370fecbd0440c6d514c7ccfbf92e215ccc1c4cb.json",
+        "sha256": "8050ecd06667cce45e4f791d7ac0d9191f07d5fa451aac88313ae97a9278142a",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_09c61e204b833393841c4a42dded7e5ec24f566e0e8dbf6b192872fb658c3f56.json",
+        "sha256": "a26c46acac1d13c1911849655c07508b704cd267e1be375d83be78c3bb1b6777",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_1879a964af02056f9db5c2ade7b0ac27a24b2d1fe71cb16112d7cf2cbc883189.json",
+        "sha256": "cc9483a3a0e0a7d96f7a288953aec36fb685b63a4620da9ead8d006138da27ee",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_32b2ce5cf87faf25b5c33e7d8f3ee84182a82ad903c0e275a9e05394c4ec1fb4.json",
+        "sha256": "0c287880a4f34d680faf67eb45a75e1ac55a4815f9f4b3aeafd2122da5a4d463",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_496aeca88d61da7602238df41161af0561eb5d016567891c952315aee7bb783e.json",
+        "sha256": "35c28b0499070bdd96b3d9f3836023365f89e21a99cb80fd45790c59565d84cd",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_55022e27e91f7420cff0e73f0ceeba758cddb7b80cb961ac37493b185c09a3cb.json",
+        "sha256": "897de933496d4e3ce0f9fb05f14b1072f8b8dd395a3dd58940b0afab26822697",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_58f437ae1d3db3be8222419d2f3c34df45e70d3e09bad6625d919dbbcc7aabc9.json",
+        "sha256": "b9a3d9bb6d3398bf6ee00a63ef71a1a319a5fc8172570864bb03efc4add1e0b1",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_66e77129b6fd17bc45a9e56188cf5127ae44da33deeef94f6d7d3e53d6568a3c.json",
+        "sha256": "a110c98065a64cc2a7ddaad8d72ef711a5ab34cbaf7b206abe0fe0008f7a01aa",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_66ed34994331a76dd4a9bf5fbe572acf7ed92982a7248485cae632926ec00081.json",
+        "sha256": "3a8670f542194f8733bf63543fb6d294e3aebda18d6e063f78f6f5f047d5f015",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_9ae78942bfda8aa8126450aa869c77f56c3b3669973dad08a55a7f8a19b1cf2e.json",
+        "sha256": "a34b4a29df794785da0cc4ee12db3d1791685b01625ce745a10c86478830cc6f",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_a84c1a46a5aaaf69c28451e71f1f00525b09a4f8d86fffcbadf4a2ff1bf5d14b.json",
+        "sha256": "bb8d05de76de00496acc93fd7a0103aaccbcafa81bc9aaafd0003964f16d611b",
+        "bytes": 2868
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_ad24467048ed94e75973dba182964c777017a919ef0f23cb32db1c68f013fadc.json",
+        "sha256": "51c1c609e542fa61d720a31152f0a634bf101a297953e369a9eb58219edf27d4",
+        "bytes": 2736
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_be65e6169f525bf6b98032c94df160500b51983f6f983348633ef492aa68c91b.json",
+        "sha256": "8602b128ca0fa7c55d7796a840bfa91ab7914f210d79ffe3fb3ef1c78abb5322",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_cf0cbe507be6231e533f7e0eb054118bf34bc887885ac61f1229ff0d5e0e3dda.json",
+        "sha256": "55cbfa3795b64ffc214c6a062c9f1686dacc8a511f9411cbc9d80fe23e27cdd3",
+        "bytes": 2670
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/forum_group_navigation_fce7ca0be79b8d865f8d742db97ad0e6e9a78877a51f3996b91a94ff6d138227.json",
+        "sha256": "759fb67d7dc0499761d223de9f23c7a99533263d36eaeee201bf658f0350f9d3",
+        "bytes": 2802
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_009/page_plan.json",
+        "sha256": "e3af73d1e5593162415e991edcac5e269d00c50d1ccf558b99b9a8bf88341a7c",
+        "bytes": 4491
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_126903bc214be4550ef9936aee84d71d3e1b6ed85b7a686e5b29d8110f6812ed.json",
+        "sha256": "7d81b27d40f1d350fed1dd03180dbd96ba438054c57d55585246af48b62b14c9",
+        "bytes": 2805
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_1f3e6481de2061a1f9c68b09d81c8898a8c161dab68c6237714302f52edc8390.json",
+        "sha256": "f02b2d579abee93403d6c545d2b84b178c7f6720ec6711879bc1327c170ca503",
+        "bytes": 2937
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_20f6baaed463c0bd9477bcf36b6d0e283b77ac3bd99c75ca512166dd936191dc.json",
+        "sha256": "148bc7cba20b3403e949b0c5ce0b43a97616f040891b69e99a268e9c42580286",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_246635297bcee3ba46b5ebe2c5fbeeb3e8140896f08920aa2bf641de38b4164e.json",
+        "sha256": "233c394b0f335f6714e6f3819313b1eb406f361a39e7d2586b68d604411c460f",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_4083dfed431c76f2db8664a3374f6f073d02fc208c6db7600621b4f45b3ac4b8.json",
+        "sha256": "76d598439f9d96cb3a78e7448d1b9466439ce76c1cafda246a3e7761ea09ca1f",
+        "bytes": 2871
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_4e24355cc701ae23e7d1918a76ee393dc891f206d5af6f86a6e9a81602b1e9fd.json",
+        "sha256": "9a1ae2c984c357356775f983dae19c1926a1244e91a68a70bd57376624198f9a",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_532995f2384f3d8bb753360cd9db6b15c861b4c2cd33a98c281e77e9b601f542.json",
+        "sha256": "7c9e57e844cc00600ad13ebe28fc0e5d2bfcb55c8a05a78701da45f95e194978",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_59f708d913526c58b63eb75fd5cfb6e24bcdd86206215223d317fd93769c07d2.json",
+        "sha256": "5ba6f2a57fcee007fe4dceddaacde1a7be96534ea68e3b06b1e0c193a9dd964b",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_81832188406e778d0d5acc61374f5758421b45c120d8de4daf029aec039cd34d.json",
+        "sha256": "a0634505f74fb9039ae6d9bf93edb77ce68cb148ba92c5a2271392cb2930eab7",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_8682418eb1bfdd853eabbab04f86844d4600a8d81bbe3ac1ee13578f0542b7ff.json",
+        "sha256": "4b214d51d331038a1f8314170f335c306d7ebb29c589c74a9aae90b10fae3ac6",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_905c23db9c56545fa73dee57b16956572ddbe1f611ddf7b1cfb7045059a907e5.json",
+        "sha256": "5f4c0d9bf851082c6d9456ba3e1c194bf5c2757ee4780c3d0ce4a6bb0fb1e2fc",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/forum_group_navigation_d8983059c43d5be3b7b7d61e792304e31c909570f4edf8a5cc8907863bad25e1.json",
+        "sha256": "31965f52fc20e43a7b1a64cf441760e911621fad39a9be76ab8d721b7482cb30",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_010/page_plan.json",
+        "sha256": "71b11a5af9e59cf403a246c85c81b5facf7076d103115ce71bc43533f3a6601d",
+        "bytes": 4075
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_09e5ef8facd7ee678cf59c1b0af356b6446b9bff87c5f124b2aebdb94a4ed103.json",
+        "sha256": "de26eed2f078c100f48685f3ed7dad6a7074a7115f0f2fa532f781d4661bf36c",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_2e406eeebd95f79bc0901f44183db4d8d6853416f0356b2f242aa754dfaf5632.json",
+        "sha256": "3661b9a348440135c9973c492fefcf3c8ed4b42a27589942cff81aa4b05276e2",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_3b9cc2a331624b8da3fce784aa2f16bafba03348b90f9d42057aed8aadfe07d7.json",
+        "sha256": "0e75f6bac221949e15c68d7761049131769f35bdd75b83af1e401686d8f86537",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_597e574962b725600d72af485f06031fe39abbe3458667b63b1221bd922c0e3f.json",
+        "sha256": "7ae04d62c7b87738f84127743984aeb355b16c62c1e1cd0c53943de7c0f95775",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_740a0bd3f29c94ed2d52262c0b064beed5fb63c611074f444a78b9a186859919.json",
+        "sha256": "0b9b0b34c960a16ebabd4e2647e993563238785f9cda2bbc12d20c237776e7e0",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_7ee2acf54d73386be2f18deb0b37837400d4cfc722760357f67f6e7b449e16f6.json",
+        "sha256": "7a9ed8fc4f12c01562c2b18067fb6276938991799af3c32e45d81cdcc69da8bc",
+        "bytes": 3003
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_a1ee422fd7fa2cc27c90a27b1eb049c51dcc41fd573002e56a74312b6e6bb1a3.json",
+        "sha256": "47c0a4bcd2430c70b318007df1ce966e1008ea6ea03a4f7ed12b83f2077658d0",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_a555c230a6bf3dd4d94d992f43b3221dbd2337c37102c924b963d7808bfe85bf.json",
+        "sha256": "21e59917d3a7f9930f4bc3d4dbee3b9d628a48b45ea0ee1e525ae811b6e9e219",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_bbd7d078b59bc7abfd2109aad39c69b1f207e1ddcba08e95baf61d822d82aafc.json",
+        "sha256": "48da182b371a78bffc5b226a21729b334f1a8701a956a90754b58dae2ef532d4",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_c555f7c3bd65bdd9ee5eaca852c66f09872bb242ca760b42a522fada1f596df5.json",
+        "sha256": "2413986cb34225ff0236feddbd18f844e2681e0646c89033e57f123d933da729",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_ca4a5c0f2624fcffadd8a9766b9f5e4abb03fb800d6650010a2067a6a7ade379.json",
+        "sha256": "5aadae219aa3d41c2225366e3c7f56f779d0557be6320a10b22c5933a0769b6f",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_d670a4d9f7a65b8a2ad0c901d9f9b57e1a5c3ff49f47bf84b0377c1c61d29696.json",
+        "sha256": "88ee4f9851c5bb69654acd78ee8fe5fc05a96448bdd9761e9bbe6446f182f2a5",
+        "bytes": 2871
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_d81d04d0e48b03e2dd6b76f0299a02e5b15e1f286287d0c333ea8e6e8021c42f.json",
+        "sha256": "3956934adba8c9273bf57228f709e82b9ec1fd61db6970c225a52397c8870f81",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/forum_group_navigation_f04dabe23d78ef1975e49847055698393f21683fe6a536c39db2a03a1467f9ea.json",
+        "sha256": "944821e5d8e822879d1aa917629588f3c279d940737eaab6bb0e63850d4a60cc",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_011/page_plan.json",
+        "sha256": "3960a2db92150dfd849441f641fd2aee45dda3fbc0d868ed77c64848b38b57a3",
+        "bytes": 4353
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_0a1b3d6aad5508e13be27af829a21b42ed6f7d00df9458ea089e7335e8ba033a.json",
+        "sha256": "75d7cc536602b268e52fd574279c6042e17d19f8d860dd2a400a57e3f2c66408",
+        "bytes": 2871
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_2d4f0cdc66392a0159705f90652af797539db7dd6ce2dd7bbd52b19978cfad5a.json",
+        "sha256": "448451db693ad4db47a353ecc6b0a2d4a24deaeb7c8d2b9fac4b80a41fe176d7",
+        "bytes": 2871
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_38dd15fe0e349941789277ee16fa970c83021ed7a48c8ac9b70ccf4f715050e3.json",
+        "sha256": "f535f6e945a1076175490a6b708056406cb2b8f0fa7062b8a979632b162a080a",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_6ec8be6a862b708d651188563e03aba17aa65e6a7527d0e2f89439b4ac95b029.json",
+        "sha256": "4303bd549f02c7720e12b00b48feb5ad89ea64cf9ee941b3ba5e393ae0046de9",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_76f4f60bb6235824ed4f81b2418f198054fa5c65e06ddabc44f87b0aad34fa6f.json",
+        "sha256": "6958d7803201aa0a8440314c2cbc2cc10b55e49cad1a417061fa1576819ea3b4",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_77c4fd7ce4e5e00476107469c16674f07694e2e14fa6395f0008b6d89d035c97.json",
+        "sha256": "bb2905c70e151b1d7b024f94dab2d91ebb1c9c154ab6bbfa5a3d76b425ccc5be",
+        "bytes": 2871
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_90a3281d8dd7b1317da417b6a9fdf9a34ed93de7eac6fbfd7cdca285ec642755.json",
+        "sha256": "6075b298631639315d07dbc4d4014ef8ea8d1a9c0ffe24f896c510b9a8593ef5",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_97bbf48aa9614eef5ecdb3b6ac7faa710e54886aaabd53ad8a9e13bdb5a05d46.json",
+        "sha256": "fe41fd9cc738e4cb9dbde5dcb8e388489cf03b384c9ac5a4fa51b6ae34c3f5d3",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_9a2c472849683384fce4a9b78ee303e381521d8e965d52bb5e57e933d60e3f77.json",
+        "sha256": "96a160e7e202027b3ecd61ce0795d6b6416705cedeeb94c05eba8b3974e8331d",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_ab335cfa1c0f30f556f0d202c303853c85a72f017f55b2cfc9051c0f683a11a7.json",
+        "sha256": "5f4e2bb911411d6a86167b29e3f4883af87bf36931aa76304ab0f5c371fa5726",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/forum_group_navigation_af317253cdb3547bcdecf716eb76b5ac29fe35c8a53a497cbe9d9736ecb54819.json",
+        "sha256": "c165307659b1c4c484ab19ce5d4df7fba1095cf5dd6ae1359e5e91b53f28e28b",
+        "bytes": 2937
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_012/page_plan.json",
+        "sha256": "c47fb5a03275f52e6bf04fd324d036ddbe63b6aaa4b11346035d426e0b59396d",
+        "bytes": 3936
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_013/forum_group_navigation_06f7732f4914625b54bb218816d0b4b2f8c2e594e9a7ff642381f08ff210066a.json",
+        "sha256": "95db41fe82649e871018837ac188916657cd1e7788d479d29ae94d72de449310",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_013/forum_group_navigation_1c5f6b45a4bd7cc858194ce125bfb2ffe0053ecaa770b8cb002f2190c47b8e98.json",
+        "sha256": "3dbc5ec90ba4ef5b30a9b7534cd522e7c2d4087bba3793a9111ba947e09963a6",
+        "bytes": 2805
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_013/forum_group_navigation_1e7fcb3e4f76f2f49eff065da3b57a15548fab2af4340d3bad36960ceb3d3546.json",
+        "sha256": "ec225910e34e6c65b0760b58eff9d0267315a93d2532ad02d65e4fb7cb1ce371",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_013/forum_group_navigation_3f0a254718a43909e7f0406c257a16f5f83c7b7e494f10b0b9fbd48ea1ecfb3a.json",
+        "sha256": "650c1b6fbe7a27aa11baf8f6defa2cc3e5aee9ef364daca473b1431ce3b29ebf",
+        "bytes": 2871
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_013/forum_group_navigation_dc7f3d1461eed9c883745d6ae2d1212f282c1e7c009ba62a2e15e588ab5fe2cc.json",
+        "sha256": "63f89ae2fad274e1f2906b0d68040a4d7d90302437a5f5926ef751e3f5710a52",
+        "bytes": 3267
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_013/forum_group_navigation_e180409eaa7e5af6c9c93a6ed02aba8be3701fcc4f2ffc9ecf2d90acb4807ccc.json",
+        "sha256": "2feda92c34f68517937a5192829ef39fee58ff00439038086b3d128618dbc6ea",
+        "bytes": 2871
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_013/forum_group_navigation_e329ba728a512e034f6b934f78a3155acafbda599b52e2c1e6486f339ed608cb.json",
+        "sha256": "16cf7e88b1d33b3661841f7ef11cea4ed6cc46c6cc5ff46978c1467d59b149df",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_013/page_plan.json",
+        "sha256": "bbb8700f197f22907572eef4fbabd2ec653f3213507df43dbab87d83ef6cfee0",
+        "bytes": 3379
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_014/forum_group_navigation_41b5774622d0ad4df0bc977654ecf5f7107599c2e00e1970dfcc23d6cdc17828.json",
+        "sha256": "789d9d48aeb174a2527d56088299b320ae0a0148d4d27ac17b5705611f598c5d",
+        "bytes": 2937
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_014/forum_group_navigation_6027ccb5d35c49d09919f68771f2ecbb7cb8be651ff32909874b42a19b298550.json",
+        "sha256": "34d7d4ed6304e05a38dfc2f390925e77b14be171b8c5c84f4ff1bce1929a81aa",
+        "bytes": 3465
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_014/forum_group_navigation_be474f68c0587fdbd43e351655e729656aba6117287581b36f8a9fb8fd6b44d4.json",
+        "sha256": "5b4596461ff387ec44bf510fae287d0d98aa87b1aba2420c152d111b326ac356",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_014/forum_group_navigation_c7c0b30160bf2f9d4d1e0048e4620876b05dbee42085af11cef315ca5dd28f99.json",
+        "sha256": "c3dd1dd74f7b3fb643ad222bb10cc1ff23e3564578f1c585a525c86aa0cdd361",
+        "bytes": 2937
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_014/forum_group_navigation_fcae9df79e9b9e08fe477c3f3d6c4cf40c24cf51b225217930d2160da1661053.json",
+        "sha256": "32f7bf0d6038c968fe77f688ba11b094d81694cfef80d597b5ebaed738dc91e7",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_014/page_plan.json",
+        "sha256": "6bed19fc62eee66ff3fdd8a36d37778c232f3d11fc9b1bbc3a4e855bfe52780e",
+        "bytes": 3101
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_015/forum_group_navigation_4efdcb5adc6d8365d6560d5da84b9b11c49c2f2c60100a449b0dba0f1895e297.json",
+        "sha256": "dd79151af10717dc6eb29d6227b359021cc2ccd59931e2574f959ce483f21a02",
+        "bytes": 3135
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_015/forum_group_navigation_7d505071ee4671032bfde82004ea5d7b089cb62039c3d46d09300399fd12d315.json",
+        "sha256": "a7aecc6e6161a02335726953574a834199148a72eebe8b033da0354f16e7375b",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_015/forum_group_navigation_82d9e7232cdbd60bce6ec8f070cdbc0ed8059f2b1e3a5a40f3a6977f6db0e724.json",
+        "sha256": "9b176d438224b38fdeb3000b05f877917d7f56c4153d6a36c17af8c01ad86b00",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_015/forum_group_navigation_c0e01e4a5c4af3fd59f938d1788bc455ba36b9f07440fc82db91c24bf3ba319d.json",
+        "sha256": "93e1bab61dd373255dc9b3fd1f7dbb7945f8e770b8c5de65a4b8b061c7863630",
+        "bytes": 2673
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_015/forum_group_navigation_d5600764097f94b6231303549d0cdd1394e36a7269226405e09944a1b704fea7.json",
+        "sha256": "b81f9f72409bcb2a3040b31ede289685fcf032bc4d6d839fe045b8aa41fa5a57",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_015/forum_group_navigation_dc7cbc11ab36634414a842bfe1248f2daf1061c7014a541e1270728c916c79be.json",
+        "sha256": "8cdc38ecfae10ae838f7e545872d6ef1b5cb96e88adc6ed583f793fd4055936d",
+        "bytes": 2739
+      },
+      {
+        "role": "forum_group_navigation_checkpoint",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_015/forum_group_navigation_fa1a313a4fd262fca8a0bd94731c662359320ae6a8299b428af365e892cebaa0.json",
+        "sha256": "bf0ebe8f57c176b6b9e6517670b8baf9550aaffe4b466eadca84bf1740c9cba9",
+        "bytes": 2805
+      },
+      {
+        "role": "forum_navigation_page_plan",
+        "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-12_20260722T110000Z/v2_6_revalidated/forum_group_navigation_checkpoints/page_015/page_plan.json",
+        "sha256": "7ada03d96ac36fdaf0e5e6ab34b4c5fa728aa5834afd2184767127e7e6f7b221",
+        "bytes": 2833
+      }
+    ]
+  },
+  "contract_summary": {
+    "terminal_valid": true,
+    "conflict_count": 0,
+    "unresolved_count": 0
+  },
+  "schedule": {
+    "path": "working/scoped_three_parent_collection_schedule.json",
+    "sha256": "c707fdbc4993d3c81c7166723d9a63a3fd4a768862bf6e01e8fbe13ad380f6ef",
+    "bytes": 1100966,
+    "valid": true
+  },
+  "verdict": "PASS"
+}

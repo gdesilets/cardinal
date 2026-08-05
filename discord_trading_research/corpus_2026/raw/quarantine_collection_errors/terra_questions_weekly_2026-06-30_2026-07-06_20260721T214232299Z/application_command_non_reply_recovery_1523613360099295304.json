@@ -1,0 +1,89 @@
+{
+  "recorded_at_utc": "2026-07-21T21:48:23.130Z",
+  "message_id": "1523613360099295304",
+  "result_index": 92,
+  "page_number": 4,
+  "segment": {
+    "start": "2026-06-30",
+    "end": "2026-07-06",
+    "query": "in:❓│questions after:2026-06-29 before:2026-07-07"
+  },
+  "classification": {
+    "reply_target_resolution_status": "discord_executed_command_context_without_reply_target",
+    "reply_target_unavailability_documented": true,
+    "reply_context_non_reply_exact": true,
+    "reply_context_non_reply_type": "discord_application_command_invocation",
+    "reply_to_message_id": null,
+    "reply_to_channel_id": null,
+    "reply_to_permalink": null,
+    "target_id_candidates": []
+  },
+  "exact_row_owned_dom_evidence": {
+    "article_id": "search-result-1523613360099295304",
+    "article_data_list_item_id": "NO_LIST___1523613360099295304",
+    "article_aria_labelledby": "message-username-1523613360099295304 uid_3 message-content-1523613360099295304 message-accessories-1523613360099295304 uid_4 message-timestamp-1523613360099295304",
+    "reply_context_dom_class": "repliedMessage_c19a55 messageSpine_c19a55 executedCommand_c19a55",
+    "reply_context_dom_tag": "DIV",
+    "reply_context_aria_hidden": true,
+    "reply_context_article_binding_exact": true,
+    "reply_context_owner_message_id": "1523613360099295304",
+    "reply_context_text": "LukeLarps\n used \nPlay",
+    "author": "Wordle",
+    "author_id": "1211781489931452447",
+    "author_id_source": "owner_scoped_avatar_cdn_path",
+    "author_verified_app_aria_label": "Verified App",
+    "content_id": "message-content-1523613360099295304",
+    "content_text": "LukeLarps was playing (edited)\nMonday, July 6, 2026 at 4:01 AM",
+    "application_button_aria_label": "1 finished game of Wordle",
+    "exact_target_content_id": null,
+    "exact_target_aria_labelledby": null,
+    "exact_target_aria_describedby": null,
+    "exact_target_data_list_item_id": null,
+    "exact_target_permalink": null,
+    "exact_target_candidate_count": 0
+  },
+  "staged_artifact_repair": {
+    "path": "channel_questions_1273692573898113076_2026-06-30_2026-07-06.partial.json",
+    "pre_repair_sha256": "b8b433a09a60dc266d991d28326200a0d2da2d2aece55bd28453e680b3d552dd",
+    "pre_repair_bytes": 663606,
+    "post_repair_sha256": "e623f92de095fe3d3175d1007bb8a1508e1bf1506176712b76c7ad310ebe1b96",
+    "post_repair_bytes": 663862,
+    "rows_modified": 1,
+    "modified_result_indices": [92]
+  },
+  "terminal_artifact_sync": {
+    "recorded_at_utc": "2026-07-21T21:53:01.539Z",
+    "path": "channel_questions_1273692573898113076_2026-06-30_2026-07-06.json",
+    "pre_sync_sha256": "5e5654dfde838d9e79108fb38440458e572e84e440ee5fc124d39c07c9768b70",
+    "pre_sync_bytes": 2592230,
+    "post_sync_sha256": "749b8b8db41efdc035e9e24b00a1ed2c4f212a244269c9a0f338ec521df7bc70",
+    "post_sync_bytes": 2592358,
+    "rows_modified": 1,
+    "modified_result_indices": [92]
+  },
+  "verification": {
+    "strict_checkpoint_qa_passed": true,
+    "strict_terminal_qa_passed": true,
+    "independent_terminal_qa": {
+      "build_corpus_computed_complete": true,
+      "build_corpus_validation_errors": [],
+      "build_corpus_validation_warnings": [],
+      "validate_corpus_issue_counts": {},
+      "reply_contract_errors": [],
+      "reply_resolution_boolean_errors": []
+    },
+    "javascript_collector_tests": {
+      "passed": true,
+      "tests": 50
+    },
+    "python_qa_tests": {
+      "passed": true,
+      "tests": 19
+    },
+    "relevance_release_policy_tests": {
+      "passed": true,
+      "tests": 9
+    }
+  },
+  "causal_claim_beyond_exact_dom": null
+}

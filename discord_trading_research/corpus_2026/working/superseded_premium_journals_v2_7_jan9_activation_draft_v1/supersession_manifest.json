@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "premium_journals_v2_7_jan9_activation_supersession_manifest",
+  "activation_id": "premium-journals-v2-7-collection-authority-2026-01-09-v1",
+  "status": "superseded_non_authoritative_never_activate",
+  "superseded_at_utc": "2026-07-22T09:58:55.829780Z",
+  "immutable": true,
+  "append_only": true,
+  "reason": "Jan9 collection proceeds on v2.6; v2.7 first future authority target moved to Jan10",
+  "live_schedule_at_supersession": {
+    "path": "working/scoped_three_parent_collection_schedule.json",
+    "sha256": "0a1fd787f0fbeb6cb142edd028d16daa3c0189027d2d42b82ba40bb209ca18d6",
+    "bytes": 930837
+  },
+  "preserved_pre_activation_schedule": {
+    "path": "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/pre_activation_schedule.json",
+    "sha256": "0a1fd787f0fbeb6cb142edd028d16daa3c0189027d2d42b82ba40bb209ca18d6",
+    "bytes": 930837,
+    "authority": "none_historical_evidence_only"
+  },
+  "archived_files": [
+    {
+      "source_path_at_supersession": "working/premium_journals_v2_7_authority_migration_v1_candidate.json",
+      "archive_path": "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/historical_inputs/working/premium_journals_v2_7_authority_migration_v1_candidate.json",
+      "sha256": "0637cdc6bbf0c3a49f110061cb718399ea81aaf694f0bc8f4754cba949ddd109",
+      "bytes": 27986
+    },
+    {
+      "source_path_at_supersession": "working/premium_journals_v2_7_authority_migration_v1_independent_audit_report.json",
+      "archive_path": "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/historical_inputs/working/premium_journals_v2_7_authority_migration_v1_independent_audit_report.json",
+      "sha256": "9fd5f3bfadf83ef004b29ab6efa0a47240567c2e0c5f10421e6e5dccaa9d0af0",
+      "bytes": 13318
+    },
+    {
+      "source_path_at_supersession": "working/premium_journals_v2_7_authority_migration_v1_readiness_report.json",
+      "archive_path": "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/historical_inputs/working/premium_journals_v2_7_authority_migration_v1_readiness_report.json",
+      "sha256": "706c6781f660d6556b2475095eee9fe7f9cf1b567de4a2f379925a01ff1b48dc",
+      "bytes": 2898
+    },
+    {
+      "source_path_at_supersession": "docs/premium_journals_v2_7_authority_activation_v1.md",
+      "archive_path": "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/implementation/docs/premium_journals_v2_7_authority_activation_v1.md",
+      "sha256": "04fac8387a03d8b8dc490019b0a4251e8595f94c98c4e52ee8df65d6236c284c",
+      "bytes": 4736
+    },
+    {
+      "source_path_at_supersession": "docs/premium_journals_v2_7_jan9_supersession_handoff.md",
+      "archive_path": "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/implementation/docs/premium_journals_v2_7_jan9_supersession_handoff.md",
+      "sha256": "3841a9b054677bd1bc685af61227b49c0fe0f3f2300ac63daa92cc8a86383011",
+      "bytes": 1620
+    },
+    {
+      "source_path_at_supersession": "premium_journals_provenance_contract.py",
+      "archive_path": "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/implementation/premium_journals_provenance_contract.py",
+      "sha256": "609285b8ea8a87cc4a8dc86595936b9906b635b5a5e88b37f284161d42003602",
+      "bytes": 78730
+    },
+    {
+      "source_path_at_supersession": "premium_journals_provenance_contract_v2_7.py",
+      "archive_path": "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/implementation/premium_journals_provenance_contract_v2_7.py",
+      "sha256": "e07e541389f8ee94db468681fd2a204e8f5276de41d1a058ebfa321409fb9f9f",
+      "bytes": 10611
+    },
+    {
+      "source_path_at_supersession": "premium_journals_v2_7_authority_activation_v1.py",
+      "archive_path": "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/implementation/premium_journals_v2_7_authority_activation_v1.py",
+      "sha256": "e8047d01925573f036454424aaa094bc4f714675b06f72c072b36e869ec25232",
+      "bytes": 89350
+    },
+    {
+      "source_path_at_supersession": "premium_journals_v2_7_authority_migration_v1.py",
+      "archive_path": "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/implementation/premium_journals_v2_7_authority_migration_v1.py",
+      "sha256": "a6a1004e7c5b408b6292e81d25afa7ff4f8e37b74fa58e3784cef40e77b70687",
+      "bytes": 56281
+    },
+    {
+      "source_path_at_supersession": "qa/validate_premium_journals_v2_7_authority_activation_v1.py",
+      "archive_path": "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/implementation/qa/validate_premium_journals_v2_7_authority_activation_v1.py",
+      "sha256": "c4b593a3b40942e563dbe09c8353f9d321ec066cb5d36062932a51ccf0b538c8",
+      "bytes": 7487
+    },
+    {
+      "source_path_at_supersession": "test_premium_journals_v2_7_authority_activation_v1.py",
+      "archive_path": "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/implementation/test_premium_journals_v2_7_authority_activation_v1.py",
+      "sha256": "748bf55875d11893ec220b977eaaf6ceee6a684482fcf672301d653e14c1999d",
+      "bytes": 36512
+    },
+    {
+      "source_path_at_supersession": "test_validate_scoped_three_parent_schedule.py",
+      "archive_path": "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/implementation/test_validate_scoped_three_parent_schedule.py",
+      "sha256": "6a2c2eafa337fc6b87badc30ace841fd867ca7b0d70bae2d640d1e22d2b888f1",
+      "bytes": 19403
+    },
+    {
+      "source_path_at_supersession": "validate_scoped_three_parent_schedule.py",
+      "archive_path": "working/superseded_premium_journals_v2_7_jan9_activation_draft_v1/implementation/validate_scoped_three_parent_schedule.py",
+      "sha256": "fe2588f104df72bcc3328a958a8420604cf47b0e25d7d4b7556a2a305e7bfa8a",
+      "bytes": 60104
+    }
+  ],
+  "archived_file_set_sha256": "5b53941d17571388be78ce10d6d13a808e515d6c885f4c0378279993c27c0685",
+  "forbidden_jan9_activation_artifacts": [
+    "working/premium_journals_v2_7_authority_activation_v1_pre_schedule.json",
+    "working/premium_journals_v2_7_authority_activation_v1_plan.json",
+    "working/premium_journals_v2_7_authority_activation_v1_plan_independent_audit_report.json",
+    "working/premium_journals_v2_7_authority_activation_v1_receipt.json",
+    "working/premium_journals_v2_7_authority_activation_v1_projection_bundle.json",
+    "working/premium_journals_v2_7_authority_activation_v1_commit_marker.json",
+    "working/premium_journals_v2_7_authority_activation_v1_rollback_receipt.json"
+  ],
+  "forbidden_artifacts_present_at_supersession": false,
+  "jan9_authority": "v2.6_schedule_only",
+  "jan9_v2_7_authority": false,
+  "jan9_v2_7_collection_authorized": false,
+  "jan9_v2_7_canonical_or_promotion_authorized": false,
+  "first_future_activation_target": {
+    "day": "2026-01-10",
+    "requires_jan9_v2_6_promotion_first": true,
+    "requires_new_schedule_sha256_and_bytes": true,
+    "requires_new_candidate_plan_audit_receipt_bundle_and_marker": true,
+    "inherits_jan9_activation_authority": false
+  },
+  "record_fingerprint_sha256": "43564b9b1022f969b3391c4028b71c461390094e024cff91a899421ba3788f2e"
+}

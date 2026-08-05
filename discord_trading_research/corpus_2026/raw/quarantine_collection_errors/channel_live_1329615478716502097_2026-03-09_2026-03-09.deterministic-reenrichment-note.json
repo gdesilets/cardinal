@@ -1,0 +1,26 @@
+{
+  "event_type": "discord_staged_capture_deterministic_reenrichment",
+  "schema_version": "1.0.0",
+  "guild_id": "1167376964680691732",
+  "channel_id": "1329615478716502097",
+  "channel_name": "Live",
+  "segment_start": "2026-03-09",
+  "segment_end": "2026-03-09",
+  "query": "in:Live after:2026-03-08 before:2026-03-10",
+  "reenriched_at_utc": "2026-07-21T15:18:19.423Z",
+  "source_stage_original_path": "working/live_v25_replacements/channel_live_1329615478716502097_2026-03-09_2026-03-09.json",
+  "source_stage_quarantine_path": "raw/quarantine_collection_errors/channel_live_1329615478716502097_2026-03-09_2026-03-09.pre-deterministic-reenrichment-v2.5_b1376860ca40.json",
+  "source_stage_sha256": "b1376860ca401d9dc88c497588ab173681491d30fedcaf19c0e5b18d9a51b0a2",
+  "reenriched_stage_path": "working/live_v25_replacements/channel_live_1329615478716502097_2026-03-09_2026-03-09.json",
+  "reenriched_stage_sha256": "8190cbae826bbd704c20422a3315c2733f402b867e28328aae0a5b46bbba2b47",
+  "collector_module_sha256": "98523712b35a97a8d124a5cd685728e8dbbd1d8864d3b35d2dd6e63000414a97",
+  "transformed_row_count": 1,
+  "corrected_system_event_message_ids": [
+    "1480724088875126896"
+  ],
+  "corrected_non_reply_context_message_ids": [],
+  "immutable_row_fingerprints_verified": true,
+  "discord_search_performed": false,
+  "action": "preserved_pre_reenrichment_stage_then_reapplied_tested_deterministic_derivations",
+  "outside_sources_used": false
+}

@@ -1,0 +1,53 @@
+{
+  "event_type": "discord_collector_version_replacement",
+  "guild_id": "1167376964680691732",
+  "channel_id": "1373324158699704361",
+  "channel_name": "mmxm-stdv",
+  "segment_start": "2026-01-01",
+  "segment_end": "2026-07-20",
+  "query": "in:mmxm-stdv after:2025-12-31 before:2026-07-21",
+  "promoted_at_utc": "2026-07-21T13:38:52.018Z",
+  "old_collector_version": "2.0",
+  "new_collector_version": "2.5",
+  "old_reported_total": 2,
+  "new_reported_total": 0,
+  "legacy_final_original_path": "raw/channel_segments/channel_mmxm_stdv_1373324158699704361_2026-01-01_2026-07-20.json",
+  "legacy_final_quarantine_path": "raw/quarantine_collection_errors/channel_mmxm_stdv_1373324158699704361_2026-01-01_2026-07-20.legacy-v2.0_cd7fdb6ba13b.json",
+  "legacy_final_sha256": "cd7fdb6ba13b8a715d2fb5ead2d4e92d817343ab3b4f1a90bb7427782d16e9a2",
+  "replacement_final_path": "raw/channel_segments/channel_mmxm_stdv_1373324158699704361_2026-01-01_2026-07-20.json",
+  "replacement_final_sha256": "f92af5db172ce8de509ffb46d67b7ca338e7aa053ac68962752ff90fbe0ef8ca",
+  "message_id_reconciliation": {
+    "shared_ids": 0,
+    "added_ids": [],
+    "missing_ids": [
+      "1480032585672560804",
+      "1480032690110726284"
+    ],
+    "causal_claim": "No deletion, edit, or other cause is claimed from search-set differences alone."
+  },
+  "validation": {
+    "corpus_contract_computed_complete": true,
+    "inline_completion_evidence_valid": true,
+    "completion_terminal_state": "stable_empty",
+    "completion_observation_count": 3,
+    "exact_result_index_sequence": true,
+    "exact_permalinks": 0,
+    "exact_author_ids": 0,
+    "unresolved_author_rows": 0,
+    "row_provenance_conflict_count": 0,
+    "attachment_count": 0,
+    "owned_exact_attachment_count": 0,
+    "unresolved_attachment_count": 0,
+    "invalid_owned_attachment_count": 0,
+    "legacy_unique_ids": 2,
+    "replacement_unique_ids": 0,
+    "shared_ids": 0,
+    "added_ids": [],
+    "missing_ids": [
+      "1480032585672560804",
+      "1480032690110726284"
+    ]
+  },
+  "action": "Preserved the byte-exact legacy canonical artifact and atomically promoted the independently validated v2.5 staged recapture.",
+  "outside_sources_used": false
+}

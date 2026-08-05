@@ -1,0 +1,1298 @@
+{
+  "database": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\discord_trading_research_3month.sqlite",
+  "validation_entry_point": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\validate_database_3month.py",
+  "generated_at_utc": "2026-07-22T15:49:22.797224+00:00",
+  "status": "passed",
+  "overall_assessment": "Ready to share",
+  "checks": [
+    {
+      "name": "sqlite_integrity",
+      "passed": true,
+      "severity": "error",
+      "observed": "ok",
+      "expected": "ok"
+    },
+    {
+      "name": "foreign_keys",
+      "passed": true,
+      "severity": "error",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "required_schema_objects",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "schema_version",
+      "passed": true,
+      "severity": "error",
+      "observed": "1.1.0",
+      "expected": "1.1.0"
+    },
+    {
+      "name": "three_month_extension_schema_version",
+      "passed": true,
+      "severity": "error",
+      "observed": "1.0.0",
+      "expected": "1.0.0"
+    },
+    {
+      "name": "three_month_corpus_label",
+      "passed": true,
+      "severity": "error",
+      "observed": "three_month",
+      "expected": "three_month"
+    },
+    {
+      "name": "discord_only_meta_scope",
+      "passed": true,
+      "severity": "error",
+      "observed": "Discord only",
+      "expected": "Discord only"
+    },
+    {
+      "name": "three_month_input_names",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "raw": "raw_discord_export_3month.json",
+        "curated": "curated_analysis_3month.json"
+      },
+      "expected": "not the 14-day input filenames"
+    },
+    {
+      "name": "browser_context_input_meta",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "source_file": "browser_context_followups_3month.json",
+        "contexts": "8",
+        "messages": "35",
+        "completeness_boundary": "Complete for the eight selected permalink contexts only; not a complete export of the containing channels.",
+        "authority_caution_present": true
+      },
+      "expected": {
+        "source_file": "browser_context_followups_3month.json",
+        "contexts": "8",
+        "messages": "35",
+        "completeness_boundary": "explicitly not channel-wide",
+        "authority_caution_present": true
+      }
+    },
+    {
+      "name": "recorded_database_path",
+      "passed": true,
+      "severity": "warning",
+      "observed": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\discord_trading_research_3month.sqlite",
+      "expected": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\discord_trading_research_3month.sqlite"
+    },
+    {
+      "name": "single_research_run",
+      "passed": true,
+      "severity": "error",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "scoped_guild",
+      "passed": true,
+      "severity": "error",
+      "observed": "1167376964680691732",
+      "expected": "1167376964680691732"
+    },
+    {
+      "name": "scoped_primary_channel",
+      "passed": true,
+      "severity": "error",
+      "observed": "1283941772577472643",
+      "expected": "1283941772577472643"
+    },
+    {
+      "name": "discord_only_run_scope",
+      "passed": true,
+      "severity": "error",
+      "observed": "discord_only",
+      "expected": "discord_only"
+    },
+    {
+      "name": "three_month_window_size",
+      "passed": true,
+      "severity": "error",
+      "observed": 92.0,
+      "expected": 92.0
+    },
+    {
+      "name": "three_month_window_boundaries",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "start": "2026-04-20T00:00:00Z",
+        "exclusive_end": "2026-07-21T00:00:00Z"
+      },
+      "expected": {
+        "start": "2026-04-20T00:00:00Z",
+        "exclusive_end": "2026-07-21T00:00:00Z"
+      }
+    },
+    {
+      "name": "window_duration_meta_matches",
+      "passed": true,
+      "severity": "error",
+      "observed": 92.0,
+      "expected": 92.0
+    },
+    {
+      "name": "expected_collection_coverage",
+      "passed": true,
+      "severity": "error",
+      "observed": [
+        "broad_rb_shorthand_partial_messages",
+        "browser_context_followup_messages",
+        "contextual_qa_messages",
+        "instrument_comparison_messages",
+        "primary_messages",
+        "questions_nq_es_messages",
+        "questions_rb_messages",
+        "server_rejection_phrase_messages"
+      ],
+      "expected": [
+        "broad_rb_shorthand_partial_messages",
+        "browser_context_followup_messages",
+        "contextual_qa_messages",
+        "instrument_comparison_messages",
+        "primary_messages",
+        "questions_nq_es_messages",
+        "questions_rb_messages",
+        "server_rejection_phrase_messages"
+      ]
+    },
+    {
+      "name": "run_status_matches_coverage",
+      "passed": true,
+      "severity": "error",
+      "observed": "partial",
+      "expected": "partial"
+    },
+    {
+      "name": "primary_coverage_present",
+      "passed": true,
+      "severity": "error",
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "primary_messages_seen",
+      "passed": true,
+      "severity": "error",
+      "observed": 12027,
+      "expected": "> 0"
+    },
+    {
+      "name": "primary_scan_declared_complete",
+      "passed": true,
+      "severity": "error",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "required_complete_coverage_present",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "required_complete_coverage_complete",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "instrument_tail_gap_disclosed",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "scan_complete": false,
+        "gap_notes": "The older-window instrument searches are complete, but equivalent instrument_rb_nq and instrument_rb_es searches were not captured for the baseline July 7-20 tail. Declared source-result counts are retained in raw merge metadata; messages_seen here is the actual merged row count."
+      },
+      "expected": "older-window instrument evidence retained, with the uncaptured July 7-20 tail disclosed"
+    },
+    {
+      "name": "browser_context_targeted_coverage_disclosed",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "scan_complete": false,
+        "messages_seen": 35,
+        "gap_notes": "Complete for the eight selected permalink contexts only; not a complete export of the containing channels. The targeted eight-context capture itself is audited and complete."
+      },
+      "expected": {
+        "scan_complete": false,
+        "messages_seen": 35,
+        "scope": "complete for eight selected contexts, not channel-wide"
+      }
+    },
+    {
+      "name": "supplemental_coverage_gaps_disclosed",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "messages_present",
+      "passed": true,
+      "severity": "error",
+      "observed": 7170,
+      "expected": "> 0"
+    },
+    {
+      "name": "unique_message_ids",
+      "passed": true,
+      "severity": "error",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "messages_have_source_provenance",
+      "passed": true,
+      "severity": "error",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "messages_within_declared_window",
+      "passed": true,
+      "severity": "error",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "fts_row_parity",
+      "passed": true,
+      "severity": "error",
+      "observed": 7170,
+      "expected": 7170
+    },
+    {
+      "name": "fts_id_parity",
+      "passed": true,
+      "severity": "error",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "merged_provenance_present",
+      "passed": true,
+      "severity": "error",
+      "observed": 7374,
+      "expected": ">= 7170"
+    },
+    {
+      "name": "all_messages_have_merged_provenance",
+      "passed": true,
+      "severity": "error",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "provenance_collections_are_declared",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "message_source_collections_are_declared",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "message_source_query_parity",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "message_sources_without_provenance": 0,
+        "provenance_without_message_sources": 0
+      },
+      "expected": {
+        "message_sources_without_provenance": 0,
+        "provenance_without_message_sources": 0
+      }
+    },
+    {
+      "name": "merged_provenance_source_json",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "merged_provenance_fields_match_source_json",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "source_queries_have_no_urls",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "source_files_are_local",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "source_files_are_json",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "named_source_files_declared_complete",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "supplemental_file_collection_mapping",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "primary_file_collection_mapping",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "provenance_source_file_inventory",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "all_primary_segment_files_represented_in_provenance",
+      "passed": true,
+      "severity": "error",
+      "observed": 39,
+      "expected": 39
+    },
+    {
+      "name": "all_supplemental_files_represented_in_provenance",
+      "passed": true,
+      "severity": "error",
+      "observed": 15,
+      "expected": 15
+    },
+    {
+      "name": "inherited_baseline_query_quirk_documented",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "included_descriptor_pairs": 732,
+        "all_raw_descriptors_declared": 738,
+        "metadata_note_present": true,
+        "run_limitation_present": true
+      },
+      "expected": "lossless inherited descriptor quirk disclosed in meta and research-run limitations"
+    },
+    {
+      "name": "single_browser_context_artifact",
+      "passed": true,
+      "severity": "error",
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "browser_context_artifact_scope",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "schema_version": "1.0.0",
+        "source_file": "browser_context_followups_3month.json",
+        "guild_id": "1167376964680691732",
+        "window_start": "2026-04-20T00:00:00Z",
+        "window_end": "2026-07-21T00:00:00Z",
+        "captured_contexts": 8,
+        "outside_sources_used": 0
+      },
+      "expected": {
+        "schema_version": "1.0.0",
+        "source_file": "browser_context_followups_3month.json",
+        "guild_id": "1167376964680691732",
+        "window_start": "2026-04-20T00:00:00Z",
+        "window_end": "2026-07-21T00:00:00Z",
+        "captured_contexts": 8,
+        "outside_sources_used": 0
+      }
+    },
+    {
+      "name": "browser_context_completeness_boundary",
+      "passed": true,
+      "severity": "error",
+      "observed": "Complete for the eight selected permalink contexts only; not a complete export of the containing channels.",
+      "expected": "complete only for eight selected permalink contexts; not channel-wide"
+    },
+    {
+      "name": "browser_context_authority_boundary",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "authority_caution": "Domme replies are distinguishable from ordinary member replies. Community statements are evidence of Discord discussion, not verified trading rules.",
+        "answer_linkage": "Direct Discord reply linkage is retained when visible. Adjacent replies without explicit linkage remain unlinked and must not be treated as authoritative answers."
+      },
+      "expected": "verbatim mentor/community authority caution and answer-linkage policy"
+    },
+    {
+      "name": "browser_context_artifact_json",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "methodology_object": true,
+        "source_object": true
+      },
+      "expected": {
+        "methodology_object": true,
+        "source_object": true
+      }
+    },
+    {
+      "name": "browser_context_methodology_preserved",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "answer_linkage": "Direct Discord reply linkage is retained when visible. Adjacent replies without explicit linkage remain unlinked and must not be treated as authoritative answers.",
+        "authority_caution": "Domme replies are distinguishable from ordinary member replies. Community statements are evidence of Discord discussion, not verified trading rules.",
+        "completeness_boundary": "Complete for the eight selected permalink contexts only; not a complete export of the containing channels.",
+        "outside_sources_used": false,
+        "selection": "Eight questions selected by the deterministic RB analyzer as highest-priority unresolved context.",
+        "source": "Authenticated Discord UI in the user's in-app browser"
+      },
+      "expected": "verbatim audited Discord-only methodology"
+    },
+    {
+      "name": "browser_contexts_8_of_8",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "close_vs_wick_validity": [
+          "1496953286350340196",
+          "unresolved"
+        ],
+        "cross_market_mitigation": [
+          "1511011249780162691",
+          "unresolved"
+        ],
+        "es_applicability": [
+          "1496515500832718898",
+          "unresolved"
+        ],
+        "higher_probability_confluences": [
+          "1495760891348779110",
+          "answered"
+        ],
+        "liquidity_sweep_probability": [
+          "1522108259962454047",
+          "community_answer_only"
+        ],
+        "nested_rejection_blocks": [
+          "1499025665553338438",
+          "partially_answered"
+        ],
+        "timeframe_and_trading_window": [
+          "1506012118317662338",
+          "partially_answered"
+        ],
+        "timeframe_preferences": [
+          "1500203147996434782",
+          "community_answer_only"
+        ]
+      },
+      "expected": {
+        "higher_probability_confluences": [
+          "1495760891348779110",
+          "answered"
+        ],
+        "es_applicability": [
+          "1496515500832718898",
+          "unresolved"
+        ],
+        "close_vs_wick_validity": [
+          "1496953286350340196",
+          "unresolved"
+        ],
+        "nested_rejection_blocks": [
+          "1499025665553338438",
+          "partially_answered"
+        ],
+        "timeframe_preferences": [
+          "1500203147996434782",
+          "community_answer_only"
+        ],
+        "timeframe_and_trading_window": [
+          "1506012118317662338",
+          "partially_answered"
+        ],
+        "cross_market_mitigation": [
+          "1511011249780162691",
+          "unresolved"
+        ],
+        "liquidity_sweep_probability": [
+          "1522108259962454047",
+          "community_answer_only"
+        ]
+      }
+    },
+    {
+      "name": "browser_context_status_distribution",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "unresolved": 3,
+        "answered": 1,
+        "community_answer_only": 2,
+        "partially_answered": 2
+      },
+      "expected": {
+        "answered": 1,
+        "partially_answered": 2,
+        "community_answer_only": 2,
+        "unresolved": 3
+      }
+    },
+    {
+      "name": "browser_context_messages_35_of_35",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "row_count": 35,
+        "unique_ids": 35,
+        "missing": [],
+        "unexpected": []
+      },
+      "expected": {
+        "row_count": 35,
+        "unique_ids": 35,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "name": "browser_context_collection_method",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "browser_context_authority_classification",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "invalid_ids": [],
+        "counts": {
+          "domme": 4,
+          "non_domme": 31
+        }
+      },
+      "expected": {
+        "invalid_ids": [],
+        "counts": {
+          "domme": 4,
+          "non_domme": 31
+        }
+      }
+    },
+    {
+      "name": "browser_context_channel_and_permalinks",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "browser_context_target_memberships",
+      "passed": true,
+      "severity": "error",
+      "observed": [
+        [
+          "close_vs_wick_validity",
+          "1496953286350340196"
+        ],
+        [
+          "cross_market_mitigation",
+          "1511011249780162691"
+        ],
+        [
+          "es_applicability",
+          "1496515500832718898"
+        ],
+        [
+          "higher_probability_confluences",
+          "1495760891348779110"
+        ],
+        [
+          "liquidity_sweep_probability",
+          "1522108259962454047"
+        ],
+        [
+          "nested_rejection_blocks",
+          "1499025665553338438"
+        ],
+        [
+          "timeframe_and_trading_window",
+          "1506012118317662338"
+        ],
+        [
+          "timeframe_preferences",
+          "1500203147996434782"
+        ]
+      ],
+      "expected": [
+        [
+          "close_vs_wick_validity",
+          "1496953286350340196"
+        ],
+        [
+          "cross_market_mitigation",
+          "1511011249780162691"
+        ],
+        [
+          "es_applicability",
+          "1496515500832718898"
+        ],
+        [
+          "higher_probability_confluences",
+          "1495760891348779110"
+        ],
+        [
+          "liquidity_sweep_probability",
+          "1522108259962454047"
+        ],
+        [
+          "nested_rejection_blocks",
+          "1499025665553338438"
+        ],
+        [
+          "timeframe_and_trading_window",
+          "1506012118317662338"
+        ],
+        [
+          "timeframe_preferences",
+          "1500203147996434782"
+        ]
+      ]
+    },
+    {
+      "name": "browser_context_messages_have_distinct_provenance",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "provenance_ids": 35,
+        "message_source_ids": 35,
+        "missing_provenance": [],
+        "missing_message_sources": []
+      },
+      "expected": {
+        "provenance_ids": 35,
+        "message_source_ids": 35,
+        "missing_provenance": [],
+        "missing_message_sources": []
+      }
+    },
+    {
+      "name": "browser_context_source_artifact_reconciles",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "messages": 35,
+        "contexts": {
+          "higher_probability_confluences": [
+            "1495760891348779110",
+            "answered"
+          ],
+          "es_applicability": [
+            "1496515500832718898",
+            "unresolved"
+          ],
+          "close_vs_wick_validity": [
+            "1496953286350340196",
+            "unresolved"
+          ],
+          "nested_rejection_blocks": [
+            "1499025665553338438",
+            "partially_answered"
+          ],
+          "timeframe_preferences": [
+            "1500203147996434782",
+            "community_answer_only"
+          ],
+          "timeframe_and_trading_window": [
+            "1506012118317662338",
+            "partially_answered"
+          ],
+          "cross_market_mitigation": [
+            "1511011249780162691",
+            "unresolved"
+          ],
+          "liquidity_sweep_probability": [
+            "1522108259962454047",
+            "community_answer_only"
+          ]
+        }
+      },
+      "expected": {
+        "messages": 35,
+        "contexts": {
+          "higher_probability_confluences": [
+            "1495760891348779110",
+            "answered"
+          ],
+          "es_applicability": [
+            "1496515500832718898",
+            "unresolved"
+          ],
+          "close_vs_wick_validity": [
+            "1496953286350340196",
+            "unresolved"
+          ],
+          "nested_rejection_blocks": [
+            "1499025665553338438",
+            "partially_answered"
+          ],
+          "timeframe_preferences": [
+            "1500203147996434782",
+            "community_answer_only"
+          ],
+          "timeframe_and_trading_window": [
+            "1506012118317662338",
+            "partially_answered"
+          ],
+          "cross_market_mitigation": [
+            "1511011249780162691",
+            "unresolved"
+          ],
+          "liquidity_sweep_probability": [
+            "1522108259962454047",
+            "community_answer_only"
+          ]
+        }
+      }
+    },
+    {
+      "name": "message_permalinks_are_discord",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "attachment_urls_are_discord",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "rb_findings_present",
+      "passed": true,
+      "severity": "error",
+      "observed": 80,
+      "expected": "> 0"
+    },
+    {
+      "name": "rb_findings_have_evidence",
+      "passed": true,
+      "severity": "error",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "model_count",
+      "passed": true,
+      "severity": "error",
+      "observed": 4,
+      "expected": "1 to 5"
+    },
+    {
+      "name": "models_have_rules",
+      "passed": true,
+      "severity": "error",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "models_have_evidence",
+      "passed": true,
+      "severity": "error",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "trades_present",
+      "passed": true,
+      "severity": "error",
+      "observed": 1471,
+      "expected": "> 0"
+    },
+    {
+      "name": "trades_have_evidence",
+      "passed": true,
+      "severity": "error",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "win_and_loss_profiles_present",
+      "passed": true,
+      "severity": "error",
+      "observed": [
+        "loss",
+        "win"
+      ],
+      "expected": "profiles include win and loss"
+    },
+    {
+      "name": "probability_tiers_present",
+      "passed": true,
+      "severity": "error",
+      "observed": 4,
+      "expected": ">= 2"
+    },
+    {
+      "name": "research_answers_present",
+      "passed": true,
+      "severity": "error",
+      "observed": 11,
+      "expected": ">= 5"
+    },
+    {
+      "name": "research_evidence_json",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "research_evidence_ids_resolve",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "answered_qa_has_summary",
+      "passed": true,
+      "severity": "error",
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "embedded_analysis_json",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "raw_merge_metadata_embedded",
+      "passed": true,
+      "severity": "error",
+      "observed": "present",
+      "expected": "present"
+    },
+    {
+      "name": "raw_merge_metadata_is_object",
+      "passed": true,
+      "severity": "error",
+      "observed": "valid object",
+      "expected": "valid object"
+    },
+    {
+      "name": "raw_metadata_scope",
+      "passed": true,
+      "severity": "error",
+      "observed": "discord_only",
+      "expected": "discord_only"
+    },
+    {
+      "name": "raw_metadata_guild",
+      "passed": true,
+      "severity": "error",
+      "observed": "1167376964680691732",
+      "expected": "1167376964680691732"
+    },
+    {
+      "name": "raw_metadata_primary_channel",
+      "passed": true,
+      "severity": "error",
+      "observed": "1283941772577472643",
+      "expected": "1283941772577472643"
+    },
+    {
+      "name": "all_embedded_source_scopes_are_discord_only",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "embedded_source_queries_have_no_urls",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "merge_metadata_present",
+      "passed": true,
+      "severity": "error",
+      "observed": "dict",
+      "expected": "dict"
+    },
+    {
+      "name": "merge_window_dates",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "start": "2026-04-20",
+        "inclusive_end": "2026-07-20"
+      },
+      "expected": {
+        "start": "2026-04-20",
+        "inclusive_end": "2026-07-20"
+      }
+    },
+    {
+      "name": "baseline_tail_complete",
+      "passed": true,
+      "severity": "error",
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "primary_segment_coverage_39_of_39",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "expected": 39,
+        "completed": 39,
+        "partial": 0,
+        "missing": 0,
+        "invalid": 0,
+        "all_complete": true
+      },
+      "expected": {
+        "expected": 39,
+        "completed": 39,
+        "partial": 0,
+        "missing": 0,
+        "invalid": 0,
+        "all_complete": true
+      }
+    },
+    {
+      "name": "primary_segment_file_inventory",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "count": 39,
+        "missing": [],
+        "unexpected": []
+      },
+      "expected": {
+        "count": 39,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "name": "supplemental_file_inventory_15",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "declared_count": 15,
+        "listed_count": 15,
+        "missing": [],
+        "unexpected": []
+      },
+      "expected": {
+        "declared_count": 15,
+        "listed_count": 15,
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "name": "supplemental_message_occurrences",
+      "passed": true,
+      "severity": "error",
+      "observed": 2401,
+      "expected": 2401
+    },
+    {
+      "name": "supplemental_occurrences_by_prefix",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "instrument_rb_es": 45,
+        "instrument_rb_nq": 32,
+        "questions_nq_es": 21,
+        "questions_rb": 927,
+        "rbphrase": 1376
+      },
+      "expected": {
+        "instrument_rb_es": 45,
+        "instrument_rb_nq": 32,
+        "questions_nq_es": 21,
+        "questions_rb": 927,
+        "rbphrase": 1376
+      }
+    },
+    {
+      "name": "supplemental_occurrences_by_collection",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "instrument_comparison_messages": 98,
+        "questions_rb_messages": 927,
+        "server_rejection_phrase_messages": 1376
+      },
+      "expected": {
+        "instrument_comparison_messages": 98,
+        "questions_rb_messages": 927,
+        "server_rejection_phrase_messages": 1376
+      }
+    },
+    {
+      "name": "supplemental_coverage_present",
+      "passed": true,
+      "severity": "error",
+      "observed": "dict",
+      "expected": "dict"
+    },
+    {
+      "name": "all_supplemental_prefixes_complete",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "all_prefixes_complete": true,
+        "prefixes": [
+          "instrument_rb_es",
+          "instrument_rb_nq",
+          "questions_nq_es",
+          "questions_rb",
+          "rbphrase"
+        ],
+        "incomplete": []
+      },
+      "expected": {
+        "all_prefixes_complete": true,
+        "prefixes": [
+          "instrument_rb_es",
+          "instrument_rb_nq",
+          "questions_nq_es",
+          "questions_rb",
+          "rbphrase"
+        ],
+        "incomplete": []
+      }
+    },
+    {
+      "name": "merge_collection_coverage_inventory",
+      "passed": true,
+      "severity": "error",
+      "observed": [
+        "broad_rb_shorthand_partial_messages",
+        "contextual_qa_messages",
+        "instrument_comparison_messages",
+        "primary_messages",
+        "questions_nq_es_messages",
+        "questions_rb_messages",
+        "server_rejection_phrase_messages"
+      ],
+      "expected": [
+        "broad_rb_shorthand_partial_messages",
+        "contextual_qa_messages",
+        "instrument_comparison_messages",
+        "primary_messages",
+        "questions_nq_es_messages",
+        "questions_rb_messages",
+        "server_rejection_phrase_messages"
+      ]
+    },
+    {
+      "name": "database_coverage_matches_merge_metadata",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "supplemental_directory_is_local",
+      "passed": true,
+      "severity": "error",
+      "observed": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\three_month_supplemental",
+      "expected": "non-empty local directory path"
+    },
+    {
+      "name": "browser_context_artifact_embedded",
+      "passed": true,
+      "severity": "error",
+      "observed": {
+        "present": true,
+        "valid_object": true,
+        "matches_extension_table": true,
+        "message_count": 35
+      },
+      "expected": {
+        "present": true,
+        "valid_object": true,
+        "matches_extension_table": true,
+        "message_count": 35
+      }
+    },
+    {
+      "name": "three_month_curated_analysis_embedded",
+      "passed": true,
+      "severity": "error",
+      "observed": [
+        "browser_context_followups_3month",
+        "curated_analysis_3month",
+        "llm_readme_3month",
+        "model_analysis_3month",
+        "raw_merge_metadata_3month",
+        "rb_analysis_3month",
+        "research_summary_3month",
+        "trade_analysis_3month"
+      ],
+      "expected": "curated_analysis_3month present"
+    },
+    {
+      "name": "no_14_day_analysis_documents",
+      "passed": true,
+      "severity": "error",
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "three_month_supporting_analyses_embedded",
+      "passed": true,
+      "severity": "warning",
+      "observed": [],
+      "expected": []
+    }
+  ],
+  "counts": {
+    "messages": 7170,
+    "merged_message_provenance": 7374,
+    "provenance_primary_files_represented": 39,
+    "provenance_supplemental_files_represented": 15,
+    "included_inherited_baseline_query_descriptors": 732,
+    "browser_followup_contexts": 8,
+    "browser_followup_context_messages": 35,
+    "rejection_block_findings": 80,
+    "trading_models": 4,
+    "trades": 1471,
+    "outcome_profiles": 2,
+    "probability_tiers": 4,
+    "research_questions": 11,
+    "attachments": 2619,
+    "qa_pairs": 932,
+    "trade_evidence": 3183,
+    "trade_confluences": 2899,
+    "model_rules": 49,
+    "model_evidence": 96,
+    "contradictions": 4,
+    "analysis_documents": 8,
+    "browser_context_followup_artifacts": 1,
+    "coverage": [
+      {
+        "collection_name": "broad_rb_shorthand_partial_messages",
+        "scan_complete": false,
+        "messages_seen": 255,
+        "earliest_message_utc": "2026-07-17T12:24:05.273Z",
+        "latest_message_utc": "2026-07-20T18:18:03.763Z",
+        "gap_notes": "Broad server-wide shorthand search became unstable after result 325; retained only as supplemental latest-period evidence. Supplemental collection was not expanded beyond the baseline export. Declared source-result counts are retained in raw merge metadata; messages_seen here is the actual merged row count."
+      },
+      {
+        "collection_name": "browser_context_followup_messages",
+        "scan_complete": false,
+        "messages_seen": 35,
+        "earliest_message_utc": "2026-04-20T10:31:57.661Z",
+        "latest_message_utc": "2026-07-02T05:18:28.469Z",
+        "gap_notes": "Complete for the eight selected permalink contexts only; not a complete export of the containing channels. The targeted eight-context capture itself is audited and complete."
+      },
+      {
+        "collection_name": "contextual_qa_messages",
+        "scan_complete": false,
+        "messages_seen": 209,
+        "earliest_message_utc": "2026-07-10T08:15:36.356Z",
+        "latest_message_utc": "2026-07-20T13:49:01.972Z",
+        "gap_notes": "Supplemental collection was not expanded beyond the baseline export. Declared source-result counts are retained in raw merge metadata; messages_seen here is the actual merged row count."
+      },
+      {
+        "collection_name": "instrument_comparison_messages",
+        "scan_complete": false,
+        "messages_seen": 69,
+        "earliest_message_utc": "2026-04-21T14:35:49.157Z",
+        "latest_message_utc": "2026-07-04T11:48:09.194Z",
+        "gap_notes": "The older-window instrument searches are complete, but equivalent instrument_rb_nq and instrument_rb_es searches were not captured for the baseline July 7-20 tail. Declared source-result counts are retained in raw merge metadata; messages_seen here is the actual merged row count."
+      },
+      {
+        "collection_name": "primary_messages",
+        "scan_complete": true,
+        "messages_seen": 12027,
+        "earliest_message_utc": "2026-04-20T05:15:08.824Z",
+        "latest_message_utc": "2026-07-20T16:45:39.319Z",
+        "gap_notes": "Declared source-result counts are retained in raw merge metadata; messages_seen here is the actual merged row count."
+      },
+      {
+        "collection_name": "questions_nq_es_messages",
+        "scan_complete": false,
+        "messages_seen": 4,
+        "earliest_message_utc": "2026-07-08T16:20:51.559Z",
+        "latest_message_utc": "2026-07-12T09:54:56.290Z",
+        "gap_notes": "This collection intentionally preserves the baseline July 7-20 search separately; the older questions_nq_es search is stored in instrument_comparison_messages. Declared source-result counts are retained in raw merge metadata; messages_seen here is the actual merged row count."
+      },
+      {
+        "collection_name": "questions_rb_messages",
+        "scan_complete": true,
+        "messages_seen": 1048,
+        "earliest_message_utc": "2026-04-20T06:33:09.237Z",
+        "latest_message_utc": "2026-07-20T14:35:51.033Z",
+        "gap_notes": "Declared source-result counts are retained in raw merge metadata; messages_seen here is the actual merged row count."
+      },
+      {
+        "collection_name": "server_rejection_phrase_messages",
+        "scan_complete": true,
+        "messages_seen": 1590,
+        "earliest_message_utc": "2026-04-20T12:19:46.391Z",
+        "latest_message_utc": "2026-07-20T16:50:23.384Z",
+        "gap_notes": "Declared source-result counts are retained in raw merge metadata; messages_seen here is the actual merged row count."
+      }
+    ]
+  },
+  "hard_failure_count": 0,
+  "warning_count": 0
+}

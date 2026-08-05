@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "scope_status": "user_narrowed",
+  "scope_effective_date": "2026-07-21",
+  "guild_id": "1167376964680691732",
+  "source_scope": "discord_only",
+  "outside_sources_used": false,
+  "window": {
+    "timezone": "America/Chicago",
+    "start_date_inclusive": "2026-01-01",
+    "end_date_inclusive": "2026-07-20"
+  },
+  "allowed_top_level_containers": [
+    {
+      "channel_id": "1370578463223975986",
+      "name": "student-breakdowns",
+      "kind": "text channel",
+      "include_exact_child_threads": true
+    },
+    {
+      "channel_id": "1283941772577472643",
+      "name": "premium-journals",
+      "kind": "forum channel",
+      "include_exact_child_threads": true
+    },
+    {
+      "channel_id": "1273692573898113076",
+      "name": "❓│questions",
+      "logical_name": "questions",
+      "kind": "text channel",
+      "include_exact_child_threads": true
+    }
+  ],
+  "canonical_path_policy": {
+    "student_breakdowns": {
+      "authoritative_directory": "raw/channel_segments"
+    },
+    "questions": {
+      "authoritative_directory": "raw/channel_segments"
+    },
+    "premium_journals": {
+      "authoritative_directory": "raw/channel_segments_v2_5",
+      "collector_version_required": "2.6",
+      "legacy_preservation_directory": "raw/channel_segments",
+      "legacy_directory_policy": "preservation_only_not_authoritative"
+    }
+  },
+  "collection_rule": "Only authenticated Discord searches scoped to an allowed top-level container may be submitted. Exact child threads are in scope only when their parent relationship is proven from authenticated Discord evidence.",
+  "release_rule": "Previously captured out-of-scope artifacts remain preserved for audit history but are excluded from the scoped corpus, databases, analysis, reports, and model evidence.",
+  "deletion_rule": "Do not delete or mutate pre-existing out-of-scope raw artifacts."
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "status": "stopped_on_missing_rendered_result",
+  "segment": {
+    "start": "2026-02-17",
+    "end": "2026-02-23",
+    "query": "in:❓│questions after:2026-02-16 before:2026-02-24"
+  },
+  "collector_error": {
+    "name": "DiscordPageValidationError",
+    "message": "Page 34 extraction failed validation after 3 attempts: captured=24/25, missing=850, unexpected=, duplicate_ids=, overlap_ids=",
+    "page_number": 34,
+    "attempt_count": 3,
+    "rendered_result_count": 24,
+    "first_rendered_result_index": 826,
+    "last_rendered_result_index": 849,
+    "missing_result_indices": [850]
+  },
+  "live_search_state": {
+    "reported_total": 1827,
+    "reported_pages": 74,
+    "query_unchanged": true,
+    "fresh_submission_count": 1,
+    "resume_submission_count": 0
+  },
+  "last_clean_checkpoint": {
+    "pages_captured": 30,
+    "captured_rows": 750,
+    "unique_message_ids": 750,
+    "sha256": "49cca7796c09439647edc742481e087293b6e41c2f919068344e94a99a236f5f",
+    "bytes": 2539082,
+    "strict_schema_qa_passed": true,
+    "provenance_conflict_count": 0
+  },
+  "safety_action": {
+    "pagination_stopped": true,
+    "search_resubmitted_after_error": false,
+    "partial_preserved_byte_for_byte": true,
+    "canonical_artifact_promoted": false
+  },
+  "shared_schedule_modified": false
+}

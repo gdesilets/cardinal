@@ -1,0 +1,151 @@
+{
+  "event_type": "discord_partial_recovery_and_multi_source_reconciliation",
+  "guild_id": "1167376964680691732",
+  "channel_id": "1273692573898113076",
+  "channel_name": "❓│questions",
+  "channel_kind": "text channel",
+  "category_name": "PREMIUM",
+  "segment_start": "2026-01-05",
+  "segment_end": "2026-01-05",
+  "query": "in:❓│questions after:2026-01-04 before:2026-01-06",
+  "recovered_at_utc": "2026-07-21T18:03:10.993Z",
+  "preserved_sources": {
+    "legacy_v2_0_partial": {
+      "path": "raw/channel_segments/channel_questions_1273692573898113076_2026-01-05_2026-01-05.partial.json",
+      "sha256": "12eb3d1252121d7f96386af3484ead60ea0cbad1ce79dece5ec39255ee738bb3",
+      "collector_version": "2.0",
+      "reported_total": 243,
+      "reported_pages": 10,
+      "pages_captured": 3,
+      "captured_rows": 75,
+      "complete": false,
+      "preservation_status": "unchanged_in_place_byte_for_byte"
+    },
+    "failed_v2_5_partial": {
+      "path": "raw/quarantine_collection_errors/terra_questions_exact_staging_jan5_restart_20260721T175133Z/channel_questions_1273692573898113076_2026-01-05_2026-01-05.partial.json",
+      "sha256": "ccf0ad78df07182747c8762c8f7ae2e9c5736b008d63945c547ff4de25e78de6",
+      "collector_version": "2.5",
+      "reported_total": 243,
+      "reported_pages": 10,
+      "pages_captured": 5,
+      "captured_rows": 125,
+      "complete": false,
+      "preservation_status": "unchanged_failed_restart_evidence"
+    },
+    "failed_v2_5_restart_note": {
+      "path": "raw/quarantine_collection_errors/terra_questions_exact_staging_jan5_restart_20260721T175133Z/channel_questions_1273692573898113076_2026-01-05_2026-01-05.fresh-restart-render-failure-note.json",
+      "sha256": "1fb04c99ca6ffcb1f4bdbe1b25a0ba0f658346181d7cf9eb7c7eb0eee7379868",
+      "preservation_status": "unchanged_immutable_failure_note"
+    }
+  },
+  "browser_only_rerender_observation": {
+    "new_query_submitted": false,
+    "initial_page_9": {
+      "reported_total": 243,
+      "mounted_result_indices": "201-224",
+      "missing_result_indices": [
+        225
+      ],
+      "max_scroll_hydrated_missing_index": false
+    },
+    "adjacent_page_8": {
+      "reported_total": 242,
+      "mounted_result_indices": "176-200"
+    },
+    "returned_page_9": {
+      "reported_total": 242,
+      "mounted_result_indices": "201-225",
+      "recovered_index_225_message_id": "1457741943109849171",
+      "recovered_index_225_timestamp_utc": "2026-01-05T14:26:02.773Z"
+    },
+    "causal_claim_made": false,
+    "causal_interpretation": null
+  },
+  "clean_restart": {
+    "staged_path": "raw/quarantine_collection_errors/terra_questions_exact_staging_jan5_clean_restart_20260721T180038Z/channel_questions_1273692573898113076_2026-01-05_2026-01-05.json",
+    "staged_sha256": "1b3829aa8a286ad9dcf20e829d66bb239827a6185728f63cd9c226d949cc66a3",
+    "search_submission": {
+      "mode": "fresh",
+      "submission_count": 1,
+      "submitted_at_utc": "2026-07-21T18:01:05.119Z",
+      "resumed_from_partial_rows": 0
+    },
+    "collector_version": "2.5",
+    "reported_total": 242,
+    "reported_pages": 10,
+    "pages_captured": 10,
+    "captured_rows": 242,
+    "unique_message_ids": 242,
+    "complete": true,
+    "completion_terminal_state": "stable_bottom",
+    "completion_observation_count": 2
+  },
+  "canonical_final": {
+    "path": "raw/channel_segments/channel_questions_1273692573898113076_2026-01-05_2026-01-05.json",
+    "sha256": "1b3829aa8a286ad9dcf20e829d66bb239827a6185728f63cd9c226d949cc66a3",
+    "creation_mode": "exclusive_same_directory_atomic_rename",
+    "byte_exact_to_validated_stage": true
+  },
+  "count_reconciliation": {
+    "legacy_v2_0_partial_reported_total": 243,
+    "failed_v2_5_partial_reported_total": 243,
+    "browser_rerender_final_reported_total": 242,
+    "clean_restart_reported_total": 242,
+    "clean_restart_minus_legacy_reported_total": -1,
+    "causal_claim_made": false,
+    "causal_interpretation": null
+  },
+  "message_id_reconciliation": {
+    "set_hash_algorithm": "sha256_of_newline_joined_sorted_unique_message_ids_utf8",
+    "legacy_v2_0_partial": {
+      "unique_ids": 75,
+      "id_set_sha256": "0e1ce53a2c8bd0c3efd1d507fd52de07cb9fd23f5c1e5009ad8692437d6277a3",
+      "shared_with_final": 75,
+      "missing_from_final_ids": [],
+      "final_added_count": 167,
+      "final_added_id_set_sha256": "b8175d4d8f11b19676d9f56f4acc1020314204f69792ef4a3b56cd0a258930e2"
+    },
+    "failed_v2_5_partial": {
+      "unique_ids": 125,
+      "id_set_sha256": "e398fdae7b4ef79c79e2b86b1519a2ab87b753f579684d6d823148893507d17e",
+      "shared_with_final": 125,
+      "missing_from_final_ids": [],
+      "final_added_count": 117,
+      "final_added_id_set_sha256": "adff8905a2b22354c10d6c3a870eb99aa5700076c84597ec5c32291ee02e5e43"
+    },
+    "final": {
+      "unique_ids": 242,
+      "id_set_sha256": "a1a4ef41ac09c8b456ed4f5e635b2f68bb5922baf1b8f0f2adbadbe14030de51"
+    },
+    "causal_claim_made": false,
+    "causal_interpretation": null
+  },
+  "validation": {
+    "independent_row_qa_passed": true,
+    "corpus_contract_computed_complete": true,
+    "inline_completion_evidence_valid": true,
+    "validation_errors": [],
+    "validation_warnings": [],
+    "exact_requested_container_rows": 242,
+    "exact_result_index_sequence": true,
+    "exact_unique_message_ids": true,
+    "exact_central_date_rows": 242,
+    "exact_snowflake_timestamp_rows": 242,
+    "exact_permalinks": 242,
+    "row_provenance_conflict_count": 0,
+    "attachment_count": 8,
+    "owned_exact_attachment_count": 8,
+    "unresolved_attachment_count": 0,
+    "invalid_owned_attachment_count": 0,
+    "exact_reply_count": 60,
+    "documented_unavailable_reply_count": 8,
+    "count_changed_during_clean_restart": false,
+    "all_row_result_set_sizes": 242,
+    "terminal_page_first_result_index": 226,
+    "terminal_page_last_result_index": 242,
+    "terminal_page_visible_result_count": 17,
+    "terminal_has_enabled_next": false
+  },
+  "action": "Preserved both partial captures and the failure note unchanged, independently validated a clean fresh restart, and exclusively created the byte-identical non-partial v2.5 canonical.",
+  "outside_sources_used": false
+}

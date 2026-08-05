@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0.0",
+  "status": "complete_and_promoted",
+  "segment": {
+    "start": "2026-01-06",
+    "end": "2026-01-12",
+    "query": "in:❓│questions after:2026-01-05 before:2026-01-13"
+  },
+  "container": {
+    "guild_id": "1167376964680691732",
+    "channel_id": "1273692573898113076",
+    "channel_name": "❓│questions",
+    "channel_kind": "text channel",
+    "category_name": "PREMIUM"
+  },
+  "artifact": {
+    "staging_file": "channel_questions_1273692573898113076_2026-01-06_2026-01-12.json",
+    "canonical_file": "raw/channel_segments/channel_questions_1273692573898113076_2026-01-06_2026-01-12.json",
+    "sha256": "e38c7a3ca65f23fcda96b36471f4c4edad200c103fc5215d4f436eb1207747bd",
+    "bytes": 6351794,
+    "source_destination_hash_match": true,
+    "partial_removed_after_completion": true
+  },
+  "collection": {
+    "reported_total": 1805,
+    "reported_pages": 73,
+    "pages_captured": 73,
+    "captured_rows": 1805,
+    "unique_message_ids": 1805,
+    "gap_count": 0,
+    "container_mismatch_count": 0,
+    "provenance_conflict_count": 0
+  },
+  "completion_evidence": {
+    "valid": true,
+    "terminal_state": "stable_bottom",
+    "stable_bottom_observation_count": 2,
+    "terminal_page": 73,
+    "terminal_first_result_index": 1801,
+    "terminal_last_result_index": 1805,
+    "terminal_visible_result_count": 5,
+    "terminal_next_enabled": false,
+    "search_submission_mode": "reuse_active_positive",
+    "search_submission_count": 0,
+    "search_submitted_at_utc": null
+  },
+  "weekly_strict_qa": {
+    "passed": true,
+    "text_channel_row_qa_residual_errors": [],
+    "weekly_completion_errors": [],
+    "collector_completion_validation_errors": [],
+    "attachment_count": 127,
+    "exact_reply_count": 615,
+    "documented_unavailable_reply_count": 128,
+    "non_reply_count": 1062,
+    "exact_author_count": 1658,
+    "unresolved_author_count": 147,
+    "visible_parent_category_exact_count": 1805,
+    "day_counts": {
+      "2026-01-06": 243,
+      "2026-01-07": 554,
+      "2026-01-08": 412,
+      "2026-01-09": 275,
+      "2026-01-10": 60,
+      "2026-01-11": 54,
+      "2026-01-12": 207
+    }
+  },
+  "reply_target_recovery": {
+    "resolved_rows": [438, 439],
+    "target_message_id": "1459199498193604842",
+    "target_channel_id": "1273692573898113076",
+    "target_permalink": "https://discord.com/channels/1167376964680691732/1273692573898113076/1459199498193604842",
+    "recovery_evidence_preserved_in_final_rows": true
+  },
+  "canonical_questions_reconciliation": {
+    "complete_segments_through": "2026-01-12",
+    "complete_segment_file_count": 6,
+    "complete_segment_row_count": 2360,
+    "complete_segment_unique_message_ids": 2360,
+    "cross_file_duplicate_message_id_count": 0,
+    "unrelated_existing_partial_left_untouched": "channel_questions_1273692573898113076_2026-01-05_2026-01-05.partial.json"
+  }
+}

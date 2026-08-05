@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "discord_collection_next_batch",
+  "generated_at_utc": "2026-07-21T02:50:15Z",
+  "status": "ready",
+  "safety_thresholds": {
+    "max_reported_messages_for_adaptive_superset": 1000,
+    "max_reported_pages_for_adaptive_superset": 40,
+    "page_size": 25
+  },
+  "active_cooldowns": [],
+  "cooling_jobs": [],
+  "candidate_action_count": 9,
+  "actions": [
+    {
+      "action": "collect_segment",
+      "job_id": "full__1273692573898113076",
+      "job_kind": "full_capture_or_empty_verification",
+      "channel_id": "1273692573898113076",
+      "channel_name": "❓│questions",
+      "segment": {
+        "start": "2026-01-05",
+        "end": "2026-01-05",
+        "query": "in:❓│questions after:2026-01-04 before:2026-01-06",
+        "query_core": "in:❓│questions"
+      },
+      "strategy": "resume_safe_partial_checkpoint",
+      "collector_export": "collectDateRange",
+      "collector_call_args": {
+        "startIso": "2026-01-05",
+        "endIso": "2026-01-05",
+        "outputDirectory": "raw/channel_segments",
+        "queryPrefix": "in:❓│questions",
+        "spanDays": 1,
+        "collectorOptions": {
+          "prefix": "channel_questions_1273692573898113076",
+          "scope": "channel-scoped",
+          "channelId": "1273692573898113076",
+          "channelName": "❓│questions",
+          "channelKind": "text channel",
+          "categoryName": "PREMIUM",
+          "channelIdSource": "inventory_exact_href",
+          "checkpointEvery": 1,
+          "pageDelayMs": 1500,
+          "maxAttempts": 1
+        },
+        "schedulerOptions": {
+          "batchSize": 1,
+          "cooldownMs": 60000,
+          "throttleCooldownMs": 300000
+        }
+      },
+      "expected_output": "raw/channel_segments/channel_questions_1273692573898113076_2026-01-05_2026-01-05.json",
+      "count_observation": {
+        "source": "segment_artifact",
+        "source_path": "raw/channel_segments/channel_questions_1273692573898113076_2026-01-05_2026-01-05.partial.json",
+        "channel_id": "1273692573898113076",
+        "query": "in:❓│questions after:2026-01-04 before:2026-01-06",
+        "query_core": "in:❓│questions",
+        "start": "2026-01-05",
+        "end": "2026-01-05",
+        "reported_total": 243,
+        "reported_pages": 10,
+        "observed_at_utc": "2026-07-20T23:07:57.428Z",
+        "artifact_state": "partial"
+      }
+    }
+  ],
+  "blocked_actions": [],
+  "execution_note": "This file is advisory. The orchestrator did not call Browser. Execute only the listed collector export, then rescan or record the exact count/throttle result."
+}

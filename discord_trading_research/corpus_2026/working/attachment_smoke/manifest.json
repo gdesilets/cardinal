@@ -1,0 +1,105 @@
+{
+  "archive_root_package_relative": ".",
+  "artifact_type": "discord_attachment_archive_manifest",
+  "counts": {
+    "downloaded": 1,
+    "extraction_complete": 0,
+    "extraction_failed": 0,
+    "extraction_partial": 0,
+    "failed": 0,
+    "pending": 0,
+    "terminal": 1,
+    "total": 1,
+    "unavailable": 0
+  },
+  "created_at_utc": "2026-07-21T11:42:59.752Z",
+  "entries": [
+    {
+      "attachment_id": "1489692703783518350",
+      "attachment_id_exact": true,
+      "attempt_count": 1,
+      "attempts": [
+        {
+          "attempt_number": 1,
+          "attempted_at_utc": "2026-07-21T11:49:04.493Z",
+          "credentials_or_browser_storage_inspected": false,
+          "error_code": null,
+          "error_detail": null,
+          "http_status": null,
+          "outside_sources_used": 0,
+          "response_mime_type": "image/png",
+          "response_url_host": "cdn.discordapp.com",
+          "response_url_path": "/attachments/1329615478716502097/1489692703783518350/image.png",
+          "status": "downloaded"
+        }
+      ],
+      "byte_size": 31866,
+      "capture_status": "downloaded",
+      "captured_at_utc": "2026-07-21T11:49:04.493Z",
+      "chart_claim_eligible": false,
+      "content_sha256": "fd7fd2bcba89a2acc52341448bc8f41f1b8160793d0080d8850020379134a539",
+      "declared_byte_size": null,
+      "declared_mime_type": null,
+      "discord_url": "https://cdn.discordapp.com/attachments/1329615478716502097/1489692703783518350/image.png",
+      "extraction_artifacts": [],
+      "extraction_status": "not_attempted",
+      "failure_code": null,
+      "failure_detail": null,
+      "filename": "image.png",
+      "local_package_path": "attachments/1329615478716502097/1489692703590584600/1489692703783518350_image.png",
+      "message_id": "1489692703590584600",
+      "mime_type": "image/png",
+      "raw_attachment_metadata": {
+        "attachment_id": "1489692703783518350",
+        "filename": "image.png",
+        "relation_type": "owned",
+        "url": "https://cdn.discordapp.com/attachments/1329615478716502097/1489692703783518350/image.png"
+      },
+      "request_id": "e631a9a3c94007f56a6e9d5b2e7d6f50f75adec42ded10540c2a4db29f6ecceb",
+      "source_channel_id": "1329615478716502097",
+      "source_channel_id_basis": "discord_attachment_cdn_path_not_container_identity",
+      "source_present": true,
+      "terminal": true,
+      "url_host": "cdn.discordapp.com",
+      "url_path": "/attachments/1329615478716502097/1489692703783518350/image.png"
+    }
+  ],
+  "guild_id": "",
+  "outside_sources_used": 0,
+  "policy": {
+    "allowed_hosts": [
+      "cdn.discordapp.com",
+      "media.discordapp.net"
+    ],
+    "browser_response_contract": "discord_attachment_browser_response_v1",
+    "chart_claim_rule": "Attachment presence, filenames, alt labels, and failed OCR cannot establish chart geometry or setup facts. Chart-dependent claims remain unresolved unless a complete or partial local extraction artifact has exact attachment provenance and verified local bytes.",
+    "credentials_or_browser_storage_inspected": false,
+    "external_links_fetched": false,
+    "literal_release_rule": "Every discovered Discord-owned attachment must reach a terminal disposition. An available response must be archived with verified bytes and SHA-256. A deleted attachment may remain unavailable only with substantive Discord/HTTP evidence. A failed state may be recorded only after the minimum documented attempts, but it is a degraded working result and blocks literal release and final packaging.",
+    "minimum_terminal_failure_attempts": 3,
+    "network_requests_performed_by_archiver": false
+  },
+  "release_gate": {
+    "all_available_bytes_required": true,
+    "byte_complete": true,
+    "failed_count": 0,
+    "gate": "discord_attachment_terminal_coverage",
+    "literal_release_complete": true,
+    "passed": true,
+    "pending_count": 0,
+    "terminal_coverage_complete": true,
+    "terminal_failed_release_allowed": false,
+    "terminal_unavailable_allowed": true,
+    "unavailable_count": 0
+  },
+  "schema_version": "1.1.0",
+  "source_corpus": {
+    "artifact_type": "discord_serverwide_corpus_working",
+    "path": "corpus.json",
+    "path_scope": "build_input_filename_only",
+    "sha256": "a8a6ca93a26a9c857b6da0b4f84fa7f7cce30bba19d9c2cf0edd8ef954f13632"
+  },
+  "source_scope": "discord_only",
+  "status": "complete",
+  "updated_at_utc": "2026-07-21T11:50:48.305Z"
+}

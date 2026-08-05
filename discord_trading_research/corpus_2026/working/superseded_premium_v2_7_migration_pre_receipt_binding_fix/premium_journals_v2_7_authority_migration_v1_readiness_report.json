@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "premium_journals_v2_7_authority_migration_readiness_report",
+  "migration_id": "premium-journals-v2-7-authority-2026-01-09-v1",
+  "status": "candidate_ready_for_independent_audit_not_activation",
+  "generated_at_utc": "2026-07-22T08:24:26.971677Z",
+  "immutable": true,
+  "candidate": {
+    "role": "disabled_authority_migration_candidate",
+    "path": "working/premium_journals_v2_7_authority_migration_v1_candidate.json",
+    "sha256": "52dad058491bdf445d41ffc395e59340f0e601b5f3b5cdbefd9b3d09c1009db8",
+    "bytes": 27986
+  },
+  "candidate_record_fingerprint_sha256": "f7cc625c0547a69fcd63da2a92e58afbe61483917d97890044e4e1e7323910e4",
+  "bound_schedule_snapshot": {
+    "role": "pre_activation_schedule_snapshot",
+    "path": "working/scoped_three_parent_collection_schedule.json",
+    "sha256": "0a1fd787f0fbeb6cb142edd028d16daa3c0189027d2d42b82ba40bb209ca18d6",
+    "bytes": 930837
+  },
+  "bound_jan8_authoritative_canonical": {
+    "role": "jan8_v2_6_authoritative_canonical",
+    "path": "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-08_2026-01-08.json",
+    "sha256": "7a9d71adb66ff0317750413c5cb89b459567bd202af3c71a126c4addc134bfb5",
+    "bytes": 1231302
+  },
+  "bound_jan8_full_shadow_verification": {
+    "role": "jan8_v2_7_full_shadow_verification",
+    "path": "working/jan8_dual_run_20260722T072547Z/shadow_full_verification.json",
+    "sha256": "3acb44ced8cac7c74d350350170a479cadb701304b386f031b0dd551ac291168",
+    "bytes": 3913
+  },
+  "baseline_summary": {
+    "days": 6,
+    "groups": 585,
+    "strict_direct": 242,
+    "fallback": 343,
+    "estimated_savings_percent": 41.37
+  },
+  "jan8_shadow_summary": {
+    "pages": 7,
+    "rows": 162,
+    "groups": 78,
+    "strict_direct": 36,
+    "fallback": 42,
+    "all_child_matches": 78
+  },
+  "verification": {
+    "focused_migration_tests_passed": 39,
+    "full_python_discovery_passed": 349,
+    "full_node_v2_7_tests_passed": 63,
+    "candidate_validator_passed": true,
+    "jan8_authority_source_gate_passed": true,
+    "authority_state_before_passed": true,
+    "activation_and_rollback_projection_tests_passed": true
+  },
+  "activation_controls": {
+    "activation_requested": false,
+    "activation_allowed": false,
+    "live_collection_enabled": false,
+    "promotion_allowed": false,
+    "independent_review_passed": false,
+    "activation_receipt_present": false,
+    "schedule_mutation_performed": false,
+    "jan1_through_jan8_authority_modified": false
+  },
+  "not_performed": [
+    "independent_audit_approval",
+    "activation_receipt_creation",
+    "schedule_activation_transaction",
+    "jan9_v2_7_collection",
+    "jan9_v2_7_canonical_promotion"
+  ],
+  "next_action": "independent_read_only_audit_of_candidate_and_readiness_report",
+  "record_fingerprint_sha256": "919687c36c6a8f7fb44b6b6ea74d7ccf7697667621f2c95a0ba2a4fabfee7e90"
+}

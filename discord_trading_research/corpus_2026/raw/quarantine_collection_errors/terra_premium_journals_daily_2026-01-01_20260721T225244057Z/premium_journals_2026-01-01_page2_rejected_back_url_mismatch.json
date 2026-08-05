@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "premium_journals_page_rejection_evidence",
+  "observed_at_utc": "2026-07-21T22:58:08.941Z",
+  "segment": {
+    "start": "2026-01-01",
+    "end": "2026-01-01",
+    "query": "in:premium-journals after:2025-12-31 before:2026-01-02"
+  },
+  "page_number": 2,
+  "provisional_artifact": {
+    "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-01_20260721T225244057Z\\channel_premium_journals_1283941772577472643_2026-01-01_2026-01-01.page2-provisional-back-url-mismatch.partial.json",
+    "sha256": "8c723bf9eb7b93c3a16f9bf0fbdf5e16ad8c218f3c8ecbed948ebdaa033db74e",
+    "bytes": 310313,
+    "captured_rows": 50,
+    "pages_captured": 2
+  },
+  "rejection_reason": "back_return_source_url_mismatch",
+  "expected_source_url": "https://discord.com/channels/1167376964680691732/1273692573898113076/1492136111252701404",
+  "observed_back_url": "https://discord.com/channels/1167376964680691732/1447705012045217942",
+  "observed_search_state": {
+    "first_index": 26,
+    "last_index": 50,
+    "query": "in:premium-journals after:2025-12-31 before:2026-01-02",
+    "total": 198,
+    "url": "https://discord.com/channels/1167376964680691732/1447705012045217942",
+    "visible": 25
+  },
+  "page_2_rows_accepted": false,
+  "page_2_thread_ids_accepted": [],
+  "accepted_checkpoint_before": {
+    "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\raw\\quarantine_collection_errors\\terra_premium_journals_daily_2026-01-01_20260721T225244057Z\\channel_premium_journals_1283941772577472643_2026-01-01_2026-01-01.partial.json",
+    "sha256": "30c515a69b056954eac7fb0a763d0fc0136f57f6c283078d7acc92c878eee715",
+    "pages_captured": 1,
+    "captured_rows": 25
+  },
+  "disposition": "provisional_preserved_working_partial_restored_to_page_1"
+}

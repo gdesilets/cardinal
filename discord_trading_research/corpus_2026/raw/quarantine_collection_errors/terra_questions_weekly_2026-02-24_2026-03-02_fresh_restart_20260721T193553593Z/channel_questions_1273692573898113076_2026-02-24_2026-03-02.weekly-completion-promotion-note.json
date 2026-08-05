@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "status": "complete_qa_passed_and_promoted",
+  "recorded_at_utc": "2026-07-21T19:43:28.8924501Z",
+  "segment": {
+    "start": "2026-02-24",
+    "end": "2026-03-02",
+    "query": "in:❓│questions after:2026-02-23 before:2026-03-03"
+  },
+  "collection_identity": {
+    "guild_id": "1167376964680691732",
+    "channel_id": "1273692573898113076",
+    "channel_name": "❓│questions",
+    "channel_kind": "text channel",
+    "category_name": "PREMIUM",
+    "channel_id_source": "inventory_exact_href",
+    "collector_version": "2.5"
+  },
+  "count_observations": [
+    {
+      "phase": "original_route_initial_and_page60_checkpoint",
+      "reported_total": 2000,
+      "reported_pages": 80,
+      "last_clean_page": 60,
+      "last_clean_rows": 1500
+    },
+    {
+      "phase": "bounded_page62_render_recovery",
+      "reported_total_before": 2000,
+      "reported_total_after": 1999,
+      "page_62_rendered_indices_after": {
+        "first": 1526,
+        "last": 1550,
+        "count": 25
+      },
+      "causal_claim_made": false
+    },
+    {
+      "phase": "isolated_fresh_restart_initial_double_sample",
+      "reported_total": 1999,
+      "reported_pages": 80,
+      "page": 2,
+      "visible_rows": 25,
+      "fresh_search_submissions": 1
+    },
+    {
+      "phase": "isolated_fresh_restart_completion",
+      "reported_total": 1999,
+      "reported_pages": 80,
+      "terminal_page": 80,
+      "last_result_index": 1999,
+      "resume_search_submissions": 0,
+      "causal_claim_made": false
+    }
+  ],
+  "fresh_restart_reconciliation": {
+    "legacy_checkpoint_rows": 1500,
+    "legacy_checkpoint_unique_message_ids": 1500,
+    "legacy_checkpoint_sha256": "2909f896cd653b2e11d42056dfe3c1aaa04f8b9139e48ca1bf81b4ab149e70a0",
+    "legacy_ids_required_in_final": 1500,
+    "legacy_ids_present_in_final": 1500,
+    "legacy_ids_missing_from_final": [],
+    "passed": true
+  },
+  "final_artifact": {
+    "staged_path": "raw/quarantine_collection_errors/terra_questions_weekly_2026-02-24_2026-03-02_fresh_restart_20260721T193553593Z/channel_questions_1273692573898113076_2026-02-24_2026-03-02.json",
+    "canonical_path": "raw/channel_segments/channel_questions_1273692573898113076_2026-02-24_2026-03-02.json",
+    "sha256": "9dfdf48c9b238663632570ab79f912a5a7df2d8d0edec8333b1feee9f3370fe3",
+    "bytes": 7260713,
+    "complete": true,
+    "reported_total": 1999,
+    "reported_pages": 80,
+    "pages_captured": 80,
+    "captured_rows": 1999,
+    "unique_message_ids": 1999,
+    "gap_indices": [],
+    "container_mismatch_count": 0
+  },
+  "strict_route_qa": {
+    "passed": true,
+    "errors": [],
+    "attachment_count": 132,
+    "exact_non_owned_attachment_count": 1,
+    "exact_reply_count": 622,
+    "documented_unavailable_reply_count": 120,
+    "provenance_conflict_count": 0,
+    "central_day_counts": {
+      "2026-02-24": 602,
+      "2026-02-25": 353,
+      "2026-02-26": 481,
+      "2026-02-27": 244,
+      "2026-02-28": 59,
+      "2026-03-01": 86,
+      "2026-03-02": 174
+    }
+  },
+  "independent_corpus_qa": {
+    "computed_complete": true,
+    "completion_evidence_source": "inline",
+    "completion_evidence_valid": true,
+    "validation_errors": [],
+    "validation_warnings": [],
+    "issue_counts": {}
+  },
+  "completion_evidence": {
+    "terminal_state": "stable_bottom",
+    "stable_bottom_observations": 2,
+    "terminal_page": 80,
+    "terminal_first_result_index": 1976,
+    "terminal_last_result_index": 1999,
+    "terminal_visible_result_count": 24,
+    "has_enabled_next_states": [false, false],
+    "search_submission_mode": "reuse_active_positive",
+    "search_submission_count": 0,
+    "submitted_at_utc": null,
+    "validation_valid": true,
+    "validation_errors": []
+  },
+  "promotion_verification": {
+    "source_sha256": "9dfdf48c9b238663632570ab79f912a5a7df2d8d0edec8333b1feee9f3370fe3",
+    "destination_sha256": "9dfdf48c9b238663632570ab79f912a5a7df2d8d0edec8333b1feee9f3370fe3",
+    "hash_match": true,
+    "source_bytes": 7260713,
+    "destination_bytes": 7260713,
+    "byte_count_match": true
+  },
+  "preserved_original_evidence": {
+    "legacy_partial_sha256": "2909f896cd653b2e11d42056dfe3c1aaa04f8b9139e48ca1bf81b4ab149e70a0",
+    "legacy_partial_bytes": 5456363,
+    "render_stop_note_sha256": "cdb9b95b8e2b42ba95259799e9e43e4df472f6eca256b6990e6a62d25a288266",
+    "render_recovery_note_sha256": "489ff8039d8ea434e7341aba2989476b407db0d90b50a3f53df745ba49017fad",
+    "preserved_byte_for_byte": true
+  },
+  "causal_claim_about_count_change": false,
+  "shared_schedule_modified": false
+}

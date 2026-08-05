@@ -1,0 +1,94 @@
+{
+  "event_type": "discord_weekly_checkpoint_reply_provenance_stop",
+  "collector_version": "2.5",
+  "guild_id": "1167376964680691732",
+  "requested_container": {
+    "channel_id": "1273692573898113076",
+    "channel_name": "❓│questions",
+    "channel_kind": "text channel",
+    "category_name": "PREMIUM",
+    "channel_id_source": "inventory_exact_href"
+  },
+  "segment": {
+    "start": "2026-01-06",
+    "end": "2026-01-12",
+    "query": "in:❓│questions after:2026-01-05 before:2026-01-13"
+  },
+  "collection_control": {
+    "capture_started_at_utc": "2026-07-21T18:07:34.544Z",
+    "fresh_submission_count": 1,
+    "resumed_from_partial_rows": 0,
+    "checkpoint_every_pages": 5,
+    "max_pages_per_call": 20,
+    "reuse_active_search": true
+  },
+  "checkpoint": {
+    "path": "raw/quarantine_collection_errors/terra_questions_weekly_2026-01-06_2026-01-12_20260721T180613Z/channel_questions_1273692573898113076_2026-01-06_2026-01-12.partial.json",
+    "sha256": "d810d312defa557951789c3b7910c04f28a0818072a9e70c08292b76669d8680",
+    "reported_total": 1805,
+    "reported_pages": 73,
+    "pages_captured": 21,
+    "captured_rows": 525,
+    "unique_message_ids": 525,
+    "first_result_index": 1,
+    "last_result_index": 525,
+    "indices_contiguous": true,
+    "hash_stable_during_qa": true,
+    "complete": false
+  },
+  "active_browser_state": {
+    "page": 21,
+    "reported_total": 1805,
+    "query_exact": true,
+    "container_exact": true,
+    "count_unchanged": true
+  },
+  "validation": {
+    "container_and_query_rows_exact": 525,
+    "date_and_snowflake_timestamp_rows_exact": 525,
+    "exact_permalink_rows": 525,
+    "attachment_count": 39,
+    "exact_reply_count": 194,
+    "documented_unavailable_reply_count": 33,
+    "explicit_conflict_flag_count": 0,
+    "blocking_unresolved_reply_context_count": 2,
+    "blocking_rows": [
+      {
+        "result_index": 438,
+        "message_id": "1459199677718200543",
+        "reply_context_present": true,
+        "reply_to_message_id": null,
+        "reply_to_channel_id": null,
+        "reply_to_permalink": null,
+        "reply_target_scope_exact": false,
+        "reply_target_resolution_status": "unresolved_without_exact_target_id",
+        "reply_target_unavailability_documented": false,
+        "reply_to_message_id_conflict": false,
+        "reply_to_channel_id_conflict": false
+      },
+      {
+        "result_index": 439,
+        "message_id": "1459199648798609624",
+        "reply_context_present": true,
+        "reply_to_message_id": null,
+        "reply_to_channel_id": null,
+        "reply_to_permalink": null,
+        "reply_target_scope_exact": false,
+        "reply_target_resolution_status": "unresolved_without_exact_target_id",
+        "reply_target_unavailability_documented": false,
+        "reply_to_message_id_conflict": false,
+        "reply_to_channel_id_conflict": false
+      }
+    ]
+  },
+  "disposition": {
+    "global_stop": true,
+    "active_query_resumed": false,
+    "additional_query_submitted": false,
+    "canonical_written": false,
+    "expected_canonical_path": "raw/channel_segments/channel_questions_1273692573898113076_2026-01-06_2026-01-12.json",
+    "cause_inference": null,
+    "causal_claim_made": false
+  },
+  "outside_sources_used": false
+}

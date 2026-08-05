@@ -1,0 +1,6 @@
+# Binary research databases belong in Git LFS.
+*.sqlite filter=lfs diff=lfs merge=lfs -text
+
+# These generated corpus snapshots exceed GitHub's per-file Git limit.
+discord_trading_research/corpus_2026/working/corpus_partial.json filter=lfs diff=lfs merge=lfs -text
+discord_trading_research/corpus_2026/working/integration_qa_20260720_234634/corpus_partial.json filter=lfs diff=lfs merge=lfs -text

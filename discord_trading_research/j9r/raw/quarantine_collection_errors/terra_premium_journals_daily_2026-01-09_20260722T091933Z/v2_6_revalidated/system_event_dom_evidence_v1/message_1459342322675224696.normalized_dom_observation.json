@@ -1,0 +1,232 @@
+{
+  "accessories": {
+    "attrs": {
+      "class": "container_b7e1cb",
+      "id": "message-accessories-1459342322675224696"
+    },
+    "childElementCount": 0,
+    "tag": "div",
+    "text": ""
+  },
+  "actor": {
+    "avatarCount": 0,
+    "dataTextNodeCount": 0,
+    "inlineLinkAttrs": {
+      "aria-expanded": "false",
+      "class": "anchor_edefb8 anchorUnderlineOnHover_edefb8",
+      "role": "link",
+      "tabindex": "0"
+    },
+    "inlineLinkCount": 1,
+    "inlineUsernameClass": "name__703b9 username__703b9 desaturateUserColors__41f68",
+    "inlineUsernameText": "adams",
+    "standardHeaderCount": 0,
+    "standardUsernameIdCount": 0
+  },
+  "article": {
+    "attrs": {
+      "aria-labelledby": "message-content-1459342322675224696",
+      "class": "wrapper_c19a55 cozy_c19a55 zalgo_c19a55",
+      "data-list-item-id": "NO_LIST___1459342322675224696",
+      "id": "search-result-1459342322675224696",
+      "role": "article",
+      "tabindex": "-1"
+    },
+    "directChildren": [
+      {
+        "attrs": {
+          "class": "contents_c19a55"
+        },
+        "node": "div"
+      },
+      {
+        "attrs": {
+          "class": "container_b7e1cb",
+          "id": "message-accessories-1459342322675224696"
+        },
+        "node": "div",
+        "text": ""
+      }
+    ],
+    "tag": "div"
+  },
+  "contentsDirectChildren": [
+    {
+      "attrs": {
+        "class": "markup__75297 messageContent_c19a55",
+        "id": "message-content-1459342322675224696"
+      },
+      "node": "div"
+    }
+  ],
+  "messageContent": {
+    "attrs": {
+      "class": "markup__75297 messageContent_c19a55",
+      "id": "message-content-1459342322675224696"
+    },
+    "directChildren": [
+      {
+        "attrs": {
+          "class": "container__235ca cozy__235ca"
+        },
+        "node": "div"
+      }
+    ],
+    "ownedByArticle": true,
+    "tag": "div"
+  },
+  "messageId": "1459342322675224696",
+  "observedAtUtc": "2026-07-22T09:46:10.676Z",
+  "schema": "discord_forum_title_change_dom_observation_v1",
+  "semanticMarkers": {
+    "ariaLabels": [],
+    "eventTypeDataAttributes": [],
+    "roleStatusCount": 0
+  },
+  "sourceUrl": "https://discord.com/channels/1167376964680691732/1283941772577472643",
+  "systemBody": {
+    "containerClass": "content__235ca",
+    "containerTag": "div",
+    "innerTag": "div",
+    "normalizedText": "adams changed the post title: 30 day diaries 📚 (boy challenge) — 1/9/26, 6:25 PM Friday, January 9, 2026 at 6:25 PM",
+    "orderedChildNodes": [
+      {
+        "attrs": {
+          "aria-expanded": "false",
+          "class": "anchor_edefb8 anchorUnderlineOnHover_edefb8",
+          "role": "link",
+          "tabindex": "0"
+        },
+        "node": "a"
+      },
+      {
+        "node": "#text",
+        "text": "changed the post title:"
+      },
+      {
+        "attrs": {},
+        "node": "strong",
+        "text": "30 day diaries 📚 (boy challenge)"
+      },
+      {
+        "attrs": {
+          "class": "timestamp_c19a55 timestampInline_c19a55"
+        },
+        "node": "span"
+      }
+    ]
+  },
+  "systemContainer": {
+    "attrs": {
+      "class": "container__235ca cozy__235ca"
+    },
+    "directChildren": [
+      {
+        "attrs": {
+          "class": "iconContainer__235ca"
+        },
+        "node": "div"
+      },
+      {
+        "attrs": {
+          "class": "content__235ca"
+        },
+        "node": "div"
+      }
+    ],
+    "tag": "div"
+  },
+  "systemIcon": {
+    "containerClass": "iconContainer__235ca",
+    "containerTag": "div",
+    "pathClass": null,
+    "pathFill": "currentColor",
+    "svgAttrs": {
+      "aria-hidden": "true",
+      "fill": "none",
+      "height": "16",
+      "role": "img",
+      "viewBox": "0 0 24 24",
+      "width": "16"
+    },
+    "pathDSha256": "6fb33f317e9d5cbdb14723626d95625ac6bc6ec7239156203d532bbd7e82f957"
+  },
+  "timestamp": {
+    "ancestorChain": [
+      {
+        "class": null,
+        "id": null,
+        "role": null,
+        "tag": "time"
+      },
+      {
+        "class": null,
+        "id": null,
+        "role": null,
+        "tag": "span"
+      },
+      {
+        "class": "timestamp_c19a55 timestampInline_c19a55",
+        "id": null,
+        "role": null,
+        "tag": "span"
+      },
+      {
+        "class": null,
+        "id": null,
+        "role": null,
+        "tag": "div"
+      },
+      {
+        "class": "content__235ca",
+        "id": null,
+        "role": null,
+        "tag": "div"
+      },
+      {
+        "class": "container__235ca cozy__235ca",
+        "id": null,
+        "role": null,
+        "tag": "div"
+      },
+      {
+        "class": "markup__75297 messageContent_c19a55",
+        "id": "message-content-1459342322675224696",
+        "role": null,
+        "tag": "div"
+      },
+      {
+        "class": "contents_c19a55",
+        "id": null,
+        "role": null,
+        "tag": "div"
+      },
+      {
+        "class": "wrapper_c19a55 cozy_c19a55 zalgo_c19a55",
+        "id": "search-result-1459342322675224696",
+        "role": "article",
+        "tag": "div"
+      }
+    ],
+    "hasMessageSpecificTimeId": false,
+    "hiddenVisualText": [
+      {
+        "class": "hiddenVisually_b18fe2",
+        "idPresent": true,
+        "tag": "span",
+        "text": "Friday, January 9, 2026 at 6:25 PM"
+      }
+    ],
+    "ownedByMessageContent": true,
+    "separator": {
+      "ariaHidden": "true",
+      "class": "separator_c19a55",
+      "tag": "i",
+      "text": "—"
+    },
+    "timeAttrs": {
+      "datetime": "2026-01-10T00:25:22.995Z"
+    },
+    "timeText": "— \n1/9/26, 6:25 PM"
+  }
+}

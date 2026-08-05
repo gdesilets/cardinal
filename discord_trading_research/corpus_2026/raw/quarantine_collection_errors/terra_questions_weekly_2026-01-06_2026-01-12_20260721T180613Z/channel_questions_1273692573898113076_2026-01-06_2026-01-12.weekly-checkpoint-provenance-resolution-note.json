@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "resolution_status": "resolved_with_exact_authenticated_ui_target",
+  "resolved_at_utc": "2026-07-21T18:17:01.952Z",
+  "segment": {
+    "start": "2026-01-06",
+    "end": "2026-01-12",
+    "query": "in:❓│questions after:2026-01-05 before:2026-01-13"
+  },
+  "container": {
+    "guild_id": "1167376964680691732",
+    "channel_id": "1273692573898113076",
+    "channel_name": "❓│questions",
+    "channel_kind": "text channel",
+    "category_name": "PREMIUM"
+  },
+  "browser_observation": {
+    "search_page": 18,
+    "reported_total": 1805,
+    "search_query_unchanged": true,
+    "search_submission_count_during_recovery": 0,
+    "authenticated_ui_control": "Jump To Reply"
+  },
+  "exact_target": {
+    "message_id": "1459199498193604842",
+    "channel_id": "1273692573898113076",
+    "data_list_item_id": "chat-messages___chat-messages-1273692573898113076-1459199498193604842",
+    "permalink": "https://discord.com/channels/1167376964680691732/1273692573898113076/1459199498193604842",
+    "rendered_kind": "voice message"
+  },
+  "recovered_rows": [
+    {
+      "result_index": 438,
+      "owner_message_id": "1459199677718200543",
+      "observation": "The row-owned Jump To Reply control flashed a target DOM wrapper whose exact descendant data-list-item-id identified the voice message."
+    },
+    {
+      "result_index": 439,
+      "owner_message_id": "1459199648798609624",
+      "observation": "The row-owned Jump To Reply control moved the same exact voice-message DOM target into the jump position."
+    }
+  ],
+  "checkpoint_integrity": {
+    "original_partial_sha256": "d810d312defa557951789c3b7910c04f28a0818072a9e70c08292b76669d8680",
+    "original_partial_backup": "channel_questions_1273692573898113076_2026-01-06_2026-01-12.pre-reply-provenance-recovery_d810d312defa.json",
+    "original_partial_backup_sha256": "d810d312defa557951789c3b7910c04f28a0818072a9e70c08292b76669d8680",
+    "recovered_partial_sha256": "324dcdafcbb4dd1889cb08be7fcbc2df60aeadb8629838a25086bd94e20d6697",
+    "prior_stop_note_preserved_immutable": true
+  },
+  "checkpoint_qa": {
+    "passed": true,
+    "errors": [],
+    "reported_total": 1805,
+    "reported_pages": 73,
+    "pages_captured": 21,
+    "captured_rows": 525,
+    "unique_message_ids": 525,
+    "attachment_count": 39,
+    "exact_reply_count": 196,
+    "documented_unavailable_reply_count": 31,
+    "provenance_conflict_count": 0
+  }
+}

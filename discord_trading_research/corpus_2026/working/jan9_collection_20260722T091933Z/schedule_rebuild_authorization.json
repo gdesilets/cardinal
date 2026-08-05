@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "premium_journals_jan9_schedule_rebuild_authorization",
+  "immutable": true,
+  "append_only": true,
+  "created_at_utc": "2026-07-22T10:12:51.024Z",
+  "status": "AUTHORIZED",
+  "rebuild_execution_count_authorized": 1,
+  "rebuild_execution_count_at_authorization_time": 0,
+  "preimage_schedule": {
+    "path": "working/scoped_three_parent_collection_schedule.json",
+    "sha256": "0a1fd787f0fbeb6cb142edd028d16daa3c0189027d2d42b82ba40bb209ca18d6",
+    "bytes": 930837
+  },
+  "jan9_canonical": {
+    "path": "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.json",
+    "sha256": "399f0df8ef52878442542043c3d64c0a4cb8070bac5dd0b8df58fcebf2df87ae",
+    "bytes": 1786921,
+    "exclusive_create": true
+  },
+  "external_canonical_binding_sidecar": {
+    "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-09_20260722T091933Z/v2_6_revalidated/system_event_timestamp_revalidated_v1/canonical_bindings_v1/channel_premium_journals_1283941772577472643_2026-01-09_2026-01-09.forum-system-event-timestamp-revalidation-v1.json",
+    "sha256": "0dc3951fca360c49c506174cad220b6e6e9b26b3259e86bca2df03a02f5844e1",
+    "bytes": 3044,
+    "target_semantics_verified": true,
+    "target_adjacent_sidecar_absent": true,
+    "authoritative_directory_noncanonical_file_count": 0
+  },
+  "promotion_authorization": {
+    "path": "working/jan9_collection_20260722T091933Z/promotion_authorization.json",
+    "sha256": "d477cb0f496045afe22c7795db3c42bb37ebf1af0f66f4706514c13a521097e4",
+    "bytes": 4940
+  },
+  "promotion_receipt": {
+    "path": "working/jan9_collection_20260722T091933Z/promotion_receipt.json",
+    "sha256": "b8099887fc985c1e3b107d82a1f8dff144adacefb5406a1b05988a1ead787906",
+    "bytes": 5848,
+    "status": "PASS"
+  },
+  "independent_audit": {
+    "path": "working/jan9_collection_20260722T091933Z/independent_audit.json",
+    "sha256": "967a0164b5d73e5ac2e48d3c6aed92f458ff427976936658a6430cf5c9c86029",
+    "bytes": 16503,
+    "verdict": "PASS"
+  },
+  "protected_bindings": {
+    "premium_journals_provenance_contract_sha256": "609285b8ea8a87cc4a8dc86595936b9906b635b5a5e88b37f284161d42003602",
+    "protected_original_v2_6_tree_sha256": "ba59f65424487d24366265a14aeeefd3a209a7931895fbf3defdee2cf951099b",
+    "full_append_only_stage_tree_sha256": "486fd41ceb28c5a047705775fa927d9df5a14ade8dbd6e8c29d349c11b619dfa"
+  },
+  "required_postimage": {
+    "jan9_route_status": "complete_accepted_v2_6",
+    "premium_accepted_route_count": 9,
+    "premium_pending_route_count": 192,
+    "premium_accepted_reported_total": 2427,
+    "premium_unique_message_id_count": 2427,
+    "cross_route_duplicate_message_id_count": 0,
+    "unresolved_occurrence_count": 0,
+    "conflict_occurrence_count": 0,
+    "cross_route_attachment_owner_conflict_count": 0,
+    "persisted_schedule_validation_count_required": 2
+  },
+  "v2_7_involved": false
+}

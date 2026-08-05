@@ -1,0 +1,895 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "independent_discord_corpus_validation",
+  "generated_at_utc": "2026-07-21T13:43:32.001686Z",
+  "status": "needs_revision",
+  "overall_assessment": "Not releasable",
+  "scope": {
+    "guild_id": "1167376964680691732",
+    "source_scope": "discord_only",
+    "outside_sources_used": false,
+    "window_calendar_timezone": "America/Chicago",
+    "window_start_local_date": "2026-01-01",
+    "window_end_local_date_inclusive": "2026-07-20",
+    "window_start_utc": "2026-01-01T06:00:00Z",
+    "window_end_exclusive_utc": "2026-07-21T05:00:00Z",
+    "local_calendar_days": 201,
+    "data_cutoff_utc": "2026-07-21T13:45:00Z",
+    "final_day_complete": true
+  },
+  "inputs": {
+    "segment_inputs": [
+      "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\working\\live_v25_replacements\\channel_live_1329615478716502097_2026-01-26_2026-01-26.json"
+    ],
+    "relevance_segment_inputs": [],
+    "audit_segment_inputs": [],
+    "inventory": null,
+    "relevance_plan": null,
+    "orchestrator_progress_manifest": null,
+    "collection_drift_audit": null,
+    "attachment_manifest": null,
+    "attachment_archive_root": null,
+    "database": null,
+    "preservation_manifest": null,
+    "source_hash_manifest": null
+  },
+  "source_artifacts": [
+    {
+      "path": "C:\\Users\\GageDesilets\\OneDrive - Stay Lively\\Documents\\Codex PC Work\\discord_trading_research\\corpus_2026-01-01_2026-07-20\\working\\live_v25_replacements\\channel_live_1329615478716502097_2026-01-26_2026-01-26.json",
+      "filename": "channel_live_1329615478716502097_2026-01-26_2026-01-26.json",
+      "size_bytes": 306655,
+      "mtime_ns": 1784641261270823400,
+      "sha256": "F29D372DC85CB32B9810C95522D4B740B4DB7E62FC7E25DF57C01C097EADC3DE",
+      "input_role": "channel_capture"
+    }
+  ],
+  "counts": {
+    "source_files_discovered": 1,
+    "source_files_valid": 1,
+    "complete_source_files": 1,
+    "partial_source_files": 0,
+    "diagnostic_message_occurrences": 106,
+    "complete_source_message_occurrences": 106,
+    "complete_source_unique_message_ids": 106,
+    "diagnostic_partial_targeted_unique_message_ids": 0,
+    "database_expected_unique_message_ids": 106
+  },
+  "coverage": {
+    "expected_local_dates": 201,
+    "guild_wide_covered_dates": 0,
+    "guild_wide_missing_dates": [
+      "2026-01-01",
+      "2026-01-02",
+      "2026-01-03",
+      "2026-01-04",
+      "2026-01-05",
+      "2026-01-06",
+      "2026-01-07",
+      "2026-01-08",
+      "2026-01-09",
+      "2026-01-10",
+      "2026-01-11",
+      "2026-01-12",
+      "2026-01-13",
+      "2026-01-14",
+      "2026-01-15",
+      "2026-01-16",
+      "2026-01-17",
+      "2026-01-18",
+      "2026-01-19",
+      "2026-01-20",
+      "2026-01-21",
+      "2026-01-22",
+      "2026-01-23",
+      "2026-01-24",
+      "2026-01-25",
+      "2026-01-26",
+      "2026-01-27",
+      "2026-01-28",
+      "2026-01-29",
+      "2026-01-30",
+      "2026-01-31",
+      "2026-02-01",
+      "2026-02-02",
+      "2026-02-03",
+      "2026-02-04",
+      "2026-02-05",
+      "2026-02-06",
+      "2026-02-07",
+      "2026-02-08",
+      "2026-02-09",
+      "2026-02-10",
+      "2026-02-11",
+      "2026-02-12",
+      "2026-02-13",
+      "2026-02-14",
+      "2026-02-15",
+      "2026-02-16",
+      "2026-02-17",
+      "2026-02-18",
+      "2026-02-19",
+      "2026-02-20",
+      "2026-02-21",
+      "2026-02-22",
+      "2026-02-23",
+      "2026-02-24",
+      "2026-02-25",
+      "2026-02-26",
+      "2026-02-27",
+      "2026-02-28",
+      "2026-03-01",
+      "2026-03-02",
+      "2026-03-03",
+      "2026-03-04",
+      "2026-03-05",
+      "2026-03-06",
+      "2026-03-07",
+      "2026-03-08",
+      "2026-03-09",
+      "2026-03-10",
+      "2026-03-11",
+      "2026-03-12",
+      "2026-03-13",
+      "2026-03-14",
+      "2026-03-15",
+      "2026-03-16",
+      "2026-03-17",
+      "2026-03-18",
+      "2026-03-19",
+      "2026-03-20",
+      "2026-03-21",
+      "2026-03-22",
+      "2026-03-23",
+      "2026-03-24",
+      "2026-03-25",
+      "2026-03-26",
+      "2026-03-27",
+      "2026-03-28",
+      "2026-03-29",
+      "2026-03-30",
+      "2026-03-31",
+      "2026-04-01",
+      "2026-04-02",
+      "2026-04-03",
+      "2026-04-04",
+      "2026-04-05",
+      "2026-04-06",
+      "2026-04-07",
+      "2026-04-08",
+      "2026-04-09",
+      "2026-04-10",
+      "2026-04-11",
+      "2026-04-12",
+      "2026-04-13",
+      "2026-04-14",
+      "2026-04-15",
+      "2026-04-16",
+      "2026-04-17",
+      "2026-04-18",
+      "2026-04-19",
+      "2026-04-20",
+      "2026-04-21",
+      "2026-04-22",
+      "2026-04-23",
+      "2026-04-24",
+      "2026-04-25",
+      "2026-04-26",
+      "2026-04-27",
+      "2026-04-28",
+      "2026-04-29",
+      "2026-04-30",
+      "2026-05-01",
+      "2026-05-02",
+      "2026-05-03",
+      "2026-05-04",
+      "2026-05-05",
+      "2026-05-06",
+      "2026-05-07",
+      "2026-05-08",
+      "2026-05-09",
+      "2026-05-10",
+      "2026-05-11",
+      "2026-05-12",
+      "2026-05-13",
+      "2026-05-14",
+      "2026-05-15",
+      "2026-05-16",
+      "2026-05-17",
+      "2026-05-18",
+      "2026-05-19",
+      "2026-05-20",
+      "2026-05-21",
+      "2026-05-22",
+      "2026-05-23",
+      "2026-05-24",
+      "2026-05-25",
+      "2026-05-26",
+      "2026-05-27",
+      "2026-05-28",
+      "2026-05-29",
+      "2026-05-30",
+      "2026-05-31",
+      "2026-06-01",
+      "2026-06-02",
+      "2026-06-03",
+      "2026-06-04",
+      "2026-06-05",
+      "2026-06-06",
+      "2026-06-07",
+      "2026-06-08",
+      "2026-06-09",
+      "2026-06-10",
+      "2026-06-11",
+      "2026-06-12",
+      "2026-06-13",
+      "2026-06-14",
+      "2026-06-15",
+      "2026-06-16",
+      "2026-06-17",
+      "2026-06-18",
+      "2026-06-19",
+      "2026-06-20",
+      "2026-06-21",
+      "2026-06-22",
+      "2026-06-23",
+      "2026-06-24",
+      "2026-06-25",
+      "2026-06-26",
+      "2026-06-27",
+      "2026-06-28",
+      "2026-06-29",
+      "2026-06-30",
+      "2026-07-01",
+      "2026-07-02",
+      "2026-07-03",
+      "2026-07-04",
+      "2026-07-05",
+      "2026-07-06",
+      "2026-07-07",
+      "2026-07-08",
+      "2026-07-09",
+      "2026-07-10",
+      "2026-07-11",
+      "2026-07-12",
+      "2026-07-13",
+      "2026-07-14",
+      "2026-07-15",
+      "2026-07-16",
+      "2026-07-17",
+      "2026-07-18",
+      "2026-07-19",
+      "2026-07-20"
+    ],
+    "inventory_rows": 0,
+    "required_inventory_units": 0,
+    "missing_inventory_units": [],
+    "valid_zero_result_complete_segments": 0,
+    "policy_release_ready": null
+  },
+  "relevance_policy": {
+    "enabled": false
+  },
+  "inventory_validation": {
+    "status": "not_supplied",
+    "rows": 0
+  },
+  "duplicates_and_edits": {
+    "message_occurrences": 106,
+    "unique_message_ids": 106,
+    "duplicated_message_ids": 0,
+    "timestamp_conflicts": 0,
+    "unresolved_content_variants": 0
+  },
+  "replies": {
+    "messages_with_reply_id": 10,
+    "reply_context_without_id": 1,
+    "documented_reply_context_without_id": 1,
+    "undocumented_reply_context_without_id": 0,
+    "unresolved_reply_targets": 0,
+    "reply_target_scope_failures": 0
+  },
+  "attachments": {
+    "attachment_occurrences": 2,
+    "unique_owned_attachments": 2,
+    "multiple_owner_attachments": 0,
+    "non_owned_attachment_occurrences": 0,
+    "invalid_ownership_evidence": 0,
+    "missing_capture_or_extraction_status": 2,
+    "archive": {
+      "provided": false,
+      "status": "missing",
+      "expected_attachment_count": 2,
+      "manifest_attachment_count": 0,
+      "entry_set_parity": false,
+      "terminal_coverage_complete": false,
+      "literal_release_complete": false,
+      "byte_complete": false,
+      "errors": [
+        "attachment_manifest_missing"
+      ]
+    }
+  },
+  "collection_drift_audit": {
+    "status": "not_supplied",
+    "passed": false,
+    "errors": [
+      "final_collection_drift_audit_not_supplied"
+    ]
+  },
+  "database_validation": {
+    "status": "not_run"
+  },
+  "preservation": {
+    "before": null,
+    "after": null
+  },
+  "source_hash_verification": {
+    "before": null,
+    "after": null
+  },
+  "checks": [
+    {
+      "name": "existing_artifact_hash_baseline_supplied",
+      "dimension": "preservation",
+      "severity": "critical",
+      "passed": false,
+      "observed": null,
+      "expected": "--preservation-manifest"
+    },
+    {
+      "name": "segment_sources_present",
+      "dimension": "completeness",
+      "severity": "critical",
+      "passed": true,
+      "observed": 1,
+      "expected": "> 0"
+    },
+    {
+      "name": "source_hash_manifest_supplied",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": false,
+      "observed": null,
+      "expected": "write-once source hash manifest covering the exact selected segment set"
+    },
+    {
+      "name": "invalid_source",
+      "dimension": "shape",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "valid UTF-8 JSON segment files"
+    },
+    {
+      "name": "invalid_segment_schema",
+      "dimension": "shape",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "required segment metadata and typed counts"
+    },
+    {
+      "name": "guild_mismatch",
+      "dimension": "validity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "the configured Discord guild only"
+    },
+    {
+      "name": "invalid_scope",
+      "dimension": "validity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "one of ['channel-scoped', 'guild-wide', 'thread-scoped']"
+    },
+    {
+      "name": "missing_capture_timestamp",
+      "dimension": "timeliness",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": "capture timestamp on every source artifact"
+    },
+    {
+      "name": "filename_completion_mismatch",
+      "dimension": "consistency",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": "partial suffix agrees with complete=false"
+    },
+    {
+      "name": "invalid_query_boundary",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "after=start-1 day and before=end+1 day"
+    },
+    {
+      "name": "invalid_totals_pages_indices",
+      "dimension": "integrity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "reported totals, pages, rows, IDs, and indices reconcile"
+    },
+    {
+      "name": "invalid_zero_result_segment",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "zero-result completed segment has all zero counters"
+    },
+    {
+      "name": "invalid_completion_evidence",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "numeric collector versions marked complete carry valid inline or SHA-bound terminal-state proof"
+    },
+    {
+      "name": "invalid_message_identity",
+      "dimension": "uniqueness",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "valid unique message IDs within each artifact"
+    },
+    {
+      "name": "selector_identity_mismatch",
+      "dimension": "extraction",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "article labels/selectors refer to the current message ID"
+    },
+    {
+      "name": "timestamp_scope_not_exact",
+      "dimension": "extraction",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": "message-specific DOM timestamp selector or snowflake-qualified fallback"
+    },
+    {
+      "name": "container_scope_mismatch",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "all results belong to the explicitly requested container scope"
+    },
+    {
+      "name": "missing_exact_container_id",
+      "dimension": "coverage",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": "exact channel/thread ID for every captured message"
+    },
+    {
+      "name": "invalid_message_timestamp",
+      "dimension": "validity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "parseable timezone-aware Discord timestamp"
+    },
+    {
+      "name": "snowflake_timestamp_mismatch",
+      "dimension": "consistency",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "DOM and message-ID timestamps differ by at most one second"
+    },
+    {
+      "name": "segment_local_date_mismatch",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "timestamp falls within the segment's Central-local dates"
+    },
+    {
+      "name": "requested_window_mismatch",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "timestamp falls within the requested Central-local window"
+    },
+    {
+      "name": "message_after_cutoff",
+      "dimension": "timeliness",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "timestamp does not exceed the declared data cutoff"
+    },
+    {
+      "name": "invalid_discord_source_url",
+      "dimension": "provenance",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": "permalink/attachment evidence URLs are Discord-hosted"
+    },
+    {
+      "name": "source_changed_after_read",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": "source artifacts remain stable throughout validation"
+    },
+    {
+      "name": "channel_thread_inventory_readable",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": null,
+      "expected": "inventory artifact"
+    },
+    {
+      "name": "collection_drift_final_audit_passed",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": false,
+      "observed": {
+        "status": "not_supplied",
+        "passed": false,
+        "errors": [
+          "final_collection_drift_audit_not_supplied"
+        ]
+      },
+      "expected": {
+        "status": "passed",
+        "mode": "final",
+        "overall_status": "PASS",
+        "structural_failure_count": 0,
+        "unresolved_count": 0,
+        "orphan_quarantined_partial_count": 0
+      },
+      "examples": [
+        "final_collection_drift_audit_not_supplied"
+      ],
+      "note": "A final release requires the independent collection-drift audit to resolve every total-drift/replacement chain with zero unresolved or orphan quarantined partials."
+    },
+    {
+      "name": "all_segment_files_complete",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": true,
+      "observed": {
+        "complete": 1,
+        "partial": 0
+      },
+      "expected": {
+        "partial": 0
+      }
+    },
+    {
+      "name": "guild_wide_date_coverage",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": {
+        "covered_days": 0,
+        "missing_days": 201,
+        "complete_segment_count": 0
+      },
+      "expected": {
+        "covered_days": 201,
+        "missing_days": 0
+      },
+      "examples": [
+        "2026-01-01",
+        "2026-01-02",
+        "2026-01-03",
+        "2026-01-04",
+        "2026-01-05",
+        "2026-01-06",
+        "2026-01-07",
+        "2026-01-08",
+        "2026-01-09",
+        "2026-01-10",
+        "2026-01-11",
+        "2026-01-12",
+        "2026-01-13",
+        "2026-01-14",
+        "2026-01-15",
+        "2026-01-16",
+        "2026-01-17",
+        "2026-01-18",
+        "2026-01-19",
+        "2026-01-20"
+      ],
+      "note": "Channel-complete inventory coverage may also satisfy release, but guild-wide coverage is independently reported."
+    },
+    {
+      "name": "channel_thread_inventory_present",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": 0,
+      "expected": "> 0 exact inventory rows"
+    },
+    {
+      "name": "inventory_exact_ids",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "inventory_unit_date_coverage",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": {
+        "required_units": 0,
+        "complete_or_verified_empty": 0,
+        "missing_units": 0,
+        "verified_empty_units": 0,
+        "inaccessible_or_non_message_units": 0
+      },
+      "expected": "Every accessible message container covers all 201 local dates or is verified empty."
+    },
+    {
+      "name": "whole_server_coverage_gate",
+      "dimension": "coverage",
+      "severity": "critical",
+      "passed": false,
+      "observed": {
+        "inventory_complete": false,
+        "guild_wide_days_complete": false,
+        "policy_release_ready": null
+      },
+      "expected": {
+        "inventory_complete": true,
+        "policy_release_ready": true
+      },
+      "note": "Guild-wide search is a useful reconciliation path but does not replace exact per-container inventory coverage."
+    },
+    {
+      "name": "requested_window_elapsed_at_cutoff",
+      "dimension": "timeliness",
+      "severity": "critical",
+      "passed": true,
+      "observed": {
+        "data_cutoff_utc": "2026-07-21T13:45:00Z",
+        "required_end_exclusive_utc": "2026-07-21T05:00:00Z",
+        "final_day_status": "complete_day_possible"
+      },
+      "expected": {
+        "final_day_status": "complete_day_possible"
+      },
+      "note": "July 20 cannot be certified as a full Central-local day before July 21 05:00Z."
+    },
+    {
+      "name": "duplicate_occurrences_preserved",
+      "dimension": "uniqueness",
+      "severity": "info",
+      "passed": true,
+      "observed": {
+        "occurrences": 106,
+        "unique_message_ids": 106,
+        "duplicated_message_ids": 0,
+        "duplicate_occurrences": 0
+      },
+      "expected": "All occurrences remain available to the validator."
+    },
+    {
+      "name": "timestamp_variants_resolved",
+      "dimension": "consistency",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "content_edit_variants_resolved",
+      "dimension": "consistency",
+      "severity": "critical",
+      "passed": true,
+      "observed": {
+        "ordered_edit_variants": 0,
+        "unresolved_content_variants": 0
+      },
+      "expected": {
+        "unresolved_content_variants": 0
+      },
+      "note": "A differing message body is an edit only when capture chronology or edited_at establishes version order."
+    },
+    {
+      "name": "author_variants_reviewed",
+      "dimension": "consistency",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "edited_messages_have_version_timing",
+      "dimension": "timeliness",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "reply_context_has_explicit_target",
+      "dimension": "integrity",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "note": "Adjacent or visible reply text must not be treated as an answered Q&A without an explicit target ID. Discord's exact 'Message could not be loaded' and attachment-preview-without-ID states remain documented, unresolved context and are never linked as answered Q&A."
+    },
+    {
+      "name": "reply_target_unavailability_documented",
+      "dimension": "integrity",
+      "severity": "high",
+      "passed": true,
+      "observed": {
+        "documented_without_target": 1,
+        "undocumented_without_target": 0
+      },
+      "expected": {
+        "undocumented_without_target": 0
+      }
+    },
+    {
+      "name": "reply_targets_resolved_or_documented",
+      "dimension": "integrity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "reply_targets_have_owned_exact_scope",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "note": "Accepted targets come from the row-owned reply-context descendant message-content ID with exact scope and an exact Discord target permalink. Preview-only links or text are context, never resolved reply evidence."
+    },
+    {
+      "name": "reply_temporal_order",
+      "dimension": "integrity",
+      "severity": "critical",
+      "passed": true,
+      "observed": {
+        "invalid_order": 0,
+        "self_replies": 0,
+        "cycles": 0
+      },
+      "expected": {
+        "invalid_order": 0,
+        "self_replies": 0,
+        "cycles": 0
+      }
+    },
+    {
+      "name": "attachment_archive_terminal_coverage",
+      "dimension": "completeness",
+      "severity": "critical",
+      "passed": false,
+      "observed": {
+        "provided": false,
+        "status": "missing",
+        "expected_attachment_count": 2,
+        "manifest_attachment_count": 0,
+        "entry_set_parity": false,
+        "terminal_coverage_complete": false,
+        "literal_release_complete": false,
+        "byte_complete": false,
+        "errors": [
+          "attachment_manifest_missing"
+        ]
+      },
+      "expected": {
+        "terminal_coverage_complete": true,
+        "entry_set_parity": true
+      },
+      "note": "Every discovered Discord-owned attachment requires downloaded bytes with SHA-256 when available, or a substantiated terminal unavailable record. Terminal failed records remain degraded and block literal release."
+    },
+    {
+      "name": "attachment_ids_and_urls_valid",
+      "dimension": "validity",
+      "severity": "critical",
+      "passed": true,
+      "observed": {
+        "invalid_ids": 0,
+        "invalid_urls": 0
+      },
+      "expected": {
+        "invalid_ids": 0,
+        "invalid_urls": 0
+      }
+    },
+    {
+      "name": "attachment_has_single_owner",
+      "dimension": "integrity",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "note": "Reply-preview attachment references must be stored separately from message-owned attachments."
+    },
+    {
+      "name": "attachment_ownership_evidence_exact",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "note": "Every Discord CDN row must be explicitly classified as owned-exact or non-owned-exact."
+    },
+    {
+      "name": "attachment_ownership_timing",
+      "dimension": "consistency",
+      "severity": "high",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "attachment_capture_status_present",
+      "dimension": "completeness",
+      "severity": "high",
+      "passed": false,
+      "observed": 2,
+      "expected": 0
+    },
+    {
+      "name": "sqlite_database_supplied",
+      "dimension": "integrity",
+      "severity": "critical",
+      "passed": false,
+      "observed": null,
+      "expected": "path to the release SQLite database"
+    },
+    {
+      "name": "source_artifacts_stable_during_validation",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "relevance_policy_artifacts_stable_during_validation",
+      "dimension": "provenance",
+      "severity": "critical",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "note": "Includes the relevance plan, Discord-derived vocabulary sources, and the orchestrator progress/review manifest and final collection-drift audit when supplied."
+    }
+  ],
+  "failure_counts": {
+    "critical": 11,
+    "high": 1,
+    "medium_or_low": 0
+  },
+  "limitations": [
+    "Completeness is limited to containers visible to the authenticated Discord account at inventory time.",
+    "Messages deleted before collection and inaccessible private channels cannot be independently recovered.",
+    "An edited flag without edited_at or ordered capture timestamps cannot reconstruct edit history.",
+    "Discord post time is not assumed to equal the market setup time discussed in a message.",
+    "External links appearing inside Discord messages are retained as text but are not external evidence.",
+    "Terminal unavailable Discord attachments remain explicit media gaps; terminal failed rows are degraded and block literal release.",
+    "Chart-dependent claims remain unresolved unless a complete/partial extraction with a verified local artifact and exact provenance exists.",
+    "All 16 nonempty channels require message-complete capture; supplemental targeted artifacts never satisfy or weaken that requirement."
+  ]
+}

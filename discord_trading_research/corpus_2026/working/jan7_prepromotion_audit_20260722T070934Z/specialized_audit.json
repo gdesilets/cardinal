@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "terminal_valid": true,
+  "unresolved_count": 0,
+  "conflict_count": 0,
+  "accepted_artifact": {
+    "path": "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-07_2026-01-07.json",
+    "sha256": "19486bee534ac150e76d70cc2f070ba07735c77ded7846e9ad090c026a81cb72",
+    "bytes": 2919929,
+    "collector_version": "2.6",
+    "reported_total": 390,
+    "captured_rows": 390,
+    "reported_pages": 16,
+    "completion_terminal_state": "stable_bottom",
+    "message_id_set_sha256": "ad9f828f1ce92cdb471ba5189239cf2498f8ccf5ae390674cb51c2c6893b2f56",
+    "observed_child_thread_count": 46,
+    "observed_child_thread_id_set_sha256": "33da777fa3cce1481ac47dfa49259223171b1f7e4dbe12f93fdffc1656521199",
+    "forum_group_count": 181,
+    "forum_navigation_evidence_map_sha256": "ab18a9413e6c052ba37998e5c38979598933042d6a519ff0c6fac985f57712aa",
+    "forum_navigation_unresolved_count": 0,
+    "thread_channel_id_conflict_count": 0,
+    "forbidden_selected_thread_source_count": 0,
+    "full_qa_passed": true,
+    "source_file_set_sha256": "4c6b5578a16597dcc5ee4a4c690eb3b0039ade3c81c38e457f57e2c8e9b7f07c"
+  },
+  "forum_membership_integrity": {
+    "passed": true,
+    "row_count": 390,
+    "independent_row_membership_array_count": 390,
+    "group_count": 181,
+    "page_count": 16,
+    "double_sample_runtime_contract": "collector_v2.6_extractPageValidated_two_stable_pre_navigation_samples"
+  },
+  "forum_navigation_artifact_integrity": {
+    "passed": true,
+    "checkpoint_directory": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-07_20260722T055743Z/v2_6_revalidated/forum_group_navigation_checkpoints",
+    "page_plan_count": 16,
+    "group_checkpoint_count": 181,
+    "page_plan_hashes": {
+      "1": "94fee234861bf8c3e04c5205c11d97078eaf1aca072f8d412a649b4081e50b42",
+      "2": "fd66c3e33368a6f2c3b7368e695b53938d75d42d6bea54b2419e7519e3600164",
+      "3": "e97e2d69955008cf5fea889a7a2bffd9eebcebaa9dcbf4adc78f430ac11f1604",
+      "4": "b6fbb1a8414b6009bb1a9421912f28aeeae69e6cafb7c92a9f6cc2bc83889714",
+      "5": "933a82a0df9ab93c36198ea640a4e53cd8bfbc5943ad9bd29465753c480e1ec2",
+      "6": "e4de35d1142a84ba45a1e53556a1ed5ee4b1cb82e8488a85faea34e8fd77d4b4",
+      "7": "8bc93ebf9551dc66d4c3734ea009bafbc4a5f4988aea27e7bcd5518425717efc",
+      "8": "b19dec70f8954af712c4a96bbe5e5d63b6750f4aa12cffac4e1cc1de036ce0b2",
+      "9": "fcffe01d69392fa24c5d777e829ed6b1bc229f38db0c2e359cfcb079500a7698",
+      "10": "776e4556ec01b6085cee46a7ed8940d25ae993dbfb5aed13801643112454dccf",
+      "11": "1e61262b67bfe7b5c23eae688b8d98fd1a96facbe98f2895be1686b5391a4462",
+      "12": "5d3085b3b6347cd57b4a8d65e4b4716fb3939535d1480ae6986558f2f6d8e9a3",
+      "13": "97108a2fb804d9ac75bc00a53e1e3b2b39de55556b78dd8a05873e6a528551dc",
+      "14": "be39445032109ab8517643acaa06053899b5fa9deec2ee270ca503ee021dd3dd",
+      "15": "f54bf65e25bd4ffe2eaa3d1617af95a443d65537efb652e495cd4506ca633f36",
+      "16": "cec7c2c3621428b2627f19cd107f6bfed59a8f0fc91ab5df479931c7d947f7a3"
+    },
+    "page_plan_hash_set_sha256": "69a87e2abe8ff2c75a0924d27159df46fa3058272b0308e3a3a5841e36d21a21",
+    "bound_file_count": 197,
+    "bound_file_set_sha256": "84385576ac762410420c7d7b5a55e973d0d6fdca8d398735fea950811123d273"
+  },
+  "timestamp_scope_integrity": {
+    "passed": true,
+    "message_count": 390,
+    "mode_counts": {
+      "message_timestamp_aria_exact": 390
+    },
+    "unresolved_count": 0,
+    "unresolved": [],
+    "sidecar_error_count": 0,
+    "sidecar_errors": [],
+    "unused_revalidation_record_count": 0,
+    "unused_revalidation_message_ids": [],
+    "sidecar": {
+      "schema_version": "1.0.0",
+      "provided": false,
+      "valid": false,
+      "segment_path": "raw/channel_segments_v2_5/channel_premium_journals_1283941772577472643_2026-01-07_2026-01-07.json",
+      "source_artifact_sha256": "19486bee534ac150e76d70cc2f070ba07735c77ded7846e9ad090c026a81cb72",
+      "sidecar_path": null,
+      "sidecar_sha256": null,
+      "sidecar_size_bytes": null,
+      "record_count": 0,
+      "used_record_count": 0,
+      "unused_record_count": 0,
+      "unused_message_ids": [],
+      "message_ids": [],
+      "content_hash_bound": false,
+      "errors": []
+    }
+  },
+  "reply_provenance_integrity": {
+    "passed": true,
+    "status_counts": {
+      "discord_attachment_preview_without_exact_target_id": 1,
+      "discord_message_not_loaded": 14,
+      "exact_target_id": 14,
+      "not_applicable": 361
+    },
+    "executed_command_contexts": {
+      "schema_version": "1.0.0",
+      "passed": true,
+      "audited_message_count": 390,
+      "candidate_count": 0,
+      "accepted_exact_context_count": 0,
+      "expected_message_present": false,
+      "expected_message_ids": [],
+      "expected_message_presence_valid": true,
+      "failure_count": 0,
+      "candidate_message_ids": [],
+      "failures": [],
+      "policy": "The legacy anchor must remain present in its expected segment. Any Wordle verified-app row with exact article/message binding, the literal executedCommand_c19a55 DOM token, aria-hidden=true, the Wordle application identity, exact <nonempty>/used/Play context, and zero target evidence is a documented Discord application-command non-reply. Text or class lookalikes remain unresolved."
+    }
+  },
+  "attachment_provenance_integrity": {
+    "passed": true,
+    "attachment_occurrence_count": 75,
+    "unique_attachment_id_count": 75,
+    "unique_owned_attachment_id_count": 75,
+    "non_owned_attachment_occurrence_count": 0,
+    "multiple_owned_message_owner_count": 0,
+    "attachment_id_set_sha256": "9865fd46cb826e25fa4a24043a3ee5e55163e6cbdb917d27157f3d3d13ddcc70"
+  },
+  "source_file_count": 198,
+  "message_id_count": 390,
+  "child_thread_id_count": 46,
+  "row_child_binding_count": 390,
+  "owned_attachment_id_count": 75
+}

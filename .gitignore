@@ -1,0 +1,13 @@
+# Python-generated caches
+__pycache__/
+*.py[cod]
+
+# SQLite runtime sidecars; the database files themselves are versioned through LFS.
+*.sqlite-shm
+*.sqlite-wal
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp

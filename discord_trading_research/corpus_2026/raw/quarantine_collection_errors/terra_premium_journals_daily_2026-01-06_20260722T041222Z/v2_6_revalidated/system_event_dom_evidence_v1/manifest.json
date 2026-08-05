@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_type": "discord_forum_system_event_dom_evidence_manifest",
+  "immutable": true,
+  "append_only": true,
+  "created_at_utc": "2026-07-22T05:24:10.717Z",
+  "evidence_directory": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-06_20260722T041222Z/v2_6_revalidated/system_event_dom_evidence_v1",
+  "source_segment": {
+    "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-06_20260722T041222Z/v2_6_revalidated/channel_premium_journals_1283941772577472643_2026-01-06_2026-01-06.json",
+    "sha256": "a43e51c3e78fe88c7daedc5e9b683bead1fad9fb18c16910a6c04ce5e41e3786",
+    "bytes": 2448939,
+    "collector_version": "2.6",
+    "complete": true,
+    "reported_total": 315,
+    "reported_pages": 13,
+    "captured_rows": 315
+  },
+  "source_navigation_tree": {
+    "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-06_20260722T041222Z/v2_6_revalidated/forum_group_navigation_checkpoints",
+    "sha256": "eacc16d9fd643ad51249515b50085b98200aedee14ca102ba59661bf68d57d2c",
+    "file_count": 169,
+    "bytes": 479251
+  },
+  "search_binding": {
+    "query": "in:premium-journals after:2026-01-05 before:2026-01-07",
+    "guild_id": "1167376964680691732",
+    "parent_forum_channel_id": "1283941772577472643",
+    "source_url": "https://discord.com/channels/1167376964680691732/1283941772577472643",
+    "target_page_number": 7,
+    "reported_total": 315,
+    "reacquisition_used_still_active_search": true,
+    "reacquisition_query_submission_count": 0,
+    "no_new_query_submitted": true,
+    "outside_sources_used": false
+  },
+  "pagination_reacquisition": {
+    "navigation_controls": "visible_search_pagination_back_and_next_only",
+    "backward_pages": [
+      13,
+      12,
+      11,
+      10,
+      9,
+      8,
+      7
+    ],
+    "forward_pages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "exact_query_verified_each_page": true,
+    "reported_total_verified_each_page": true,
+    "source_url_verified_each_page": true,
+    "full_ordered_message_membership_verified_each_page": true,
+    "drift_detected": false
+  },
+  "observations": [
+    {
+      "message_id": "1458135984737747005",
+      "page_number": 7,
+      "event_type": "forum_post_title_changed",
+      "actor_text": "Hessen",
+      "new_title": "journalen min",
+      "timestamp_utc": "2026-01-06T16:31:49.618Z",
+      "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-06_20260722T041222Z/v2_6_revalidated/system_event_dom_evidence_v1/message_1458135984737747005.normalized_dom_observation.json",
+      "sha256": "4763f9f815e42ca7adbfb0eb81f17fd049400d10036b5630b32adda973195f2a",
+      "bytes": 5352,
+      "canonical_compact_json_sha256": "d58b9a40edea6d0e1fd3ea55bcb315e86f29a08623b0494a66fc8a2028608246",
+      "canonical_compact_json_bytes": 3622,
+      "normalized_invariant_sha256": "5a325efce8bb7bb17f2e0c431ba491e211023ad29175d409034cf032345ed847"
+    },
+    {
+      "message_id": "1458135642662895720",
+      "page_number": 7,
+      "event_type": "forum_post_title_changed",
+      "actor_text": "Hessen",
+      "new_title": "sveio44's journal",
+      "timestamp_utc": "2026-01-06T16:30:28.061Z",
+      "path": "raw/quarantine_collection_errors/terra_premium_journals_daily_2026-01-06_20260722T041222Z/v2_6_revalidated/system_event_dom_evidence_v1/message_1458135642662895720.normalized_dom_observation.json",
+      "sha256": "074c913492429555693a4ff6a9f86c8efcfd4a6a62c0ed8de75d411892bcf765",
+      "bytes": 5360,
+      "canonical_compact_json_sha256": "f830709e55a8af60ba6f58bd1d90140866a514fd5adf08f0ada762423469e95f",
+      "canonical_compact_json_bytes": 3630,
+      "normalized_invariant_sha256": "5a325efce8bb7bb17f2e0c431ba491e211023ad29175d409034cf032345ed847"
+    }
+  ],
+  "normalized_invariant": {
+    "schema": "discord_forum_title_change_dom_invariant_v1",
+    "sha256": "5a325efce8bb7bb17f2e0c431ba491e211023ad29175d409034cf032345ed847",
+    "canonical_compact_json_bytes": 2486,
+    "identical_for_all_observations": true,
+    "message_ids": [
+      "1458135984737747005",
+      "1458135642662895720"
+    ],
+    "pencil_svg_path_sha256": "6fb33f317e9d5cbdb14723626d95625ac6bc6ec7239156203d532bbd7e82f957"
+  },
+  "classifier_evidence": {
+    "product_system_component_structure_present": true,
+    "product_generated_literal_grammar_present": true,
+    "product_pencil_icon_present": true,
+    "normal_avatar_header_username_structure_absent": true,
+    "exact_message_content_owns_timestamp": true,
+    "message_specific_timestamp_id_absent": true,
+    "stable_semantic_event_type_attribute_present": false,
+    "role_status_present": false,
+    "aria_event_label_present": false,
+    "required_exact_grammar": "<inline actor link> + changed the post title: + <strong new title> + <owned inline timestamp>"
+  },
+  "terminal_restoration": {
+    "restored_to_page_number": 13,
+    "exact_query": true,
+    "reported_total": 315,
+    "source_url": "https://discord.com/channels/1167376964680691732/1283941772577472643",
+    "visible_result_count": 15,
+    "full_ordered_message_membership_verified": true,
+    "first_article_id": "search-result-1458072587870535898",
+    "last_article_id": "search-result-1457982592174391327",
+    "next_button_present": true,
+    "next_button_disabled": true,
+    "stable_terminal_state": true
+  },
+  "mutation_scope": {
+    "staged_segment_modified": false,
+    "navigation_artifacts_modified": false,
+    "canonical_target_created": false,
+    "legacy_target_created": false,
+    "revalidated_copy_created": false,
+    "promoted": false,
+    "only_new_paths_under_evidence_directory": true
+  }
+}
