@@ -1,3 +1,8 @@
+# Raw Discord scrapes + database-build pipeline: local-only, not part of the shipped
+# skill, regeneratable. See pipeline/README.md. Only the finished skill folders
+# (.claude/skills/, .codex/skills/) are tracked.
+/pipeline/
+
 # Python-generated caches
 __pycache__/
 *.py[cod]
@@ -11,3 +16,6 @@ __pycache__/
 Thumbs.db
 *.swp
 *.tmp
+
+# Personal, per-machine Claude Code settings (permissions etc.), not project config.
+.claude/settings.local.json
