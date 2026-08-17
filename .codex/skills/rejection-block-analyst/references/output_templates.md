@@ -23,9 +23,10 @@ would confirm or invalidate the lean.
 **No-Trade confidence:** Tier (X/5) — reasoning
 ```
 
-If the user hasn't given you current price/structure (no screenshot, no described
-highs/lows/candles), say so and ask for it before rating anything — do not invent price
-levels or pretend to have a live feed. See the "no live feed" rule in SKILL.md.
+Pull current price/structure with `scripts/live_market_data.py tda <symbol>` first
+(see SKILL.md's live-data workflow). Only fall back to asking the user for
+levels/a screenshot if that call fails or they've already provided their own chart
+that should take precedence — never invent price levels either way.
 
 ## 2. Levels / Zones of High Liquidity
 

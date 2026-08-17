@@ -46,12 +46,19 @@ mentioned as supplementary color *only* when it reinforces an already-ICT-derive
 
 ## Knowledge sources, and how they combine
 
-1. **Current price/chart data the user provides.** This skill has no live market data
-   feed. If a market-read, top-down analysis, or setup-idea request doesn't come with
-   current price levels, structure, or a chart/screenshot, ask for it before rating
-   anything — do not invent or guess current price action. It's fine to explain
-   methodology or answer corpus questions without live data; it's not fine to produce a
-   bias/confidence rating without it.
+1. **Live market data** via `scripts/live_market_data.py` (Databento). For any market
+   read, top-down analysis, or setup-idea request, call this first rather than asking
+   the user for levels — `live_market_data.py tda <symbol>` returns the full 1D/4H/1H/
+   15M/5M/1M closed-bar bundle the Top-Down Analysis template needs in one call;
+   `bars`/`quote` cover narrower asks. All bars are closed candles (see the "wait for
+   the close" rule below) — never treat the tool's most recent row as a still-forming
+   candle. If the call fails (no API key, symbol not covered, market data gap) or the
+   user pastes in their own chart/levels that should take precedence for that request,
+   fall back to asking for or using what they gave you — but don't default to asking
+   first. See `references/live_data_setup.md` for setup/troubleshooting, not needed for
+   routine use. It's fine to explain methodology or answer corpus questions without
+   pulling live data; it's not fine to produce a bias/confidence rating without current
+   price context from one source or the other.
 2. **`references/ict_concept_glossary.md`** — canonical definitions of every confluence
    the user cares about, plus how they relate to and stack with each other (the AMD
    cycle framing ties nearly all of them together). Read this before any analysis that
@@ -128,9 +135,10 @@ confident-sounding bot. Carry it forward:
 - When the corpus is genuinely silent or split on something (e.g., NQ vs ES
   superiority, exact close-vs-wick invalidation distance, universal CE selection), say
   the evidence is insufficient rather than picking a side to sound authoritative.
-- This is not financial advice and none of this is a live feed, backtest, or execution
-  system — it's structured reasoning support. If the user seems to be treating a rating
-  as a guarantee, say so.
+- This is not financial advice, and even with a live price feed this is reasoning
+  support, not a backtest or execution system — bars are historical the instant
+  they're fetched, and nothing here places, sizes, or manages an actual trade. If
+  the user seems to be treating a rating as a guarantee, say so.
 
 ## Reference file index
 
@@ -144,8 +152,12 @@ confident-sounding bot. Carry it forward:
 - `references/adding_a_strategy.md` — the scaffold for adding a new strategy family
   (e.g. promoting `ifvg-retrace` from `planned` to real, or adding an entirely
   different one) without any schema changes.
-- `scripts/query_corpus.py` — the query helper itself; run `--help` or any subcommand
-  with no args for usage.
+- `references/live_data_setup.md` — Databento setup/troubleshooting; only needed when
+  configuring the live feed or debugging a failed call, not for routine use.
+- `scripts/query_corpus.py` — the historical-corpus query helper; run `--help` or any
+  subcommand with no args for usage.
+- `scripts/live_market_data.py` — the live-price tool (`quote`/`bars`/`tda`); run
+  `--help` or any subcommand `--help` for usage.
 - `data/discord_trading_research_3month.sqlite` — the bundled corpus database. This
   whole `rejection-block-analyst` folder is self-contained: copying it into another
   project's `.claude/skills/` (for Claude Code) or `.codex/skills/` (for Codex CLI) —

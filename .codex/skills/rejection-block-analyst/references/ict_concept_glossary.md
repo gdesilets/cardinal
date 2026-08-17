@@ -92,7 +92,8 @@ Key corpus-sourced rules to apply when you evaluate a candidate RB:
 `[corpus]` FVG/IFVG is one of the most heavily corpus-tagged confluences and shows up
 in both wins and losses at a similar rate to baseline — it's a near-universal location
 tool, not a differentiator by itself. It's most useful as the *location* leg of a stack
-(HTF PDA → LTF RB/CISD at the FVG), matching Model 2's structure below.
+(HTF PDA → LTF RB/CISD at the FVG), matching Model 2's structure below
+(`query_corpus.py strategy htf-pda-ltf-rb`).
 
 ## Order Block (OB), Breaker Block, and Imbalanced Order Block
 
@@ -110,9 +111,11 @@ tool, not a differentiator by itself. It's most useful as the *location* leg of 
 
 `[corpus]` Breaker showed one of the largest above-baseline associations in the strict
 RB comparison (4W/5L, n=9 — a small sample, flag that explicitly if you cite it) and
-underpins **Model 3** (market-maker model + standard deviation zone + breaker entry).
-Order block on its own was also above baseline (15W/25L, n=40) and is a required
-"supportive" identification component in Model 1 and Model 4.
+underpins **Model 3**, `mmxm-stdv-breaker` (market-maker model + standard deviation
+zone + breaker entry). Order block on its own was also above baseline (15W/25L, n=40)
+and is a required "supportive" identification component in Model 1
+(`10am-key-open-rb`) and Model 4 (`sweep-displacement-fvg-retrace` — currently below
+the corpus's own n=15 reliability threshold, see `references/corpus_query_guide.md`).
 
 ## SMT Divergence (Smart Money Technique / Inter-market divergence)
 
@@ -176,7 +179,7 @@ Specific clock-time price levels treated as reference/PD-array-generating anchor
 - **9:30 Market Open / "True Day" Open**: the NYSE cash open; a major volatility and
   reference-level event.
 - **10AM Open**: in this community specifically, the single most discussed key level —
-  see Model 1 below. Treated as a high-conviction reversal/rejection window in its own
+  see Model 1 (`10am-key-open-rb`) below. Treated as a high-conviction reversal/rejection window in its own
   right, not merely a reference line.
 
 `[corpus]` `10am_key_open` co-mentions dominate RB discussion by a wide margin (987
@@ -184,7 +187,7 @@ messages) versus 9:30/market open (134), midnight (125), London (95), 18:00 (84)
 (65). Standalone `key_opens`/`key_open` tags were slightly *below* the strict RB
 baseline (27.5–27.9% vs 29.8% baseline) — a key open alone is common but not a strong
 discriminator; it earns its keep by anchoring **which** RB/FVG/OB you should be
-watching, not as a confluence to count on its own. See Model 1's operational rules
+watching, not as a confluence to count on its own. See `10am-key-open-rb`'s operational rules
 below for the concrete workflow.
 
 ## CISD (Change in State of Delivery)
@@ -210,7 +213,8 @@ front-running an unconfirmed setup."
   the statistically favored re-entry pocket after a displacement, ideally overlapping a
   PDA (RB/OB/FVG) for confluence.
 - **Standard Deviation**: fib-extension-based projection zones beyond 1.0 used to locate
-  probable reaction/reversal areas for larger, model-driven moves (see Model 3).
+  probable reaction/reversal areas for larger, model-driven moves (see Model 3,
+  `mmxm-stdv-breaker`).
 
 `[corpus]` `ote_fibonacci` was one of the most-tagged confluences across both wins and
 losses (roughly a third to two-fifths of each) — it's a workhorse location tool used

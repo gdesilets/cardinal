@@ -16,8 +16,8 @@ Usage:
   python query_corpus.py strategy 10am-key-open-rb     # strategy card by strategy_key
   python query_corpus.py strategies                    # list all strategies
   python query_corpus.py strategies --family ifvg --status planned
-  python query_corpus.py strategy-report                # wins/losses/win_rate by strategy
-  python query_corpus.py strategy-report --min-n 15
+  python query_corpus.py strategy-report                # wins/losses/win_rate by strategy (n>=15 only)
+  python query_corpus.py strategy-report --min-n 0      # include small-sample strategies too
   python query_corpus.py wins --strategy 10am-key-open-rb --limit 10
   python query_corpus.py losses --instrument NQ --limit 10
   python query_corpus.py confluence-stats               # win/loss table by confluence
@@ -310,7 +310,7 @@ def main():
     p.set_defaults(func=cmd_strategies)
 
     p = sub.add_parser("strategy-report", help="Wins/losses/win_rate per strategy -- the 'highest probability strategy' report")
-    p.add_argument("--min-n", type=int, default=0, help="Minimum decided (win+loss) trades to include")
+    p.add_argument("--min-n", type=int, default=15, help="Minimum decided (win+loss) trades to include (default 15, the corpus's own anecdotal-evidence threshold; pass 0 to see every strategy including small-sample ones)")
     p.set_defaults(func=cmd_strategy_report)
 
     p = sub.add_parser("confluence-stats", help="Win/loss counts per confluence (curated confluences table)")
