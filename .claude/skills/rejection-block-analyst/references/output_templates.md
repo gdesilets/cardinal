@@ -82,9 +82,10 @@ steps 1-3 above haven't happened yet — say so plainly rather than implying urg
 
 ## 4. Reviewing/Critiquing the User's Own Setup
 
-Use whenever the user presents their own trade idea or bias for evaluation. This is
-where the independent-bias directive matters most — read SKILL.md's directive section
-before writing this.
+Use whenever the user presents their own trade idea or bias for evaluation — including
+when they state a bias that conflicts with a prediction you already gave earlier in the
+conversation. This is where the independent-bias directive matters most — read SKILL.md's
+directive section (including the "isn't only reactive" paragraph) before writing this.
 
 ```
 ## Review — <what the user proposed>

@@ -1,73 +1,79 @@
-# Live market data setup (Databento)
+# Live market data setup
 
-`scripts/live_market_data.py` pulls current/recent price data from Databento so
-this skill can analyze the live market instead of waiting for the user to paste in
-levels. Read this once when setting it up or when a call fails unexpectedly; you
-don't need it for routine use.
+`scripts/live_market_data.py` gets current/recent price data into this skill so it
+can analyze the live market instead of waiting for the user to paste in levels.
+Read this once when wiring it up or when a call fails unexpectedly; you don't
+need it for routine use.
 
-## One-time setup
+This skill doesn't own data acquisition. It has two independent ways to get
+bars — pick whichever matches how market data actually arrives:
+
+## Path 1: read a file another process writes (default, no API key needed)
+
+If whatever project/process is scanning the market for live data writes its
+output to disk — CSV, JSON, Parquet, or Databento's native DBN format — point
+`read` at it:
 
 ```bash
-pip install -r scripts/requirements.txt   # just databento
-export DATABENTO_API_KEY=db-...           # never hardcode this or pass it as a CLI arg
+pip install pandas   # or: pip install -r scripts/requirements.txt (installs databento too)
+python scripts/live_market_data.py read /path/to/bars.csv --timeframe tda
 ```
 
-Confirm it works: `python scripts/live_market_data.py quote NQ` should return a
-JSON object with `last_close` and `as_of`. A `401 auth_authentication_failed`
-error means the key is missing/wrong; any other `BentoClientError` (all errors
-come back as clean `{"error": "..."}` JSON, never a raw traceback) usually means
-a symbol, dataset, or entitlement problem -- see below.
+No API key, no network call, no vendor coupling — just `pandas` for the file
+parsing/resampling. Column names are matched
+case-insensitively against common variants (`Open`/`open`/`o`, `Close`/`close`/
+`price`/`last`, a timestamp column named `timestamp`/`time`/`date`/`ts_event`, ...
+— see `COLUMN_ALIASES`/`TIME_COLUMN_CANDIDATES` in `live_market_data.py`). If the
+source file only has trade-level price ticks (no open/high/low), each tick is
+treated as its own micro-bar and resampled up to whatever `--timeframe` was
+asked for — the same code path as bar-shaped input.
 
-## Why bars, not a tick stream
+`--timeframe tda` reads the file once and returns the full 1D/4H/1H/15M/5M/1M
+bundle the Top-Down Analysis template needs. Plain `--timeframe {1m,5m,15m,1h,4h,1d}`
+returns just that one. Omit `--timeframe` to get the file's rows as-is.
 
-This skill's own discipline is to wait for a candle to close before treating
-structure as valid (see `references/ict_concept_glossary.md`'s "wait for the
-close" rule). A raw L1 top-of-book tick isn't the right input for that -- closed
-OHLCV bars are. So `live_market_data.py` is built entirely on Databento's
-**Historical** API (`Historical.timeseries.get_range`), not the streaming `Live`
-client:
+If a real call raises a `KeyError` or "couldn't find a close/price column"
+error, the source file's columns don't match what's assumed — add the actual
+column name to `COLUMN_ALIASES`/`TIME_COLUMN_CANDIDATES` in `live_market_data.py`
+rather than renaming the source file.
 
-- `quote <symbol>` -- the close of the most recently completed 1-minute bar.
-- `bars <symbol> --timeframe {1m,5m,15m,1h,4h,1d} --lookback N` -- closed bars.
-  1m/1h/1d come directly from Databento; 5m/15m/4h are resampled locally from 1m/1h
-  with pandas, since Databento's native OHLCV schemas only cover 1s/1m/1h/1d/eod.
-- `tda <symbol>` -- one call that returns the full 1D/4H/1H/15M/5M/1M bundle the
-  Top-Down Analysis output template needs, in 3 HTTP requests (daily, hourly,
-  minute) instead of six separate ones. Use this one for anything TDA-shaped
-  rather than calling `bars` six times.
+## Path 2: pull directly from Databento (optional, only if this skill fetches its own data)
 
-This also means it's a plain stateless HTTP request per call -- no persistent
-connection to manage, no snapshot/timeout handling, fast and simple to reason
-about, which matters for an agent that's invoked fresh per analysis request.
+If instead this skill needs to pull data itself rather than reading another
+project's output, `quote <symbol>` / `bars <symbol>` / `tda <symbol>` call
+Databento's Historical API directly:
 
-## Symbols
+```bash
+pip install -r scripts/requirements.txt   # pandas + databento
+export DATABENTO_API_KEY=db-...           # never hardcode this or pass it as a CLI arg
+python scripts/live_market_data.py quote NQ
+```
 
-Root symbols (`NQ`, `ES`, `MNQ`, `MES`, `YM`, `MYM`, `RTY`, `M2K`, `GC`, `CL`) auto-resolve
-to the CME Globex continuous front-month contract (`NQ` -> `NQ.c.0`) on dataset
-`GLBX.MDP3`. For anything else -- a specific contract month, a different venue,
-equities -- pass the exact Databento symbol yourself (it's used as-is once it
-contains a `.`) and set `--dataset` (e.g. `XNAS.ITCH` for Nasdaq equities).
+Built on closed OHLCV bars (`Historical.timeseries.get_range`), not raw L1 tick
+streaming — this skill's own discipline is to wait for a candle to close before
+treating structure as valid (see `references/ict_concept_glossary.md`'s "wait
+for the close" rule), so a tick stream isn't the right primitive here regardless
+of source. 1m/1h/1d bars come directly from Databento; 5m/15m/4h are resampled
+locally with pandas (Databento's native OHLCV schemas only cover 1s/1m/1h/1d/eod).
+Root symbols (`NQ`, `ES`, `MNQ`, ...) auto-resolve to the CME Globex continuous
+front-month contract on dataset `GLBX.MDP3`; pass `--stype-in`/`--dataset` to
+override for a specific contract, a different venue, or equities.
 
-## Untested against a live account
+**Untested against a live account.** Built to Databento's documented API and
+verified against the installed SDK's method signatures, but there are no
+Databento credentials in this repo — the request-construction path was
+confirmed correct (a placeholder key reaches Databento's servers and fails
+cleanly at the 401 auth step, not before), but no real response has ever been
+parsed. If a symbol/entitlement error comes back once you have a real key: a
+pure L1 real-time subscription may not include historical OHLCV entitlement on
+its own — check your Databento portal if `bars`/`tda` fail while `quote` (also
+OHLCV-based) fails identically the same way, that's a plan/entitlement gap, not
+a bug in this script.
 
-This integration is built to Databento's documented Historical API and verified
-against the installed `databento` SDK's actual method signatures (parameter names,
-schema/stype enum values) -- but there are no Databento credentials in this repo,
-so it has never made a real authenticated call. The request-construction path was
-confirmed correct (a call with a placeholder key reaches Databento's servers and
-fails cleanly at the 401 auth step, not before). Validate the first real call
-against your subscription and adjust `bars_to_records()`'s column access in
-`live_market_data.py` if your plan's `to_df()` output shapes differently than
-expected (this would surface as a `KeyError` in the JSON error output, not a
-silent wrong answer).
+## Either path
 
-## If a symbol/entitlement error comes back
-
-- Confirm the root is in `CONTINUOUS_ROOTS` in `live_market_data.py`, or pass an
-  explicit symbol.
-- Confirm your plan is entitled to `GLBX.MDP3` (or whichever `--dataset` you're
-  using) for the schemas being requested (`ohlcv-1m`, `ohlcv-1h`, `ohlcv-1d`).
-  A pure L1 real-time subscription may not include historical OHLCV on its own --
-  check your Databento portal's entitlements if `bars`/`tda` calls fail while
-  `quote` (also OHLCV-based) fails identically, that's an entitlement gap, not a
-  bug in this script.
+All errors come back as clean `{"error": "..."}` JSON on exit code 1, never a
+raw traceback. `python scripts/test_live_market_data_offline.py` regression-checks
+the data-shaping logic (column normalization, resampling, tick-to-bar aggregation)
+against synthetic data with no network/credentials needed — run it after editing
+`live_market_data.py`.

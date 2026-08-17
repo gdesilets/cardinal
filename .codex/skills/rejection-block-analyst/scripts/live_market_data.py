@@ -1,34 +1,41 @@
 #!/usr/bin/env python3
-"""Live/recent market data via Databento, for fast intraday ICT analysis.
+"""Market data reader for fast intraday ICT analysis -- source-agnostic.
 
-Deliberately built around closed bars from the Historical API, not raw tick
-streaming. This skill's own methodology waits for a candle to close before
-treating structure as valid ("don't front-run an unclosed candle" -- see
-references/ict_concept_glossary.md) -- so a raw L1 tick stream isn't actually the
-right primitive for the structural read. `tda` gets every timeframe the Top-Down
-Analysis template needs (1D/4H/1H/15M/5M/1M) in 3 HTTP requests (daily, hourly,
-minute -- 4H/15M/5M are resampled locally with pandas), not five-plus separate
-live subscriptions.
+This skill doesn't own data acquisition; whatever project feeds it live market
+data (a scraper, a broker connection, a scheduled export) does. This script has
+two independent ways to get bars, pick whichever matches how that project
+actually delivers data:
 
-Setup:
-  pip install databento
-  Set DATABENTO_API_KEY in your environment (never pass it on the command line).
+  1. `read <path>` -- parse a local CSV/JSON/Parquet file of OHLCV bars (or raw
+     trades, resampled locally) that the other project writes to disk. No API
+     key, no network call, no vendor coupling -- point it at whatever file shows
+     up. THIS IS THE DEFAULT PATH if you don't know yet how data will arrive.
+  2. `quote` / `bars` / `tda <symbol>` -- fetch directly from Databento's
+     Historical API, if this skill ends up being the one pulling data itself
+     rather than reading another project's output. Needs `pip install databento`
+     and a DATABENTO_API_KEY; see references/live_data_setup.md.
+
+Both paths return the same JSON bar-record shape, and both are deliberately
+built around CLOSED bars, not raw ticks -- this skill's own methodology waits
+for a candle to close before treating structure as valid ("don't front-run an
+unclosed candle", see references/ict_concept_glossary.md), so closed OHLCV is
+the right primitive regardless of source. `tda` bundles every timeframe the
+Top-Down Analysis template needs (1D/4H/1H/15M/5M/1M) in one call.
 
 Usage:
+  python live_market_data.py read /path/to/bars.csv --timeframe 15m
   python live_market_data.py quote NQ
   python live_market_data.py bars NQ --timeframe 1h --lookback 20
   python live_market_data.py tda NQ
 
-Symbols default to the CME Globex continuous front-month contract via a small
-lookup table (NQ -> NQ.c.0, ES -> ES.c.0, etc.) on dataset GLBX.MDP3. Pass a
-symbol that already contains a '.' (e.g. ES.c.0, or a specific contract code) to
-use it as-is. Override --dataset for a different venue (e.g. equities).
+Symbols for the Databento path default to the CME Globex continuous front-month
+contract via a small lookup table (NQ -> NQ.c.0, ES -> ES.c.0, etc.) on dataset
+GLBX.MDP3. Pass a symbol that already contains a '.' to use it as-is.
 
-Built against databento-python's documented Historical API
-(https://databento.com/docs/api-reference-historical) and verified against the
-installed SDK's method signatures, but NOT tested against a live account -- this
-repo has no Databento credentials. Validate the first real call yourself; see
-references/live_data_setup.md for what to check if something doesn't match.
+The Databento path is built against databento-python's documented Historical API
+and verified against the installed SDK's method signatures, but NOT tested
+against a live account -- this repo has no Databento credentials. Validate the
+first real call yourself; see references/live_data_setup.md.
 """
 from __future__ import annotations
 
@@ -136,6 +143,100 @@ def resample(df, rule: str):
     return out
 
 
+# --- local-file reading: format-agnostic, column-name-agnostic ---
+
+TIME_COLUMN_CANDIDATES = ["timestamp", "time", "datetime", "date", "ts_event", "ts", "t"]
+COLUMN_ALIASES = {
+    "open": ["open", "o"],
+    "high": ["high", "h"],
+    "low": ["low", "l"],
+    "close": ["close", "c", "price", "last", "last_price"],
+    "volume": ["volume", "vol", "v", "size", "qty", "quantity"],
+}
+
+
+def load_data_file(path):
+    import pandas as pd
+
+    p = __import__("pathlib").Path(path)
+    if not p.exists():
+        raise SystemExit(f"File not found: {p}")
+    suffix = p.suffix.lower()
+    if suffix == ".csv":
+        df = pd.read_csv(p)
+    elif suffix == ".json":
+        df = pd.read_json(p)
+    elif suffix in (".parquet", ".pq"):
+        df = pd.read_parquet(p)
+    elif suffix == ".dbn" or suffix.endswith(".dbn.zst"):
+        import databento as db
+        df = db.DBNStore.from_file(p).to_df(price_type="float", pretty_ts=True)
+        return df  # DBN files already have a proper datetime index and OHLC/price columns.
+    else:
+        raise SystemExit(
+            f"Unrecognized file type {suffix!r} for {p}. Supported: .csv, .json, .parquet, .dbn"
+        )
+
+    lower_cols = {c.lower(): c for c in df.columns}
+    time_col = next((lower_cols[c] for c in TIME_COLUMN_CANDIDATES if c in lower_cols), None)
+    if time_col is None:
+        raise SystemExit(
+            f"Couldn't find a timestamp column in {p} (tried {TIME_COLUMN_CANDIDATES}); "
+            f"columns present: {list(df.columns)}"
+        )
+    df[time_col] = pd.to_datetime(df[time_col], utc=True)
+    df = df.set_index(time_col).sort_index()
+
+    resolved = {}
+    for field, aliases in COLUMN_ALIASES.items():
+        match = next((lower_cols[a] for a in aliases if a in lower_cols), None)
+        if match:
+            resolved[field] = match
+    if "close" not in resolved:
+        raise SystemExit(
+            f"Couldn't find a close/price column in {p} (tried {COLUMN_ALIASES['close']}); "
+            f"columns present: {list(df.columns)}"
+        )
+    df = df.rename(columns={v: k for k, v in resolved.items()})
+    # Trade-level data (only a price, no OHLC): treat each row as its own micro-bar so
+    # the same resample() path works for both bars-shaped and ticks-shaped input.
+    for field in ("open", "high", "low"):
+        if field not in df.columns:
+            df[field] = df["close"]
+    if "volume" not in df.columns:
+        df["volume"] = 1
+    return df[["open", "high", "low", "close", "volume"]]
+
+
+RESAMPLE_RULES = {"1m": "1min", "5m": "5min", "15m": "15min", "1h": "1h", "4h": "4h", "1d": "1D"}
+
+
+def cmd_read(args):
+    df = load_data_file(args.path)
+
+    if args.timeframe == "tda":
+        # One file load, every timeframe the Top-Down Analysis template needs --
+        # cheaper than re-reading the file per timeframe.
+        bundle = {
+            "source": str(args.path),
+            "as_of": datetime.now(timezone.utc).isoformat(),
+            **{
+                tf: bars_to_records(resample(df, rule).tail(args.lookback or 40), tf)
+                for tf, rule in RESAMPLE_RULES.items()
+            },
+            "note": "Bars resampled locally from the source file; last row of each timeframe is its most recently closed bar in the file, not necessarily 'now'.",
+        }
+        print(json.dumps(bundle, indent=2))
+        return
+
+    if args.timeframe:
+        df = resample(df, RESAMPLE_RULES[args.timeframe])
+    if args.lookback:
+        df = df.tail(args.lookback)
+    records = bars_to_records(df, args.timeframe or "raw")
+    print(json.dumps({"source": str(args.path), "timeframe": args.timeframe or "raw (as read from file)", "bars": records}, indent=2))
+
+
 def cmd_quote(args):
     client = get_client()
     symbol, stype_in = resolve_symbol(args.symbol, args.stype_in)
@@ -214,17 +315,27 @@ def main():
     )
     sub = parser.add_subparsers(dest="command", required=True)
 
-    p = sub.add_parser("quote", help="Most recently closed 1-minute bar's close price")
+    p = sub.add_parser("read", help="Parse local bars/ticks from a CSV/JSON/Parquet/DBN file -- no API key needed")
+    p.add_argument("path", help="Path to the file another project writes/updates")
+    p.add_argument(
+        "--timeframe", choices=[*RESAMPLE_RULES, "tda"], default=None,
+        help="Resample to this timeframe, or 'tda' for the full 1D/4H/1H/15M/5M/1M bundle in one read. "
+             "Omit to return the file's rows as-is.",
+    )
+    p.add_argument("--lookback", type=int, default=None, help="Trim to the last N bars (per timeframe, if --timeframe tda)")
+    p.set_defaults(func=cmd_read)
+
+    p = sub.add_parser("quote", help="[Databento] Most recently closed 1-minute bar's close price")
     p.add_argument("symbol", help="Root symbol (NQ, ES, ...) or an explicit Databento symbol")
     p.set_defaults(func=cmd_quote)
 
-    p = sub.add_parser("bars", help="Recent closed bars at one timeframe")
+    p = sub.add_parser("bars", help="[Databento] Recent closed bars at one timeframe")
     p.add_argument("symbol")
     p.add_argument("--timeframe", choices=ALL_TIMEFRAMES, default="1m")
     p.add_argument("--lookback", type=int, default=30, help="Number of closed bars to return")
     p.set_defaults(func=cmd_bars)
 
-    p = sub.add_parser("tda", help="One-shot multi-timeframe bundle for the Top-Down Analysis template")
+    p = sub.add_parser("tda", help="[Databento] One-shot multi-timeframe bundle for the Top-Down Analysis template")
     p.add_argument("symbol")
     p.set_defaults(func=cmd_tda)
 

@@ -1,1 +1,10 @@
+# Needed for live_market_data.py's `read` command (parses local CSV/JSON/Parquet/DBN
+# files) -- this is the default, no-API-key path. query_corpus.py needs nothing beyond
+# the Python standard library.
+pandas>=2.0
+
+# Only needed for live_market_data.py's `quote`/`bars`/`tda` commands, which pull
+# directly from Databento's API. Skip this if you're only using `read`.
+# (Installing it also satisfies the pandas requirement above, since databento
+# depends on pandas itself -- but don't rely on that if you want the lighter install.)
 databento>=0.80
